@@ -6,6 +6,8 @@
 #   make -j4 maps     paralelní stahování geometrie
 
 PYTHON ?= python3
+RSVG ?= rsvg-convert
+PNG_ZOOM ?= 1
 SHELL := /bin/bash
 
 ifeq ($(origin UZEMI), command line)
@@ -21,13 +23,15 @@ CHORO2026 := $(addprefix output/,$(addsuffix /kv2026/okrsky-vysledky.svg,$(UZEMI
 CHORO2022 := $(addprefix output/,$(addsuffix /kv2022/okrsky-vysledky.svg,$(UZEMI)))
 DIFFS := $(addprefix output/,$(addsuffix /kv2026/.diff-stamp,$(UZEMI)))
 STREETS := $(patsubst data/%/definice-okrsku.pdf,output/%/ulice.csv,$(wildcard data/*/definice-okrsku.pdf))
+SVG_FOR_PNG := $(wildcard $(foreach u,$(UZEMI),output/$(u)/okrsky.svg output/$(u)/kv2022/*.svg output/$(u)/kv2026/*.svg))
+PNGS := $(SVG_FOR_PNG:.svg=.png)
 
 .DEFAULT_GOAL := all
 .DELETE_ON_ERROR:
 .SECONDARY:
 .SUFFIXES:
 
-.PHONY: all maps streets results choropleth diffs help list $(UZEMI)
+.PHONY: all maps streets results choropleth diffs png help list $(UZEMI)
 
 help:
 	@echo "make [all]              GeoJSON, mapy, výsledky 2022/2026, choropleth, rozdíly"
@@ -36,10 +40,11 @@ help:
 	@echo "make results            stažení KV 2022 a 2026"
 	@echo "make choropleth         SVG podílů hlasů"
 	@echo "make diffs              SVG změny 2022→2026 (strany v obou letech)"
+	@echo "make png                SVG → PNG (librsvg: rsvg-convert)"
 	@echo "make UZEMI=brno-sever   jen jedna MČ"
 	@echo "make brno-stred         totéž"
 	@echo "make list               seznam MČ"
-	@echo "PYTHON=$(PYTHON)"
+	@echo "PYTHON=$(PYTHON)  RSVG=$(RSVG)  PNG_ZOOM=$(PNG_ZOOM)"
 
 list:
 	@$(PYTHON) download_results.py --list-uzemi
@@ -51,6 +56,10 @@ streets: $(STREETS)
 results: $(KV2026) $(KV2022)
 choropleth: $(CHORO2026) $(CHORO2022)
 diffs: $(DIFFS)
+png: $(PNGS)
+
+%.png: %.svg
+	$(RSVG) -z $(PNG_ZOOM) -f png -o $@ $<
 
 $(UZEMI):
 	$(MAKE) UZEMI=$@ all

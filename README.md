@@ -60,6 +60,7 @@ Jen jedna MČ, nebo jen mapy:
 make brno-stred
 make maps
 make UZEMI=brno-sever
+make png UZEMI=brno-stred
 make help
 ```
 

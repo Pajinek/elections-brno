@@ -4,3 +4,4 @@ __pycache__/
 cache/
 data/kv2022/
 output/*/*/.diff-stamp
+output/**/*.png
