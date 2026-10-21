@@ -1,0 +1,60 @@
+{
+  "zastupitelstvo": {
+    "kod": 551431,
+    "nazev": "Brno-Útěchov",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "NAS_UTECHOV_SPD_A_NEZAVISLI",
+      "nazev": "NÁŠ ÚTĚCHOV - SPD a nezávislí",
+      "nazev_plny": "NÁŠ ÚTĚCHOV - SPD a nezávislí"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "UTECHOV_JINAK_SDRUZENI_NEZAVISLYCH_KANDIDATU",
+      "nazev": "Útěchov jinak, sdružení nezávislých kandidátů",
+      "nazev_plny": "Útěchov jinak, sdružení nezávislých kandidátů"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "STAROSTOVE_A_OSOBNOSTI_PRO_MORAVU",
+      "nazev": "Starostové a osobnosti pro Moravu",
+      "nazev_plny": "Starostové a osobnosti pro Moravu"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPOLECNE_PRO_UTECHOV",
+      "nazev": "Společně pro Útěchov",
+      "nazev_plny": "Společně pro Útěchov"
+    }
+  ],
+  "podle_kodu": {
+    "NAS_UTECHOV_SPD_A_NEZAVISLI": {
+      "cislo_listiny": 1,
+      "kod": "NAS_UTECHOV_SPD_A_NEZAVISLI",
+      "nazev": "NÁŠ ÚTĚCHOV - SPD a nezávislí",
+      "nazev_plny": "NÁŠ ÚTĚCHOV - SPD a nezávislí"
+    },
+    "UTECHOV_JINAK_SDRUZENI_NEZAVISLYCH_KANDIDATU": {
+      "cislo_listiny": 2,
+      "kod": "UTECHOV_JINAK_SDRUZENI_NEZAVISLYCH_KANDIDATU",
+      "nazev": "Útěchov jinak, sdružení nezávislých kandidátů",
+      "nazev_plny": "Útěchov jinak, sdružení nezávislých kandidátů"
+    },
+    "STAROSTOVE_A_OSOBNOSTI_PRO_MORAVU": {
+      "cislo_listiny": 3,
+      "kod": "STAROSTOVE_A_OSOBNOSTI_PRO_MORAVU",
+      "nazev": "Starostové a osobnosti pro Moravu",
+      "nazev_plny": "Starostové a osobnosti pro Moravu"
+    },
+    "SPOLECNE_PRO_UTECHOV": {
+      "cislo_listiny": 4,
+      "kod": "SPOLECNE_PRO_UTECHOV",
+      "nazev": "Společně pro Útěchov",
+      "nazev_plny": "Společně pro Útěchov"
+    }
+  }
+}

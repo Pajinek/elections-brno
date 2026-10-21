@@ -1,0 +1,113 @@
+{
+  "zastupitelstvo": 551431,
+  "obec": "Brno-Útěchov",
+  "datum_voleb": "20220923",
+  "pocet_okrsku": 1,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "UTECHOV_JINAK",
+      "nazev": "Útěchov jinak",
+      "nazev_plny": "Útěchov jinak",
+      "zkratka": "SNK"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana",
+      "zkratka": "ODS"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "PRO_UTECHOV",
+      "nazev": "PRO ÚTĚCHOV",
+      "nazev_plny": "PRO ÚTĚCHOV",
+      "zkratka": "SNK"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "STAROSTOVE_A_OSOBNOSTI_PRO_MORAVU",
+      "nazev": "Starostové a osobnosti pro Moravu",
+      "nazev_plny": "Starostové a osobnosti pro Moravu",
+      "zkratka": "SOM"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "PRO_UTECHOV_S_PODPOROU_KDU_CSL",
+      "nazev": "Pro Útěchov s podporou KDU-ČSL",
+      "nazev_plny": "Pro Útěchov s podporou KDU-ČSL",
+      "zkratka": "KDU-ČSL+NK"
+    }
+  ],
+  "okrsky": {
+    "25001": {
+      "okrsek": "25001",
+      "obec": "Brno-Útěchov",
+      "kod_zastupitelstva": 551431,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551431&xstat=0&xvyber=25001",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 661,
+        "vydane_obalky": 484,
+        "ucast_pct": 73.22,
+        "odevzdane_obalky": 484,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 3247
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "UTECHOV_JINAK",
+          "nazev": "Útěchov jinak",
+          "hlasy": 976,
+          "procenta": 30.05
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 373,
+          "procenta": 11.48
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PRO_UTECHOV",
+          "nazev": "PRO ÚTĚCHOV",
+          "hlasy": 532,
+          "procenta": 16.38
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 278,
+          "procenta": 8.56
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "STAROSTOVE_A_OSOBNOSTI_PRO_MORAVU",
+          "nazev": "Starostové a osobnosti pro Moravu",
+          "hlasy": 787,
+          "procenta": 24.23
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PRO_UTECHOV_S_PODPOROU_KDU_CSL",
+          "nazev": "Pro Útěchov s podporou KDU-ČSL",
+          "hlasy": 301,
+          "procenta": 9.27
+        }
+      ]
+    }
+  }
+}

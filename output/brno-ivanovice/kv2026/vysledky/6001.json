@@ -1,0 +1,48 @@
+{
+  "okrsek": "6001",
+  "obec": "Brno-Ivanovice",
+  "kod_zastupitelstva": 551376,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T22:26:25",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551376___6001",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551376_6001.json",
+  "prehled": {
+    "volici_v_seznamu": 760,
+    "vydane_obalky": 498,
+    "ucast_pct": 65.53,
+    "odevzdane_obalky": 476,
+    "odevzdane_pct": 95.58,
+    "platne_hlasy": 3221
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 341,
+      "procenta": 10.58
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "NOVI_LIDOVCI",
+      "nazev": "Noví lidovci",
+      "hlasy": 1169,
+      "procenta": 36.29
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 863,
+      "procenta": 26.79
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "IVANOVICE_JINAK",
+      "nazev": "Ivanovice JINAK",
+      "hlasy": 848,
+      "procenta": 26.32
+    }
+  ]
+}

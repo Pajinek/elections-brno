@@ -1,0 +1,120 @@
+{
+  "zastupitelstvo": {
+    "kod": 551287,
+    "nazev": "Brno-Líšeň",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+      "nazev": "Váš starosta a občané pro Líšeň",
+      "nazev_plny": "Váš starosta a občané pro Líšeň"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+      "nazev": "Noví lidovci - srdcem v Líšni",
+      "nazev_plny": "Noví lidovci - srdcem v Líšni"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+      "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+      "nazev_plny": "Piráti a Fakt Brno TU! pro Líšeň"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "SOUSEDE_Z_LISNE",
+      "nazev": "Sousedé z Líšně",
+      "nazev_plny": "Sousedé z Líšně"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+      "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+      "nazev_plny": "ODS, TOP 09 a nezávislí kandidáti"
+    }
+  ],
+  "podle_kodu": {
+    "SPD": {
+      "cislo_listiny": 1,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    "STAROSTOVE_A_NEZAVISLI": {
+      "cislo_listiny": 2,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ"
+    },
+    "VAS_STAROSTA_A_OBCANE_PRO_LISEN": {
+      "cislo_listiny": 3,
+      "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+      "nazev": "Váš starosta a občané pro Líšeň",
+      "nazev_plny": "Váš starosta a občané pro Líšeň"
+    },
+    "NOVI_LIDOVCI_SRDCEM_V_LISNI": {
+      "cislo_listiny": 4,
+      "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+      "nazev": "Noví lidovci - srdcem v Líšni",
+      "nazev_plny": "Noví lidovci - srdcem v Líšni"
+    },
+    "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN": {
+      "cislo_listiny": 5,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+      "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+      "nazev_plny": "Piráti a Fakt Brno TU! pro Líšeň"
+    },
+    "SOUSEDE_Z_LISNE": {
+      "cislo_listiny": 6,
+      "kod": "SOUSEDE_Z_LISNE",
+      "nazev": "Sousedé z Líšně",
+      "nazev_plny": "Sousedé z Líšně"
+    },
+    "ANO": {
+      "cislo_listiny": 7,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    "RESTART": {
+      "cislo_listiny": 8,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    "ODS_TOP_09_A_NEZAVISLI_KANDIDATI": {
+      "cislo_listiny": 9,
+      "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+      "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+      "nazev_plny": "ODS, TOP 09 a nezávislí kandidáti"
+    }
+  }
+}

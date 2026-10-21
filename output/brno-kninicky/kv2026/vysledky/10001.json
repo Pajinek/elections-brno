@@ -1,0 +1,34 @@
+{
+  "okrsek": "10001",
+  "obec": "Brno-Kníničky",
+  "kod_zastupitelstva": 551210,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T20:42:50",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551210___10001",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551210_10001.json",
+  "prehled": {
+    "volici_v_seznamu": 873,
+    "vydane_obalky": 539,
+    "ucast_pct": 61.74,
+    "odevzdane_obalky": 535,
+    "odevzdane_pct": 99.26,
+    "platne_hlasy": 4382
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ZA_KNINICKY_NK_S_PODPOROU_ODS_A_KDU_CSL",
+      "nazev": "Za Kníničky NK s podporou ODS a KDU-ČSL",
+      "hlasy": 2052,
+      "procenta": 46.82
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "SPOLECNE_PRO_KNINICKY",
+      "nazev": "Společně pro Kníničky",
+      "hlasy": 2330,
+      "procenta": 53.17
+    }
+  ]
+}

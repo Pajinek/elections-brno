@@ -1,0 +1,83 @@
+{
+  "okrsek": "27001",
+  "obec": "Brno-Žabovřesky",
+  "kod_zastupitelstva": 550990,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T19:09:30",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27001",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27001.json",
+  "prehled": {
+    "volici_v_seznamu": 670,
+    "vydane_obalky": 296,
+    "ucast_pct": 44.18,
+    "odevzdane_obalky": 276,
+    "odevzdane_pct": 93.24,
+    "platne_hlasy": 6590
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ODS_TOP09",
+      "nazev": "ODS a TOP 09",
+      "hlasy": 683,
+      "procenta": 10.36
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 125,
+      "procenta": 1.89
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1207,
+      "procenta": 18.31
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+      "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+      "hlasy": 733,
+      "procenta": 11.12
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "HNUTI_PRO_ZABINY",
+      "nazev": "Hnutí pro Žabiny",
+      "hlasy": 496,
+      "procenta": 7.52
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+      "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+      "hlasy": 389,
+      "procenta": 5.9
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ZALUZANKY",
+      "nazev": "Za Lužánky",
+      "hlasy": 193,
+      "procenta": 2.92
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "KDU_STAN",
+      "nazev": "Lidovci a Starostové",
+      "hlasy": 2014,
+      "procenta": 30.56
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+      "nazev": "Zelení a osobnosti pro Žabovřesky",
+      "hlasy": 750,
+      "procenta": 11.38
+    }
+  ]
+}

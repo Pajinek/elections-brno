@@ -1,0 +1,48 @@
+{
+  "okrsek": "28004",
+  "obec": "Brno-Žebětín",
+  "kod_zastupitelstva": 551368,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T20:37:25",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551368___28004",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551368_28004.json",
+  "prehled": {
+    "volici_v_seznamu": 1326,
+    "vydane_obalky": 611,
+    "ucast_pct": 46.08,
+    "odevzdane_obalky": 591,
+    "odevzdane_pct": 96.73,
+    "platne_hlasy": 6010
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 748,
+      "procenta": 12.44
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "LIDOVCI",
+      "nazev": "Lidovci",
+      "hlasy": 3299,
+      "procenta": 54.89
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 836,
+      "procenta": 13.91
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "ZEBECACI_SPOLECNE_PRO_ZEBETIN_ZEBECACI_CZ",
+      "nazev": "Žeběčáci - společně pro Žebětín - zebecaci.cz",
+      "hlasy": 1127,
+      "procenta": 18.75
+    }
+  ]
+}

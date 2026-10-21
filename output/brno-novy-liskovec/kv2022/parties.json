@@ -1,0 +1,82 @@
+{
+  "zastupitelstvo": {
+    "kod": 551112,
+    "nazev": "Brno-Nový Lískovec",
+    "datum_voleb": "20220923",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "SPOLU_PRO_NOVY_LISKOVEC_ODS_KDU_CSL_TOP_09",
+      "nazev": "SPOLU pro Nový Lískovec (ODS, KDU-ČSL, TOP 09)",
+      "nazev_plny": "SPOLU pro Nový Lískovec (ODS, KDU-ČSL, TOP 09)",
+      "zkratka": "KDU+ODS+TOP 09"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "NOVOLISKOVECTI_PATRIOTI_A_SOUKROMNICI",
+      "nazev": "NOVOLÍSKOVEČTÍ PATRIOTI A SOUKROMNÍCI",
+      "nazev_plny": "NOVOLÍSKOVEČTÍ PATRIOTI A SOUKROMNÍCI",
+      "zkratka": "Soukromníci+NK"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "TRI_ORISKY_PRO_LISKOVEC",
+      "nazev": "Tři oříšky pro Lískovec",
+      "nazev_plny": "Tři oříšky pro Lískovec",
+      "zkratka": "SNK"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "LISKOVECKY_KONIKLEC_SPOLECNE_PRO_LEPSI_NOVY_LISKOVEC",
+      "nazev": "LÍSKOVECKÝ KONIKLEC - Společně pro lepší Nový Lískovec",
+      "nazev_plny": "LÍSKOVECKÝ KONIKLEC - Společně pro lepší Nový Lískovec",
+      "zkratka": "ČSSD+NK"
+    }
+  ],
+  "podle_kodu": {
+    "RESTART": {
+      "cislo_listiny": 1,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    "SPOLU_PRO_NOVY_LISKOVEC_ODS_KDU_CSL_TOP_09": {
+      "cislo_listiny": 2,
+      "kod": "SPOLU_PRO_NOVY_LISKOVEC_ODS_KDU_CSL_TOP_09",
+      "nazev": "SPOLU pro Nový Lískovec (ODS, KDU-ČSL, TOP 09)",
+      "nazev_plny": "SPOLU pro Nový Lískovec (ODS, KDU-ČSL, TOP 09)",
+      "zkratka": "KDU+ODS+TOP 09"
+    },
+    "NOVOLISKOVECTI_PATRIOTI_A_SOUKROMNICI": {
+      "cislo_listiny": 3,
+      "kod": "NOVOLISKOVECTI_PATRIOTI_A_SOUKROMNICI",
+      "nazev": "NOVOLÍSKOVEČTÍ PATRIOTI A SOUKROMNÍCI",
+      "nazev_plny": "NOVOLÍSKOVEČTÍ PATRIOTI A SOUKROMNÍCI",
+      "zkratka": "Soukromníci+NK"
+    },
+    "TRI_ORISKY_PRO_LISKOVEC": {
+      "cislo_listiny": 4,
+      "kod": "TRI_ORISKY_PRO_LISKOVEC",
+      "nazev": "Tři oříšky pro Lískovec",
+      "nazev_plny": "Tři oříšky pro Lískovec",
+      "zkratka": "SNK"
+    },
+    "LISKOVECKY_KONIKLEC_SPOLECNE_PRO_LEPSI_NOVY_LISKOVEC": {
+      "cislo_listiny": 5,
+      "kod": "LISKOVECKY_KONIKLEC_SPOLECNE_PRO_LEPSI_NOVY_LISKOVEC",
+      "nazev": "LÍSKOVECKÝ KONIKLEC - Společně pro lepší Nový Lískovec",
+      "nazev_plny": "LÍSKOVECKÝ KONIKLEC - Společně pro lepší Nový Lískovec",
+      "zkratka": "ČSSD+NK"
+    }
+  }
+}

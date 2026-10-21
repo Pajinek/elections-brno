@@ -1,0 +1,108 @@
+{
+  "zastupitelstvo": {
+    "kod": 551091,
+    "nazev": "Brno-Starý Lískovec",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "LIDOVCI_PRO_STARY_LISKOVEC",
+      "nazev": "Lidovci pro Starý Lískovec",
+      "nazev_plny": "Lidovci pro Starý Lískovec"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "ALTERNATIVA_PRO_LISKOVEC_SNK",
+      "nazev": "Alternativa pro Lískovec, SNK",
+      "nazev_plny": "Alternativa pro Lískovec, sdružení nezávislých kandidátů"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "ODS_A_OSOBNOSTI_STAREHO_LISKOVCE_S_PODPOROU_TOP_09",
+      "nazev": "ODS a osobnosti Starého Lískovce s podporou TOP 09",
+      "nazev_plny": "ODS a osobnosti Starého Lískovce s podporou TOP 09"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "PIRATI_A_ZELENI",
+      "nazev": "Piráti a Zelení",
+      "nazev_plny": "Piráti a Zelení"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "ZA_LUZANKY_JSME_Z_LISKOVCE",
+      "nazev": "Za Lužánky - Jsme z Lískovce!",
+      "nazev_plny": "Za Lužánky - Jsme z Lískovce!"
+    }
+  ],
+  "podle_kodu": {
+    "LIDOVCI_PRO_STARY_LISKOVEC": {
+      "cislo_listiny": 1,
+      "kod": "LIDOVCI_PRO_STARY_LISKOVEC",
+      "nazev": "Lidovci pro Starý Lískovec",
+      "nazev_plny": "Lidovci pro Starý Lískovec"
+    },
+    "STAROSTOVE_A_NEZAVISLI": {
+      "cislo_listiny": 2,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ"
+    },
+    "SPD": {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    "ALTERNATIVA_PRO_LISKOVEC_SNK": {
+      "cislo_listiny": 4,
+      "kod": "ALTERNATIVA_PRO_LISKOVEC_SNK",
+      "nazev": "Alternativa pro Lískovec, SNK",
+      "nazev_plny": "Alternativa pro Lískovec, sdružení nezávislých kandidátů"
+    },
+    "ODS_A_OSOBNOSTI_STAREHO_LISKOVCE_S_PODPOROU_TOP_09": {
+      "cislo_listiny": 5,
+      "kod": "ODS_A_OSOBNOSTI_STAREHO_LISKOVCE_S_PODPOROU_TOP_09",
+      "nazev": "ODS a osobnosti Starého Lískovce s podporou TOP 09",
+      "nazev_plny": "ODS a osobnosti Starého Lískovce s podporou TOP 09"
+    },
+    "ANO": {
+      "cislo_listiny": 6,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    "PIRATI_A_ZELENI": {
+      "cislo_listiny": 7,
+      "kod": "PIRATI_A_ZELENI",
+      "nazev": "Piráti a Zelení",
+      "nazev_plny": "Piráti a Zelení"
+    },
+    "ZA_LUZANKY_JSME_Z_LISKOVCE": {
+      "cislo_listiny": 8,
+      "kod": "ZA_LUZANKY_JSME_Z_LISKOVCE",
+      "nazev": "Za Lužánky - Jsme z Lískovce!",
+      "nazev_plny": "Za Lužánky - Jsme z Lískovce!"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "okrsek": "4003",
+  "obec": "Brno-Černovice",
+  "kod_zastupitelstva": 551066,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T21:40:50",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551066___4003",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551066_4003.json",
+  "prehled": {
+    "volici_v_seznamu": 759,
+    "vydane_obalky": 399,
+    "ucast_pct": 52.57,
+    "odevzdane_obalky": 386,
+    "odevzdane_pct": 96.74,
+    "platne_hlasy": 7630
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "CERNOVICTI_PATRIOTI",
+      "nazev": "ČERNOVIČTÍ PATRIOTI",
+      "hlasy": 1432,
+      "procenta": 18.76
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 497,
+      "procenta": 6.51
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "CERNOVICE_NAPLNO",
+      "nazev": "Černovice NAPLNO",
+      "hlasy": 170,
+      "procenta": 2.22
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "LEPSI_CERNOVICE",
+      "nazev": "LEPŠÍ ČERNOVICE",
+      "hlasy": 1184,
+      "procenta": 15.51
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "SPOLECNE_PRO_CERNOVICE",
+      "nazev": "Společně pro Černovice",
+      "hlasy": 3463,
+      "procenta": 45.38
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "NOVI_LIDOVCI_KDU_CSL",
+      "nazev": "Noví lidovci (KDU-ČSL)",
+      "hlasy": 770,
+      "procenta": 10.09
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 64,
+      "procenta": 0.83
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 50,
+      "procenta": 0.65
+    }
+  ]
+}

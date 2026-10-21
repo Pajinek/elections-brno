@@ -1,0 +1,82 @@
+{
+  "zastupitelstvo": 551431,
+  "obec": "Brno-Útěchov",
+  "datum_voleb": "20261009",
+  "pocet_okrsku": 1,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "NAS_UTECHOV_SPD_A_NEZAVISLI",
+      "nazev": "NÁŠ ÚTĚCHOV - SPD a nezávislí",
+      "nazev_plny": "NÁŠ ÚTĚCHOV - SPD a nezávislí"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "UTECHOV_JINAK_SDRUZENI_NEZAVISLYCH_KANDIDATU",
+      "nazev": "Útěchov jinak, sdružení nezávislých kandidátů",
+      "nazev_plny": "Útěchov jinak, sdružení nezávislých kandidátů"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "STAROSTOVE_A_OSOBNOSTI_PRO_MORAVU",
+      "nazev": "Starostové a osobnosti pro Moravu",
+      "nazev_plny": "Starostové a osobnosti pro Moravu"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPOLECNE_PRO_UTECHOV",
+      "nazev": "Společně pro Útěchov",
+      "nazev_plny": "Společně pro Útěchov"
+    }
+  ],
+  "okrsky": {
+    "25001": {
+      "okrsek": "25001",
+      "obec": "Brno-Útěchov",
+      "kod_zastupitelstva": 551431,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-11T04:35:06",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551431___25001",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551431_25001.json",
+      "prehled": {
+        "volici_v_seznamu": 697,
+        "vydane_obalky": 508,
+        "ucast_pct": 72.88,
+        "odevzdane_obalky": 497,
+        "odevzdane_pct": 98.22,
+        "platne_hlasy": 3363
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NAS_UTECHOV_SPD_A_NEZAVISLI",
+          "nazev": "NÁŠ ÚTĚCHOV - SPD a nezávislí",
+          "hlasy": 113,
+          "procenta": 3.36
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "UTECHOV_JINAK_SDRUZENI_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Útěchov jinak, sdružení nezávislých kandidátů",
+          "hlasy": 1195,
+          "procenta": 35.53
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "STAROSTOVE_A_OSOBNOSTI_PRO_MORAVU",
+          "nazev": "Starostové a osobnosti pro Moravu",
+          "hlasy": 1494,
+          "procenta": 44.42
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPOLECNE_PRO_UTECHOV",
+          "nazev": "Společně pro Útěchov",
+          "hlasy": 561,
+          "procenta": 16.68
+        }
+      ]
+    }
+  }
+}

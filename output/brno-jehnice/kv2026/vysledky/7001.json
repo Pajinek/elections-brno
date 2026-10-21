@@ -1,0 +1,48 @@
+{
+  "okrsek": "7001",
+  "obec": "Brno-Jehnice",
+  "kod_zastupitelstva": 551406,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-11T02:24:36",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551406___7001",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551406_7001.json",
+  "prehled": {
+    "volici_v_seznamu": 919,
+    "vydane_obalky": 625,
+    "ucast_pct": 68.01,
+    "odevzdane_obalky": 606,
+    "odevzdane_pct": 97.12,
+    "platne_hlasy": 4021
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "KLIDNE_JEHNICE",
+      "nazev": "KLIDNÉ JEHNICE",
+      "hlasy": 370,
+      "procenta": 9.2
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "LIDOVCI",
+      "nazev": "Lidovci",
+      "hlasy": 1101,
+      "procenta": 27.38
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SPOLECNE_V_JEHNICICH",
+      "nazev": "SPOLEČNĚ V JEHNICÍCH",
+      "hlasy": 1148,
+      "procenta": 28.55
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "PRO_JEHNICE",
+      "nazev": "PRO JEHNICE",
+      "hlasy": 1402,
+      "procenta": 34.86
+    }
+  ]
+}

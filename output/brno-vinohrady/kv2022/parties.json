@@ -1,0 +1,124 @@
+{
+  "zastupitelstvo": {
+    "kod": 551279,
+    "nazev": "Brno-Vinohrady",
+    "datum_voleb": "20220923",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+      "nazev": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+      "nazev_plny": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+      "zkratka": "KDU+ODS+TOP 09"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "VINOHRADY_SPOLECNE",
+      "nazev": "Vinohrady společně",
+      "nazev_plny": "Vinohrady společně",
+      "zkratka": "VS"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí",
+      "zkratka": "SPD+NK"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "ANO_PRO_VINOHRADY",
+      "nazev": "Ano pro Vinohrady",
+      "nazev_plny": "Ano pro Vinohrady",
+      "zkratka": "SOM+NK"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "CSSD_A_NEZAVISLI_KANDIDATI",
+      "nazev": "ČSSD a nezávislí kandidáti",
+      "nazev_plny": "ČSSD a nezávislí kandidáti",
+      "zkratka": "ČSSD+NK"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "JIRI_CEJKA_S_OBCANY_PRO_VINOHRADY",
+      "nazev": "Jiří Čejka s občany pro Vinohrady",
+      "nazev_plny": "Jiří Čejka s občany pro Vinohrady",
+      "zkratka": "STAN+NK"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "PLUS_PRO_VINOHRADY",
+      "nazev": "PLUS pro Vinohrady",
+      "nazev_plny": "PLUS pro Vinohrady",
+      "zkratka": "Brno+ + NK"
+    }
+  ],
+  "podle_kodu": {
+    "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09": {
+      "cislo_listiny": 1,
+      "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+      "nazev": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+      "nazev_plny": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+      "zkratka": "KDU+ODS+TOP 09"
+    },
+    "RESTART": {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    "VINOHRADY_SPOLECNE": {
+      "cislo_listiny": 3,
+      "kod": "VINOHRADY_SPOLECNE",
+      "nazev": "Vinohrady společně",
+      "nazev_plny": "Vinohrady společně",
+      "zkratka": "VS"
+    },
+    "SPD": {
+      "cislo_listiny": 4,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí",
+      "zkratka": "SPD+NK"
+    },
+    "ANO_PRO_VINOHRADY": {
+      "cislo_listiny": 5,
+      "kod": "ANO_PRO_VINOHRADY",
+      "nazev": "Ano pro Vinohrady",
+      "nazev_plny": "Ano pro Vinohrady",
+      "zkratka": "SOM+NK"
+    },
+    "CSSD_A_NEZAVISLI_KANDIDATI": {
+      "cislo_listiny": 6,
+      "kod": "CSSD_A_NEZAVISLI_KANDIDATI",
+      "nazev": "ČSSD a nezávislí kandidáti",
+      "nazev_plny": "ČSSD a nezávislí kandidáti",
+      "zkratka": "ČSSD+NK"
+    },
+    "JIRI_CEJKA_S_OBCANY_PRO_VINOHRADY": {
+      "cislo_listiny": 7,
+      "kod": "JIRI_CEJKA_S_OBCANY_PRO_VINOHRADY",
+      "nazev": "Jiří Čejka s občany pro Vinohrady",
+      "nazev_plny": "Jiří Čejka s občany pro Vinohrady",
+      "zkratka": "STAN+NK"
+    },
+    "PLUS_PRO_VINOHRADY": {
+      "cislo_listiny": 8,
+      "kod": "PLUS_PRO_VINOHRADY",
+      "nazev": "PLUS pro Vinohrady",
+      "nazev_plny": "PLUS pro Vinohrady",
+      "zkratka": "Brno+ + NK"
+    }
+  }
+}

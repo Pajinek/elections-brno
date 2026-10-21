@@ -1,0 +1,108 @@
+{
+  "zastupitelstvo": {
+    "kod": 551066,
+    "nazev": "Brno-Černovice",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "CERNOVICTI_PATRIOTI",
+      "nazev": "ČERNOVIČTÍ PATRIOTI",
+      "nazev_plny": "ČERNOVIČTÍ PATRIOTI"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "CERNOVICE_NAPLNO",
+      "nazev": "Černovice NAPLNO",
+      "nazev_plny": "Černovice NAPLNO"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "LEPSI_CERNOVICE",
+      "nazev": "LEPŠÍ ČERNOVICE",
+      "nazev_plny": "LEPŠÍ ČERNOVICE"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "SPOLECNE_PRO_CERNOVICE",
+      "nazev": "Společně pro Černovice",
+      "nazev_plny": "Společně pro Černovice"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "NOVI_LIDOVCI_KDU_CSL",
+      "nazev": "Noví lidovci (KDU-ČSL)",
+      "nazev_plny": "Noví lidovci (KDU-ČSL)"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    }
+  ],
+  "podle_kodu": {
+    "CERNOVICTI_PATRIOTI": {
+      "cislo_listiny": 1,
+      "kod": "CERNOVICTI_PATRIOTI",
+      "nazev": "ČERNOVIČTÍ PATRIOTI",
+      "nazev_plny": "ČERNOVIČTÍ PATRIOTI"
+    },
+    "OBCANSKA_DEMOKRATICKA_STRANA": {
+      "cislo_listiny": 2,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana"
+    },
+    "CERNOVICE_NAPLNO": {
+      "cislo_listiny": 3,
+      "kod": "CERNOVICE_NAPLNO",
+      "nazev": "Černovice NAPLNO",
+      "nazev_plny": "Černovice NAPLNO"
+    },
+    "LEPSI_CERNOVICE": {
+      "cislo_listiny": 4,
+      "kod": "LEPSI_CERNOVICE",
+      "nazev": "LEPŠÍ ČERNOVICE",
+      "nazev_plny": "LEPŠÍ ČERNOVICE"
+    },
+    "SPOLECNE_PRO_CERNOVICE": {
+      "cislo_listiny": 5,
+      "kod": "SPOLECNE_PRO_CERNOVICE",
+      "nazev": "Společně pro Černovice",
+      "nazev_plny": "Společně pro Černovice"
+    },
+    "NOVI_LIDOVCI_KDU_CSL": {
+      "cislo_listiny": 6,
+      "kod": "NOVI_LIDOVCI_KDU_CSL",
+      "nazev": "Noví lidovci (KDU-ČSL)",
+      "nazev_plny": "Noví lidovci (KDU-ČSL)"
+    },
+    "RESTART": {
+      "cislo_listiny": 7,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    "SPD": {
+      "cislo_listiny": 8,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    }
+  }
+}

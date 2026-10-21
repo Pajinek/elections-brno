@@ -1,0 +1,110 @@
+{
+  "zastupitelstvo": {
+    "kod": 551406,
+    "nazev": "Brno-Jehnice",
+    "datum_voleb": "20220923",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana",
+      "zkratka": "ODS"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "KDU_CSL",
+      "nazev": "KDU-ČSL",
+      "nazev_plny": "KDU-ČSL",
+      "zkratka": "KDU-ČSL"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SDRUZENI_NEZAVISLYCH_KANDIDATU_PRO_JEHNICE_C_1",
+      "nazev": "Sdružení nezávislých kandidátů PRO JEHNICE č. 1",
+      "nazev_plny": "Sdružení nezávislých kandidátů PRO JEHNICE č. 1",
+      "zkratka": "SNK"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "KLIDNE_JEHNICE",
+      "nazev": "Klidné Jehnice",
+      "nazev_plny": "Klidné Jehnice",
+      "zkratka": "SEN 21+NK"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "SDRUZENI_NEZAVISLYCH_KANDIDATU_PRO_JEHNICE_C_2",
+      "nazev": "Sdružení nezávislých kandidátů PRO JEHNICE č. 2",
+      "nazev_plny": "Sdružení nezávislých kandidátů PRO JEHNICE č. 2",
+      "zkratka": "SNK"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "SPOLECNE_V_JEHNICICH",
+      "nazev": "SPOLEČNĚ V JEHNICÍCH",
+      "nazev_plny": "SPOLEČNĚ V JEHNICÍCH",
+      "zkratka": "SNK"
+    }
+  ],
+  "podle_kodu": {
+    "OBCANSKA_DEMOKRATICKA_STRANA": {
+      "cislo_listiny": 1,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana",
+      "zkratka": "ODS"
+    },
+    "KDU_CSL": {
+      "cislo_listiny": 2,
+      "kod": "KDU_CSL",
+      "nazev": "KDU-ČSL",
+      "nazev_plny": "KDU-ČSL",
+      "zkratka": "KDU-ČSL"
+    },
+    "RESTART": {
+      "cislo_listiny": 3,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    "SDRUZENI_NEZAVISLYCH_KANDIDATU_PRO_JEHNICE_C_1": {
+      "cislo_listiny": 4,
+      "kod": "SDRUZENI_NEZAVISLYCH_KANDIDATU_PRO_JEHNICE_C_1",
+      "nazev": "Sdružení nezávislých kandidátů PRO JEHNICE č. 1",
+      "nazev_plny": "Sdružení nezávislých kandidátů PRO JEHNICE č. 1",
+      "zkratka": "SNK"
+    },
+    "KLIDNE_JEHNICE": {
+      "cislo_listiny": 5,
+      "kod": "KLIDNE_JEHNICE",
+      "nazev": "Klidné Jehnice",
+      "nazev_plny": "Klidné Jehnice",
+      "zkratka": "SEN 21+NK"
+    },
+    "SDRUZENI_NEZAVISLYCH_KANDIDATU_PRO_JEHNICE_C_2": {
+      "cislo_listiny": 6,
+      "kod": "SDRUZENI_NEZAVISLYCH_KANDIDATU_PRO_JEHNICE_C_2",
+      "nazev": "Sdružení nezávislých kandidátů PRO JEHNICE č. 2",
+      "nazev_plny": "Sdružení nezávislých kandidátů PRO JEHNICE č. 2",
+      "zkratka": "SNK"
+    },
+    "SPOLECNE_V_JEHNICICH": {
+      "cislo_listiny": 7,
+      "kod": "SPOLECNE_V_JEHNICICH",
+      "nazev": "SPOLEČNĚ V JEHNICÍCH",
+      "nazev_plny": "SPOLEČNĚ V JEHNICÍCH",
+      "zkratka": "SNK"
+    }
+  }
+}

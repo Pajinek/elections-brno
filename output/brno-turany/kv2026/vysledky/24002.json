@@ -1,0 +1,69 @@
+{
+  "okrsek": "24002",
+  "obec": "Brno-Tuřany",
+  "kod_zastupitelstva": 551309,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T21:26:50",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551309___24002",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551309_24002.json",
+  "prehled": {
+    "volici_v_seznamu": 843,
+    "vydane_obalky": 462,
+    "ucast_pct": 54.8,
+    "odevzdane_obalky": 459,
+    "odevzdane_pct": 99.35,
+    "platne_hlasy": 7079
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 534,
+      "procenta": 7.54
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ZIJEME_ZDE",
+      "nazev": "ŽIJEME ZDE",
+      "hlasy": 2521,
+      "procenta": 35.61
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "NOVI_LIDOVCI",
+      "nazev": "Noví lidovci",
+      "hlasy": 615,
+      "procenta": 8.68
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPOLECNE_PRO_TURANY",
+      "nazev": "Společně pro Tuřany",
+      "hlasy": 1062,
+      "procenta": 15
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "SDRUZENI_NESTRANIKU_PRO_TURANY",
+      "nazev": "Sdružení nestraníků pro Tuřany",
+      "hlasy": 1909,
+      "procenta": 26.96
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 433,
+      "procenta": 6.11
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 5,
+      "procenta": 0.07
+    }
+  ]
+}

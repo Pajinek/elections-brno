@@ -1,0 +1,2305 @@
+{
+  "zastupitelstvo": 550990,
+  "obec": "Brno-Žabovřesky",
+  "datum_voleb": "20220923",
+  "pocet_okrsku": 25,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "KDU_STAN",
+      "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+      "nazev_plny": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+      "zkratka": "KDU-ČSL+STAN"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "CESKA_PIRATSKA_STRANA",
+      "nazev": "Česká pirátská strana",
+      "nazev_plny": "Česká pirátská strana",
+      "zkratka": "Piráti"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "VASE_STAROSTKA_A_CSSD",
+      "nazev": "Vaše starostka a ČSSD",
+      "nazev_plny": "Vaše starostka a ČSSD",
+      "zkratka": "ČSSD+NK"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "HNUTI_PRO_ZABINY",
+      "nazev": "Hnutí pro Žabiny",
+      "nazev_plny": "Hnutí pro Žabiny",
+      "zkratka": "HpŽ"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+      "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+      "nazev_plny": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+      "zkratka": "PŘÍSAHA"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+      "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+      "nazev_plny": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+      "zkratka": "Zelení+MZH+NK"
+    },
+    {
+      "cislo_listiny": 10,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "nazev_plny": "SPOLEČNĚ - ODS a TOP 09",
+      "zkratka": "ODS+TOP 09"
+    }
+  ],
+  "okrsky": {
+    "27001": {
+      "okrsek": "27001",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27001",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 698,
+        "vydane_obalky": 269,
+        "ucast_pct": 38.53,
+        "odevzdane_obalky": 269,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 6132
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1039,
+          "procenta": 16.94
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 652,
+          "procenta": 10.63
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 825,
+          "procenta": 13.45
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 180,
+          "procenta": 2.93
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 149,
+          "procenta": 2.42
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 650,
+          "procenta": 10.6
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1011,
+          "procenta": 16.48
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 30,
+          "procenta": 0.48
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 468,
+          "procenta": 7.63
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1128,
+          "procenta": 18.39
+        }
+      ]
+    },
+    "27002": {
+      "okrsek": "27002",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27002",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 570,
+        "vydane_obalky": 256,
+        "ucast_pct": 44.91,
+        "odevzdane_obalky": 256,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 5910
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1994,
+          "procenta": 33.73
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 491,
+          "procenta": 8.3
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 323,
+          "procenta": 5.46
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 263,
+          "procenta": 4.45
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 101,
+          "procenta": 1.7
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 394,
+          "procenta": 6.66
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 954,
+          "procenta": 16.14
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 206,
+          "procenta": 3.48
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 264,
+          "procenta": 4.46
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 920,
+          "procenta": 15.56
+        }
+      ]
+    },
+    "27003": {
+      "okrsek": "27003",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27003",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 691,
+        "vydane_obalky": 307,
+        "ucast_pct": 44.42,
+        "odevzdane_obalky": 307,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 6912
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1533,
+          "procenta": 22.17
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 782,
+          "procenta": 11.31
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 641,
+          "procenta": 9.27
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 395,
+          "procenta": 5.71
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 97,
+          "procenta": 1.4
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 451,
+          "procenta": 6.52
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1035,
+          "procenta": 14.97
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 67,
+          "procenta": 0.96
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 524,
+          "procenta": 7.58
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1387,
+          "procenta": 20.06
+        }
+      ]
+    },
+    "27004": {
+      "okrsek": "27004",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27004",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 564,
+        "vydane_obalky": 221,
+        "ucast_pct": 39.18,
+        "odevzdane_obalky": 221,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 4806
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 746,
+          "procenta": 15.52
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 531,
+          "procenta": 11.04
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 506,
+          "procenta": 10.52
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 281,
+          "procenta": 5.84
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 108,
+          "procenta": 2.24
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 177,
+          "procenta": 3.68
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1234,
+          "procenta": 25.67
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 107,
+          "procenta": 2.22
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 123,
+          "procenta": 2.55
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 993,
+          "procenta": 20.66
+        }
+      ]
+    },
+    "27005": {
+      "okrsek": "27005",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27005",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 524,
+        "vydane_obalky": 250,
+        "ucast_pct": 47.7,
+        "odevzdane_obalky": 250,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 5837
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 560,
+          "procenta": 9.59
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 728,
+          "procenta": 12.47
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 543,
+          "procenta": 9.3
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 455,
+          "procenta": 7.79
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 228,
+          "procenta": 3.9
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 481,
+          "procenta": 8.24
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1044,
+          "procenta": 17.88
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 97,
+          "procenta": 1.66
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 471,
+          "procenta": 8.06
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1230,
+          "procenta": 21.07
+        }
+      ]
+    },
+    "27006": {
+      "okrsek": "27006",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27006",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 798,
+        "vydane_obalky": 382,
+        "ucast_pct": 47.86,
+        "odevzdane_obalky": 382,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8697
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 2018,
+          "procenta": 23.2
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 868,
+          "procenta": 9.98
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 740,
+          "procenta": 8.5
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 984,
+          "procenta": 11.31
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 82,
+          "procenta": 0.94
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 440,
+          "procenta": 5.05
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1039,
+          "procenta": 11.94
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 108,
+          "procenta": 1.24
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 584,
+          "procenta": 6.71
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1834,
+          "procenta": 21.08
+        }
+      ]
+    },
+    "27007": {
+      "okrsek": "27007",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27007",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 722,
+        "vydane_obalky": 374,
+        "ucast_pct": 51.8,
+        "odevzdane_obalky": 374,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8684
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 2331,
+          "procenta": 26.84
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 1030,
+          "procenta": 11.86
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 556,
+          "procenta": 6.4
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 489,
+          "procenta": 5.63
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 49,
+          "procenta": 0.56
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 350,
+          "procenta": 4.03
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1235,
+          "procenta": 14.22
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 52,
+          "procenta": 0.59
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 633,
+          "procenta": 7.28
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1959,
+          "procenta": 22.55
+        }
+      ]
+    },
+    "27008": {
+      "okrsek": "27008",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27008",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 610,
+        "vydane_obalky": 320,
+        "ucast_pct": 52.45,
+        "odevzdane_obalky": 319,
+        "odevzdane_pct": 99.68,
+        "platne_hlasy": 7666
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1620,
+          "procenta": 21.13
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 758,
+          "procenta": 9.88
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 528,
+          "procenta": 6.88
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 661,
+          "procenta": 8.62
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 74,
+          "procenta": 0.96
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 431,
+          "procenta": 5.62
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1463,
+          "procenta": 19.08
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 67,
+          "procenta": 0.87
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 306,
+          "procenta": 3.99
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1758,
+          "procenta": 22.93
+        }
+      ]
+    },
+    "27009": {
+      "okrsek": "27009",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27009",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 609,
+        "vydane_obalky": 353,
+        "ucast_pct": 57.96,
+        "odevzdane_obalky": 353,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8243
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 2359,
+          "procenta": 28.61
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 573,
+          "procenta": 6.95
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 689,
+          "procenta": 8.35
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 901,
+          "procenta": 10.93
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 9,
+          "procenta": 0.1
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 302,
+          "procenta": 3.66
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1336,
+          "procenta": 16.2
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 24,
+          "procenta": 0.29
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 468,
+          "procenta": 5.67
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1582,
+          "procenta": 19.19
+        }
+      ]
+    },
+    "27010": {
+      "okrsek": "27010",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27010",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 570,
+        "vydane_obalky": 303,
+        "ucast_pct": 53.15,
+        "odevzdane_obalky": 303,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 7121
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1150,
+          "procenta": 16.14
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 554,
+          "procenta": 7.77
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 379,
+          "procenta": 5.32
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 1647,
+          "procenta": 23.12
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 51,
+          "procenta": 0.71
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 367,
+          "procenta": 5.15
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1021,
+          "procenta": 14.33
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 163,
+          "procenta": 2.28
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 212,
+          "procenta": 2.97
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1577,
+          "procenta": 22.14
+        }
+      ]
+    },
+    "27011": {
+      "okrsek": "27011",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27011",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 568,
+        "vydane_obalky": 317,
+        "ucast_pct": 55.8,
+        "odevzdane_obalky": 317,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 7017
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1986,
+          "procenta": 28.3
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 794,
+          "procenta": 11.31
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 542,
+          "procenta": 7.72
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 411,
+          "procenta": 5.85
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 56,
+          "procenta": 0.79
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 471,
+          "procenta": 6.71
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1317,
+          "procenta": 18.76
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 60,
+          "procenta": 0.85
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 203,
+          "procenta": 2.89
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1177,
+          "procenta": 16.77
+        }
+      ]
+    },
+    "27012": {
+      "okrsek": "27012",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27012",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 547,
+        "vydane_obalky": 285,
+        "ucast_pct": 52.1,
+        "odevzdane_obalky": 285,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 6467
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 947,
+          "procenta": 14.64
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 740,
+          "procenta": 11.44
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 631,
+          "procenta": 9.75
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 1089,
+          "procenta": 16.83
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 95,
+          "procenta": 1.46
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 328,
+          "procenta": 5.07
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1144,
+          "procenta": 17.68
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 58,
+          "procenta": 0.89
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 206,
+          "procenta": 3.18
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1229,
+          "procenta": 19.0
+        }
+      ]
+    },
+    "27013": {
+      "okrsek": "27013",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27013",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 583,
+        "vydane_obalky": 306,
+        "ucast_pct": 52.48,
+        "odevzdane_obalky": 306,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 6940
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1731,
+          "procenta": 24.94
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 743,
+          "procenta": 10.7
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 354,
+          "procenta": 5.1
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 673,
+          "procenta": 9.69
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 29,
+          "procenta": 0.41
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 395,
+          "procenta": 5.69
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 739,
+          "procenta": 10.64
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 90,
+          "procenta": 1.29
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 172,
+          "procenta": 2.47
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 2014,
+          "procenta": 29.02
+        }
+      ]
+    },
+    "27014": {
+      "okrsek": "27014",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27014",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 782,
+        "vydane_obalky": 429,
+        "ucast_pct": 54.85,
+        "odevzdane_obalky": 429,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 9940
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1735,
+          "procenta": 17.45
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 983,
+          "procenta": 9.88
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 439,
+          "procenta": 4.41
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 1443,
+          "procenta": 14.51
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 44,
+          "procenta": 0.44
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 763,
+          "procenta": 7.67
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1543,
+          "procenta": 15.52
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 142,
+          "procenta": 1.42
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 466,
+          "procenta": 4.68
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 2382,
+          "procenta": 23.96
+        }
+      ]
+    },
+    "27015": {
+      "okrsek": "27015",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27015",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 557,
+        "vydane_obalky": 286,
+        "ucast_pct": 51.34,
+        "odevzdane_obalky": 286,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 6564
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1416,
+          "procenta": 21.57
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 533,
+          "procenta": 8.12
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 431,
+          "procenta": 6.56
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 1172,
+          "procenta": 17.85
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 63,
+          "procenta": 0.95
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 285,
+          "procenta": 4.34
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 937,
+          "procenta": 14.27
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 85,
+          "procenta": 1.29
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 194,
+          "procenta": 2.95
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1448,
+          "procenta": 22.05
+        }
+      ]
+    },
+    "27016": {
+      "okrsek": "27016",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27016",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 613,
+        "vydane_obalky": 308,
+        "ucast_pct": 50.24,
+        "odevzdane_obalky": 308,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 7157
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1838,
+          "procenta": 25.68
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 550,
+          "procenta": 7.68
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 816,
+          "procenta": 11.4
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 371,
+          "procenta": 5.18
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 47,
+          "procenta": 0.65
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 489,
+          "procenta": 6.83
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1186,
+          "procenta": 16.57
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 154,
+          "procenta": 2.15
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 218,
+          "procenta": 3.04
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1488,
+          "procenta": 20.79
+        }
+      ]
+    },
+    "27017": {
+      "okrsek": "27017",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27017",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 652,
+        "vydane_obalky": 282,
+        "ucast_pct": 43.25,
+        "odevzdane_obalky": 282,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 6373
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1061,
+          "procenta": 16.64
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 467,
+          "procenta": 7.32
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 655,
+          "procenta": 10.27
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 737,
+          "procenta": 11.56
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 150,
+          "procenta": 2.35
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 361,
+          "procenta": 5.66
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1248,
+          "procenta": 19.58
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 226,
+          "procenta": 3.54
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 103,
+          "procenta": 1.61
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1365,
+          "procenta": 21.41
+        }
+      ]
+    },
+    "27018": {
+      "okrsek": "27018",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27018",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 605,
+        "vydane_obalky": 333,
+        "ucast_pct": 55.04,
+        "odevzdane_obalky": 333,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 7950
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1804,
+          "procenta": 22.69
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 640,
+          "procenta": 8.05
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 690,
+          "procenta": 8.67
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 387,
+          "procenta": 4.86
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 61,
+          "procenta": 0.76
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 351,
+          "procenta": 4.41
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1272,
+          "procenta": 16.0
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 178,
+          "procenta": 2.23
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 182,
+          "procenta": 2.28
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 2385,
+          "procenta": 30.0
+        }
+      ]
+    },
+    "27019": {
+      "okrsek": "27019",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27019",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 620,
+        "vydane_obalky": 274,
+        "ucast_pct": 44.19,
+        "odevzdane_obalky": 274,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 6182
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1174,
+          "procenta": 18.99
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 555,
+          "procenta": 8.97
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 669,
+          "procenta": 10.82
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 542,
+          "procenta": 8.76
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 56,
+          "procenta": 0.9
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 423,
+          "procenta": 6.84
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1017,
+          "procenta": 16.45
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 283,
+          "procenta": 4.57
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 346,
+          "procenta": 5.59
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1117,
+          "procenta": 18.06
+        }
+      ]
+    },
+    "27020": {
+      "okrsek": "27020",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27020",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 625,
+        "vydane_obalky": 351,
+        "ucast_pct": 56.16,
+        "odevzdane_obalky": 350,
+        "odevzdane_pct": 99.71,
+        "platne_hlasy": 8122
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1626,
+          "procenta": 20.01
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 942,
+          "procenta": 11.59
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 811,
+          "procenta": 9.98
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 765,
+          "procenta": 9.41
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 100,
+          "procenta": 1.23
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 322,
+          "procenta": 3.96
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1737,
+          "procenta": 21.38
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 94,
+          "procenta": 1.15
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 428,
+          "procenta": 5.26
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1297,
+          "procenta": 15.96
+        }
+      ]
+    },
+    "27021": {
+      "okrsek": "27021",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27021",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 711,
+        "vydane_obalky": 359,
+        "ucast_pct": 50.49,
+        "odevzdane_obalky": 359,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8457
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1640,
+          "procenta": 19.39
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 734,
+          "procenta": 8.67
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 892,
+          "procenta": 10.54
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 486,
+          "procenta": 5.74
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 65,
+          "procenta": 0.76
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 675,
+          "procenta": 7.98
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1896,
+          "procenta": 22.41
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 158,
+          "procenta": 1.86
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 244,
+          "procenta": 2.88
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1667,
+          "procenta": 19.71
+        }
+      ]
+    },
+    "27022": {
+      "okrsek": "27022",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27022",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 545,
+        "vydane_obalky": 236,
+        "ucast_pct": 43.3,
+        "odevzdane_obalky": 236,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 5409
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1092,
+          "procenta": 20.18
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 698,
+          "procenta": 12.9
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 600,
+          "procenta": 11.09
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 431,
+          "procenta": 7.96
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 24,
+          "procenta": 0.44
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 346,
+          "procenta": 6.39
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1076,
+          "procenta": 19.89
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 78,
+          "procenta": 1.44
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 233,
+          "procenta": 4.3
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 831,
+          "procenta": 15.36
+        }
+      ]
+    },
+    "27023": {
+      "okrsek": "27023",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27023",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 662,
+        "vydane_obalky": 327,
+        "ucast_pct": 49.39,
+        "odevzdane_obalky": 327,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 7555
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1380,
+          "procenta": 18.26
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 841,
+          "procenta": 11.13
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 591,
+          "procenta": 7.82
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 838,
+          "procenta": 11.09
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 75,
+          "procenta": 0.99
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 580,
+          "procenta": 7.67
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1979,
+          "procenta": 26.19
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 197,
+          "procenta": 2.6
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 260,
+          "procenta": 3.44
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 814,
+          "procenta": 10.77
+        }
+      ]
+    },
+    "27024": {
+      "okrsek": "27024",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27024",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 828,
+        "vydane_obalky": 295,
+        "ucast_pct": 35.62,
+        "odevzdane_obalky": 294,
+        "odevzdane_pct": 99.66,
+        "platne_hlasy": 6613
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1764,
+          "procenta": 26.67
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 414,
+          "procenta": 6.26
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 870,
+          "procenta": 13.15
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 419,
+          "procenta": 6.33
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 294,
+          "procenta": 4.44
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 302,
+          "procenta": 4.56
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1360,
+          "procenta": 20.56
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 134,
+          "procenta": 2.02
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 301,
+          "procenta": 4.55
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 755,
+          "procenta": 11.41
+        }
+      ]
+    },
+    "27025": {
+      "okrsek": "27025",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27025",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 584,
+        "vydane_obalky": 280,
+        "ucast_pct": 47.94,
+        "odevzdane_obalky": 280,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 6459
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+          "hlasy": 1240,
+          "procenta": 19.19
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 721,
+          "procenta": 11.16
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VASE_STAROSTKA_A_CSSD",
+          "nazev": "Vaše starostka a ČSSD",
+          "hlasy": 603,
+          "procenta": 9.33
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 717,
+          "procenta": 11.1
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 225,
+          "procenta": 3.48
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 338,
+          "procenta": 5.23
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1384,
+          "procenta": 21.42
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+          "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+          "hlasy": 168,
+          "procenta": 2.6
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+          "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+          "hlasy": 150,
+          "procenta": 2.32
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 913,
+          "procenta": 14.13
+        }
+      ]
+    }
+  }
+}

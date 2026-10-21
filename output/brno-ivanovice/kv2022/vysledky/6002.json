@@ -1,0 +1,47 @@
+{
+  "okrsek": "6002",
+  "obec": "Brno-Ivanovice",
+  "kod_zastupitelstva": 551376,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551376&xstat=0&xvyber=6002",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 687,
+    "vydane_obalky": 388,
+    "ucast_pct": 56.47,
+    "odevzdane_obalky": 388,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 2288
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "TOP_09",
+      "nazev": "TOP 09",
+      "hlasy": 337,
+      "procenta": 14.72
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 965,
+      "procenta": 42.17
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "KDU_CSL",
+      "nazev": "KDU-ČSL",
+      "hlasy": 893,
+      "procenta": 39.02
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 93,
+      "procenta": 4.06
+    }
+  ]
+}

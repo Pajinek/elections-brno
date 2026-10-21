@@ -1,0 +1,132 @@
+{
+  "zastupitelstvo": {
+    "kod": 551198,
+    "nazev": "Brno-Bystrc",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "NASE_BYSTRC",
+      "nazev": "Naše Bystrc",
+      "nazev_plny": "Naše Bystrc"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ZELENA_PRO_BYSTRC",
+      "nazev": "Zelená pro Bystrc",
+      "nazev_plny": "Zelená pro Bystrc"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "VOLIM_BYSTRC",
+      "nazev": "Volím Bystrc",
+      "nazev_plny": "Volím Bystrc"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+      "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+      "nazev_plny": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+      "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+      "nazev_plny": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+      "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+      "nazev_plny": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 10,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    }
+  ],
+  "podle_kodu": {
+    "NASE_BYSTRC": {
+      "cislo_listiny": 1,
+      "kod": "NASE_BYSTRC",
+      "nazev": "Naše Bystrc",
+      "nazev_plny": "Naše Bystrc"
+    },
+    "ZELENA_PRO_BYSTRC": {
+      "cislo_listiny": 2,
+      "kod": "ZELENA_PRO_BYSTRC",
+      "nazev": "Zelená pro Bystrc",
+      "nazev_plny": "Zelená pro Bystrc"
+    },
+    "VOLIM_BYSTRC": {
+      "cislo_listiny": 3,
+      "kod": "VOLIM_BYSTRC",
+      "nazev": "Volím Bystrc",
+      "nazev_plny": "Volím Bystrc"
+    },
+    "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE": {
+      "cislo_listiny": 4,
+      "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+      "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+      "nazev_plny": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)"
+    },
+    "OBCANSKA_DEMOKRATICKA_STRANA": {
+      "cislo_listiny": 5,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana"
+    },
+    "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI": {
+      "cislo_listiny": 6,
+      "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+      "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+      "nazev_plny": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní"
+    },
+    "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC": {
+      "cislo_listiny": 7,
+      "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+      "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+      "nazev_plny": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc"
+    },
+    "SPD": {
+      "cislo_listiny": 8,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    "RESTART": {
+      "cislo_listiny": 9,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    "ANO": {
+      "cislo_listiny": 10,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    }
+  }
+}

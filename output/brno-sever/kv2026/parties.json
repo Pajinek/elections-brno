@@ -1,0 +1,108 @@
+{
+  "zastupitelstvo": {
+    "kod": 551031,
+    "nazev": "Brno-sever",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "B3",
+      "nazev": "Brno Brňankám a Brňanům! (B3!)",
+      "nazev_plny": "Brno Brňankám a Brňanům! (B3!)"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "TYM_SEVER_SPOLECNE_TU_ODS_TOP09_PIRATI_FAKT_BRNO",
+      "nazev": "TÝM SEVER-SPOLEČNĚ TU! ODS+TOP09+Piráti+Fakt Brno",
+      "nazev_plny": "TÝM SEVER - SPOLEČNĚ TU! ODS + TOP 09 + Piráti + Fakt Brno"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "HNUTI_SOL",
+      "nazev": "Hnutí SOL",
+      "nazev_plny": "Hnutí SOL"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "NOVI_LIDOVCI",
+      "nazev": "Noví lidovci",
+      "nazev_plny": "Noví lidovci"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "MOTORISTE_SOBE",
+      "nazev": "Motoristé sobě",
+      "nazev_plny": "Motoristé sobě"
+    }
+  ],
+  "podle_kodu": {
+    "ANO": {
+      "cislo_listiny": 1,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    "B3": {
+      "cislo_listiny": 2,
+      "kod": "B3",
+      "nazev": "Brno Brňankám a Brňanům! (B3!)",
+      "nazev_plny": "Brno Brňankám a Brňanům! (B3!)"
+    },
+    "SPD": {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    "TYM_SEVER_SPOLECNE_TU_ODS_TOP09_PIRATI_FAKT_BRNO": {
+      "cislo_listiny": 4,
+      "kod": "TYM_SEVER_SPOLECNE_TU_ODS_TOP09_PIRATI_FAKT_BRNO",
+      "nazev": "TÝM SEVER-SPOLEČNĚ TU! ODS+TOP09+Piráti+Fakt Brno",
+      "nazev_plny": "TÝM SEVER - SPOLEČNĚ TU! ODS + TOP 09 + Piráti + Fakt Brno"
+    },
+    "HNUTI_SOL": {
+      "cislo_listiny": 5,
+      "kod": "HNUTI_SOL",
+      "nazev": "Hnutí SOL",
+      "nazev_plny": "Hnutí SOL"
+    },
+    "RESTART": {
+      "cislo_listiny": 6,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    "NOVI_LIDOVCI": {
+      "cislo_listiny": 7,
+      "kod": "NOVI_LIDOVCI",
+      "nazev": "Noví lidovci",
+      "nazev_plny": "Noví lidovci"
+    },
+    "MOTORISTE_SOBE": {
+      "cislo_listiny": 8,
+      "kod": "MOTORISTE_SOBE",
+      "nazev": "Motoristé sobě",
+      "nazev_plny": "Motoristé sobě"
+    }
+  }
+}

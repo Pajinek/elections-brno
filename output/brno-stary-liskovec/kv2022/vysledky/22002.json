@@ -1,0 +1,54 @@
+{
+  "okrsek": "22002",
+  "obec": "Brno-Starý Lískovec",
+  "kod_zastupitelstva": 551091,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551091&xstat=0&xvyber=22002",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 793,
+    "vydane_obalky": 342,
+    "ucast_pct": 43.12,
+    "odevzdane_obalky": 342,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 5983
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 2469,
+      "procenta": 41.26
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 779,
+      "procenta": 13.02
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "hlasy": 443,
+      "procenta": 7.4
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "LIDOVCI_A_TOPKA",
+      "nazev": "Lidovci a Topka",
+      "hlasy": 1414,
+      "procenta": 23.63
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "CESKA_PIRATSKA_STRANA",
+      "nazev": "Česká pirátská strana",
+      "hlasy": 878,
+      "procenta": 14.67
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "okrsek": "3014",
+  "obec": "Brno-Bystrc",
+  "kod_zastupitelstva": 551198,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T19:38:55",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3014",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3014.json",
+  "prehled": {
+    "volici_v_seznamu": 739,
+    "vydane_obalky": 332,
+    "ucast_pct": 44.93,
+    "odevzdane_obalky": 326,
+    "odevzdane_pct": 98.19,
+    "platne_hlasy": 8167
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "NASE_BYSTRC",
+      "nazev": "Naše Bystrc",
+      "hlasy": 239,
+      "procenta": 2.92
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ZELENA_PRO_BYSTRC",
+      "nazev": "Zelená pro Bystrc",
+      "hlasy": 335,
+      "procenta": 4.1
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "VOLIM_BYSTRC",
+      "nazev": "Volím Bystrc",
+      "hlasy": 1135,
+      "procenta": 13.89
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+      "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+      "hlasy": 2189,
+      "procenta": 26.8
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 836,
+      "procenta": 10.23
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+      "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+      "hlasy": 137,
+      "procenta": 1.67
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+      "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+      "hlasy": 1265,
+      "procenta": 15.48
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 404,
+      "procenta": 4.94
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 117,
+      "procenta": 1.43
+    },
+    {
+      "cislo_listiny": 10,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1510,
+      "procenta": 18.48
+    }
+  ]
+}

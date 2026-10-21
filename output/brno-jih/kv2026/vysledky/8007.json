@@ -1,0 +1,83 @@
+{
+  "okrsek": "8007",
+  "obec": "Brno-jih",
+  "kod_zastupitelstva": 551074,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T19:21:05",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551074___8007",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551074_8007.json",
+  "prehled": {
+    "volici_v_seznamu": 458,
+    "vydane_obalky": 248,
+    "ucast_pct": 54.15,
+    "odevzdane_obalky": 239,
+    "odevzdane_pct": 96.37,
+    "platne_hlasy": 4260
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_JIH",
+      "nazev": "Piráti a Fakt Brno TU! pro Jih",
+      "hlasy": 461,
+      "procenta": 10.82
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "MGR_JOSEF_HALUZA_JSME_JIZANI",
+      "nazev": "Mgr. Josef Haluza – JSME JIŽANI",
+      "hlasy": 1553,
+      "procenta": 36.45
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 415,
+      "procenta": 9.74
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "BRNOKLIDEM",
+      "nazev": "Brnoklidem",
+      "hlasy": 84,
+      "procenta": 1.97
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 11,
+      "procenta": 0.25
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "MOTORISTE_SOBE",
+      "nazev": "Motoristé sobě",
+      "hlasy": 87,
+      "procenta": 2.04
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "SRDCEM_PRO_JIH",
+      "nazev": "Srdcem pro jih",
+      "hlasy": 798,
+      "procenta": 18.73
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "LIDI_Z_JIHU_STAROSTOVE_LIDOVCI_A_TOP_09",
+      "nazev": "LIDI Z JIHU (STAROSTOVÉ, LIDOVCI A TOP 09)",
+      "hlasy": 564,
+      "procenta": 13.23
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 287,
+      "procenta": 6.73
+    }
+  ]
+}

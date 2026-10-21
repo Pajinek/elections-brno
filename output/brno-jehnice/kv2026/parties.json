@@ -1,0 +1,60 @@
+{
+  "zastupitelstvo": {
+    "kod": 551406,
+    "nazev": "Brno-Jehnice",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "KLIDNE_JEHNICE",
+      "nazev": "KLIDNÉ JEHNICE",
+      "nazev_plny": "KLIDNÉ JEHNICE"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "LIDOVCI",
+      "nazev": "Lidovci",
+      "nazev_plny": "Lidovci"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SPOLECNE_V_JEHNICICH",
+      "nazev": "SPOLEČNĚ V JEHNICÍCH",
+      "nazev_plny": "SPOLEČNĚ V JEHNICÍCH"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "PRO_JEHNICE",
+      "nazev": "PRO JEHNICE",
+      "nazev_plny": "PRO JEHNICE"
+    }
+  ],
+  "podle_kodu": {
+    "KLIDNE_JEHNICE": {
+      "cislo_listiny": 1,
+      "kod": "KLIDNE_JEHNICE",
+      "nazev": "KLIDNÉ JEHNICE",
+      "nazev_plny": "KLIDNÉ JEHNICE"
+    },
+    "LIDOVCI": {
+      "cislo_listiny": 2,
+      "kod": "LIDOVCI",
+      "nazev": "Lidovci",
+      "nazev_plny": "Lidovci"
+    },
+    "SPOLECNE_V_JEHNICICH": {
+      "cislo_listiny": 3,
+      "kod": "SPOLECNE_V_JEHNICICH",
+      "nazev": "SPOLEČNĚ V JEHNICÍCH",
+      "nazev_plny": "SPOLEČNĚ V JEHNICÍCH"
+    },
+    "PRO_JEHNICE": {
+      "cislo_listiny": 4,
+      "kod": "PRO_JEHNICE",
+      "nazev": "PRO JEHNICE",
+      "nazev_plny": "PRO JEHNICE"
+    }
+  }
+}

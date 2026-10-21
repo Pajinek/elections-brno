@@ -1,0 +1,48 @@
+{
+  "okrsek": "9003",
+  "obec": "Brno-Jundrov",
+  "kod_zastupitelstva": 551171,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T23:30:20",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551171___9003",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551171_9003.json",
+  "prehled": {
+    "volici_v_seznamu": 823,
+    "vydane_obalky": 501,
+    "ucast_pct": 60.87,
+    "odevzdane_obalky": 493,
+    "odevzdane_pct": 99.2,
+    "platne_hlasy": 6758
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPD_A_NEZAVISLI_KANDIDATI",
+      "nazev": "SPD a nezávislí kandidáti",
+      "hlasy": 451,
+      "procenta": 6.67
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ZELENA_PRO_JUNDROV",
+      "nazev": "Zelená pro Jundrov",
+      "hlasy": 2464,
+      "procenta": 36.46
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SPOLECNE_PRO_JUNDROV_ODS_NESTRANICI_TOP_09",
+      "nazev": "Společně pro Jundrov (ODS+nestraníci+TOP 09)",
+      "hlasy": 2129,
+      "procenta": 31.5
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "JUNDROVACI",
+      "nazev": "Jundrováci",
+      "hlasy": 1714,
+      "procenta": 25.36
+    }
+  ]
+}

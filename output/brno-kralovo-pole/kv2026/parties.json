@@ -1,0 +1,120 @@
+{
+  "zastupitelstvo": {
+    "kod": 551007,
+    "nazev": "Brno-Královo Pole",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ZALUZANKY",
+      "nazev": "Za Lužánky",
+      "nazev_plny": "Za Lužánky"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "KRALOVOPOLSTI_PATRIOTI_S_BRNOKLIDEM",
+      "nazev": "Královopolští patrioti s Brnoklidem",
+      "nazev_plny": "Královopolští patrioti s Brnoklidem"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "ODS_TOP09",
+      "nazev": "ODS a TOP 09",
+      "nazev_plny": "ODS a TOP 09"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "PIRATI_A_ZELENI_TU_PRO_KRALOVO_POLE",
+      "nazev": "Piráti a Zelení TU! pro Královo Pole",
+      "nazev_plny": "Piráti a Zelení TU! pro Královo Pole"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "MOTORISTE_SOBE",
+      "nazev": "Motoristé sobě",
+      "nazev_plny": "Motoristé sobě"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "LIDOVCI_A_STAROSTOVE",
+      "nazev": "LIDOVCI A STAROSTOVÉ",
+      "nazev_plny": "LIDOVCI A STAROSTOVÉ"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    }
+  ],
+  "podle_kodu": {
+    "ZALUZANKY": {
+      "cislo_listiny": 1,
+      "kod": "ZALUZANKY",
+      "nazev": "Za Lužánky",
+      "nazev_plny": "Za Lužánky"
+    },
+    "RESTART": {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    "KRALOVOPOLSTI_PATRIOTI_S_BRNOKLIDEM": {
+      "cislo_listiny": 3,
+      "kod": "KRALOVOPOLSTI_PATRIOTI_S_BRNOKLIDEM",
+      "nazev": "Královopolští patrioti s Brnoklidem",
+      "nazev_plny": "Královopolští patrioti s Brnoklidem"
+    },
+    "ODS_TOP09": {
+      "cislo_listiny": 4,
+      "kod": "ODS_TOP09",
+      "nazev": "ODS a TOP 09",
+      "nazev_plny": "ODS a TOP 09"
+    },
+    "PIRATI_A_ZELENI_TU_PRO_KRALOVO_POLE": {
+      "cislo_listiny": 5,
+      "kod": "PIRATI_A_ZELENI_TU_PRO_KRALOVO_POLE",
+      "nazev": "Piráti a Zelení TU! pro Královo Pole",
+      "nazev_plny": "Piráti a Zelení TU! pro Královo Pole"
+    },
+    "MOTORISTE_SOBE": {
+      "cislo_listiny": 6,
+      "kod": "MOTORISTE_SOBE",
+      "nazev": "Motoristé sobě",
+      "nazev_plny": "Motoristé sobě"
+    },
+    "ANO": {
+      "cislo_listiny": 7,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    "LIDOVCI_A_STAROSTOVE": {
+      "cislo_listiny": 8,
+      "kod": "LIDOVCI_A_STAROSTOVE",
+      "nazev": "LIDOVCI A STAROSTOVÉ",
+      "nazev_plny": "LIDOVCI A STAROSTOVÉ"
+    },
+    "SPD": {
+      "cislo_listiny": 9,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    }
+  }
+}

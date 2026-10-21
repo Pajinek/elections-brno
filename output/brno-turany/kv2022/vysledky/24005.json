@@ -1,0 +1,68 @@
+{
+  "okrsek": "24005",
+  "obec": "Brno-Tuřany",
+  "kod_zastupitelstva": 551309,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551309&xstat=0&xvyber=24005",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 274,
+    "vydane_obalky": 124,
+    "ucast_pct": 45.25,
+    "odevzdane_obalky": 124,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 1624
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+      "nazev": "Česká strana sociálně demokratická",
+      "hlasy": 196,
+      "procenta": 12.06
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "PRO_TURANY",
+      "nazev": "PRO TUŘANY",
+      "hlasy": 129,
+      "procenta": 7.94
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SDRUZENI_NESTRANIKU_PRO_TURANY",
+      "nazev": "Sdružení nestraníků pro Tuřany",
+      "hlasy": 456,
+      "procenta": 28.07
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "hlasy": 237,
+      "procenta": 14.59
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "ZIJEME_ZDE",
+      "nazev": "ŽIJEME ZDE",
+      "hlasy": 267,
+      "procenta": 16.44
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "KDU_CSL",
+      "nazev": "KDU-ČSL",
+      "hlasy": 129,
+      "procenta": 7.94
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 210,
+      "procenta": 12.93
+    }
+  ]
+}

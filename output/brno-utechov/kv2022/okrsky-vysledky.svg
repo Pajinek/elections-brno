@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2190.0 1362.0" width="2190" height="1362">
+  <title>Brno-Útěchov — podíl hlasů podle okrsků (23.09.2022)</title>
+  <defs>
+    <linearGradient id="pctScale" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#ffffe5"/><stop offset="20%" stop-color="#ffeda0"/><stop offset="40%" stop-color="#feb24c"/><stop offset="60%" stop-color="#fd8d3c"/><stop offset="80%" stop-color="#e31a1c"/><stop offset="100%" stop-color="#800026"/></linearGradient>
+    <path id="p25001" d="M151.8,166.1 L151.9,166.6 L152.0,168.3 L152.2,170.9 L152.2,171.1 L152.6,175.6 L153.0,180.5 L153.3,185.6 L153.4,185.9 L153.4,186.3 L153.6,189.1 L153.7,190.6 L153.9,193.3 L151.4,197.6 L149.7,202.7 L149.5,203.0 L147.0,206.1 L146.4,206.8 L144.5,208.4 L142.3,209.6 L141.8,209.9 L138.6,211.4 L136.9,211.6 L134.9,211.8 L131.2,211.9 L130.0,212.1 L129.6,212.3 L127.4,213.0 L123.5,217.9 L123.2,217.8 L111.3,216.3 L111.5,217.8 L112.3,223.0 L112.8,225.8 L113.1,227.7 L113.6,230.8 L113.5,232.3 L113.2,235.9 L112.9,238.9 L112.7,241.2 L112.6,242.5 L112.2,246.2 L111.9,249.1 L111.8,249.6 L110.6,252.9 L109.4,256.2 L108.2,259.6 L107.0,262.9 L105.6,266.6 L105.1,267.4 L104.7,268.1 L101.7,273.1 L98.7,278.0 L95.2,284.0 L100.6,285.2 L103.1,285.8 L109.1,287.2 L111.2,288.0 L115.7,289.6 L117.2,290.1 L120.9,291.8 L121.3,292.0 L127.2,294.7 L127.4,294.8 L131.8,296.1 L135.0,297.0 L140.8,300.4 L143.3,300.6 L149.2,303.6 L153.0,305.6 L158.5,312.3 L147.8,312.3 L142.9,312.3 L135.4,314.4 L121.5,314.9 L116.9,314.3 L108.5,313.8 L100.8,312.7 L90.3,311.1 L72.8,310.2 L68.2,308.8 L61.8,306.9 L53.1,303.5 L36.7,295.7 L34.4,293.4 L33.6,292.7 L26.9,286.1 L24.9,284.9 L22.7,284.4 L17.8,285.0 L17.3,286.9 L17.2,287.4 L17.0,288.3 L16.8,289.1 L13.7,301.9 L14.1,316.8 L12.0,333.6 L12.8,336.3 L21.3,348.2 L26.4,352.8 L30.5,362.0 L31.4,364.0 L45.2,368.6 L58.3,373.1 L67.3,376.3 L74.1,378.6 L88.5,383.7 L98.6,387.3 L108.3,390.5 L115.7,393.2 L143.0,402.8 L157.2,408.0 L169.6,412.5 L173.7,413.8 L182.6,417.1 L199.0,423.2 L206.5,425.7 L215.4,428.4 L216.3,428.5 L217.2,428.5 L216.4,423.3 L214.5,417.2 L214.2,414.1 L214.4,409.6 L215.2,405.9 L215.7,405.8 L216.8,405.5 L218.2,405.2 L224.5,404.1 L226.8,403.5 L229.9,402.8 L233.7,402.5 L237.2,402.2 L245.8,403.2 L246.4,403.3 L253.6,400.5 L263.9,396.4 L266.9,395.2 L272.9,393.9 L290.5,390.3 L293.2,389.7 L303.3,387.7 L315.2,385.1 L315.7,385.0 L320.8,383.7 L332.2,381.2 L353.1,376.7 L373.7,370.4 L379.5,369.7 L380.1,369.4 L381.1,369.0 L381.9,368.6 L390.0,365.1 L409.1,357.0 L423.0,351.2 L434.5,346.2 L453.5,337.6 L469.5,330.5 L480.0,325.7 L496.6,318.6 L497.1,318.4 L497.6,318.2 L499.0,317.6 L499.6,317.3 L507.5,313.8 L508.0,312.9 L500.1,310.8 L489.2,306.5 L486.2,302.2 L478.6,294.8 L468.7,290.4 L461.0,285.6 L449.0,277.3 L445.2,276.3 L439.5,275.3 L436.2,275.7 L427.6,279.0 L421.5,279.2 L405.0,275.9 L398.2,274.3 L395.1,274.1 L390.5,274.5 L388.1,274.7 L384.7,274.9 L382.1,273.0 L377.7,269.8 L375.5,268.2 L373.2,266.5 L370.5,263.5 L366.4,256.8 L366.3,255.6 L366.1,253.7 L365.6,249.0 L357.1,236.0 L352.9,230.7 L349.0,221.8 L346.9,210.9 L345.0,203.2 L342.5,198.6 L338.2,192.8 L336.8,191.6 L334.1,190.0 L324.5,184.7 L316.0,178.6 L304.2,175.2 L302.1,173.7 L295.9,169.3 L292.5,164.8 L287.7,161.2 L286.2,160.1 L285.3,159.3 L276.3,154.9 L274.7,154.0 L271.0,151.6 L265.7,148.4 L256.5,144.1 L248.4,142.1 L244.0,139.6 L234.3,128.5 L226.1,118.0 L218.9,110.2 L213.1,99.7 L212.1,95.6 L209.7,91.8 L192.2,71.7 L187.2,63.5 L187.2,65.2 L187.2,74.1 L187.8,81.8 L188.8,86.2 L191.7,96.2 L192.5,101.0 L191.3,108.7 L190.3,113.8 L187.2,118.1 L183.9,121.6 L181.6,125.9 L179.8,131.9 L179.4,133.0 L178.7,137.7 L178.6,138.5 L178.4,140.3 L179.1,146.2 L179.2,147.7 L179.8,157.1 L179.5,160.0 L178.9,160.0 L176.6,160.0 L169.6,160.1 L161.9,160.3 L160.5,160.3 L151.4,160.4 L151.8,166.1 Z"/>
+    <g id="casti">
+    <text class="cast" x="239.8" y="287.2" font-size="15.0">Útěchov u Brna</text>
+    </g>
+  </defs>
+  <style>
+    .panel { fill: #ffffff; stroke: #e2e8f0; }
+    .title {
+      font-family: "Source Sans 3", "Liberation Sans", "DejaVu Sans", sans-serif;
+      font-size: 30px; font-weight: 700; fill: #0f172a;
+      text-anchor: start; dominant-baseline: hanging;
+    }
+    .subtitle {
+      font-family: "Source Sans 3", "Liberation Sans", "DejaVu Sans", sans-serif;
+      font-size: 15px; fill: #475569;
+      text-anchor: start; dominant-baseline: hanging;
+    }
+    .panel-title {
+      font-family: "Source Sans 3", "Liberation Sans", "DejaVu Sans", sans-serif;
+      font-size: 16px; font-weight: 700; fill: #0f172a;
+      text-anchor: start; dominant-baseline: middle;
+    }
+    .panel-sub {
+      font-family: "Source Sans 3", "Liberation Sans", "DejaVu Sans", sans-serif;
+      font-size: 12px; fill: #475569;
+      text-anchor: start; dominant-baseline: middle;
+    }
+    .cast {
+      font-family: "Source Sans 3", "Liberation Sans", "DejaVu Sans", sans-serif;
+      font-weight: 750;
+      fill: #1e293b;
+      fill-opacity: 0.8;
+      stroke: #ffffff;
+      stroke-width: 3.2;
+      stroke-opacity: 0.92;
+      paint-order: stroke fill;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      letter-spacing: 0.2px;
+      pointer-events: none;
+    }
+    .legend-label, .legend-tick {
+      font-family: "Source Sans 3", "Liberation Sans", "DejaVu Sans", sans-serif;
+      fill: #334155;
+    }
+    .legend-label { font-size: 14px; font-weight: 650; text-anchor: start; dominant-baseline: hanging; }
+    .legend-tick { font-size: 12px; text-anchor: middle; dominant-baseline: hanging; }
+  </style>
+  <rect width="100%" height="100%" fill="#f8fafc"/>
+  <text class="title" x="28" y="20">Brno-Útěchov — podíl hlasů podle okrsků</text>
+  <text class="subtitle" x="28" y="54">Komunální volby 23.09.2022 · zastupitelstvo MČ · každá mapa = jedna kandidátní listina</text>
+  <g transform="translate(28,86)">
+    <rect class="panel" width="520" height="560" rx="10"/>
+    <circle cx="22" cy="24" r="7" fill="#1e40af"/>
+    <text class="panel-title" x="36" y="24">Útěchov jinak</text>
+    <text class="panel-sub" x="36" y="44">30,1 % celkem · okrsky 30,1 %–30,1 %</text>
+    <g transform="translate(0,56)" fill-rule="evenodd">
+      <use href="#p25001" fill="#c6121f" stroke="#334155" stroke-width="0.7"/>
+      <use href="#casti"/>
+    </g>
+  </g>
+  <g transform="translate(566,86)">
+    <rect class="panel" width="520" height="560" rx="10"/>
+    <circle cx="22" cy="24" r="7" fill="#1e40af"/>
+    <text class="panel-title" x="36" y="24">Občanská demokratická strana</text>
+    <text class="panel-sub" x="36" y="44">11,5 % celkem · okrsky 11,5 %–11,5 %</text>
+    <g transform="translate(0,56)" fill-rule="evenodd">
+      <use href="#p25001" fill="#fec76a" stroke="#334155" stroke-width="0.7"/>
+      <use href="#casti"/>
+    </g>
+  </g>
+  <g transform="translate(1104,86)">
+    <rect class="panel" width="520" height="560" rx="10"/>
+    <circle cx="22" cy="24" r="7" fill="#1e40af"/>
+    <text class="panel-title" x="36" y="24">PRO ÚTĚCHOV</text>
+    <text class="panel-sub" x="36" y="44">16,4 % celkem · okrsky 16,4 %–16,4 %</text>
+    <g transform="translate(0,56)" fill-rule="evenodd">
+      <use href="#p25001" fill="#fea547" stroke="#334155" stroke-width="0.7"/>
+      <use href="#casti"/>
+    </g>
+  </g>
+  <g transform="translate(1642,86)">
+    <rect class="panel" width="520" height="560" rx="10"/>
+    <circle cx="22" cy="24" r="7" fill="#1a365d"/>
+    <text class="panel-title" x="36" y="24">SPD</text>
+    <text class="panel-sub" x="36" y="44">8,6 % celkem · okrsky 8,6 %–8,6 %</text>
+    <g transform="translate(0,56)" fill-rule="evenodd">
+      <use href="#p25001" fill="#ffe08d" stroke="#334155" stroke-width="0.7"/>
+      <use href="#casti"/>
+    </g>
+  </g>
+  <g transform="translate(28,664)">
+    <rect class="panel" width="520" height="560" rx="10"/>
+    <circle cx="22" cy="24" r="7" fill="#1e40af"/>
+    <text class="panel-title" x="36" y="24">Starostové a osobnosti pro Moravu</text>
+    <text class="panel-sub" x="36" y="44">24,2 % celkem · okrsky 24,2 %–24,2 %</text>
+    <g transform="translate(0,56)" fill-rule="evenodd">
+      <use href="#p25001" fill="#f1582d" stroke="#334155" stroke-width="0.7"/>
+      <use href="#casti"/>
+    </g>
+  </g>
+  <g transform="translate(566,664)">
+    <rect class="panel" width="520" height="560" rx="10"/>
+    <circle cx="22" cy="24" r="7" fill="#1e40af"/>
+    <text class="panel-title" x="36" y="24">Pro Útěchov s podporou KDU-ČSL</text>
+    <text class="panel-sub" x="36" y="44">9,3 % celkem · okrsky 9,3 %–9,3 %</text>
+    <g transform="translate(0,56)" fill-rule="evenodd">
+      <use href="#p25001" fill="#ffda85" stroke="#334155" stroke-width="0.7"/>
+      <use href="#casti"/>
+    </g>
+  </g>
+  <text class="legend-label" x="28" y="1264">Legenda: podíl hlasů v okrsku</text>
+  <rect x="28" y="1288" width="2134" height="16" fill="url(#pctScale)" stroke="#334155" stroke-width="0.6"/>
+  <line x1="28.0" y1="1288" x2="28.0" y2="1296" stroke="#334155"/><text class="legend-tick" x="28.0" y="1312">0 %</text><line x1="637.7" y1="1288" x2="637.7" y2="1296" stroke="#334155"/><text class="legend-tick" x="637.7" y="1312">10 %</text><line x1="1247.4" y1="1288" x2="1247.4" y2="1296" stroke="#334155"/><text class="legend-tick" x="1247.4" y="1312">20 %</text><line x1="1857.1" y1="1288" x2="1857.1" y2="1296" stroke="#334155"/><text class="legend-tick" x="1857.1" y="1312">30 %</text><line x1="2162.0" y1="1288" x2="2162.0" y2="1296" stroke="#334155"/><text class="legend-tick" x="2162.0" y="1312">35 %</text>
+</svg>

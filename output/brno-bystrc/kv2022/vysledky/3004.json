@@ -1,0 +1,68 @@
+{
+  "okrsek": "3004",
+  "obec": "Brno-Bystrc",
+  "kod_zastupitelstva": 551198,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551198&xstat=0&xvyber=3004",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 761,
+    "vydane_obalky": 387,
+    "ucast_pct": 50.85,
+    "odevzdane_obalky": 387,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 9399
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "LIDOVCI_A_STAROSTOVE",
+      "nazev": "LIDOVCI A STAROSTOVÉ",
+      "hlasy": 1116,
+      "procenta": 11.87
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 312,
+      "procenta": 3.31
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ZELENA_PRO_BYSTRC_PIRATI_A_BYSTRCACI",
+      "nazev": "Zelená pro Bystrc, Piráti a Bystrčáci",
+      "hlasy": 1970,
+      "procenta": 20.95
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "hlasy": 908,
+      "procenta": 9.66
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 1375,
+      "procenta": 14.62
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1703,
+      "procenta": 18.11
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "CSSD_VASI_STAROSTOVE",
+      "nazev": "ČSSD VAŠI STAROSTOVÉ",
+      "hlasy": 2015,
+      "procenta": 21.43
+    }
+  ]
+}

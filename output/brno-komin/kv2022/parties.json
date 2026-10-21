@@ -1,0 +1,110 @@
+{
+  "zastupitelstvo": {
+    "kod": 551228,
+    "nazev": "Brno-Komín",
+    "datum_voleb": "20220923",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "TOP_09",
+      "nazev": "TOP 09",
+      "nazev_plny": "TOP 09",
+      "zkratka": "TOP 09"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+      "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+      "nazev_plny": "KDU-ČSL s podporou Starostů a nezávislých",
+      "zkratka": "KDU-ČSL+STAN"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "KOMIN_PRO_DETI_A_SPORTOVCE",
+      "nazev": "Komín pro děti a sportovce",
+      "nazev_plny": "Komín pro děti a sportovce",
+      "zkratka": "SOM+NK"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana",
+      "zkratka": "ODS"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ZELENA_PRO_KOMIN",
+      "nazev": "Zelená pro Komín",
+      "nazev_plny": "Zelená pro Komín",
+      "zkratka": "Zelení+NK"
+    }
+  ],
+  "podle_kodu": {
+    "TOP_09": {
+      "cislo_listiny": 1,
+      "kod": "TOP_09",
+      "nazev": "TOP 09",
+      "nazev_plny": "TOP 09",
+      "zkratka": "TOP 09"
+    },
+    "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH": {
+      "cislo_listiny": 2,
+      "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+      "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+      "nazev_plny": "KDU-ČSL s podporou Starostů a nezávislých",
+      "zkratka": "KDU-ČSL+STAN"
+    },
+    "ANO": {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    "KOMIN_PRO_DETI_A_SPORTOVCE": {
+      "cislo_listiny": 4,
+      "kod": "KOMIN_PRO_DETI_A_SPORTOVCE",
+      "nazev": "Komín pro děti a sportovce",
+      "nazev_plny": "Komín pro děti a sportovce",
+      "zkratka": "SOM+NK"
+    },
+    "OBCANSKA_DEMOKRATICKA_STRANA": {
+      "cislo_listiny": 5,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana",
+      "zkratka": "ODS"
+    },
+    "RESTART": {
+      "cislo_listiny": 6,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    "ZELENA_PRO_KOMIN": {
+      "cislo_listiny": 7,
+      "kod": "ZELENA_PRO_KOMIN",
+      "nazev": "Zelená pro Komín",
+      "nazev_plny": "Zelená pro Komín",
+      "zkratka": "Zelení+NK"
+    }
+  }
+}

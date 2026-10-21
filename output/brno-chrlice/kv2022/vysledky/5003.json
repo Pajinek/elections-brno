@@ -1,0 +1,40 @@
+{
+  "okrsek": "5003",
+  "obec": "Brno-Chrlice",
+  "kod_zastupitelstva": 551317,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551317&xstat=0&xvyber=5003",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 771,
+    "vydane_obalky": 457,
+    "ucast_pct": 59.27,
+    "odevzdane_obalky": 457,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 5219
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "NEZAVISLI_KANDIDATI_PRO_CHRLICE",
+      "nazev": "NEZÁVISLÍ KANDIDÁTI PRO CHRLICE",
+      "hlasy": 1347,
+      "procenta": 25.8
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "SPOLECNE_PRO_CHRLICE_NEZAVISLI_KANDIDATI",
+      "nazev": "Společně pro Chrlice - nezávislí kandidáti",
+      "hlasy": 2486,
+      "procenta": 47.63
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ZA_CHRLICE_S_PODPOROU_KDU_CSL",
+      "nazev": "Za Chrlice s podporou KDU-ČSL",
+      "hlasy": 1386,
+      "procenta": 26.55
+    }
+  ]
+}

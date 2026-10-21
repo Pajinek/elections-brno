@@ -1,0 +1,132 @@
+{
+  "zastupitelstvo": {
+    "kod": 551279,
+    "nazev": "Brno-Vinohrady",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "VINOHRADY_SPOLECNE",
+      "nazev": "Vinohrady společně",
+      "nazev_plny": "Vinohrady společně"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "PLUS_PRO_VINOHRADY_S_PODPOROU_BRNOKLIDEM",
+      "nazev": "Plus pro Vinohrady s podporou Brnoklidem",
+      "nazev_plny": "Plus pro Vinohrady s podporou Brnoklidem"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "PRIVETIVE_VINOHRADY",
+      "nazev": "Přívětivé Vinohrady",
+      "nazev_plny": "Přívětivé Vinohrady"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "MAME_RADI_VINOHRADY_PIR_ZEL_STAROST_A_OSOB",
+      "nazev": "Máme rádi Vinohrady + Pir., Zel., Starost. a osob.",
+      "nazev_plny": "Máme rádi Vinohrady + Piráti, Zelení, Starostové a osobnosti"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+      "nazev": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)",
+      "nazev_plny": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "REVA",
+      "nazev": "RÉVA",
+      "nazev_plny": "RÉVA"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "PRO_VINOHRADY_SPD_PRISAHA_A_NEZAVISLI",
+      "nazev": "Pro Vinohrady - SPD, Přísaha a nezávislí",
+      "nazev_plny": "Pro Vinohrady - SPD, Přísaha a nezávislí"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "SANCE_PRO_VINOHRADY_S_PODPOROU_STAROSTU",
+      "nazev": "ŠANCE PRO VINOHRADY s podporou Starostů",
+      "nazev_plny": "ŠANCE PRO VINOHRADY s podporou Starostů"
+    },
+    {
+      "cislo_listiny": 10,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    }
+  ],
+  "podle_kodu": {
+    "VINOHRADY_SPOLECNE": {
+      "cislo_listiny": 1,
+      "kod": "VINOHRADY_SPOLECNE",
+      "nazev": "Vinohrady společně",
+      "nazev_plny": "Vinohrady společně"
+    },
+    "ANO": {
+      "cislo_listiny": 2,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    "PLUS_PRO_VINOHRADY_S_PODPOROU_BRNOKLIDEM": {
+      "cislo_listiny": 3,
+      "kod": "PLUS_PRO_VINOHRADY_S_PODPOROU_BRNOKLIDEM",
+      "nazev": "Plus pro Vinohrady s podporou Brnoklidem",
+      "nazev_plny": "Plus pro Vinohrady s podporou Brnoklidem"
+    },
+    "PRIVETIVE_VINOHRADY": {
+      "cislo_listiny": 4,
+      "kod": "PRIVETIVE_VINOHRADY",
+      "nazev": "Přívětivé Vinohrady",
+      "nazev_plny": "Přívětivé Vinohrady"
+    },
+    "MAME_RADI_VINOHRADY_PIR_ZEL_STAROST_A_OSOB": {
+      "cislo_listiny": 5,
+      "kod": "MAME_RADI_VINOHRADY_PIR_ZEL_STAROST_A_OSOB",
+      "nazev": "Máme rádi Vinohrady + Pir., Zel., Starost. a osob.",
+      "nazev_plny": "Máme rádi Vinohrady + Piráti, Zelení, Starostové a osobnosti"
+    },
+    "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09": {
+      "cislo_listiny": 6,
+      "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+      "nazev": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)",
+      "nazev_plny": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)"
+    },
+    "REVA": {
+      "cislo_listiny": 7,
+      "kod": "REVA",
+      "nazev": "RÉVA",
+      "nazev_plny": "RÉVA"
+    },
+    "PRO_VINOHRADY_SPD_PRISAHA_A_NEZAVISLI": {
+      "cislo_listiny": 8,
+      "kod": "PRO_VINOHRADY_SPD_PRISAHA_A_NEZAVISLI",
+      "nazev": "Pro Vinohrady - SPD, Přísaha a nezávislí",
+      "nazev_plny": "Pro Vinohrady - SPD, Přísaha a nezávislí"
+    },
+    "SANCE_PRO_VINOHRADY_S_PODPOROU_STAROSTU": {
+      "cislo_listiny": 9,
+      "kod": "SANCE_PRO_VINOHRADY_S_PODPOROU_STAROSTU",
+      "nazev": "ŠANCE PRO VINOHRADY s podporou Starostů",
+      "nazev_plny": "ŠANCE PRO VINOHRADY s podporou Starostů"
+    },
+    "RESTART": {
+      "cislo_listiny": 10,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    }
+  }
+}

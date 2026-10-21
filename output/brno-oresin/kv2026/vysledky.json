@@ -1,0 +1,56 @@
+{
+  "zastupitelstvo": 551422,
+  "obec": "Brno-Ořešín",
+  "datum_voleb": "20261009",
+  "pocet_okrsku": 1,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "PRO_ORESIN_JSME_ORESIN",
+      "nazev": "PRO OŘEŠÍN - JSME OŘEŠÍN",
+      "nazev_plny": "PRO OŘEŠÍN - JSME OŘEŠÍN"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "SPOLECNE_S_HASICI_PRO_ORESIN",
+      "nazev": "Společně s hasiči pro Ořešín",
+      "nazev_plny": "Společně s hasiči pro Ořešín"
+    }
+  ],
+  "okrsky": {
+    "18001": {
+      "okrsek": "18001",
+      "obec": "Brno-Ořešín",
+      "kod_zastupitelstva": 551422,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:39:45",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551422___18001",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551422_18001.json",
+      "prehled": {
+        "volici_v_seznamu": 465,
+        "vydane_obalky": 350,
+        "ucast_pct": 75.27,
+        "odevzdane_obalky": 322,
+        "odevzdane_pct": 92,
+        "platne_hlasy": 2152
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "PRO_ORESIN_JSME_ORESIN",
+          "nazev": "PRO OŘEŠÍN - JSME OŘEŠÍN",
+          "hlasy": 1115,
+          "procenta": 51.81
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "SPOLECNE_S_HASICI_PRO_ORESIN",
+          "nazev": "Společně s hasiči pro Ořešín",
+          "hlasy": 1037,
+          "procenta": 48.18
+        }
+      ]
+    }
+  }
+}

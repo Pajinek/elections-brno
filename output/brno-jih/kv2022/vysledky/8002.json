@@ -1,0 +1,75 @@
+{
+  "okrsek": "8002",
+  "obec": "Brno-jih",
+  "kod_zastupitelstva": 551074,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551074&xstat=0&xvyber=8002",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 791,
+    "vydane_obalky": 359,
+    "ucast_pct": 45.38,
+    "odevzdane_obalky": 358,
+    "odevzdane_pct": 99.72,
+    "platne_hlasy": 6045
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1323,
+      "procenta": 21.88
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "CSSD_VAS_STAROSTA",
+      "nazev": "ČSSD VÁŠ STAROSTA",
+      "hlasy": 428,
+      "procenta": 7.08
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "KDU_STAN",
+      "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+      "hlasy": 1129,
+      "procenta": 18.67
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "hlasy": 409,
+      "procenta": 6.76
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 153,
+      "procenta": 2.53
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "CESKA_PIRATSKA_STRANA",
+      "nazev": "Česká pirátská strana",
+      "hlasy": 721,
+      "procenta": 11.92
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "OBCANE_BRNO_JIH",
+      "nazev": "Občané Brno Jih",
+      "hlasy": 306,
+      "procenta": 5.06
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 1576,
+      "procenta": 26.07
+    }
+  ]
+}

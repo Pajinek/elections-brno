@@ -1,0 +1,54 @@
+{
+  "okrsek": "17008",
+  "obec": "Brno-Nový Lískovec",
+  "kod_zastupitelstva": 551112,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551112&xstat=0&xvyber=17008",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 724,
+    "vydane_obalky": 270,
+    "ucast_pct": 37.29,
+    "odevzdane_obalky": 270,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 4737
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 548,
+      "procenta": 11.56
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "SPOLU_PRO_NOVY_LISKOVEC_ODS_KDU_CSL_TOP_09",
+      "nazev": "SPOLU pro Nový Lískovec (ODS, KDU-ČSL, TOP 09)",
+      "hlasy": 895,
+      "procenta": 18.89
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "NOVOLISKOVECTI_PATRIOTI_A_SOUKROMNICI",
+      "nazev": "NOVOLÍSKOVEČTÍ PATRIOTI A SOUKROMNÍCI",
+      "hlasy": 526,
+      "procenta": 11.1
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "TRI_ORISKY_PRO_LISKOVEC",
+      "nazev": "Tři oříšky pro Lískovec",
+      "hlasy": 2323,
+      "procenta": 49.03
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "LISKOVECKY_KONIKLEC_SPOLECNE_PRO_LEPSI_NOVY_LISKOVEC",
+      "nazev": "LÍSKOVECKÝ KONIKLEC - Společně pro lepší Nový Lískovec",
+      "hlasy": 445,
+      "procenta": 9.39
+    }
+  ]
+}

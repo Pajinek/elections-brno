@@ -1,0 +1,61 @@
+{
+  "okrsek": "16002",
+  "obec": "Brno-Medlánky",
+  "kod_zastupitelstva": 551236,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551236&xstat=0&xvyber=16002",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 960,
+    "vydane_obalky": 531,
+    "ucast_pct": 55.31,
+    "odevzdane_obalky": 531,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 7408
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "KDU_CSL",
+      "nazev": "KDU-ČSL",
+      "hlasy": 752,
+      "procenta": 10.15
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "CSSD_VASI_STAROSTOVE",
+      "nazev": "ČSSD VAŠI STAROSTOVÉ",
+      "hlasy": 293,
+      "procenta": 3.95
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "hlasy": 1130,
+      "procenta": 15.25
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 80,
+      "procenta": 1.07
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "ZELENE_MEDLANKY",
+      "nazev": "Zelené Medlánky",
+      "hlasy": 728,
+      "procenta": 9.82
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "OBCANE_PRO_MEDLANKY",
+      "nazev": "Občané pro Medlánky",
+      "hlasy": 4425,
+      "procenta": 59.73
+    }
+  ]
+}

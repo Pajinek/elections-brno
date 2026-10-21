@@ -1,0 +1,83 @@
+{
+  "okrsek": "14006",
+  "obec": "Brno-Líšeň",
+  "kod_zastupitelstva": 551287,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T21:11:25",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14006",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14006.json",
+  "prehled": {
+    "volici_v_seznamu": 845,
+    "vydane_obalky": 434,
+    "ucast_pct": 51.36,
+    "odevzdane_obalky": 425,
+    "odevzdane_pct": 98.15,
+    "platne_hlasy": 11666
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 289,
+      "procenta": 2.47
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "hlasy": 659,
+      "procenta": 5.64
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+      "nazev": "Váš starosta a občané pro Líšeň",
+      "hlasy": 5791,
+      "procenta": 49.63
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+      "nazev": "Noví lidovci - srdcem v Líšni",
+      "hlasy": 1392,
+      "procenta": 11.93
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+      "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+      "hlasy": 474,
+      "procenta": 4.06
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "SOUSEDE_Z_LISNE",
+      "nazev": "Sousedé z Líšně",
+      "hlasy": 882,
+      "procenta": 7.56
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1267,
+      "procenta": 10.86
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 152,
+      "procenta": 1.3
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+      "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+      "hlasy": 760,
+      "procenta": 6.51
+    }
+  ]
+}

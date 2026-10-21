@@ -1,0 +1,108 @@
+{
+  "zastupitelstvo": {
+    "kod": 551058,
+    "nazev": "Brno-Židenice",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ZIDENICE_NAPLNO",
+      "nazev": "Židenice NAPLNO",
+      "nazev_plny": "Židenice NAPLNO"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ZIDENICE_DOBRA_ADRESA_CZ",
+      "nazev": "Židenice-dobrá-adresa.cz",
+      "nazev_plny": "Židenice-dobrá-adresa.cz (ODS, TOP 09 a nestraníci)"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "LIDOVCI_A_STAROSTOVE_BLIZ_LIDEM",
+      "nazev": "Lidovci a Starostové Blíž lidem",
+      "nazev_plny": "Lidovci a Starostové Blíž lidem (KDU-ČSL s podporou Starostů a nezávislých)"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+      "nazev": "PETR KUNC – HLAS PRO ŽIDENICE",
+      "nazev_plny": "PETR KUNC – HLAS PRO ŽIDENICE"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZIDENICE",
+      "nazev": "Piráti a Fakt Brno TU! pro Židenice",
+      "nazev_plny": "Piráti a Fakt Brno TU! pro Židenice"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "SPD_A_NEZAVISLI_KANDIDATI_ZA_ZELENOU_PRO_ZIDENICE",
+      "nazev": "SPD a nezávislí kandidáti za zelenou pro Židenice",
+      "nazev_plny": "SPD a nezávislí kandidáti za zelenou pro Židenice"
+    }
+  ],
+  "podle_kodu": {
+    "ZIDENICE_NAPLNO": {
+      "cislo_listiny": 1,
+      "kod": "ZIDENICE_NAPLNO",
+      "nazev": "Židenice NAPLNO",
+      "nazev_plny": "Židenice NAPLNO"
+    },
+    "ANO": {
+      "cislo_listiny": 2,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    "ZIDENICE_DOBRA_ADRESA_CZ": {
+      "cislo_listiny": 3,
+      "kod": "ZIDENICE_DOBRA_ADRESA_CZ",
+      "nazev": "Židenice-dobrá-adresa.cz",
+      "nazev_plny": "Židenice-dobrá-adresa.cz (ODS, TOP 09 a nestraníci)"
+    },
+    "RESTART": {
+      "cislo_listiny": 4,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    "LIDOVCI_A_STAROSTOVE_BLIZ_LIDEM": {
+      "cislo_listiny": 5,
+      "kod": "LIDOVCI_A_STAROSTOVE_BLIZ_LIDEM",
+      "nazev": "Lidovci a Starostové Blíž lidem",
+      "nazev_plny": "Lidovci a Starostové Blíž lidem (KDU-ČSL s podporou Starostů a nezávislých)"
+    },
+    "PETR_KUNC_HLAS_PRO_ZIDENICE": {
+      "cislo_listiny": 6,
+      "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+      "nazev": "PETR KUNC – HLAS PRO ŽIDENICE",
+      "nazev_plny": "PETR KUNC – HLAS PRO ŽIDENICE"
+    },
+    "PIRATI_A_FAKT_BRNO_TU_PRO_ZIDENICE": {
+      "cislo_listiny": 7,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZIDENICE",
+      "nazev": "Piráti a Fakt Brno TU! pro Židenice",
+      "nazev_plny": "Piráti a Fakt Brno TU! pro Židenice"
+    },
+    "SPD_A_NEZAVISLI_KANDIDATI_ZA_ZELENOU_PRO_ZIDENICE": {
+      "cislo_listiny": 8,
+      "kod": "SPD_A_NEZAVISLI_KANDIDATI_ZA_ZELENOU_PRO_ZIDENICE",
+      "nazev": "SPD a nezávislí kandidáti za zelenou pro Židenice",
+      "nazev_plny": "SPD a nezávislí kandidáti za zelenou pro Židenice"
+    }
+  }
+}

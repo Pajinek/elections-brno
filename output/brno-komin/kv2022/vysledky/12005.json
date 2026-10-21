@@ -1,0 +1,68 @@
+{
+  "okrsek": "12005",
+  "obec": "Brno-Komín",
+  "kod_zastupitelstva": 551228,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551228&xstat=0&xvyber=12005",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 888,
+    "vydane_obalky": 474,
+    "ucast_pct": 53.37,
+    "odevzdane_obalky": 474,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 7806
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "TOP_09",
+      "nazev": "TOP 09",
+      "hlasy": 291,
+      "procenta": 3.72
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+      "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+      "hlasy": 597,
+      "procenta": 7.64
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1517,
+      "procenta": 19.43
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "KOMIN_PRO_DETI_A_SPORTOVCE",
+      "nazev": "Komín pro děti a sportovce",
+      "hlasy": 414,
+      "procenta": 5.3
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 881,
+      "procenta": 11.28
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 122,
+      "procenta": 1.56
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ZELENA_PRO_KOMIN",
+      "nazev": "Zelená pro Komín",
+      "hlasy": 3984,
+      "procenta": 51.03
+    }
+  ]
+}

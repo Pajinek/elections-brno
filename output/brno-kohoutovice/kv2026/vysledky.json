@@ -1,0 +1,811 @@
+{
+  "zastupitelstvo": 551147,
+  "obec": "Brno-Kohoutovice",
+  "datum_voleb": "20261009",
+  "pocet_okrsku": 11,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+      "nazev": "Kohoutovice, jak je chceme",
+      "nazev_plny": "Kohoutovice, jak je chceme"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPOLECNE_PRO_KOHOUTOVICE_ODS_TOP_09_A_NEZAVISLI",
+      "nazev": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí",
+      "nazev_plny": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "PETR_SAFARIK_ZA_LEPSI_KOHOUTOVICE",
+      "nazev": "Petr Šafařík za lepší Kohoutovice",
+      "nazev_plny": "Petr Šafařík za lepší Kohoutovice"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH",
+      "nazev": "SPD s podporou PRO a nezávislých",
+      "nazev_plny": "SPD s podporou PRO a nezávislých"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "BRNOKLIDEM",
+      "nazev": "Brnoklidem",
+      "nazev_plny": "Brnoklidem"
+    }
+  ],
+  "okrsky": {
+    "11001": {
+      "okrsek": "11001",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T23:34:40",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551147___11001",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551147_11001.json",
+      "prehled": {
+        "volici_v_seznamu": 1154,
+        "vydane_obalky": 644,
+        "ucast_pct": 55.81,
+        "odevzdane_obalky": 631,
+        "odevzdane_pct": 97.98,
+        "platne_hlasy": 12608
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 193,
+          "procenta": 1.53
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1278,
+          "procenta": 10.13
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 4544,
+          "procenta": 36.04
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPOLECNE_PRO_KOHOUTOVICE_ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí",
+          "hlasy": 1850,
+          "procenta": 14.67
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PETR_SAFARIK_ZA_LEPSI_KOHOUTOVICE",
+          "nazev": "Petr Šafařík za lepší Kohoutovice",
+          "hlasy": 3384,
+          "procenta": 26.84
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH",
+          "nazev": "SPD s podporou PRO a nezávislých",
+          "hlasy": 846,
+          "procenta": 6.71
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 513,
+          "procenta": 4.06
+        }
+      ]
+    },
+    "11002": {
+      "okrsek": "11002",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:04:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551147___11002",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551147_11002.json",
+      "prehled": {
+        "volici_v_seznamu": 1023,
+        "vydane_obalky": 512,
+        "ucast_pct": 50.05,
+        "odevzdane_obalky": 507,
+        "odevzdane_pct": 99.02,
+        "platne_hlasy": 9836
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 83,
+          "procenta": 0.84
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1412,
+          "procenta": 14.35
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 3132,
+          "procenta": 31.84
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPOLECNE_PRO_KOHOUTOVICE_ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí",
+          "hlasy": 1175,
+          "procenta": 11.94
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PETR_SAFARIK_ZA_LEPSI_KOHOUTOVICE",
+          "nazev": "Petr Šafařík za lepší Kohoutovice",
+          "hlasy": 3033,
+          "procenta": 30.83
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH",
+          "nazev": "SPD s podporou PRO a nezávislých",
+          "hlasy": 614,
+          "procenta": 6.24
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 387,
+          "procenta": 3.93
+        }
+      ]
+    },
+    "11003": {
+      "okrsek": "11003",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:29:05",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551147___11003",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551147_11003.json",
+      "prehled": {
+        "volici_v_seznamu": 1179,
+        "vydane_obalky": 593,
+        "ucast_pct": 50.3,
+        "odevzdane_obalky": 590,
+        "odevzdane_pct": 99.49,
+        "platne_hlasy": 11290
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 219,
+          "procenta": 1.93
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1429,
+          "procenta": 12.65
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 3663,
+          "procenta": 32.44
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPOLECNE_PRO_KOHOUTOVICE_ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí",
+          "hlasy": 1357,
+          "procenta": 12.01
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PETR_SAFARIK_ZA_LEPSI_KOHOUTOVICE",
+          "nazev": "Petr Šafařík za lepší Kohoutovice",
+          "hlasy": 3540,
+          "procenta": 31.35
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH",
+          "nazev": "SPD s podporou PRO a nezávislých",
+          "hlasy": 548,
+          "procenta": 4.85
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 534,
+          "procenta": 4.72
+        }
+      ]
+    },
+    "11004": {
+      "okrsek": "11004",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:46:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551147___11004",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551147_11004.json",
+      "prehled": {
+        "volici_v_seznamu": 896,
+        "vydane_obalky": 451,
+        "ucast_pct": 50.33,
+        "odevzdane_obalky": 438,
+        "odevzdane_pct": 97.12,
+        "platne_hlasy": 8644
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 72,
+          "procenta": 0.83
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1421,
+          "procenta": 16.43
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 2607,
+          "procenta": 30.15
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPOLECNE_PRO_KOHOUTOVICE_ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí",
+          "hlasy": 1003,
+          "procenta": 11.6
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PETR_SAFARIK_ZA_LEPSI_KOHOUTOVICE",
+          "nazev": "Petr Šafařík za lepší Kohoutovice",
+          "hlasy": 2824,
+          "procenta": 32.67
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH",
+          "nazev": "SPD s podporou PRO a nezávislých",
+          "hlasy": 404,
+          "procenta": 4.67
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 313,
+          "procenta": 3.62
+        }
+      ]
+    },
+    "11005": {
+      "okrsek": "11005",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:54:40",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551147___11005",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551147_11005.json",
+      "prehled": {
+        "volici_v_seznamu": 825,
+        "vydane_obalky": 435,
+        "ucast_pct": 52.73,
+        "odevzdane_obalky": 426,
+        "odevzdane_pct": 97.93,
+        "platne_hlasy": 8493
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 87,
+          "procenta": 1.02
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 846,
+          "procenta": 9.96
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 3272,
+          "procenta": 38.52
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPOLECNE_PRO_KOHOUTOVICE_ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí",
+          "hlasy": 1350,
+          "procenta": 15.89
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PETR_SAFARIK_ZA_LEPSI_KOHOUTOVICE",
+          "nazev": "Petr Šafařík za lepší Kohoutovice",
+          "hlasy": 2088,
+          "procenta": 24.58
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH",
+          "nazev": "SPD s podporou PRO a nezávislých",
+          "hlasy": 464,
+          "procenta": 5.46
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 386,
+          "procenta": 4.54
+        }
+      ]
+    },
+    "11006": {
+      "okrsek": "11006",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:12:55",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551147___11006",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551147_11006.json",
+      "prehled": {
+        "volici_v_seznamu": 838,
+        "vydane_obalky": 438,
+        "ucast_pct": 52.27,
+        "odevzdane_obalky": 432,
+        "odevzdane_pct": 98.86,
+        "platne_hlasy": 8457
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 153,
+          "procenta": 1.8
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 876,
+          "procenta": 10.35
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 2651,
+          "procenta": 31.34
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPOLECNE_PRO_KOHOUTOVICE_ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí",
+          "hlasy": 1024,
+          "procenta": 12.1
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PETR_SAFARIK_ZA_LEPSI_KOHOUTOVICE",
+          "nazev": "Petr Šafařík za lepší Kohoutovice",
+          "hlasy": 2944,
+          "procenta": 34.81
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH",
+          "nazev": "SPD s podporou PRO a nezávislých",
+          "hlasy": 351,
+          "procenta": 4.15
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 458,
+          "procenta": 5.41
+        }
+      ]
+    },
+    "11007": {
+      "okrsek": "11007",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:20:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551147___11007",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551147_11007.json",
+      "prehled": {
+        "volici_v_seznamu": 966,
+        "vydane_obalky": 565,
+        "ucast_pct": 58.49,
+        "odevzdane_obalky": 550,
+        "odevzdane_pct": 97.35,
+        "platne_hlasy": 11043
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 85,
+          "procenta": 0.76
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1098,
+          "procenta": 9.94
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 5054,
+          "procenta": 45.76
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPOLECNE_PRO_KOHOUTOVICE_ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí",
+          "hlasy": 1638,
+          "procenta": 14.83
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PETR_SAFARIK_ZA_LEPSI_KOHOUTOVICE",
+          "nazev": "Petr Šafařík za lepší Kohoutovice",
+          "hlasy": 2129,
+          "procenta": 19.27
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH",
+          "nazev": "SPD s podporou PRO a nezávislých",
+          "hlasy": 743,
+          "procenta": 6.72
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 296,
+          "procenta": 2.68
+        }
+      ]
+    },
+    "11008": {
+      "okrsek": "11008",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:43:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551147___11008",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551147_11008.json",
+      "prehled": {
+        "volici_v_seznamu": 738,
+        "vydane_obalky": 442,
+        "ucast_pct": 59.89,
+        "odevzdane_obalky": 435,
+        "odevzdane_pct": 98.42,
+        "platne_hlasy": 8737
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 70,
+          "procenta": 0.8
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 693,
+          "procenta": 7.93
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 4692,
+          "procenta": 53.7
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPOLECNE_PRO_KOHOUTOVICE_ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí",
+          "hlasy": 1039,
+          "procenta": 11.89
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PETR_SAFARIK_ZA_LEPSI_KOHOUTOVICE",
+          "nazev": "Petr Šafařík za lepší Kohoutovice",
+          "hlasy": 1663,
+          "procenta": 19.03
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH",
+          "nazev": "SPD s podporou PRO a nezávislých",
+          "hlasy": 303,
+          "procenta": 3.46
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 277,
+          "procenta": 3.17
+        }
+      ]
+    },
+    "11009": {
+      "okrsek": "11009",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:08:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551147___11009",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551147_11009.json",
+      "prehled": {
+        "volici_v_seznamu": 589,
+        "vydane_obalky": 292,
+        "ucast_pct": 49.58,
+        "odevzdane_obalky": 285,
+        "odevzdane_pct": 97.6,
+        "platne_hlasy": 5717
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 164,
+          "procenta": 2.86
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 665,
+          "procenta": 11.63
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 1839,
+          "procenta": 32.16
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPOLECNE_PRO_KOHOUTOVICE_ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí",
+          "hlasy": 770,
+          "procenta": 13.46
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PETR_SAFARIK_ZA_LEPSI_KOHOUTOVICE",
+          "nazev": "Petr Šafařík za lepší Kohoutovice",
+          "hlasy": 2019,
+          "procenta": 35.31
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH",
+          "nazev": "SPD s podporou PRO a nezávislých",
+          "hlasy": 123,
+          "procenta": 2.15
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 137,
+          "procenta": 2.39
+        }
+      ]
+    },
+    "11010": {
+      "okrsek": "11010",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:38:55",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551147___11010",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551147_11010.json",
+      "prehled": {
+        "volici_v_seznamu": 760,
+        "vydane_obalky": 385,
+        "ucast_pct": 50.66,
+        "odevzdane_obalky": 362,
+        "odevzdane_pct": 94.03,
+        "platne_hlasy": 7470
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 71,
+          "procenta": 0.95
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 930,
+          "procenta": 12.44
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 2092,
+          "procenta": 28
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPOLECNE_PRO_KOHOUTOVICE_ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí",
+          "hlasy": 1347,
+          "procenta": 18.03
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PETR_SAFARIK_ZA_LEPSI_KOHOUTOVICE",
+          "nazev": "Petr Šafařík za lepší Kohoutovice",
+          "hlasy": 2225,
+          "procenta": 29.78
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH",
+          "nazev": "SPD s podporou PRO a nezávislých",
+          "hlasy": 486,
+          "procenta": 6.5
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 319,
+          "procenta": 4.27
+        }
+      ]
+    },
+    "11011": {
+      "okrsek": "11011",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:21:25",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551147___11011",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551147_11011.json",
+      "prehled": {
+        "volici_v_seznamu": 559,
+        "vydane_obalky": 300,
+        "ucast_pct": 53.67,
+        "odevzdane_obalky": 289,
+        "odevzdane_pct": 96.33,
+        "platne_hlasy": 5825
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 46,
+          "procenta": 0.78
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 988,
+          "procenta": 16.96
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 2027,
+          "procenta": 34.79
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPOLECNE_PRO_KOHOUTOVICE_ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí",
+          "hlasy": 1060,
+          "procenta": 18.19
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PETR_SAFARIK_ZA_LEPSI_KOHOUTOVICE",
+          "nazev": "Petr Šafařík za lepší Kohoutovice",
+          "hlasy": 1257,
+          "procenta": 21.57
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH",
+          "nazev": "SPD s podporou PRO a nezávislých",
+          "hlasy": 242,
+          "procenta": 4.15
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 205,
+          "procenta": 3.51
+        }
+      ]
+    }
+  }
+}

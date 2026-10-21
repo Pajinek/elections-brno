@@ -1,0 +1,96 @@
+{
+  "zastupitelstvo": {
+    "kod": 551431,
+    "nazev": "Brno-Útěchov",
+    "datum_voleb": "20220923",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "UTECHOV_JINAK",
+      "nazev": "Útěchov jinak",
+      "nazev_plny": "Útěchov jinak",
+      "zkratka": "SNK"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana",
+      "zkratka": "ODS"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "PRO_UTECHOV",
+      "nazev": "PRO ÚTĚCHOV",
+      "nazev_plny": "PRO ÚTĚCHOV",
+      "zkratka": "SNK"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "STAROSTOVE_A_OSOBNOSTI_PRO_MORAVU",
+      "nazev": "Starostové a osobnosti pro Moravu",
+      "nazev_plny": "Starostové a osobnosti pro Moravu",
+      "zkratka": "SOM"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "PRO_UTECHOV_S_PODPOROU_KDU_CSL",
+      "nazev": "Pro Útěchov s podporou KDU-ČSL",
+      "nazev_plny": "Pro Útěchov s podporou KDU-ČSL",
+      "zkratka": "KDU-ČSL+NK"
+    }
+  ],
+  "podle_kodu": {
+    "UTECHOV_JINAK": {
+      "cislo_listiny": 1,
+      "kod": "UTECHOV_JINAK",
+      "nazev": "Útěchov jinak",
+      "nazev_plny": "Útěchov jinak",
+      "zkratka": "SNK"
+    },
+    "OBCANSKA_DEMOKRATICKA_STRANA": {
+      "cislo_listiny": 2,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana",
+      "zkratka": "ODS"
+    },
+    "PRO_UTECHOV": {
+      "cislo_listiny": 3,
+      "kod": "PRO_UTECHOV",
+      "nazev": "PRO ÚTĚCHOV",
+      "nazev_plny": "PRO ÚTĚCHOV",
+      "zkratka": "SNK"
+    },
+    "SPD": {
+      "cislo_listiny": 4,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    "STAROSTOVE_A_OSOBNOSTI_PRO_MORAVU": {
+      "cislo_listiny": 5,
+      "kod": "STAROSTOVE_A_OSOBNOSTI_PRO_MORAVU",
+      "nazev": "Starostové a osobnosti pro Moravu",
+      "nazev_plny": "Starostové a osobnosti pro Moravu",
+      "zkratka": "SOM"
+    },
+    "PRO_UTECHOV_S_PODPOROU_KDU_CSL": {
+      "cislo_listiny": 6,
+      "kod": "PRO_UTECHOV_S_PODPOROU_KDU_CSL",
+      "nazev": "Pro Útěchov s podporou KDU-ČSL",
+      "nazev_plny": "Pro Útěchov s podporou KDU-ČSL",
+      "zkratka": "KDU-ČSL+NK"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "okrsek": "14017",
+  "obec": "Brno-Líšeň",
+  "kod_zastupitelstva": 551287,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551287&xstat=0&xvyber=14017",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 1335,
+    "vydane_obalky": 640,
+    "ucast_pct": 47.94,
+    "odevzdane_obalky": 639,
+    "odevzdane_pct": 99.84,
+    "platne_hlasy": 16359
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "hlasy": 786,
+      "procenta": 4.8
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 98,
+      "procenta": 0.59
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "hlasy": 1561,
+      "procenta": 9.54
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SOUSEDE_Z_LISNE",
+      "nazev": "Sousedé z Líšně",
+      "hlasy": 3139,
+      "procenta": 19.18
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1395,
+      "procenta": 8.52
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+      "nazev": "Váš starosta a občané pro Líšeň",
+      "hlasy": 3373,
+      "procenta": 20.61
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "LIDOVCI_A_NESTRANICI_KDU_CSL",
+      "nazev": "Lidovci a nestraníci (KDU-ČSL)",
+      "hlasy": 1756,
+      "procenta": 10.73
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "hlasy": 4251,
+      "procenta": 25.98
+    }
+  ]
+}

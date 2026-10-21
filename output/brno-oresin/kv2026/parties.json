@@ -1,0 +1,36 @@
+{
+  "zastupitelstvo": {
+    "kod": 551422,
+    "nazev": "Brno-Ořešín",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "PRO_ORESIN_JSME_ORESIN",
+      "nazev": "PRO OŘEŠÍN - JSME OŘEŠÍN",
+      "nazev_plny": "PRO OŘEŠÍN - JSME OŘEŠÍN"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "SPOLECNE_S_HASICI_PRO_ORESIN",
+      "nazev": "Společně s hasiči pro Ořešín",
+      "nazev_plny": "Společně s hasiči pro Ořešín"
+    }
+  ],
+  "podle_kodu": {
+    "PRO_ORESIN_JSME_ORESIN": {
+      "cislo_listiny": 1,
+      "kod": "PRO_ORESIN_JSME_ORESIN",
+      "nazev": "PRO OŘEŠÍN - JSME OŘEŠÍN",
+      "nazev_plny": "PRO OŘEŠÍN - JSME OŘEŠÍN"
+    },
+    "SPOLECNE_S_HASICI_PRO_ORESIN": {
+      "cislo_listiny": 2,
+      "kod": "SPOLECNE_S_HASICI_PRO_ORESIN",
+      "nazev": "Společně s hasiči pro Ořešín",
+      "nazev_plny": "Společně s hasiči pro Ořešín"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "zastupitelstvo": {
+    "kod": 551091,
+    "nazev": "Brno-Starý Lískovec",
+    "datum_voleb": "20220923",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana",
+      "zkratka": "ODS"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ",
+      "zkratka": "STAN"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "LIDOVCI_A_TOPKA",
+      "nazev": "Lidovci a Topka",
+      "nazev_plny": "Lidovci a Topka",
+      "zkratka": "KDU-ČSL+TOP 09"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "CESKA_PIRATSKA_STRANA",
+      "nazev": "Česká pirátská strana",
+      "nazev_plny": "Česká pirátská strana",
+      "zkratka": "Piráti"
+    }
+  ],
+  "podle_kodu": {
+    "OBCANSKA_DEMOKRATICKA_STRANA": {
+      "cislo_listiny": 1,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana",
+      "zkratka": "ODS"
+    },
+    "RESTART": {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    "STAROSTOVE_A_NEZAVISLI": {
+      "cislo_listiny": 3,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ",
+      "zkratka": "STAN"
+    },
+    "LIDOVCI_A_TOPKA": {
+      "cislo_listiny": 4,
+      "kod": "LIDOVCI_A_TOPKA",
+      "nazev": "Lidovci a Topka",
+      "nazev_plny": "Lidovci a Topka",
+      "zkratka": "KDU-ČSL+TOP 09"
+    },
+    "CESKA_PIRATSKA_STRANA": {
+      "cislo_listiny": 5,
+      "kod": "CESKA_PIRATSKA_STRANA",
+      "nazev": "Česká pirátská strana",
+      "nazev_plny": "Česká pirátská strana",
+      "zkratka": "Piráti"
+    }
+  }
+}

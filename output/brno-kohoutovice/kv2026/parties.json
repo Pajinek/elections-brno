@@ -1,0 +1,96 @@
+{
+  "zastupitelstvo": {
+    "kod": 551147,
+    "nazev": "Brno-Kohoutovice",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+      "nazev": "Kohoutovice, jak je chceme",
+      "nazev_plny": "Kohoutovice, jak je chceme"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPOLECNE_PRO_KOHOUTOVICE_ODS_TOP_09_A_NEZAVISLI",
+      "nazev": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí",
+      "nazev_plny": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "PETR_SAFARIK_ZA_LEPSI_KOHOUTOVICE",
+      "nazev": "Petr Šafařík za lepší Kohoutovice",
+      "nazev_plny": "Petr Šafařík za lepší Kohoutovice"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH",
+      "nazev": "SPD s podporou PRO a nezávislých",
+      "nazev_plny": "SPD s podporou PRO a nezávislých"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "BRNOKLIDEM",
+      "nazev": "Brnoklidem",
+      "nazev_plny": "Brnoklidem"
+    }
+  ],
+  "podle_kodu": {
+    "RESTART": {
+      "cislo_listiny": 1,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    "ANO": {
+      "cislo_listiny": 2,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    "KOHOUTOVICE_JAK_JE_CHCEME": {
+      "cislo_listiny": 3,
+      "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+      "nazev": "Kohoutovice, jak je chceme",
+      "nazev_plny": "Kohoutovice, jak je chceme"
+    },
+    "SPOLECNE_PRO_KOHOUTOVICE_ODS_TOP_09_A_NEZAVISLI": {
+      "cislo_listiny": 4,
+      "kod": "SPOLECNE_PRO_KOHOUTOVICE_ODS_TOP_09_A_NEZAVISLI",
+      "nazev": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí",
+      "nazev_plny": "SPOLEČNĚ PRO KOHOUTOVICE - ODS, TOP 09 a nezávislí"
+    },
+    "PETR_SAFARIK_ZA_LEPSI_KOHOUTOVICE": {
+      "cislo_listiny": 5,
+      "kod": "PETR_SAFARIK_ZA_LEPSI_KOHOUTOVICE",
+      "nazev": "Petr Šafařík za lepší Kohoutovice",
+      "nazev_plny": "Petr Šafařík za lepší Kohoutovice"
+    },
+    "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH": {
+      "cislo_listiny": 6,
+      "kod": "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH",
+      "nazev": "SPD s podporou PRO a nezávislých",
+      "nazev_plny": "SPD s podporou PRO a nezávislých"
+    },
+    "BRNOKLIDEM": {
+      "cislo_listiny": 7,
+      "kod": "BRNOKLIDEM",
+      "nazev": "Brnoklidem",
+      "nazev_plny": "Brnoklidem"
+    }
+  }
+}

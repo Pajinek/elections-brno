@@ -1,0 +1,96 @@
+{
+  "zastupitelstvo": {
+    "kod": 551309,
+    "nazev": "Brno-Tuřany",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ZIJEME_ZDE",
+      "nazev": "ŽIJEME ZDE",
+      "nazev_plny": "ŽIJEME ZDE"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "NOVI_LIDOVCI",
+      "nazev": "Noví lidovci",
+      "nazev_plny": "Noví lidovci"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPOLECNE_PRO_TURANY",
+      "nazev": "Společně pro Tuřany",
+      "nazev_plny": "Společně pro Tuřany"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "SDRUZENI_NESTRANIKU_PRO_TURANY",
+      "nazev": "Sdružení nestraníků pro Tuřany",
+      "nazev_plny": "Sdružení nestraníků pro Tuřany"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    }
+  ],
+  "podle_kodu": {
+    "SPD": {
+      "cislo_listiny": 1,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    "ZIJEME_ZDE": {
+      "cislo_listiny": 2,
+      "kod": "ZIJEME_ZDE",
+      "nazev": "ŽIJEME ZDE",
+      "nazev_plny": "ŽIJEME ZDE"
+    },
+    "NOVI_LIDOVCI": {
+      "cislo_listiny": 3,
+      "kod": "NOVI_LIDOVCI",
+      "nazev": "Noví lidovci",
+      "nazev_plny": "Noví lidovci"
+    },
+    "SPOLECNE_PRO_TURANY": {
+      "cislo_listiny": 4,
+      "kod": "SPOLECNE_PRO_TURANY",
+      "nazev": "Společně pro Tuřany",
+      "nazev_plny": "Společně pro Tuřany"
+    },
+    "SDRUZENI_NESTRANIKU_PRO_TURANY": {
+      "cislo_listiny": 5,
+      "kod": "SDRUZENI_NESTRANIKU_PRO_TURANY",
+      "nazev": "Sdružení nestraníků pro Tuřany",
+      "nazev_plny": "Sdružení nestraníků pro Tuřany"
+    },
+    "OBCANSKA_DEMOKRATICKA_STRANA": {
+      "cislo_listiny": 6,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana"
+    },
+    "RESTART": {
+      "cislo_listiny": 7,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    }
+  }
+}

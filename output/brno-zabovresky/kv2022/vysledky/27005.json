@@ -1,0 +1,89 @@
+{
+  "okrsek": "27005",
+  "obec": "Brno-Žabovřesky",
+  "kod_zastupitelstva": 550990,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550990&xstat=0&xvyber=27005",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 524,
+    "vydane_obalky": 250,
+    "ucast_pct": 47.7,
+    "odevzdane_obalky": 250,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 5837
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "KDU_STAN",
+      "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+      "hlasy": 560,
+      "procenta": 9.59
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "CESKA_PIRATSKA_STRANA",
+      "nazev": "Česká pirátská strana",
+      "hlasy": 728,
+      "procenta": 12.47
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "VASE_STAROSTKA_A_CSSD",
+      "nazev": "Vaše starostka a ČSSD",
+      "hlasy": 543,
+      "procenta": 9.3
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "HNUTI_PRO_ZABINY",
+      "nazev": "Hnutí pro Žabiny",
+      "hlasy": 455,
+      "procenta": 7.79
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 228,
+      "procenta": 3.9
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "hlasy": 481,
+      "procenta": 8.24
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1044,
+      "procenta": 17.88
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+      "nazev": "PŘÍSAHA - občanské hnutí Roberta Šlachty",
+      "hlasy": 97,
+      "procenta": 1.66
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "ZELENA_PRO_ZABOVRESKY_STRANA_ZELENYCH_S_PODPOROU_MORAVSKEHO_ZEMSKEHO_HNUTI_A_NEZAVISLYCH_KANDIDATU",
+      "nazev": "Zelená pro Žabovřesky - Strana zelených s podporou Moravského zemského hnutí a nezávislých kandidátů",
+      "hlasy": 471,
+      "procenta": 8.06
+    },
+    {
+      "cislo_listiny": 10,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "hlasy": 1230,
+      "procenta": 21.07
+    }
+  ]
+}

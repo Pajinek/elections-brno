@@ -1,0 +1,76 @@
+{
+  "okrsek": "20018",
+  "obec": "Brno-sever",
+  "kod_zastupitelstva": 551031,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T21:38:20",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551031___20018",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551031_20018.json",
+  "prehled": {
+    "volici_v_seznamu": 770,
+    "vydane_obalky": 357,
+    "ucast_pct": 46.36,
+    "odevzdane_obalky": 353,
+    "odevzdane_pct": 99.16,
+    "platne_hlasy": 11212
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1312,
+      "procenta": 11.7
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "B3",
+      "nazev": "Brno Brňankám a Brňanům! (B3!)",
+      "hlasy": 114,
+      "procenta": 1.01
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 716,
+      "procenta": 6.38
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "TYM_SEVER_SPOLECNE_TU_ODS_TOP09_PIRATI_FAKT_BRNO",
+      "nazev": "TÝM SEVER-SPOLEČNĚ TU! ODS+TOP09+Piráti+Fakt Brno",
+      "hlasy": 2887,
+      "procenta": 25.74
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "HNUTI_SOL",
+      "nazev": "Hnutí SOL",
+      "hlasy": 3965,
+      "procenta": 35.36
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 109,
+      "procenta": 0.97
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "NOVI_LIDOVCI",
+      "nazev": "Noví lidovci",
+      "hlasy": 1803,
+      "procenta": 16.08
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "MOTORISTE_SOBE",
+      "nazev": "Motoristé sobě",
+      "hlasy": 306,
+      "procenta": 2.72
+    }
+  ]
+}

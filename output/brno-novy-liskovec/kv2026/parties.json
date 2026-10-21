@@ -1,0 +1,72 @@
+{
+  "zastupitelstvo": {
+    "kod": 551112,
+    "nazev": "Brno-Nový Lískovec",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ODS_TOP_09_A_NEZAVISLI",
+      "nazev": "ODS, TOP 09 a nezávislí",
+      "nazev_plny": "ODS, TOP 09 a nezávislí"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "TRI_ORISKY_PRO_LISKOVEC",
+      "nazev": "Tři oříšky pro Lískovec",
+      "nazev_plny": "Tři oříšky pro Lískovec"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "NOVI_LIDOVCI_PRO_LISKOVEC",
+      "nazev": "Noví lidovci pro Lískovec",
+      "nazev_plny": "Noví lidovci pro Lískovec"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "NOVOLISKOVECTI_PATRIOTI",
+      "nazev": "NOVOLÍSKOVEČTÍ PATRIOTI",
+      "nazev_plny": "NOVOLÍSKOVEČTÍ PATRIOTI"
+    }
+  ],
+  "podle_kodu": {
+    "ODS_TOP_09_A_NEZAVISLI": {
+      "cislo_listiny": 1,
+      "kod": "ODS_TOP_09_A_NEZAVISLI",
+      "nazev": "ODS, TOP 09 a nezávislí",
+      "nazev_plny": "ODS, TOP 09 a nezávislí"
+    },
+    "TRI_ORISKY_PRO_LISKOVEC": {
+      "cislo_listiny": 2,
+      "kod": "TRI_ORISKY_PRO_LISKOVEC",
+      "nazev": "Tři oříšky pro Lískovec",
+      "nazev_plny": "Tři oříšky pro Lískovec"
+    },
+    "ANO": {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    "NOVI_LIDOVCI_PRO_LISKOVEC": {
+      "cislo_listiny": 4,
+      "kod": "NOVI_LIDOVCI_PRO_LISKOVEC",
+      "nazev": "Noví lidovci pro Lískovec",
+      "nazev_plny": "Noví lidovci pro Lískovec"
+    },
+    "NOVOLISKOVECTI_PATRIOTI": {
+      "cislo_listiny": 5,
+      "kod": "NOVOLISKOVECTI_PATRIOTI",
+      "nazev": "NOVOLÍSKOVEČTÍ PATRIOTI",
+      "nazev_plny": "NOVOLÍSKOVEČTÍ PATRIOTI"
+    }
+  }
+}

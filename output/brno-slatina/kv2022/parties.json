@@ -1,0 +1,124 @@
+{
+  "zastupitelstvo": {
+    "kod": 551295,
+    "nazev": "Brno-Slatina",
+    "datum_voleb": "20220923",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "VAS_STAROSTA_CSSD",
+      "nazev": "Váš starosta & ČSSD",
+      "nazev_plny": "Váš starosta & ČSSD",
+      "zkratka": "ČSSD+NK"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana",
+      "zkratka": "ODS"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+      "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+      "nazev_plny": "KDU-ČSL s podporou Starostů a nezávislých",
+      "zkratka": "KDU-ČSL+NK"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "BEZPECNA_SLATINA",
+      "nazev": "BEZPEČNÁ SLATINA",
+      "nazev_plny": "BEZPEČNÁ SLATINA",
+      "zkratka": "NEZ+NK"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "SLATINSTI_NEZAVISLI",
+      "nazev": "SLATINŠTÍ NEZÁVISLÍ",
+      "nazev_plny": "SLATINŠTÍ NEZÁVISLÍ",
+      "zkratka": "SN SLATINA"
+    }
+  ],
+  "podle_kodu": {
+    "SPD": {
+      "cislo_listiny": 1,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    "VAS_STAROSTA_CSSD": {
+      "cislo_listiny": 2,
+      "kod": "VAS_STAROSTA_CSSD",
+      "nazev": "Váš starosta & ČSSD",
+      "nazev_plny": "Váš starosta & ČSSD",
+      "zkratka": "ČSSD+NK"
+    },
+    "OBCANSKA_DEMOKRATICKA_STRANA": {
+      "cislo_listiny": 3,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana",
+      "zkratka": "ODS"
+    },
+    "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH": {
+      "cislo_listiny": 4,
+      "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+      "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+      "nazev_plny": "KDU-ČSL s podporou Starostů a nezávislých",
+      "zkratka": "KDU-ČSL+NK"
+    },
+    "ANO": {
+      "cislo_listiny": 5,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    "BEZPECNA_SLATINA": {
+      "cislo_listiny": 6,
+      "kod": "BEZPECNA_SLATINA",
+      "nazev": "BEZPEČNÁ SLATINA",
+      "nazev_plny": "BEZPEČNÁ SLATINA",
+      "zkratka": "NEZ+NK"
+    },
+    "RESTART": {
+      "cislo_listiny": 7,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    "SLATINSTI_NEZAVISLI": {
+      "cislo_listiny": 8,
+      "kod": "SLATINSTI_NEZAVISLI",
+      "nazev": "SLATINŠTÍ NEZÁVISLÍ",
+      "nazev_plny": "SLATINŠTÍ NEZÁVISLÍ",
+      "zkratka": "SN SLATINA"
+    }
+  }
+}

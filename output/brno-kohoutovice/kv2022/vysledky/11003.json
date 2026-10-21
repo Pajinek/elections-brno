@@ -1,0 +1,89 @@
+{
+  "okrsek": "11003",
+  "obec": "Brno-Kohoutovice",
+  "kod_zastupitelstva": 551147,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551147&xstat=0&xvyber=11003",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 1196,
+    "vydane_obalky": 562,
+    "ucast_pct": 46.98,
+    "odevzdane_obalky": 562,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 10890
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "MORAVANE_OTEVREME_RADNICI",
+      "nazev": "Moravané: otevřeme radnici!",
+      "hlasy": 28,
+      "procenta": 0.25
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "hlasy": 514,
+      "procenta": 4.71
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "PRO_KOHOUTOVICE",
+      "nazev": "PRO Kohoutovice",
+      "hlasy": 475,
+      "procenta": 4.36
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+      "nazev": "Kohoutovice, jak je chceme",
+      "hlasy": 3299,
+      "procenta": 30.29
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 270,
+      "procenta": 2.47
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "ZELENI_A_NEZAVISLI",
+      "nazev": "Zelení a nezávislí",
+      "hlasy": 347,
+      "procenta": 3.18
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "hlasy": 687,
+      "procenta": 6.3
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+      "nazev": "Česká strana sociálně demokratická",
+      "hlasy": 2449,
+      "procenta": 22.48
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1570,
+      "procenta": 14.41
+    },
+    {
+      "cislo_listiny": 10,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "hlasy": 1251,
+      "procenta": 11.48
+    }
+  ]
+}

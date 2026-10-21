@@ -1,0 +1,816 @@
+{
+  "zastupitelstvo": 551279,
+  "obec": "Brno-Vinohrady",
+  "datum_voleb": "20220923",
+  "pocet_okrsku": 10,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+      "nazev": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+      "nazev_plny": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+      "zkratka": "KDU+ODS+TOP 09"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "VINOHRADY_SPOLECNE",
+      "nazev": "Vinohrady společně",
+      "nazev_plny": "Vinohrady společně",
+      "zkratka": "VS"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí",
+      "zkratka": "SPD+NK"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "ANO_PRO_VINOHRADY",
+      "nazev": "Ano pro Vinohrady",
+      "nazev_plny": "Ano pro Vinohrady",
+      "zkratka": "SOM+NK"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "CSSD_A_NEZAVISLI_KANDIDATI",
+      "nazev": "ČSSD a nezávislí kandidáti",
+      "nazev_plny": "ČSSD a nezávislí kandidáti",
+      "zkratka": "ČSSD+NK"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "JIRI_CEJKA_S_OBCANY_PRO_VINOHRADY",
+      "nazev": "Jiří Čejka s občany pro Vinohrady",
+      "nazev_plny": "Jiří Čejka s občany pro Vinohrady",
+      "zkratka": "STAN+NK"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "PLUS_PRO_VINOHRADY",
+      "nazev": "PLUS pro Vinohrady",
+      "nazev_plny": "PLUS pro Vinohrady",
+      "zkratka": "Brno+ + NK"
+    }
+  ],
+  "okrsky": {
+    "26001": {
+      "okrsek": "26001",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551279&xstat=0&xvyber=26001",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 929,
+        "vydane_obalky": 473,
+        "ucast_pct": 50.91,
+        "odevzdane_obalky": 471,
+        "odevzdane_pct": 99.57,
+        "platne_hlasy": 9165
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 1635,
+          "procenta": 17.83
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 64,
+          "procenta": 0.69
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1485,
+          "procenta": 16.2
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 940,
+          "procenta": 10.25
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "ANO_PRO_VINOHRADY",
+          "nazev": "Ano pro Vinohrady",
+          "hlasy": 1460,
+          "procenta": 15.93
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "CSSD_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ČSSD a nezávislí kandidáti",
+          "hlasy": 148,
+          "procenta": 1.61
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "JIRI_CEJKA_S_OBCANY_PRO_VINOHRADY",
+          "nazev": "Jiří Čejka s občany pro Vinohrady",
+          "hlasy": 1335,
+          "procenta": 14.56
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PLUS_PRO_VINOHRADY",
+          "nazev": "PLUS pro Vinohrady",
+          "hlasy": 2098,
+          "procenta": 22.89
+        }
+      ]
+    },
+    "26002": {
+      "okrsek": "26002",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551279&xstat=0&xvyber=26002",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 1043,
+        "vydane_obalky": 411,
+        "ucast_pct": 39.4,
+        "odevzdane_obalky": 410,
+        "odevzdane_pct": 99.75,
+        "platne_hlasy": 7854
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 2274,
+          "procenta": 28.95
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 31,
+          "procenta": 0.39
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1175,
+          "procenta": 14.96
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 599,
+          "procenta": 7.62
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "ANO_PRO_VINOHRADY",
+          "nazev": "Ano pro Vinohrady",
+          "hlasy": 810,
+          "procenta": 10.31
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "CSSD_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ČSSD a nezávislí kandidáti",
+          "hlasy": 199,
+          "procenta": 2.53
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "JIRI_CEJKA_S_OBCANY_PRO_VINOHRADY",
+          "nazev": "Jiří Čejka s občany pro Vinohrady",
+          "hlasy": 1008,
+          "procenta": 12.83
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PLUS_PRO_VINOHRADY",
+          "nazev": "PLUS pro Vinohrady",
+          "hlasy": 1758,
+          "procenta": 22.38
+        }
+      ]
+    },
+    "26003": {
+      "okrsek": "26003",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551279&xstat=0&xvyber=26003",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 871,
+        "vydane_obalky": 441,
+        "ucast_pct": 50.63,
+        "odevzdane_obalky": 441,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8627
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 2017,
+          "procenta": 23.38
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 54,
+          "procenta": 0.62
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1205,
+          "procenta": 13.96
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 772,
+          "procenta": 8.94
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "ANO_PRO_VINOHRADY",
+          "nazev": "Ano pro Vinohrady",
+          "hlasy": 739,
+          "procenta": 8.56
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "CSSD_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ČSSD a nezávislí kandidáti",
+          "hlasy": 275,
+          "procenta": 3.18
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "JIRI_CEJKA_S_OBCANY_PRO_VINOHRADY",
+          "nazev": "Jiří Čejka s občany pro Vinohrady",
+          "hlasy": 947,
+          "procenta": 10.97
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PLUS_PRO_VINOHRADY",
+          "nazev": "PLUS pro Vinohrady",
+          "hlasy": 2618,
+          "procenta": 30.34
+        }
+      ]
+    },
+    "26004": {
+      "okrsek": "26004",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551279&xstat=0&xvyber=26004",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 1185,
+        "vydane_obalky": 556,
+        "ucast_pct": 46.91,
+        "odevzdane_obalky": 554,
+        "odevzdane_pct": 99.64,
+        "platne_hlasy": 10809
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 2287,
+          "procenta": 21.15
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 93,
+          "procenta": 0.86
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1397,
+          "procenta": 12.92
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 901,
+          "procenta": 8.33
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "ANO_PRO_VINOHRADY",
+          "nazev": "Ano pro Vinohrady",
+          "hlasy": 1099,
+          "procenta": 10.16
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "CSSD_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ČSSD a nezávislí kandidáti",
+          "hlasy": 247,
+          "procenta": 2.28
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "JIRI_CEJKA_S_OBCANY_PRO_VINOHRADY",
+          "nazev": "Jiří Čejka s občany pro Vinohrady",
+          "hlasy": 2610,
+          "procenta": 24.14
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PLUS_PRO_VINOHRADY",
+          "nazev": "PLUS pro Vinohrady",
+          "hlasy": 2175,
+          "procenta": 20.12
+        }
+      ]
+    },
+    "26005": {
+      "okrsek": "26005",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551279&xstat=0&xvyber=26005",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 952,
+        "vydane_obalky": 482,
+        "ucast_pct": 50.63,
+        "odevzdane_obalky": 479,
+        "odevzdane_pct": 99.37,
+        "platne_hlasy": 9262
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 2814,
+          "procenta": 30.38
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 10,
+          "procenta": 0.1
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1129,
+          "procenta": 12.18
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 908,
+          "procenta": 9.8
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "ANO_PRO_VINOHRADY",
+          "nazev": "Ano pro Vinohrady",
+          "hlasy": 642,
+          "procenta": 6.93
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "CSSD_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ČSSD a nezávislí kandidáti",
+          "hlasy": 352,
+          "procenta": 3.8
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "JIRI_CEJKA_S_OBCANY_PRO_VINOHRADY",
+          "nazev": "Jiří Čejka s občany pro Vinohrady",
+          "hlasy": 1068,
+          "procenta": 11.53
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PLUS_PRO_VINOHRADY",
+          "nazev": "PLUS pro Vinohrady",
+          "hlasy": 2339,
+          "procenta": 25.25
+        }
+      ]
+    },
+    "26006": {
+      "okrsek": "26006",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551279&xstat=0&xvyber=26006",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 911,
+        "vydane_obalky": 449,
+        "ucast_pct": 49.28,
+        "odevzdane_obalky": 449,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8739
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 1765,
+          "procenta": 20.19
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 35,
+          "procenta": 0.4
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1526,
+          "procenta": 17.46
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 938,
+          "procenta": 10.73
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "ANO_PRO_VINOHRADY",
+          "nazev": "Ano pro Vinohrady",
+          "hlasy": 946,
+          "procenta": 10.82
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "CSSD_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ČSSD a nezávislí kandidáti",
+          "hlasy": 183,
+          "procenta": 2.09
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "JIRI_CEJKA_S_OBCANY_PRO_VINOHRADY",
+          "nazev": "Jiří Čejka s občany pro Vinohrady",
+          "hlasy": 1424,
+          "procenta": 16.29
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PLUS_PRO_VINOHRADY",
+          "nazev": "PLUS pro Vinohrady",
+          "hlasy": 1922,
+          "procenta": 21.99
+        }
+      ]
+    },
+    "26007": {
+      "okrsek": "26007",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551279&xstat=0&xvyber=26007",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 940,
+        "vydane_obalky": 389,
+        "ucast_pct": 41.38,
+        "odevzdane_obalky": 388,
+        "odevzdane_pct": 99.74,
+        "platne_hlasy": 7457
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 1369,
+          "procenta": 18.35
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 17,
+          "procenta": 0.22
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1284,
+          "procenta": 17.21
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 499,
+          "procenta": 6.69
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "ANO_PRO_VINOHRADY",
+          "nazev": "Ano pro Vinohrady",
+          "hlasy": 732,
+          "procenta": 9.81
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "CSSD_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ČSSD a nezávislí kandidáti",
+          "hlasy": 132,
+          "procenta": 1.77
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "JIRI_CEJKA_S_OBCANY_PRO_VINOHRADY",
+          "nazev": "Jiří Čejka s občany pro Vinohrady",
+          "hlasy": 2096,
+          "procenta": 28.1
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PLUS_PRO_VINOHRADY",
+          "nazev": "PLUS pro Vinohrady",
+          "hlasy": 1328,
+          "procenta": 17.8
+        }
+      ]
+    },
+    "26008": {
+      "okrsek": "26008",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551279&xstat=0&xvyber=26008",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 907,
+        "vydane_obalky": 469,
+        "ucast_pct": 51.7,
+        "odevzdane_obalky": 469,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 9355
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 1844,
+          "procenta": 19.71
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 15,
+          "procenta": 0.16
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1741,
+          "procenta": 18.61
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 810,
+          "procenta": 8.65
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "ANO_PRO_VINOHRADY",
+          "nazev": "Ano pro Vinohrady",
+          "hlasy": 1006,
+          "procenta": 10.75
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "CSSD_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ČSSD a nezávislí kandidáti",
+          "hlasy": 217,
+          "procenta": 2.31
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "JIRI_CEJKA_S_OBCANY_PRO_VINOHRADY",
+          "nazev": "Jiří Čejka s občany pro Vinohrady",
+          "hlasy": 1483,
+          "procenta": 15.85
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PLUS_PRO_VINOHRADY",
+          "nazev": "PLUS pro Vinohrady",
+          "hlasy": 2239,
+          "procenta": 23.93
+        }
+      ]
+    },
+    "26009": {
+      "okrsek": "26009",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551279&xstat=0&xvyber=26009",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 931,
+        "vydane_obalky": 468,
+        "ucast_pct": 50.26,
+        "odevzdane_obalky": 464,
+        "odevzdane_pct": 99.14,
+        "platne_hlasy": 8653
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 1080,
+          "procenta": 12.48
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 111,
+          "procenta": 1.28
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1431,
+          "procenta": 16.53
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 698,
+          "procenta": 8.06
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "ANO_PRO_VINOHRADY",
+          "nazev": "Ano pro Vinohrady",
+          "hlasy": 1038,
+          "procenta": 11.99
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "CSSD_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ČSSD a nezávislí kandidáti",
+          "hlasy": 160,
+          "procenta": 1.84
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "JIRI_CEJKA_S_OBCANY_PRO_VINOHRADY",
+          "nazev": "Jiří Čejka s občany pro Vinohrady",
+          "hlasy": 2808,
+          "procenta": 32.45
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PLUS_PRO_VINOHRADY",
+          "nazev": "PLUS pro Vinohrady",
+          "hlasy": 1327,
+          "procenta": 15.33
+        }
+      ]
+    },
+    "26010": {
+      "okrsek": "26010",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551279&xstat=0&xvyber=26010",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 926,
+        "vydane_obalky": 412,
+        "ucast_pct": 44.49,
+        "odevzdane_obalky": 410,
+        "odevzdane_pct": 99.51,
+        "platne_hlasy": 7815
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU pro Vinohrady (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 1265,
+          "procenta": 16.18
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 20,
+          "procenta": 0.25
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1393,
+          "procenta": 17.82
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 587,
+          "procenta": 7.51
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "ANO_PRO_VINOHRADY",
+          "nazev": "Ano pro Vinohrady",
+          "hlasy": 736,
+          "procenta": 9.41
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "CSSD_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ČSSD a nezávislí kandidáti",
+          "hlasy": 211,
+          "procenta": 2.69
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "JIRI_CEJKA_S_OBCANY_PRO_VINOHRADY",
+          "nazev": "Jiří Čejka s občany pro Vinohrady",
+          "hlasy": 2353,
+          "procenta": 30.1
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PLUS_PRO_VINOHRADY",
+          "nazev": "PLUS pro Vinohrady",
+          "hlasy": 1250,
+          "procenta": 15.99
+        }
+      ]
+    }
+  }
+}

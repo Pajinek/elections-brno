@@ -1,0 +1,75 @@
+{
+  "okrsek": "21007",
+  "obec": "Brno-Slatina",
+  "kod_zastupitelstva": 551295,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551295&xstat=0&xvyber=21007",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 927,
+    "vydane_obalky": 503,
+    "ucast_pct": 54.26,
+    "odevzdane_obalky": 503,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 9521
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "hlasy": 753,
+      "procenta": 7.9
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "VAS_STAROSTA_CSSD",
+      "nazev": "Váš starosta & ČSSD",
+      "hlasy": 3103,
+      "procenta": 32.59
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 764,
+      "procenta": 8.02
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+      "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+      "hlasy": 3326,
+      "procenta": 34.93
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1004,
+      "procenta": 10.54
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "BEZPECNA_SLATINA",
+      "nazev": "BEZPEČNÁ SLATINA",
+      "hlasy": 105,
+      "procenta": 1.1
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 134,
+      "procenta": 1.4
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "SLATINSTI_NEZAVISLI",
+      "nazev": "SLATINŠTÍ NEZÁVISLÍ",
+      "hlasy": 332,
+      "procenta": 3.48
+    }
+  ]
+}

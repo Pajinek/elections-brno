@@ -1,0 +1,84 @@
+{
+  "zastupitelstvo": {
+    "kod": 551236,
+    "nazev": "Brno-Medlánky",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "OBCANE_PRO_MEDLANKY",
+      "nazev": "Občané pro Medlánky",
+      "nazev_plny": "Občané pro Medlánky"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ZELENE_MEDLANKY",
+      "nazev": "Zelené Medlánky",
+      "nazev_plny": "Zelené Medlánky"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "MEDLANECTI_NEZAVISLI_A_ODS",
+      "nazev": "Medlánečtí nezávislí a ODS",
+      "nazev_plny": "Medlánečtí nezávislí a ODS"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "LIDOVCI",
+      "nazev": "Lidovci",
+      "nazev_plny": "Lidovci"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "KOALICE_POLITICKYCH_STRAN_A_HNUTI_RESTART_PRO_BRNO",
+      "nazev": "Koalice politických stran a hnutí Restart pro Brno",
+      "nazev_plny": "Koalice politických stran a hnutí Restart pro Brno"
+    }
+  ],
+  "podle_kodu": {
+    "OBCANE_PRO_MEDLANKY": {
+      "cislo_listiny": 1,
+      "kod": "OBCANE_PRO_MEDLANKY",
+      "nazev": "Občané pro Medlánky",
+      "nazev_plny": "Občané pro Medlánky"
+    },
+    "ZELENE_MEDLANKY": {
+      "cislo_listiny": 2,
+      "kod": "ZELENE_MEDLANKY",
+      "nazev": "Zelené Medlánky",
+      "nazev_plny": "Zelené Medlánky"
+    },
+    "SPD": {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    "MEDLANECTI_NEZAVISLI_A_ODS": {
+      "cislo_listiny": 4,
+      "kod": "MEDLANECTI_NEZAVISLI_A_ODS",
+      "nazev": "Medlánečtí nezávislí a ODS",
+      "nazev_plny": "Medlánečtí nezávislí a ODS"
+    },
+    "LIDOVCI": {
+      "cislo_listiny": 5,
+      "kod": "LIDOVCI",
+      "nazev": "Lidovci",
+      "nazev_plny": "Lidovci"
+    },
+    "KOALICE_POLITICKYCH_STRAN_A_HNUTI_RESTART_PRO_BRNO": {
+      "cislo_listiny": 6,
+      "kod": "KOALICE_POLITICKYCH_STRAN_A_HNUTI_RESTART_PRO_BRNO",
+      "nazev": "Koalice politických stran a hnutí Restart pro Brno",
+      "nazev_plny": "Koalice politických stran a hnutí Restart pro Brno"
+    }
+  }
+}

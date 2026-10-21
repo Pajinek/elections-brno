@@ -1,0 +1,83 @@
+{
+  "okrsek": "13008",
+  "obec": "Brno-Královo Pole",
+  "kod_zastupitelstva": 551007,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T21:49:20",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551007___13008",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551007_13008.json",
+  "prehled": {
+    "volici_v_seznamu": 1007,
+    "vydane_obalky": 536,
+    "ucast_pct": 53.23,
+    "odevzdane_obalky": 507,
+    "odevzdane_pct": 94.59,
+    "platne_hlasy": 13148
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ZALUZANKY",
+      "nazev": "Za Lužánky",
+      "hlasy": 462,
+      "procenta": 3.51
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 73,
+      "procenta": 0.55
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "KRALOVOPOLSTI_PATRIOTI_S_BRNOKLIDEM",
+      "nazev": "Královopolští patrioti s Brnoklidem",
+      "hlasy": 1303,
+      "procenta": 9.91
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "ODS_TOP09",
+      "nazev": "ODS a TOP 09",
+      "hlasy": 2881,
+      "procenta": 21.91
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "PIRATI_A_ZELENI_TU_PRO_KRALOVO_POLE",
+      "nazev": "Piráti a Zelení TU! pro Královo Pole",
+      "hlasy": 2887,
+      "procenta": 21.95
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "MOTORISTE_SOBE",
+      "nazev": "Motoristé sobě",
+      "hlasy": 251,
+      "procenta": 1.9
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1621,
+      "procenta": 12.32
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "LIDOVCI_A_STAROSTOVE",
+      "nazev": "LIDOVCI A STAROSTOVÉ",
+      "hlasy": 3225,
+      "procenta": 24.52
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 445,
+      "procenta": 3.38
+    }
+  ]
+}

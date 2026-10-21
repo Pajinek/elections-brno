@@ -1,0 +1,1046 @@
+{
+  "zastupitelstvo": 551082,
+  "obec": "Brno-Bohunice",
+  "datum_voleb": "20261009",
+  "pocet_okrsku": 13,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "LIDOVCI",
+      "nazev": "Lidovci",
+      "nazev_plny": "Lidovci"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ZMENA_V_BOH_TOP09_PIRATI_BRNOPLUS_STAN_FAKTBR",
+      "nazev": "Změna v Boh.(TOP09,Piráti,BrnoPlus, STAN,FaktBr.)",
+      "nazev_plny": "Změna v Bohunicích (TOP 09, Piráti, Brno Plus, STAROSTOVÉ, Fakt Brno)"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "BOHUNICE_NAPLNO_PARKOVANI_ZDARMA_AQUAPARK",
+      "nazev": "BOHUNICE NAPLNO: parkování zdarma, aquapark…",
+      "nazev_plny": "BOHUNICE NAPLNO: parkování zdarma, aquapark…"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "PRO_BOHUNICE",
+      "nazev": "PRO BOhunice",
+      "nazev_plny": "PRO BOhunice"
+    }
+  ],
+  "okrsky": {
+    "1001": {
+      "okrsek": "1001",
+      "obec": "Brno-Bohunice",
+      "kod_zastupitelstva": 551082,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T17:12:55",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551082___1001",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551082_1001.json",
+      "prehled": {
+        "volici_v_seznamu": 703,
+        "vydane_obalky": 304,
+        "ucast_pct": 43.24,
+        "odevzdane_obalky": 304,
+        "odevzdane_pct": 100,
+        "platne_hlasy": 6021
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 178,
+          "procenta": 2.95
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "LIDOVCI",
+          "nazev": "Lidovci",
+          "hlasy": 1907,
+          "procenta": 31.67
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ZMENA_V_BOH_TOP09_PIRATI_BRNOPLUS_STAN_FAKTBR",
+          "nazev": "Změna v Boh.(TOP09,Piráti,BrnoPlus, STAN,FaktBr.)",
+          "hlasy": 1137,
+          "procenta": 18.88
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BOHUNICE_NAPLNO_PARKOVANI_ZDARMA_AQUAPARK",
+          "nazev": "BOHUNICE NAPLNO: parkování zdarma, aquapark…",
+          "hlasy": 118,
+          "procenta": 1.95
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 69,
+          "procenta": 1.14
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 789,
+          "procenta": 13.1
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 281,
+          "procenta": 4.66
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_BOHUNICE",
+          "nazev": "PRO BOhunice",
+          "hlasy": 1542,
+          "procenta": 25.61
+        }
+      ]
+    },
+    "1002": {
+      "okrsek": "1002",
+      "obec": "Brno-Bohunice",
+      "kod_zastupitelstva": 551082,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:48:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551082___1002",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551082_1002.json",
+      "prehled": {
+        "volici_v_seznamu": 895,
+        "vydane_obalky": 379,
+        "ucast_pct": 42.35,
+        "odevzdane_obalky": 370,
+        "odevzdane_pct": 97.88,
+        "platne_hlasy": 7384
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 354,
+          "procenta": 4.79
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "LIDOVCI",
+          "nazev": "Lidovci",
+          "hlasy": 1827,
+          "procenta": 24.74
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ZMENA_V_BOH_TOP09_PIRATI_BRNOPLUS_STAN_FAKTBR",
+          "nazev": "Změna v Boh.(TOP09,Piráti,BrnoPlus, STAN,FaktBr.)",
+          "hlasy": 1555,
+          "procenta": 21.05
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BOHUNICE_NAPLNO_PARKOVANI_ZDARMA_AQUAPARK",
+          "nazev": "BOHUNICE NAPLNO: parkování zdarma, aquapark…",
+          "hlasy": 219,
+          "procenta": 2.96
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 191,
+          "procenta": 2.58
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1152,
+          "procenta": 15.6
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 479,
+          "procenta": 6.48
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_BOHUNICE",
+          "nazev": "PRO BOhunice",
+          "hlasy": 1607,
+          "procenta": 21.76
+        }
+      ]
+    },
+    "1003": {
+      "okrsek": "1003",
+      "obec": "Brno-Bohunice",
+      "kod_zastupitelstva": 551082,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:53:35",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551082___1003",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551082_1003.json",
+      "prehled": {
+        "volici_v_seznamu": 910,
+        "vydane_obalky": 438,
+        "ucast_pct": 48.13,
+        "odevzdane_obalky": 432,
+        "odevzdane_pct": 98.63,
+        "platne_hlasy": 8477
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 527,
+          "procenta": 6.21
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "LIDOVCI",
+          "nazev": "Lidovci",
+          "hlasy": 2243,
+          "procenta": 26.45
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ZMENA_V_BOH_TOP09_PIRATI_BRNOPLUS_STAN_FAKTBR",
+          "nazev": "Změna v Boh.(TOP09,Piráti,BrnoPlus, STAN,FaktBr.)",
+          "hlasy": 1608,
+          "procenta": 18.96
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BOHUNICE_NAPLNO_PARKOVANI_ZDARMA_AQUAPARK",
+          "nazev": "BOHUNICE NAPLNO: parkování zdarma, aquapark…",
+          "hlasy": 219,
+          "procenta": 2.58
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 68,
+          "procenta": 0.8
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1051,
+          "procenta": 12.39
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 720,
+          "procenta": 8.49
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_BOHUNICE",
+          "nazev": "PRO BOhunice",
+          "hlasy": 2041,
+          "procenta": 24.07
+        }
+      ]
+    },
+    "1004": {
+      "okrsek": "1004",
+      "obec": "Brno-Bohunice",
+      "kod_zastupitelstva": 551082,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:36:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551082___1004",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551082_1004.json",
+      "prehled": {
+        "volici_v_seznamu": 902,
+        "vydane_obalky": 400,
+        "ucast_pct": 44.35,
+        "odevzdane_obalky": 393,
+        "odevzdane_pct": 98.25,
+        "platne_hlasy": 7703
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 238,
+          "procenta": 3.08
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "LIDOVCI",
+          "nazev": "Lidovci",
+          "hlasy": 2010,
+          "procenta": 26.09
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ZMENA_V_BOH_TOP09_PIRATI_BRNOPLUS_STAN_FAKTBR",
+          "nazev": "Změna v Boh.(TOP09,Piráti,BrnoPlus, STAN,FaktBr.)",
+          "hlasy": 1699,
+          "procenta": 22.05
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BOHUNICE_NAPLNO_PARKOVANI_ZDARMA_AQUAPARK",
+          "nazev": "BOHUNICE NAPLNO: parkování zdarma, aquapark…",
+          "hlasy": 366,
+          "procenta": 4.75
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 124,
+          "procenta": 1.6
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 981,
+          "procenta": 12.73
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 454,
+          "procenta": 5.89
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_BOHUNICE",
+          "nazev": "PRO BOhunice",
+          "hlasy": 1831,
+          "procenta": 23.76
+        }
+      ]
+    },
+    "1005": {
+      "okrsek": "1005",
+      "obec": "Brno-Bohunice",
+      "kod_zastupitelstva": 551082,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:52:20",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551082___1005",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551082_1005.json",
+      "prehled": {
+        "volici_v_seznamu": 721,
+        "vydane_obalky": 361,
+        "ucast_pct": 50.07,
+        "odevzdane_obalky": 356,
+        "odevzdane_pct": 98.61,
+        "platne_hlasy": 7176
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 162,
+          "procenta": 2.25
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "LIDOVCI",
+          "nazev": "Lidovci",
+          "hlasy": 1939,
+          "procenta": 27.02
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ZMENA_V_BOH_TOP09_PIRATI_BRNOPLUS_STAN_FAKTBR",
+          "nazev": "Změna v Boh.(TOP09,Piráti,BrnoPlus, STAN,FaktBr.)",
+          "hlasy": 1138,
+          "procenta": 15.85
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BOHUNICE_NAPLNO_PARKOVANI_ZDARMA_AQUAPARK",
+          "nazev": "BOHUNICE NAPLNO: parkování zdarma, aquapark…",
+          "hlasy": 315,
+          "procenta": 4.38
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 77,
+          "procenta": 1.07
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 686,
+          "procenta": 9.55
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 525,
+          "procenta": 7.31
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_BOHUNICE",
+          "nazev": "PRO BOhunice",
+          "hlasy": 2334,
+          "procenta": 32.52
+        }
+      ]
+    },
+    "1006": {
+      "okrsek": "1006",
+      "obec": "Brno-Bohunice",
+      "kod_zastupitelstva": 551082,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T17:59:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551082___1006",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551082_1006.json",
+      "prehled": {
+        "volici_v_seznamu": 775,
+        "vydane_obalky": 356,
+        "ucast_pct": 45.94,
+        "odevzdane_obalky": 345,
+        "odevzdane_pct": 96.91,
+        "platne_hlasy": 7010
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 263,
+          "procenta": 3.75
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "LIDOVCI",
+          "nazev": "Lidovci",
+          "hlasy": 2192,
+          "procenta": 31.26
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ZMENA_V_BOH_TOP09_PIRATI_BRNOPLUS_STAN_FAKTBR",
+          "nazev": "Změna v Boh.(TOP09,Piráti,BrnoPlus, STAN,FaktBr.)",
+          "hlasy": 1416,
+          "procenta": 20.19
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BOHUNICE_NAPLNO_PARKOVANI_ZDARMA_AQUAPARK",
+          "nazev": "BOHUNICE NAPLNO: parkování zdarma, aquapark…",
+          "hlasy": 553,
+          "procenta": 7.88
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 42,
+          "procenta": 0.59
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 656,
+          "procenta": 9.35
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 504,
+          "procenta": 7.18
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_BOHUNICE",
+          "nazev": "PRO BOhunice",
+          "hlasy": 1384,
+          "procenta": 19.74
+        }
+      ]
+    },
+    "1007": {
+      "okrsek": "1007",
+      "obec": "Brno-Bohunice",
+      "kod_zastupitelstva": 551082,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:09:40",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551082___1007",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551082_1007.json",
+      "prehled": {
+        "volici_v_seznamu": 754,
+        "vydane_obalky": 363,
+        "ucast_pct": 48.14,
+        "odevzdane_obalky": 350,
+        "odevzdane_pct": 96.69,
+        "platne_hlasy": 6730
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 543,
+          "procenta": 8.06
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "LIDOVCI",
+          "nazev": "Lidovci",
+          "hlasy": 2079,
+          "procenta": 30.89
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ZMENA_V_BOH_TOP09_PIRATI_BRNOPLUS_STAN_FAKTBR",
+          "nazev": "Změna v Boh.(TOP09,Piráti,BrnoPlus, STAN,FaktBr.)",
+          "hlasy": 1156,
+          "procenta": 17.17
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BOHUNICE_NAPLNO_PARKOVANI_ZDARMA_AQUAPARK",
+          "nazev": "BOHUNICE NAPLNO: parkování zdarma, aquapark…",
+          "hlasy": 381,
+          "procenta": 5.66
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 71,
+          "procenta": 1.05
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 479,
+          "procenta": 7.11
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 403,
+          "procenta": 5.98
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_BOHUNICE",
+          "nazev": "PRO BOhunice",
+          "hlasy": 1618,
+          "procenta": 24.04
+        }
+      ]
+    },
+    "1008": {
+      "okrsek": "1008",
+      "obec": "Brno-Bohunice",
+      "kod_zastupitelstva": 551082,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:34:10",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551082___1008",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551082_1008.json",
+      "prehled": {
+        "volici_v_seznamu": 797,
+        "vydane_obalky": 425,
+        "ucast_pct": 53.32,
+        "odevzdane_obalky": 420,
+        "odevzdane_pct": 98.82,
+        "platne_hlasy": 8358
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 626,
+          "procenta": 7.48
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "LIDOVCI",
+          "nazev": "Lidovci",
+          "hlasy": 3015,
+          "procenta": 36.07
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ZMENA_V_BOH_TOP09_PIRATI_BRNOPLUS_STAN_FAKTBR",
+          "nazev": "Změna v Boh.(TOP09,Piráti,BrnoPlus, STAN,FaktBr.)",
+          "hlasy": 1396,
+          "procenta": 16.7
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BOHUNICE_NAPLNO_PARKOVANI_ZDARMA_AQUAPARK",
+          "nazev": "BOHUNICE NAPLNO: parkování zdarma, aquapark…",
+          "hlasy": 310,
+          "procenta": 3.7
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 72,
+          "procenta": 0.86
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 576,
+          "procenta": 6.89
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 223,
+          "procenta": 2.66
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_BOHUNICE",
+          "nazev": "PRO BOhunice",
+          "hlasy": 2140,
+          "procenta": 25.6
+        }
+      ]
+    },
+    "1009": {
+      "okrsek": "1009",
+      "obec": "Brno-Bohunice",
+      "kod_zastupitelstva": 551082,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T17:54:40",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551082___1009",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551082_1009.json",
+      "prehled": {
+        "volici_v_seznamu": 740,
+        "vydane_obalky": 348,
+        "ucast_pct": 47.03,
+        "odevzdane_obalky": 342,
+        "odevzdane_pct": 98.28,
+        "platne_hlasy": 6552
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 330,
+          "procenta": 5.03
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "LIDOVCI",
+          "nazev": "Lidovci",
+          "hlasy": 1817,
+          "procenta": 27.73
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ZMENA_V_BOH_TOP09_PIRATI_BRNOPLUS_STAN_FAKTBR",
+          "nazev": "Změna v Boh.(TOP09,Piráti,BrnoPlus, STAN,FaktBr.)",
+          "hlasy": 1517,
+          "procenta": 23.15
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BOHUNICE_NAPLNO_PARKOVANI_ZDARMA_AQUAPARK",
+          "nazev": "BOHUNICE NAPLNO: parkování zdarma, aquapark…",
+          "hlasy": 196,
+          "procenta": 2.99
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 152,
+          "procenta": 2.31
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 517,
+          "procenta": 7.89
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 929,
+          "procenta": 14.17
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_BOHUNICE",
+          "nazev": "PRO BOhunice",
+          "hlasy": 1094,
+          "procenta": 16.69
+        }
+      ]
+    },
+    "1010": {
+      "okrsek": "1010",
+      "obec": "Brno-Bohunice",
+      "kod_zastupitelstva": 551082,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:04:25",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551082___1010",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551082_1010.json",
+      "prehled": {
+        "volici_v_seznamu": 680,
+        "vydane_obalky": 308,
+        "ucast_pct": 45.29,
+        "odevzdane_obalky": 286,
+        "odevzdane_pct": 92.86,
+        "platne_hlasy": 5651
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 337,
+          "procenta": 5.96
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "LIDOVCI",
+          "nazev": "Lidovci",
+          "hlasy": 1410,
+          "procenta": 24.95
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ZMENA_V_BOH_TOP09_PIRATI_BRNOPLUS_STAN_FAKTBR",
+          "nazev": "Změna v Boh.(TOP09,Piráti,BrnoPlus, STAN,FaktBr.)",
+          "hlasy": 966,
+          "procenta": 17.09
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BOHUNICE_NAPLNO_PARKOVANI_ZDARMA_AQUAPARK",
+          "nazev": "BOHUNICE NAPLNO: parkování zdarma, aquapark…",
+          "hlasy": 239,
+          "procenta": 4.22
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 112,
+          "procenta": 1.98
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 997,
+          "procenta": 17.64
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 367,
+          "procenta": 6.49
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_BOHUNICE",
+          "nazev": "PRO BOhunice",
+          "hlasy": 1223,
+          "procenta": 21.64
+        }
+      ]
+    },
+    "1011": {
+      "okrsek": "1011",
+      "obec": "Brno-Bohunice",
+      "kod_zastupitelstva": 551082,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:35:15",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551082___1011",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551082_1011.json",
+      "prehled": {
+        "volici_v_seznamu": 808,
+        "vydane_obalky": 350,
+        "ucast_pct": 43.32,
+        "odevzdane_obalky": 341,
+        "odevzdane_pct": 97.43,
+        "platne_hlasy": 6787
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 453,
+          "procenta": 6.67
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "LIDOVCI",
+          "nazev": "Lidovci",
+          "hlasy": 2014,
+          "procenta": 29.67
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ZMENA_V_BOH_TOP09_PIRATI_BRNOPLUS_STAN_FAKTBR",
+          "nazev": "Změna v Boh.(TOP09,Piráti,BrnoPlus, STAN,FaktBr.)",
+          "hlasy": 1067,
+          "procenta": 15.72
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BOHUNICE_NAPLNO_PARKOVANI_ZDARMA_AQUAPARK",
+          "nazev": "BOHUNICE NAPLNO: parkování zdarma, aquapark…",
+          "hlasy": 314,
+          "procenta": 4.62
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 140,
+          "procenta": 2.06
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 935,
+          "procenta": 13.77
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 276,
+          "procenta": 4.06
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_BOHUNICE",
+          "nazev": "PRO BOhunice",
+          "hlasy": 1588,
+          "procenta": 23.39
+        }
+      ]
+    },
+    "1012": {
+      "okrsek": "1012",
+      "obec": "Brno-Bohunice",
+      "kod_zastupitelstva": 551082,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:12:15",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551082___1012",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551082_1012.json",
+      "prehled": {
+        "volici_v_seznamu": 651,
+        "vydane_obalky": 330,
+        "ucast_pct": 50.69,
+        "odevzdane_obalky": 320,
+        "odevzdane_pct": 96.97,
+        "platne_hlasy": 6107
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 274,
+          "procenta": 4.48
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "LIDOVCI",
+          "nazev": "Lidovci",
+          "hlasy": 2333,
+          "procenta": 38.2
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ZMENA_V_BOH_TOP09_PIRATI_BRNOPLUS_STAN_FAKTBR",
+          "nazev": "Změna v Boh.(TOP09,Piráti,BrnoPlus, STAN,FaktBr.)",
+          "hlasy": 1124,
+          "procenta": 18.4
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BOHUNICE_NAPLNO_PARKOVANI_ZDARMA_AQUAPARK",
+          "nazev": "BOHUNICE NAPLNO: parkování zdarma, aquapark…",
+          "hlasy": 169,
+          "procenta": 2.76
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 121,
+          "procenta": 1.98
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 753,
+          "procenta": 12.33
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 312,
+          "procenta": 5.1
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_BOHUNICE",
+          "nazev": "PRO BOhunice",
+          "hlasy": 1021,
+          "procenta": 16.71
+        }
+      ]
+    },
+    "1013": {
+      "okrsek": "1013",
+      "obec": "Brno-Bohunice",
+      "kod_zastupitelstva": 551082,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:00:25",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551082___1013",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551082_1013.json",
+      "prehled": {
+        "volici_v_seznamu": 731,
+        "vydane_obalky": 317,
+        "ucast_pct": 43.37,
+        "odevzdane_obalky": 309,
+        "odevzdane_pct": 97.48,
+        "platne_hlasy": 6232
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 166,
+          "procenta": 2.66
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "LIDOVCI",
+          "nazev": "Lidovci",
+          "hlasy": 1816,
+          "procenta": 29.13
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ZMENA_V_BOH_TOP09_PIRATI_BRNOPLUS_STAN_FAKTBR",
+          "nazev": "Změna v Boh.(TOP09,Piráti,BrnoPlus, STAN,FaktBr.)",
+          "hlasy": 1313,
+          "procenta": 21.06
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BOHUNICE_NAPLNO_PARKOVANI_ZDARMA_AQUAPARK",
+          "nazev": "BOHUNICE NAPLNO: parkování zdarma, aquapark…",
+          "hlasy": 137,
+          "procenta": 2.19
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 37,
+          "procenta": 0.59
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1063,
+          "procenta": 17.05
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 294,
+          "procenta": 4.71
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_BOHUNICE",
+          "nazev": "PRO BOhunice",
+          "hlasy": 1406,
+          "procenta": 22.56
+        }
+      ]
+    }
+  }
+}

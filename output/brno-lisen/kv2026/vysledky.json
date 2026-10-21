@@ -1,0 +1,1641 @@
+{
+  "zastupitelstvo": 551287,
+  "obec": "Brno-Líšeň",
+  "datum_voleb": "20261009",
+  "pocet_okrsku": 19,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+      "nazev": "Váš starosta a občané pro Líšeň",
+      "nazev_plny": "Váš starosta a občané pro Líšeň"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+      "nazev": "Noví lidovci - srdcem v Líšni",
+      "nazev_plny": "Noví lidovci - srdcem v Líšni"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+      "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+      "nazev_plny": "Piráti a Fakt Brno TU! pro Líšeň"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "SOUSEDE_Z_LISNE",
+      "nazev": "Sousedé z Líšně",
+      "nazev_plny": "Sousedé z Líšně"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+      "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+      "nazev_plny": "ODS, TOP 09 a nezávislí kandidáti"
+    }
+  ],
+  "okrsky": {
+    "14001": {
+      "okrsek": "14001",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:05:35",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14001",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14001.json",
+      "prehled": {
+        "volici_v_seznamu": 886,
+        "vydane_obalky": 348,
+        "ucast_pct": 39.28,
+        "odevzdane_obalky": 334,
+        "odevzdane_pct": 95.98,
+        "platne_hlasy": 9149
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 640,
+          "procenta": 6.99
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 797,
+          "procenta": 8.71
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 1980,
+          "procenta": 21.64
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 1208,
+          "procenta": 13.2
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 688,
+          "procenta": 7.51
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 1037,
+          "procenta": 11.33
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1372,
+          "procenta": 14.99
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 138,
+          "procenta": 1.5
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 1289,
+          "procenta": 14.08
+        }
+      ]
+    },
+    "14002": {
+      "okrsek": "14002",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:13:25",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14002",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14002.json",
+      "prehled": {
+        "volici_v_seznamu": 1075,
+        "vydane_obalky": 495,
+        "ucast_pct": 46.05,
+        "odevzdane_obalky": 484,
+        "odevzdane_pct": 97.78,
+        "platne_hlasy": 13262
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 287,
+          "procenta": 2.16
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 959,
+          "procenta": 7.23
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 3798,
+          "procenta": 28.63
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 1946,
+          "procenta": 14.67
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 852,
+          "procenta": 6.42
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 1966,
+          "procenta": 14.82
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1849,
+          "procenta": 13.94
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 209,
+          "procenta": 1.57
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 1396,
+          "procenta": 10.52
+        }
+      ]
+    },
+    "14003": {
+      "okrsek": "14003",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:54:15",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14003",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14003.json",
+      "prehled": {
+        "volici_v_seznamu": 1150,
+        "vydane_obalky": 547,
+        "ucast_pct": 47.57,
+        "odevzdane_obalky": 534,
+        "odevzdane_pct": 97.62,
+        "platne_hlasy": 14462
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 811,
+          "procenta": 5.6
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 630,
+          "procenta": 4.35
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 6866,
+          "procenta": 47.47
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 1211,
+          "procenta": 8.37
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 490,
+          "procenta": 3.38
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 1023,
+          "procenta": 7.07
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1698,
+          "procenta": 11.74
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 118,
+          "procenta": 0.81
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 1615,
+          "procenta": 11.16
+        }
+      ]
+    },
+    "14004": {
+      "okrsek": "14004",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:29:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14004",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14004.json",
+      "prehled": {
+        "volici_v_seznamu": 897,
+        "vydane_obalky": 432,
+        "ucast_pct": 48.16,
+        "odevzdane_obalky": 421,
+        "odevzdane_pct": 97.91,
+        "platne_hlasy": 11713
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 483,
+          "procenta": 4.12
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 806,
+          "procenta": 6.88
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 6317,
+          "procenta": 53.93
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 514,
+          "procenta": 4.38
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 178,
+          "procenta": 1.51
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 858,
+          "procenta": 7.32
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1545,
+          "procenta": 13.19
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 56,
+          "procenta": 0.47
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 956,
+          "procenta": 8.16
+        }
+      ]
+    },
+    "14005": {
+      "okrsek": "14005",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:51:40",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14005",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14005.json",
+      "prehled": {
+        "volici_v_seznamu": 1104,
+        "vydane_obalky": 546,
+        "ucast_pct": 49.46,
+        "odevzdane_obalky": 535,
+        "odevzdane_pct": 97.99,
+        "platne_hlasy": 14332
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 709,
+          "procenta": 4.94
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 514,
+          "procenta": 3.58
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 7430,
+          "procenta": 51.84
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 1471,
+          "procenta": 10.26
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 1392,
+          "procenta": 9.71
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 409,
+          "procenta": 2.85
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1114,
+          "procenta": 7.77
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 157,
+          "procenta": 1.09
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 1136,
+          "procenta": 7.92
+        }
+      ]
+    },
+    "14006": {
+      "okrsek": "14006",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:11:25",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14006",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14006.json",
+      "prehled": {
+        "volici_v_seznamu": 845,
+        "vydane_obalky": 434,
+        "ucast_pct": 51.36,
+        "odevzdane_obalky": 425,
+        "odevzdane_pct": 98.15,
+        "platne_hlasy": 11666
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 289,
+          "procenta": 2.47
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 659,
+          "procenta": 5.64
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 5791,
+          "procenta": 49.63
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 1392,
+          "procenta": 11.93
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 474,
+          "procenta": 4.06
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 882,
+          "procenta": 7.56
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1267,
+          "procenta": 10.86
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 152,
+          "procenta": 1.3
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 760,
+          "procenta": 6.51
+        }
+      ]
+    },
+    "14007": {
+      "okrsek": "14007",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:36:30",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14007",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14007.json",
+      "prehled": {
+        "volici_v_seznamu": 1031,
+        "vydane_obalky": 486,
+        "ucast_pct": 47.14,
+        "odevzdane_obalky": 483,
+        "odevzdane_pct": 99.38,
+        "platne_hlasy": 13042
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 484,
+          "procenta": 3.71
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 755,
+          "procenta": 5.78
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 6539,
+          "procenta": 50.13
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 1155,
+          "procenta": 8.85
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 409,
+          "procenta": 3.13
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 1297,
+          "procenta": 9.94
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1212,
+          "procenta": 9.29
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 29,
+          "procenta": 0.22
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 1162,
+          "procenta": 8.9
+        }
+      ]
+    },
+    "14008": {
+      "okrsek": "14008",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:16:45",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14008",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14008.json",
+      "prehled": {
+        "volici_v_seznamu": 1001,
+        "vydane_obalky": 492,
+        "ucast_pct": 49.15,
+        "odevzdane_obalky": 485,
+        "odevzdane_pct": 98.58,
+        "platne_hlasy": 13335
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 504,
+          "procenta": 3.77
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 983,
+          "procenta": 7.37
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 5887,
+          "procenta": 44.14
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 2173,
+          "procenta": 16.29
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 506,
+          "procenta": 3.79
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 814,
+          "procenta": 6.1
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 822,
+          "procenta": 6.16
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 129,
+          "procenta": 0.96
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 1517,
+          "procenta": 11.37
+        }
+      ]
+    },
+    "14009": {
+      "okrsek": "14009",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:17:35",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14009",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14009.json",
+      "prehled": {
+        "volici_v_seznamu": 979,
+        "vydane_obalky": 524,
+        "ucast_pct": 53.52,
+        "odevzdane_obalky": 509,
+        "odevzdane_pct": 97.14,
+        "platne_hlasy": 13924
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 1055,
+          "procenta": 7.57
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 584,
+          "procenta": 4.19
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 7499,
+          "procenta": 53.85
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 1147,
+          "procenta": 8.23
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 364,
+          "procenta": 2.61
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 1030,
+          "procenta": 7.39
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1131,
+          "procenta": 8.12
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 68,
+          "procenta": 0.48
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 1046,
+          "procenta": 7.51
+        }
+      ]
+    },
+    "14010": {
+      "okrsek": "14010",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:39:25",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14010",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14010.json",
+      "prehled": {
+        "volici_v_seznamu": 818,
+        "vydane_obalky": 391,
+        "ucast_pct": 47.8,
+        "odevzdane_obalky": 387,
+        "odevzdane_pct": 98.98,
+        "platne_hlasy": 10640
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 294,
+          "procenta": 2.76
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 491,
+          "procenta": 4.61
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 4835,
+          "procenta": 45.44
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 1696,
+          "procenta": 15.93
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 362,
+          "procenta": 3.4
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 1044,
+          "procenta": 9.81
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 829,
+          "procenta": 7.79
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 160,
+          "procenta": 1.5
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 929,
+          "procenta": 8.73
+        }
+      ]
+    },
+    "14011": {
+      "okrsek": "14011",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:29:40",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14011",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14011.json",
+      "prehled": {
+        "volici_v_seznamu": 748,
+        "vydane_obalky": 352,
+        "ucast_pct": 47.06,
+        "odevzdane_obalky": 344,
+        "odevzdane_pct": 97.73,
+        "platne_hlasy": 9038
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 485,
+          "procenta": 5.36
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 397,
+          "procenta": 4.39
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 3448,
+          "procenta": 38.15
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 1090,
+          "procenta": 12.06
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 319,
+          "procenta": 3.52
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 897,
+          "procenta": 9.92
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1239,
+          "procenta": 13.7
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 64,
+          "procenta": 0.7
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 1099,
+          "procenta": 12.15
+        }
+      ]
+    },
+    "14012": {
+      "okrsek": "14012",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:07:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14012",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14012.json",
+      "prehled": {
+        "volici_v_seznamu": 924,
+        "vydane_obalky": 354,
+        "ucast_pct": 38.31,
+        "odevzdane_obalky": 346,
+        "odevzdane_pct": 97.74,
+        "platne_hlasy": 9352
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 453,
+          "procenta": 4.84
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 446,
+          "procenta": 4.76
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 3862,
+          "procenta": 41.29
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 1096,
+          "procenta": 11.71
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 170,
+          "procenta": 1.81
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 1124,
+          "procenta": 12.01
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1392,
+          "procenta": 14.88
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 161,
+          "procenta": 1.72
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 648,
+          "procenta": 6.92
+        }
+      ]
+    },
+    "14013": {
+      "okrsek": "14013",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:49:10",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14013",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14013.json",
+      "prehled": {
+        "volici_v_seznamu": 941,
+        "vydane_obalky": 443,
+        "ucast_pct": 47.08,
+        "odevzdane_obalky": 436,
+        "odevzdane_pct": 98.42,
+        "platne_hlasy": 11906
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 498,
+          "procenta": 4.18
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 1382,
+          "procenta": 11.6
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 4627,
+          "procenta": 38.86
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 1057,
+          "procenta": 8.87
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 716,
+          "procenta": 6.01
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 1403,
+          "procenta": 11.78
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1223,
+          "procenta": 10.27
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 108,
+          "procenta": 0.9
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 892,
+          "procenta": 7.49
+        }
+      ]
+    },
+    "14014": {
+      "okrsek": "14014",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:37:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14014",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14014.json",
+      "prehled": {
+        "volici_v_seznamu": 1087,
+        "vydane_obalky": 521,
+        "ucast_pct": 47.93,
+        "odevzdane_obalky": 516,
+        "odevzdane_pct": 99.04,
+        "platne_hlasy": 13948
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 707,
+          "procenta": 5.06
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 555,
+          "procenta": 3.97
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 5414,
+          "procenta": 38.81
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 1657,
+          "procenta": 11.87
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 686,
+          "procenta": 4.91
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 1428,
+          "procenta": 10.23
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1097,
+          "procenta": 7.86
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 238,
+          "procenta": 1.7
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 2166,
+          "procenta": 15.52
+        }
+      ]
+    },
+    "14015": {
+      "okrsek": "14015",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:59:45",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14015",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14015.json",
+      "prehled": {
+        "volici_v_seznamu": 1193,
+        "vydane_obalky": 607,
+        "ucast_pct": 50.88,
+        "odevzdane_obalky": 597,
+        "odevzdane_pct": 98.68,
+        "platne_hlasy": 16752
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 878,
+          "procenta": 5.24
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 1271,
+          "procenta": 7.58
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 4363,
+          "procenta": 26.04
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 3579,
+          "procenta": 21.36
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 611,
+          "procenta": 3.64
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 2233,
+          "procenta": 13.32
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1661,
+          "procenta": 9.91
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 188,
+          "procenta": 1.12
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 1968,
+          "procenta": 11.74
+        }
+      ]
+    },
+    "14016": {
+      "okrsek": "14016",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:25:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14016",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14016.json",
+      "prehled": {
+        "volici_v_seznamu": 1165,
+        "vydane_obalky": 716,
+        "ucast_pct": 61.46,
+        "odevzdane_obalky": 708,
+        "odevzdane_pct": 98.88,
+        "platne_hlasy": 19063
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 594,
+          "procenta": 3.11
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 2055,
+          "procenta": 10.78
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 4932,
+          "procenta": 25.87
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 4172,
+          "procenta": 21.88
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 480,
+          "procenta": 2.51
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 2290,
+          "procenta": 12.01
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1651,
+          "procenta": 8.66
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 248,
+          "procenta": 1.3
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 2641,
+          "procenta": 13.85
+        }
+      ]
+    },
+    "14017": {
+      "okrsek": "14017",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T23:13:25",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14017",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14017.json",
+      "prehled": {
+        "volici_v_seznamu": 1393,
+        "vydane_obalky": 733,
+        "ucast_pct": 52.62,
+        "odevzdane_obalky": 730,
+        "odevzdane_pct": 99.73,
+        "platne_hlasy": 19487
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 952,
+          "procenta": 4.88
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 1736,
+          "procenta": 8.9
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 3794,
+          "procenta": 19.46
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 3859,
+          "procenta": 19.8
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 1700,
+          "procenta": 8.72
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 2678,
+          "procenta": 13.74
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1820,
+          "procenta": 9.33
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 115,
+          "procenta": 0.59
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 2833,
+          "procenta": 14.53
+        }
+      ]
+    },
+    "14018": {
+      "okrsek": "14018",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:39:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14018",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14018.json",
+      "prehled": {
+        "volici_v_seznamu": 977,
+        "vydane_obalky": 507,
+        "ucast_pct": 51.89,
+        "odevzdane_obalky": 502,
+        "odevzdane_pct": 99.01,
+        "platne_hlasy": 13857
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 619,
+          "procenta": 4.46
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 671,
+          "procenta": 4.84
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 3197,
+          "procenta": 23.07
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 3042,
+          "procenta": 21.95
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 784,
+          "procenta": 5.65
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 2403,
+          "procenta": 17.34
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1528,
+          "procenta": 11.02
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 46,
+          "procenta": 0.33
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 1567,
+          "procenta": 11.3
+        }
+      ]
+    },
+    "14019": {
+      "okrsek": "14019",
+      "obec": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-11T02:59:26",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551287___14019",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551287_14019.json",
+      "prehled": {
+        "volici_v_seznamu": 1295,
+        "vydane_obalky": 783,
+        "ucast_pct": 60.46,
+        "odevzdane_obalky": 763,
+        "odevzdane_pct": 97.45,
+        "platne_hlasy": 21161
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 555,
+          "procenta": 2.62
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 1791,
+          "procenta": 8.46
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+          "nazev": "Váš starosta a občané pro Líšeň",
+          "hlasy": 4523,
+          "procenta": 21.37
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI_SRDCEM_V_LISNI",
+          "nazev": "Noví lidovci - srdcem v Líšni",
+          "hlasy": 4292,
+          "procenta": 20.28
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_LISEN",
+          "nazev": "Piráti a Fakt Brno TU! pro Líšeň",
+          "hlasy": 977,
+          "procenta": 4.61
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SOUSEDE_Z_LISNE",
+          "nazev": "Sousedé z Líšně",
+          "hlasy": 2891,
+          "procenta": 13.66
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1847,
+          "procenta": 8.72
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 282,
+          "procenta": 1.33
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ODS_TOP_09_A_NEZAVISLI_KANDIDATI",
+          "nazev": "ODS, TOP 09 a nezávislí kandidáti",
+          "hlasy": 4003,
+          "procenta": 18.91
+        }
+      ]
+    }
+  }
+}

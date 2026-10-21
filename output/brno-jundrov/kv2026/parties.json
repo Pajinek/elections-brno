@@ -1,0 +1,60 @@
+{
+  "zastupitelstvo": {
+    "kod": 551171,
+    "nazev": "Brno-Jundrov",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPD_A_NEZAVISLI_KANDIDATI",
+      "nazev": "SPD a nezávislí kandidáti",
+      "nazev_plny": "SPD a nezávislí kandidáti"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ZELENA_PRO_JUNDROV",
+      "nazev": "Zelená pro Jundrov",
+      "nazev_plny": "Zelená pro Jundrov"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SPOLECNE_PRO_JUNDROV_ODS_NESTRANICI_TOP_09",
+      "nazev": "Společně pro Jundrov (ODS+nestraníci+TOP 09)",
+      "nazev_plny": "Společně pro Jundrov (ODS+nestraníci s podporou TOP 09)"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "JUNDROVACI",
+      "nazev": "Jundrováci",
+      "nazev_plny": "Jundrováci"
+    }
+  ],
+  "podle_kodu": {
+    "SPD_A_NEZAVISLI_KANDIDATI": {
+      "cislo_listiny": 1,
+      "kod": "SPD_A_NEZAVISLI_KANDIDATI",
+      "nazev": "SPD a nezávislí kandidáti",
+      "nazev_plny": "SPD a nezávislí kandidáti"
+    },
+    "ZELENA_PRO_JUNDROV": {
+      "cislo_listiny": 2,
+      "kod": "ZELENA_PRO_JUNDROV",
+      "nazev": "Zelená pro Jundrov",
+      "nazev_plny": "Zelená pro Jundrov"
+    },
+    "SPOLECNE_PRO_JUNDROV_ODS_NESTRANICI_TOP_09": {
+      "cislo_listiny": 3,
+      "kod": "SPOLECNE_PRO_JUNDROV_ODS_NESTRANICI_TOP_09",
+      "nazev": "Společně pro Jundrov (ODS+nestraníci+TOP 09)",
+      "nazev_plny": "Společně pro Jundrov (ODS+nestraníci s podporou TOP 09)"
+    },
+    "JUNDROVACI": {
+      "cislo_listiny": 4,
+      "kod": "JUNDROVACI",
+      "nazev": "Jundrováci",
+      "nazev_plny": "Jundrováci"
+    }
+  }
+}

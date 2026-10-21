@@ -1,0 +1,124 @@
+{
+  "zastupitelstvo": {
+    "kod": 551007,
+    "nazev": "Brno-Královo Pole",
+    "datum_voleb": "20220923",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "KRALOVOPOLSTI_PATRIOTI",
+      "nazev": "Královopolští patrioti",
+      "nazev_plny": "Královopolští patrioti",
+      "zkratka": "KPP"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "nazev_plny": "SPOLEČNĚ - ODS a TOP 09",
+      "zkratka": "ODS+TOP 09"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí",
+      "zkratka": "SPD+NK"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "KDU_STAN",
+      "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+      "nazev_plny": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+      "zkratka": "KDU-ČSL+STAN"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "KRALOVO_POLE_S_DOBROU_ADRESOU_A_SOCIALNI_DEMOKRACII",
+      "nazev": "KRÁLOVO POLE S DOBROU ADRESOU A SOCIÁLNÍ DEMOKRACIÍ",
+      "nazev_plny": "KRÁLOVO POLE S DOBROU ADRESOU A SOCIÁLNÍ DEMOKRACIÍ",
+      "zkratka": "ČSSD+NK"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "PIRATI_A_ZELENI_PRO_KRALOVO_POLE",
+      "nazev": "Piráti a Zelení pro Královo Pole",
+      "nazev_plny": "Piráti a Zelení pro Královo Pole",
+      "zkratka": "ZelPirMZHIdeal"
+    }
+  ],
+  "podle_kodu": {
+    "KRALOVOPOLSTI_PATRIOTI": {
+      "cislo_listiny": 1,
+      "kod": "KRALOVOPOLSTI_PATRIOTI",
+      "nazev": "Královopolští patrioti",
+      "nazev_plny": "Královopolští patrioti",
+      "zkratka": "KPP"
+    },
+    "ODS_TOP09": {
+      "cislo_listiny": 2,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "nazev_plny": "SPOLEČNĚ - ODS a TOP 09",
+      "zkratka": "ODS+TOP 09"
+    },
+    "ANO": {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    "RESTART": {
+      "cislo_listiny": 4,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    "SPD": {
+      "cislo_listiny": 5,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí",
+      "zkratka": "SPD+NK"
+    },
+    "KDU_STAN": {
+      "cislo_listiny": 6,
+      "kod": "KDU_STAN",
+      "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+      "nazev_plny": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+      "zkratka": "KDU-ČSL+STAN"
+    },
+    "KRALOVO_POLE_S_DOBROU_ADRESOU_A_SOCIALNI_DEMOKRACII": {
+      "cislo_listiny": 7,
+      "kod": "KRALOVO_POLE_S_DOBROU_ADRESOU_A_SOCIALNI_DEMOKRACII",
+      "nazev": "KRÁLOVO POLE S DOBROU ADRESOU A SOCIÁLNÍ DEMOKRACIÍ",
+      "nazev_plny": "KRÁLOVO POLE S DOBROU ADRESOU A SOCIÁLNÍ DEMOKRACIÍ",
+      "zkratka": "ČSSD+NK"
+    },
+    "PIRATI_A_ZELENI_PRO_KRALOVO_POLE": {
+      "cislo_listiny": 8,
+      "kod": "PIRATI_A_ZELENI_PRO_KRALOVO_POLE",
+      "nazev": "Piráti a Zelení pro Královo Pole",
+      "nazev_plny": "Piráti a Zelení pro Královo Pole",
+      "zkratka": "ZelPirMZHIdeal"
+    }
+  }
+}

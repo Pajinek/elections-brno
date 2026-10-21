@@ -1,0 +1,60 @@
+{
+  "zastupitelstvo": {
+    "kod": 551368,
+    "nazev": "Brno-Žebětín",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "LIDOVCI",
+      "nazev": "Lidovci",
+      "nazev_plny": "Lidovci"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "ZEBECACI_SPOLECNE_PRO_ZEBETIN_ZEBECACI_CZ",
+      "nazev": "Žeběčáci - společně pro Žebětín - zebecaci.cz",
+      "nazev_plny": "Žeběčáci - společně pro Žebětín - zebecaci.cz"
+    }
+  ],
+  "podle_kodu": {
+    "ANO": {
+      "cislo_listiny": 1,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    "LIDOVCI": {
+      "cislo_listiny": 2,
+      "kod": "LIDOVCI",
+      "nazev": "Lidovci",
+      "nazev_plny": "Lidovci"
+    },
+    "OBCANSKA_DEMOKRATICKA_STRANA": {
+      "cislo_listiny": 3,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana"
+    },
+    "ZEBECACI_SPOLECNE_PRO_ZEBETIN_ZEBECACI_CZ": {
+      "cislo_listiny": 4,
+      "kod": "ZEBECACI_SPOLECNE_PRO_ZEBETIN_ZEBECACI_CZ",
+      "nazev": "Žeběčáci - společně pro Žebětín - zebecaci.cz",
+      "nazev_plny": "Žeběčáci - společně pro Žebětín - zebecaci.cz"
+    }
+  }
+}

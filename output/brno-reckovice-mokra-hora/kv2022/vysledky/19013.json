@@ -1,0 +1,61 @@
+{
+  "okrsek": "19013",
+  "obec": "Brno-Řečkovice a Mokrá Hora",
+  "kod_zastupitelstva": 551244,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551244&xstat=0&xvyber=19013",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 614,
+    "vydane_obalky": 322,
+    "ucast_pct": 52.44,
+    "odevzdane_obalky": 322,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 6571
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "CSSD_VASI_STAROSTOVE",
+      "nazev": "ČSSD VAŠI STAROSTOVÉ",
+      "hlasy": 2071,
+      "procenta": 31.51
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+      "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+      "hlasy": 1640,
+      "procenta": 24.95
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "hlasy": 986,
+      "procenta": 15.0
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "KDU_CSL",
+      "nazev": "KDU-ČSL",
+      "hlasy": 687,
+      "procenta": 10.45
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1158,
+      "procenta": 17.62
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 29,
+      "procenta": 0.44
+    }
+  ]
+}

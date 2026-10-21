@@ -1,0 +1,96 @@
+{
+  "zastupitelstvo": {
+    "kod": 551252,
+    "nazev": "Brno-Maloměřice a Obřany",
+    "datum_voleb": "20220923",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "nazev_plny": "SPOLEČNĚ - ODS a TOP 09",
+      "zkratka": "ODS+TOP 09"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "KDU_CSL",
+      "nazev": "KDU-ČSL",
+      "nazev_plny": "KDU-ČSL",
+      "zkratka": "KDU-ČSL"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "PRO_MALOMERICE_A_OBRANY",
+      "nazev": "PRO Maloměřice a Obřany",
+      "nazev_plny": "PRO Maloměřice a Obřany",
+      "zkratka": "SEN 21+NK"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "CSSD_A_NEZAVISLI_KANDIDATI_PRO_MALOMERICE_A_OBRANY",
+      "nazev": "ČSSD a nezávislí kandidáti pro Maloměřice a Obřany",
+      "nazev_plny": "ČSSD a nezávislí kandidáti pro Maloměřice a Obřany",
+      "zkratka": "ČSSD+NK"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ",
+      "zkratka": "STAN"
+    }
+  ],
+  "podle_kodu": {
+    "ODS_TOP09": {
+      "cislo_listiny": 1,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "nazev_plny": "SPOLEČNĚ - ODS a TOP 09",
+      "zkratka": "ODS+TOP 09"
+    },
+    "KDU_CSL": {
+      "cislo_listiny": 2,
+      "kod": "KDU_CSL",
+      "nazev": "KDU-ČSL",
+      "nazev_plny": "KDU-ČSL",
+      "zkratka": "KDU-ČSL"
+    },
+    "PRO_MALOMERICE_A_OBRANY": {
+      "cislo_listiny": 3,
+      "kod": "PRO_MALOMERICE_A_OBRANY",
+      "nazev": "PRO Maloměřice a Obřany",
+      "nazev_plny": "PRO Maloměřice a Obřany",
+      "zkratka": "SEN 21+NK"
+    },
+    "RESTART": {
+      "cislo_listiny": 4,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    "CSSD_A_NEZAVISLI_KANDIDATI_PRO_MALOMERICE_A_OBRANY": {
+      "cislo_listiny": 5,
+      "kod": "CSSD_A_NEZAVISLI_KANDIDATI_PRO_MALOMERICE_A_OBRANY",
+      "nazev": "ČSSD a nezávislí kandidáti pro Maloměřice a Obřany",
+      "nazev_plny": "ČSSD a nezávislí kandidáti pro Maloměřice a Obřany",
+      "zkratka": "ČSSD+NK"
+    },
+    "STAROSTOVE_A_NEZAVISLI": {
+      "cislo_listiny": 6,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ",
+      "zkratka": "STAN"
+    }
+  }
+}

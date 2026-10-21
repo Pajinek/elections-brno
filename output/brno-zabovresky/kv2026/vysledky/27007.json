@@ -1,0 +1,83 @@
+{
+  "okrsek": "27007",
+  "obec": "Brno-Žabovřesky",
+  "kod_zastupitelstva": 550990,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T22:17:15",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27007",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27007.json",
+  "prehled": {
+    "volici_v_seznamu": 746,
+    "vydane_obalky": 456,
+    "ucast_pct": 61.13,
+    "odevzdane_obalky": 435,
+    "odevzdane_pct": 95.81,
+    "platne_hlasy": 10424
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ODS_TOP09",
+      "nazev": "ODS a TOP 09",
+      "hlasy": 2375,
+      "procenta": 22.78
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 25,
+      "procenta": 0.23
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1018,
+      "procenta": 9.76
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+      "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+      "hlasy": 361,
+      "procenta": 3.46
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "HNUTI_PRO_ZABINY",
+      "nazev": "Hnutí pro Žabiny",
+      "hlasy": 735,
+      "procenta": 7.05
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+      "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+      "hlasy": 781,
+      "procenta": 7.49
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ZALUZANKY",
+      "nazev": "Za Lužánky",
+      "hlasy": 384,
+      "procenta": 3.68
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "KDU_STAN",
+      "nazev": "Lidovci a Starostové",
+      "hlasy": 3495,
+      "procenta": 33.52
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+      "nazev": "Zelení a osobnosti pro Žabovřesky",
+      "hlasy": 1250,
+      "procenta": 11.99
+    }
+  ]
+}

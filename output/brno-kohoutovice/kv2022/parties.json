@@ -1,0 +1,152 @@
+{
+  "zastupitelstvo": {
+    "kod": 551147,
+    "nazev": "Brno-Kohoutovice",
+    "datum_voleb": "20220923",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "MORAVANE_OTEVREME_RADNICI",
+      "nazev": "Moravané: otevřeme radnici!",
+      "nazev_plny": "Moravané: otevřeme radnici!",
+      "zkratka": "HpŽ+NK"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ",
+      "zkratka": "STAN"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "PRO_KOHOUTOVICE",
+      "nazev": "PRO Kohoutovice",
+      "nazev_plny": "PRO Kohoutovice",
+      "zkratka": "SOM+NK"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+      "nazev": "Kohoutovice, jak je chceme",
+      "nazev_plny": "Kohoutovice, jak je chceme",
+      "zkratka": "KDU-ČSL+NK"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "ZELENI_A_NEZAVISLI",
+      "nazev": "Zelení a nezávislí",
+      "nazev_plny": "Zelení a nezávislí",
+      "zkratka": "Zelení+ŽTB+NK"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+      "nazev": "Česká strana sociálně demokratická",
+      "nazev_plny": "Česká strana sociálně demokratická",
+      "zkratka": "ČSSD"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    {
+      "cislo_listiny": 10,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "nazev_plny": "SPOLEČNĚ - ODS a TOP 09",
+      "zkratka": "ODS+TOP 09"
+    }
+  ],
+  "podle_kodu": {
+    "MORAVANE_OTEVREME_RADNICI": {
+      "cislo_listiny": 1,
+      "kod": "MORAVANE_OTEVREME_RADNICI",
+      "nazev": "Moravané: otevřeme radnici!",
+      "nazev_plny": "Moravané: otevřeme radnici!",
+      "zkratka": "HpŽ+NK"
+    },
+    "STAROSTOVE_A_NEZAVISLI": {
+      "cislo_listiny": 2,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ",
+      "zkratka": "STAN"
+    },
+    "PRO_KOHOUTOVICE": {
+      "cislo_listiny": 3,
+      "kod": "PRO_KOHOUTOVICE",
+      "nazev": "PRO Kohoutovice",
+      "nazev_plny": "PRO Kohoutovice",
+      "zkratka": "SOM+NK"
+    },
+    "KOHOUTOVICE_JAK_JE_CHCEME": {
+      "cislo_listiny": 4,
+      "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+      "nazev": "Kohoutovice, jak je chceme",
+      "nazev_plny": "Kohoutovice, jak je chceme",
+      "zkratka": "KDU-ČSL+NK"
+    },
+    "RESTART": {
+      "cislo_listiny": 5,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    "ZELENI_A_NEZAVISLI": {
+      "cislo_listiny": 6,
+      "kod": "ZELENI_A_NEZAVISLI",
+      "nazev": "Zelení a nezávislí",
+      "nazev_plny": "Zelení a nezávislí",
+      "zkratka": "Zelení+ŽTB+NK"
+    },
+    "SPD": {
+      "cislo_listiny": 7,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    "CESKA_STRANA_SOCIALNE_DEMOKRATICKA": {
+      "cislo_listiny": 8,
+      "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+      "nazev": "Česká strana sociálně demokratická",
+      "nazev_plny": "Česká strana sociálně demokratická",
+      "zkratka": "ČSSD"
+    },
+    "ANO": {
+      "cislo_listiny": 9,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    "ODS_TOP09": {
+      "cislo_listiny": 10,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "nazev_plny": "SPOLEČNĚ - ODS a TOP 09",
+      "zkratka": "ODS+TOP 09"
+    }
+  }
+}

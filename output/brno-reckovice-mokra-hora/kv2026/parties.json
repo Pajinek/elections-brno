@@ -1,0 +1,120 @@
+{
+  "zastupitelstvo": {
+    "kod": 551244,
+    "nazev": "Brno-Řečkovice a Mokrá Hora",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "HNUTI_MARKA_VISKOTA",
+      "nazev": "Hnutí MARKA VISKOTA",
+      "nazev_plny": "Hnutí MARKA VISKOTA"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ODS_TOP_09_A_NEZAVISLI",
+      "nazev": "ODS, TOP 09 a nezávislí",
+      "nazev_plny": "ODS, TOP 09 a nezávislí"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "NOVI_LIDOVCI",
+      "nazev": "Noví lidovci",
+      "nazev_plny": "Noví lidovci"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+      "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+      "nazev_plny": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+      "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+      "nazev_plny": "Spolek Za zdravé Řečkovice a Sdružení nestraníků"
+    }
+  ],
+  "podle_kodu": {
+    "HNUTI_MARKA_VISKOTA": {
+      "cislo_listiny": 1,
+      "kod": "HNUTI_MARKA_VISKOTA",
+      "nazev": "Hnutí MARKA VISKOTA",
+      "nazev_plny": "Hnutí MARKA VISKOTA"
+    },
+    "ODS_TOP_09_A_NEZAVISLI": {
+      "cislo_listiny": 2,
+      "kod": "ODS_TOP_09_A_NEZAVISLI",
+      "nazev": "ODS, TOP 09 a nezávislí",
+      "nazev_plny": "ODS, TOP 09 a nezávislí"
+    },
+    "ANO": {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    "NOVI_LIDOVCI": {
+      "cislo_listiny": 4,
+      "kod": "NOVI_LIDOVCI",
+      "nazev": "Noví lidovci",
+      "nazev_plny": "Noví lidovci"
+    },
+    "SPD": {
+      "cislo_listiny": 5,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU": {
+      "cislo_listiny": 6,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+      "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+      "nazev_plny": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu"
+    },
+    "STAROSTOVE_A_NEZAVISLI": {
+      "cislo_listiny": 7,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ"
+    },
+    "RESTART": {
+      "cislo_listiny": 8,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU": {
+      "cislo_listiny": 9,
+      "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+      "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+      "nazev_plny": "Spolek Za zdravé Řečkovice a Sdružení nestraníků"
+    }
+  }
+}

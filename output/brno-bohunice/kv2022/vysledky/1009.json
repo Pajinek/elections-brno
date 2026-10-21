@@ -1,0 +1,75 @@
+{
+  "okrsek": "1009",
+  "obec": "Brno-Bohunice",
+  "kod_zastupitelstva": 551082,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551082&xstat=0&xvyber=1009",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 740,
+    "vydane_obalky": 323,
+    "ucast_pct": 43.64,
+    "odevzdane_obalky": 323,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 5886
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPOLECNE_TOP_09_A_NEZAVISLI",
+      "nazev": "SPOLEČNĚ TOP 09 a nezávislí",
+      "hlasy": 540,
+      "procenta": 9.17
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "hlasy": 489,
+      "procenta": 8.3
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1048,
+      "procenta": 17.8
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "KDU_CSL",
+      "nazev": "KDU-ČSL",
+      "hlasy": 1855,
+      "procenta": 31.51
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "BRNO_PLUS",
+      "nazev": "Brno Plus",
+      "hlasy": 417,
+      "procenta": 7.08
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 779,
+      "procenta": 13.23
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 120,
+      "procenta": 2.03
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "PRO_BOHUNICE_S_PODPOROU_SOCIALNI_DEMOKRACIE",
+      "nazev": "Pro Bohunice s podporou Sociální demokracie",
+      "hlasy": 638,
+      "procenta": 10.83
+    }
+  ]
+}

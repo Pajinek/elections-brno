@@ -1,0 +1,41 @@
+{
+  "okrsek": "2002",
+  "obec": "Brno-Bosonohy",
+  "kod_zastupitelstva": 551325,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T20:15:00",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551325___2002",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551325_2002.json",
+  "prehled": {
+    "volici_v_seznamu": 830,
+    "vydane_obalky": 500,
+    "ucast_pct": 60.24,
+    "odevzdane_obalky": 495,
+    "odevzdane_pct": 99,
+    "platne_hlasy": 6768
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "BOSONOHY_PRO_SPOKOJENY_ZIVOT",
+      "nazev": "Bosonohy pro spokojený život",
+      "hlasy": 1541,
+      "procenta": 22.76
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 923,
+      "procenta": 13.63
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "PRO_LEPSI_BOSONOHY",
+      "nazev": "Pro Lepší Bosonohy",
+      "hlasy": 4304,
+      "procenta": 63.59
+    }
+  ]
+}

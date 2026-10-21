@@ -1,0 +1,83 @@
+{
+  "okrsek": "27023",
+  "obec": "Brno-Žabovřesky",
+  "kod_zastupitelstva": 550990,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T21:14:25",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27023",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27023.json",
+  "prehled": {
+    "volici_v_seznamu": 670,
+    "vydane_obalky": 324,
+    "ucast_pct": 48.36,
+    "odevzdane_obalky": 308,
+    "odevzdane_pct": 95.06,
+    "platne_hlasy": 7276
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ODS_TOP09",
+      "nazev": "ODS a TOP 09",
+      "hlasy": 886,
+      "procenta": 12.17
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 50,
+      "procenta": 0.68
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1738,
+      "procenta": 23.88
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+      "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+      "hlasy": 222,
+      "procenta": 3.05
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "HNUTI_PRO_ZABINY",
+      "nazev": "Hnutí pro Žabiny",
+      "hlasy": 707,
+      "procenta": 9.71
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+      "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+      "hlasy": 572,
+      "procenta": 7.86
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ZALUZANKY",
+      "nazev": "Za Lužánky",
+      "hlasy": 252,
+      "procenta": 3.46
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "KDU_STAN",
+      "nazev": "Lidovci a Starostové",
+      "hlasy": 2439,
+      "procenta": 33.52
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+      "nazev": "Zelení a osobnosti pro Žabovřesky",
+      "hlasy": 410,
+      "procenta": 5.63
+    }
+  ]
+}

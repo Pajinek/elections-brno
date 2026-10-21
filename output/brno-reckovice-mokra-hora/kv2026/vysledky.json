@@ -1,0 +1,1226 @@
+{
+  "zastupitelstvo": 551244,
+  "obec": "Brno-Řečkovice a Mokrá Hora",
+  "datum_voleb": "20261009",
+  "pocet_okrsku": 14,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "HNUTI_MARKA_VISKOTA",
+      "nazev": "Hnutí MARKA VISKOTA",
+      "nazev_plny": "Hnutí MARKA VISKOTA"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ODS_TOP_09_A_NEZAVISLI",
+      "nazev": "ODS, TOP 09 a nezávislí",
+      "nazev_plny": "ODS, TOP 09 a nezávislí"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "NOVI_LIDOVCI",
+      "nazev": "Noví lidovci",
+      "nazev_plny": "Noví lidovci"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+      "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+      "nazev_plny": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+      "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+      "nazev_plny": "Spolek Za zdravé Řečkovice a Sdružení nestraníků"
+    }
+  ],
+  "okrsky": {
+    "19001": {
+      "okrsek": "19001",
+      "obec": "Brno-Řečkovice a Mokrá Hora",
+      "kod_zastupitelstva": 551244,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:09:20",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19001",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19001.json",
+      "prehled": {
+        "volici_v_seznamu": 804,
+        "vydane_obalky": 409,
+        "ucast_pct": 50.87,
+        "odevzdane_obalky": 388,
+        "odevzdane_pct": 94.87,
+        "platne_hlasy": 8387
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_MARKA_VISKOTA",
+          "nazev": "Hnutí MARKA VISKOTA",
+          "hlasy": 2853,
+          "procenta": 34.01
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "ODS, TOP 09 a nezávislí",
+          "hlasy": 885,
+          "procenta": 10.55
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 732,
+          "procenta": 8.72
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI",
+          "nazev": "Noví lidovci",
+          "hlasy": 1107,
+          "procenta": 13.19
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 328,
+          "procenta": 3.91
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+          "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+          "hlasy": 495,
+          "procenta": 5.9
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 566,
+          "procenta": 6.74
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 2,
+          "procenta": 0.02
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+          "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+          "hlasy": 1419,
+          "procenta": 16.91
+        }
+      ]
+    },
+    "19002": {
+      "okrsek": "19002",
+      "obec": "Brno-Řečkovice a Mokrá Hora",
+      "kod_zastupitelstva": 551244,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:28:30",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19002",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19002.json",
+      "prehled": {
+        "volici_v_seznamu": 756,
+        "vydane_obalky": 446,
+        "ucast_pct": 58.99,
+        "odevzdane_obalky": 423,
+        "odevzdane_pct": 95.7,
+        "platne_hlasy": 9514
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_MARKA_VISKOTA",
+          "nazev": "Hnutí MARKA VISKOTA",
+          "hlasy": 2739,
+          "procenta": 28.78
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "ODS, TOP 09 a nezávislí",
+          "hlasy": 768,
+          "procenta": 8.07
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 977,
+          "procenta": 10.26
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI",
+          "nazev": "Noví lidovci",
+          "hlasy": 1795,
+          "procenta": 18.86
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 141,
+          "procenta": 1.48
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+          "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+          "hlasy": 266,
+          "procenta": 2.79
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 728,
+          "procenta": 7.65
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 4,
+          "procenta": 0.04
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+          "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+          "hlasy": 2096,
+          "procenta": 22.03
+        }
+      ]
+    },
+    "19003": {
+      "okrsek": "19003",
+      "obec": "Brno-Řečkovice a Mokrá Hora",
+      "kod_zastupitelstva": 551244,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:41:40",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19003",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19003.json",
+      "prehled": {
+        "volici_v_seznamu": 761,
+        "vydane_obalky": 278,
+        "ucast_pct": 36.53,
+        "odevzdane_obalky": 266,
+        "odevzdane_pct": 95.68,
+        "platne_hlasy": 5892
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_MARKA_VISKOTA",
+          "nazev": "Hnutí MARKA VISKOTA",
+          "hlasy": 2259,
+          "procenta": 38.34
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "ODS, TOP 09 a nezávislí",
+          "hlasy": 488,
+          "procenta": 8.28
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 925,
+          "procenta": 15.69
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI",
+          "nazev": "Noví lidovci",
+          "hlasy": 690,
+          "procenta": 11.71
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 277,
+          "procenta": 4.7
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+          "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+          "hlasy": 126,
+          "procenta": 2.13
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 348,
+          "procenta": 5.9
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 1,
+          "procenta": 0.01
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+          "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+          "hlasy": 778,
+          "procenta": 13.2
+        }
+      ]
+    },
+    "19004": {
+      "okrsek": "19004",
+      "obec": "Brno-Řečkovice a Mokrá Hora",
+      "kod_zastupitelstva": 551244,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T17:51:10",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19004",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19004.json",
+      "prehled": {
+        "volici_v_seznamu": 857,
+        "vydane_obalky": 411,
+        "ucast_pct": 47.96,
+        "odevzdane_obalky": 396,
+        "odevzdane_pct": 96.59,
+        "platne_hlasy": 8683
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_MARKA_VISKOTA",
+          "nazev": "Hnutí MARKA VISKOTA",
+          "hlasy": 3056,
+          "procenta": 35.19
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "ODS, TOP 09 a nezávislí",
+          "hlasy": 540,
+          "procenta": 6.21
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1046,
+          "procenta": 12.04
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI",
+          "nazev": "Noví lidovci",
+          "hlasy": 1218,
+          "procenta": 14.02
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 361,
+          "procenta": 4.15
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+          "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+          "hlasy": 354,
+          "procenta": 4.07
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 839,
+          "procenta": 9.66
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 1,
+          "procenta": 0.01
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+          "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+          "hlasy": 1268,
+          "procenta": 14.6
+        }
+      ]
+    },
+    "19005": {
+      "okrsek": "19005",
+      "obec": "Brno-Řečkovice a Mokrá Hora",
+      "kod_zastupitelstva": 551244,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:41:30",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19005",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19005.json",
+      "prehled": {
+        "volici_v_seznamu": 821,
+        "vydane_obalky": 418,
+        "ucast_pct": 50.91,
+        "odevzdane_obalky": 412,
+        "odevzdane_pct": 98.56,
+        "platne_hlasy": 9097
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_MARKA_VISKOTA",
+          "nazev": "Hnutí MARKA VISKOTA",
+          "hlasy": 2454,
+          "procenta": 26.97
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "ODS, TOP 09 a nezávislí",
+          "hlasy": 1468,
+          "procenta": 16.13
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 642,
+          "procenta": 7.05
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI",
+          "nazev": "Noví lidovci",
+          "hlasy": 1677,
+          "procenta": 18.43
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 349,
+          "procenta": 3.83
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+          "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+          "hlasy": 352,
+          "procenta": 3.86
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 707,
+          "procenta": 7.77
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 3,
+          "procenta": 0.03
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+          "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+          "hlasy": 1445,
+          "procenta": 15.88
+        }
+      ]
+    },
+    "19006": {
+      "okrsek": "19006",
+      "obec": "Brno-Řečkovice a Mokrá Hora",
+      "kod_zastupitelstva": 551244,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:18:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19006",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19006.json",
+      "prehled": {
+        "volici_v_seznamu": 735,
+        "vydane_obalky": 431,
+        "ucast_pct": 58.64,
+        "odevzdane_obalky": 423,
+        "odevzdane_pct": 98.37,
+        "platne_hlasy": 9176
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_MARKA_VISKOTA",
+          "nazev": "Hnutí MARKA VISKOTA",
+          "hlasy": 2148,
+          "procenta": 23.4
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "ODS, TOP 09 a nezávislí",
+          "hlasy": 589,
+          "procenta": 6.41
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 847,
+          "procenta": 9.23
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI",
+          "nazev": "Noví lidovci",
+          "hlasy": 1699,
+          "procenta": 18.51
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 306,
+          "procenta": 3.33
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+          "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+          "hlasy": 401,
+          "procenta": 4.37
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 504,
+          "procenta": 5.49
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 2,
+          "procenta": 0.02
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+          "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+          "hlasy": 2680,
+          "procenta": 29.2
+        }
+      ]
+    },
+    "19007": {
+      "okrsek": "19007",
+      "obec": "Brno-Řečkovice a Mokrá Hora",
+      "kod_zastupitelstva": 551244,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:22:40",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19007",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19007.json",
+      "prehled": {
+        "volici_v_seznamu": 933,
+        "vydane_obalky": 524,
+        "ucast_pct": 56.16,
+        "odevzdane_obalky": 514,
+        "odevzdane_pct": 98.09,
+        "platne_hlasy": 10701
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_MARKA_VISKOTA",
+          "nazev": "Hnutí MARKA VISKOTA",
+          "hlasy": 3014,
+          "procenta": 28.16
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "ODS, TOP 09 a nezávislí",
+          "hlasy": 299,
+          "procenta": 2.79
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1205,
+          "procenta": 11.26
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI",
+          "nazev": "Noví lidovci",
+          "hlasy": 1782,
+          "procenta": 16.65
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 297,
+          "procenta": 2.77
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+          "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+          "hlasy": 328,
+          "procenta": 3.06
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 848,
+          "procenta": 7.92
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 1,
+          "procenta": 0
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+          "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+          "hlasy": 2927,
+          "procenta": 27.35
+        }
+      ]
+    },
+    "19008": {
+      "okrsek": "19008",
+      "obec": "Brno-Řečkovice a Mokrá Hora",
+      "kod_zastupitelstva": 551244,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:08:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19008",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19008.json",
+      "prehled": {
+        "volici_v_seznamu": 790,
+        "vydane_obalky": 338,
+        "ucast_pct": 42.78,
+        "odevzdane_obalky": 326,
+        "odevzdane_pct": 96.45,
+        "platne_hlasy": 7311
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_MARKA_VISKOTA",
+          "nazev": "Hnutí MARKA VISKOTA",
+          "hlasy": 2207,
+          "procenta": 30.18
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "ODS, TOP 09 a nezávislí",
+          "hlasy": 635,
+          "procenta": 8.68
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 844,
+          "procenta": 11.54
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI",
+          "nazev": "Noví lidovci",
+          "hlasy": 1009,
+          "procenta": 13.8
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 382,
+          "procenta": 5.22
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+          "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+          "hlasy": 255,
+          "procenta": 3.48
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 446,
+          "procenta": 6.1
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 1,
+          "procenta": 0.01
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+          "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+          "hlasy": 1532,
+          "procenta": 20.95
+        }
+      ]
+    },
+    "19009": {
+      "okrsek": "19009",
+      "obec": "Brno-Řečkovice a Mokrá Hora",
+      "kod_zastupitelstva": 551244,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:59:15",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19009",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19009.json",
+      "prehled": {
+        "volici_v_seznamu": 828,
+        "vydane_obalky": 443,
+        "ucast_pct": 53.5,
+        "odevzdane_obalky": 441,
+        "odevzdane_pct": 99.55,
+        "platne_hlasy": 9152
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_MARKA_VISKOTA",
+          "nazev": "Hnutí MARKA VISKOTA",
+          "hlasy": 2219,
+          "procenta": 24.24
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "ODS, TOP 09 a nezávislí",
+          "hlasy": 1143,
+          "procenta": 12.48
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 700,
+          "procenta": 7.64
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI",
+          "nazev": "Noví lidovci",
+          "hlasy": 1739,
+          "procenta": 19
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 362,
+          "procenta": 3.95
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+          "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+          "hlasy": 563,
+          "procenta": 6.15
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 485,
+          "procenta": 5.29
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 0,
+          "procenta": 0
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+          "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+          "hlasy": 1941,
+          "procenta": 21.2
+        }
+      ]
+    },
+    "19010": {
+      "okrsek": "19010",
+      "obec": "Brno-Řečkovice a Mokrá Hora",
+      "kod_zastupitelstva": 551244,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:47:05",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19010",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19010.json",
+      "prehled": {
+        "volici_v_seznamu": 989,
+        "vydane_obalky": 575,
+        "ucast_pct": 58.14,
+        "odevzdane_obalky": 557,
+        "odevzdane_pct": 96.87,
+        "platne_hlasy": 12286
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_MARKA_VISKOTA",
+          "nazev": "Hnutí MARKA VISKOTA",
+          "hlasy": 2674,
+          "procenta": 21.76
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "ODS, TOP 09 a nezávislí",
+          "hlasy": 1753,
+          "procenta": 14.26
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1540,
+          "procenta": 12.53
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI",
+          "nazev": "Noví lidovci",
+          "hlasy": 2010,
+          "procenta": 16.36
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 498,
+          "procenta": 4.05
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+          "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+          "hlasy": 444,
+          "procenta": 3.61
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 595,
+          "procenta": 4.84
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 0,
+          "procenta": 0
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+          "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+          "hlasy": 2772,
+          "procenta": 22.56
+        }
+      ]
+    },
+    "19011": {
+      "okrsek": "19011",
+      "obec": "Brno-Řečkovice a Mokrá Hora",
+      "kod_zastupitelstva": 551244,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:32:35",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19011",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19011.json",
+      "prehled": {
+        "volici_v_seznamu": 615,
+        "vydane_obalky": 333,
+        "ucast_pct": 54.15,
+        "odevzdane_obalky": 331,
+        "odevzdane_pct": 100,
+        "platne_hlasy": 7112
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_MARKA_VISKOTA",
+          "nazev": "Hnutí MARKA VISKOTA",
+          "hlasy": 1847,
+          "procenta": 25.97
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "ODS, TOP 09 a nezávislí",
+          "hlasy": 684,
+          "procenta": 9.61
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1024,
+          "procenta": 14.39
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI",
+          "nazev": "Noví lidovci",
+          "hlasy": 1443,
+          "procenta": 20.28
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 137,
+          "procenta": 1.92
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+          "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+          "hlasy": 240,
+          "procenta": 3.37
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 433,
+          "procenta": 6.08
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 1,
+          "procenta": 0.01
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+          "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+          "hlasy": 1303,
+          "procenta": 18.32
+        }
+      ]
+    },
+    "19012": {
+      "okrsek": "19012",
+      "obec": "Brno-Řečkovice a Mokrá Hora",
+      "kod_zastupitelstva": 551244,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:02:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19012",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19012.json",
+      "prehled": {
+        "volici_v_seznamu": 773,
+        "vydane_obalky": 439,
+        "ucast_pct": 56.79,
+        "odevzdane_obalky": 431,
+        "odevzdane_pct": 98.4,
+        "platne_hlasy": 9491
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_MARKA_VISKOTA",
+          "nazev": "Hnutí MARKA VISKOTA",
+          "hlasy": 3086,
+          "procenta": 32.51
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "ODS, TOP 09 a nezávislí",
+          "hlasy": 676,
+          "procenta": 7.12
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 895,
+          "procenta": 9.42
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI",
+          "nazev": "Noví lidovci",
+          "hlasy": 1415,
+          "procenta": 14.9
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 250,
+          "procenta": 2.63
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+          "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+          "hlasy": 245,
+          "procenta": 2.58
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 246,
+          "procenta": 2.59
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 0,
+          "procenta": 0
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+          "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+          "hlasy": 2678,
+          "procenta": 28.21
+        }
+      ]
+    },
+    "19013": {
+      "okrsek": "19013",
+      "obec": "Brno-Řečkovice a Mokrá Hora",
+      "kod_zastupitelstva": 551244,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:57:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19013",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19013.json",
+      "prehled": {
+        "volici_v_seznamu": 607,
+        "vydane_obalky": 351,
+        "ucast_pct": 57.83,
+        "odevzdane_obalky": 351,
+        "odevzdane_pct": 100,
+        "platne_hlasy": 7642
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_MARKA_VISKOTA",
+          "nazev": "Hnutí MARKA VISKOTA",
+          "hlasy": 2035,
+          "procenta": 26.62
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "ODS, TOP 09 a nezávislí",
+          "hlasy": 556,
+          "procenta": 7.27
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 996,
+          "procenta": 13.03
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI",
+          "nazev": "Noví lidovci",
+          "hlasy": 974,
+          "procenta": 12.74
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 357,
+          "procenta": 4.67
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+          "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+          "hlasy": 300,
+          "procenta": 3.92
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 481,
+          "procenta": 6.29
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 2,
+          "procenta": 0.02
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+          "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+          "hlasy": 1941,
+          "procenta": 25.39
+        }
+      ]
+    },
+    "19014": {
+      "okrsek": "19014",
+      "obec": "Brno-Řečkovice a Mokrá Hora",
+      "kod_zastupitelstva": 551244,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:58:35",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19014",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19014.json",
+      "prehled": {
+        "volici_v_seznamu": 715,
+        "vydane_obalky": 429,
+        "ucast_pct": 60,
+        "odevzdane_obalky": 410,
+        "odevzdane_pct": 95.79,
+        "platne_hlasy": 9302
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_MARKA_VISKOTA",
+          "nazev": "Hnutí MARKA VISKOTA",
+          "hlasy": 1571,
+          "procenta": 16.88
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ODS_TOP_09_A_NEZAVISLI",
+          "nazev": "ODS, TOP 09 a nezávislí",
+          "hlasy": 1136,
+          "procenta": 12.21
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 816,
+          "procenta": 8.77
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "NOVI_LIDOVCI",
+          "nazev": "Noví lidovci",
+          "hlasy": 1402,
+          "procenta": 15.07
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 310,
+          "procenta": 3.33
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+          "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+          "hlasy": 155,
+          "procenta": 1.66
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 521,
+          "procenta": 5.6
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 2,
+          "procenta": 0.02
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+          "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+          "hlasy": 3389,
+          "procenta": 36.43
+        }
+      ]
+    }
+  }
+}

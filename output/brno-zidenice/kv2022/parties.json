@@ -1,0 +1,152 @@
+{
+  "zastupitelstvo": {
+    "kod": 551058,
+    "nazev": "Brno-Židenice",
+    "datum_voleb": "20220923",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana",
+      "zkratka": "ODS"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+      "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+      "nazev_plny": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+      "zkratka": "ČSSD+NK"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+      "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+      "nazev_plny": "PETR KUNC - HLAS PRO ŽIDENICE",
+      "zkratka": "SEN 21+NK"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+      "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+      "nazev_plny": "KDU-ČSL s podporou Starostů a nezávislých",
+      "zkratka": "KDU-ČSL+NK"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+      "nazev": "Nezávislí s podporou TOP 09",
+      "nazev_plny": "Nezávislí s podporou TOP 09",
+      "zkratka": "TOP 09+NK"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "CESKA_PIRATSKA_STRANA",
+      "nazev": "Česká pirátská strana",
+      "nazev_plny": "Česká pirátská strana",
+      "zkratka": "Piráti"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+      "nazev": "Spojené ruce pro Julec a Šimice",
+      "nazev_plny": "Spojené ruce pro Julec a Šimice",
+      "zkratka": "Brno+ + NK"
+    },
+    {
+      "cislo_listiny": 10,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    }
+  ],
+  "podle_kodu": {
+    "OBCANSKA_DEMOKRATICKA_STRANA": {
+      "cislo_listiny": 1,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana",
+      "zkratka": "ODS"
+    },
+    "ANO": {
+      "cislo_listiny": 2,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV": {
+      "cislo_listiny": 3,
+      "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+      "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+      "nazev_plny": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+      "zkratka": "ČSSD+NK"
+    },
+    "PETR_KUNC_HLAS_PRO_ZIDENICE": {
+      "cislo_listiny": 4,
+      "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+      "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+      "nazev_plny": "PETR KUNC - HLAS PRO ŽIDENICE",
+      "zkratka": "SEN 21+NK"
+    },
+    "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE": {
+      "cislo_listiny": 5,
+      "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH": {
+      "cislo_listiny": 6,
+      "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+      "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+      "nazev_plny": "KDU-ČSL s podporou Starostů a nezávislých",
+      "zkratka": "KDU-ČSL+NK"
+    },
+    "NEZAVISLI_S_PODPOROU_TOP_09": {
+      "cislo_listiny": 7,
+      "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+      "nazev": "Nezávislí s podporou TOP 09",
+      "nazev_plny": "Nezávislí s podporou TOP 09",
+      "zkratka": "TOP 09+NK"
+    },
+    "CESKA_PIRATSKA_STRANA": {
+      "cislo_listiny": 8,
+      "kod": "CESKA_PIRATSKA_STRANA",
+      "nazev": "Česká pirátská strana",
+      "nazev_plny": "Česká pirátská strana",
+      "zkratka": "Piráti"
+    },
+    "SPOJENE_RUCE_PRO_JULEC_A_SIMICE": {
+      "cislo_listiny": 9,
+      "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+      "nazev": "Spojené ruce pro Julec a Šimice",
+      "nazev_plny": "Spojené ruce pro Julec a Šimice",
+      "zkratka": "Brno+ + NK"
+    },
+    "RESTART": {
+      "cislo_listiny": 10,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    }
+  }
+}

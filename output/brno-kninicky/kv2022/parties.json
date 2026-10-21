@@ -1,0 +1,54 @@
+{
+  "zastupitelstvo": {
+    "kod": 551210,
+    "nazev": "Brno-Kníničky",
+    "datum_voleb": "20220923",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPOLECNE_PRO_KNINICKY",
+      "nazev": "Společně pro Kníničky",
+      "nazev_plny": "Společně pro Kníničky",
+      "zkratka": "SNK"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "SDRUZENI_NEZAVISLYCH_KANDIDATU_ZA_KNINICKY_S_PODPOROU_ODS",
+      "nazev": "Sdružení nezávislých kandidátů ZA KNÍNIČKY s podporou ODS",
+      "nazev_plny": "Sdružení nezávislých kandidátů ZA KNÍNIČKY s podporou ODS",
+      "zkratka": "ODS+NK"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "NEZAVISLI_KANDIDATI_PRO_KNINICKY_S_PODPOROU_KDU_CSL",
+      "nazev": "Nezávislí kandidáti pro Kníničky s podporou KDU-ČSL",
+      "nazev_plny": "Nezávislí kandidáti pro Kníničky s podporou KDU-ČSL",
+      "zkratka": "KDU-ČSL+NK"
+    }
+  ],
+  "podle_kodu": {
+    "SPOLECNE_PRO_KNINICKY": {
+      "cislo_listiny": 1,
+      "kod": "SPOLECNE_PRO_KNINICKY",
+      "nazev": "Společně pro Kníničky",
+      "nazev_plny": "Společně pro Kníničky",
+      "zkratka": "SNK"
+    },
+    "SDRUZENI_NEZAVISLYCH_KANDIDATU_ZA_KNINICKY_S_PODPOROU_ODS": {
+      "cislo_listiny": 2,
+      "kod": "SDRUZENI_NEZAVISLYCH_KANDIDATU_ZA_KNINICKY_S_PODPOROU_ODS",
+      "nazev": "Sdružení nezávislých kandidátů ZA KNÍNIČKY s podporou ODS",
+      "nazev_plny": "Sdružení nezávislých kandidátů ZA KNÍNIČKY s podporou ODS",
+      "zkratka": "ODS+NK"
+    },
+    "NEZAVISLI_KANDIDATI_PRO_KNINICKY_S_PODPOROU_KDU_CSL": {
+      "cislo_listiny": 3,
+      "kod": "NEZAVISLI_KANDIDATI_PRO_KNINICKY_S_PODPOROU_KDU_CSL",
+      "nazev": "Nezávislí kandidáti pro Kníničky s podporou KDU-ČSL",
+      "nazev_plny": "Nezávislí kandidáti pro Kníničky s podporou KDU-ČSL",
+      "zkratka": "KDU-ČSL+NK"
+    }
+  }
+}

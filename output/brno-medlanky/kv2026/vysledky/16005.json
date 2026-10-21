@@ -1,0 +1,62 @@
+{
+  "okrsek": "16005",
+  "obec": "Brno-Medlánky",
+  "kod_zastupitelstva": 551236,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T22:35:35",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551236___16005",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551236_16005.json",
+  "prehled": {
+    "volici_v_seznamu": 875,
+    "vydane_obalky": 507,
+    "ucast_pct": 57.94,
+    "odevzdane_obalky": 487,
+    "odevzdane_pct": 96.06,
+    "platne_hlasy": 7224
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "OBCANE_PRO_MEDLANKY",
+      "nazev": "Občané pro Medlánky",
+      "hlasy": 5268,
+      "procenta": 72.92
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ZELENE_MEDLANKY",
+      "nazev": "Zelené Medlánky",
+      "hlasy": 1286,
+      "procenta": 17.8
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 170,
+      "procenta": 2.35
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "MEDLANECTI_NEZAVISLI_A_ODS",
+      "nazev": "Medlánečtí nezávislí a ODS",
+      "hlasy": 226,
+      "procenta": 3.12
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "LIDOVCI",
+      "nazev": "Lidovci",
+      "hlasy": 266,
+      "procenta": 3.68
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "KOALICE_POLITICKYCH_STRAN_A_HNUTI_RESTART_PRO_BRNO",
+      "nazev": "Koalice politických stran a hnutí Restart pro Brno",
+      "hlasy": 8,
+      "procenta": 0.11
+    }
+  ]
+}

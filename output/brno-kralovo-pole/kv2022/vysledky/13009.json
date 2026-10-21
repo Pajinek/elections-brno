@@ -1,0 +1,75 @@
+{
+  "okrsek": "13009",
+  "obec": "Brno-Královo Pole",
+  "kod_zastupitelstva": 551007,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551007&xstat=0&xvyber=13009",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 1006,
+    "vydane_obalky": 480,
+    "ucast_pct": 47.71,
+    "odevzdane_obalky": 480,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 11899
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "KRALOVOPOLSTI_PATRIOTI",
+      "nazev": "Královopolští patrioti",
+      "hlasy": 458,
+      "procenta": 3.84
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "hlasy": 3001,
+      "procenta": 25.22
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 3616,
+      "procenta": 30.38
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 66,
+      "procenta": 0.55
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 797,
+      "procenta": 6.69
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "KDU_STAN",
+      "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+      "hlasy": 1586,
+      "procenta": 13.32
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "KRALOVO_POLE_S_DOBROU_ADRESOU_A_SOCIALNI_DEMOKRACII",
+      "nazev": "KRÁLOVO POLE S DOBROU ADRESOU A SOCIÁLNÍ DEMOKRACIÍ",
+      "hlasy": 715,
+      "procenta": 6.0
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "PIRATI_A_ZELENI_PRO_KRALOVO_POLE",
+      "nazev": "Piráti a Zelení pro Královo Pole",
+      "hlasy": 1660,
+      "procenta": 13.95
+    }
+  ]
+}

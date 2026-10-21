@@ -1,0 +1,1771 @@
+{
+  "zastupitelstvo": 551058,
+  "obec": "Brno-Židenice",
+  "datum_voleb": "20220923",
+  "pocet_okrsku": 19,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana",
+      "zkratka": "ODS"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+      "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+      "nazev_plny": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+      "zkratka": "ČSSD+NK"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+      "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+      "nazev_plny": "PETR KUNC - HLAS PRO ŽIDENICE",
+      "zkratka": "SEN 21+NK"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+      "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+      "nazev_plny": "KDU-ČSL s podporou Starostů a nezávislých",
+      "zkratka": "KDU-ČSL+NK"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+      "nazev": "Nezávislí s podporou TOP 09",
+      "nazev_plny": "Nezávislí s podporou TOP 09",
+      "zkratka": "TOP 09+NK"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "CESKA_PIRATSKA_STRANA",
+      "nazev": "Česká pirátská strana",
+      "nazev_plny": "Česká pirátská strana",
+      "zkratka": "Piráti"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+      "nazev": "Spojené ruce pro Julec a Šimice",
+      "nazev_plny": "Spojené ruce pro Julec a Šimice",
+      "zkratka": "Brno+ + NK"
+    },
+    {
+      "cislo_listiny": 10,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    }
+  ],
+  "okrsky": {
+    "29001": {
+      "okrsek": "29001",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29001",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 694,
+        "vydane_obalky": 273,
+        "ucast_pct": 39.33,
+        "odevzdane_obalky": 271,
+        "odevzdane_pct": 99.26,
+        "platne_hlasy": 7061
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 686,
+          "procenta": 9.71
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1667,
+          "procenta": 23.6
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 161,
+          "procenta": 2.28
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 1453,
+          "procenta": 20.57
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 908,
+          "procenta": 12.85
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 1060,
+          "procenta": 15.01
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 275,
+          "procenta": 3.89
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 480,
+          "procenta": 6.79
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 277,
+          "procenta": 3.92
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 94,
+          "procenta": 1.33
+        }
+      ]
+    },
+    "29002": {
+      "okrsek": "29002",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29002",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 805,
+        "vydane_obalky": 183,
+        "ucast_pct": 22.73,
+        "odevzdane_obalky": 182,
+        "odevzdane_pct": 99.45,
+        "platne_hlasy": 4923
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 429,
+          "procenta": 8.71
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1533,
+          "procenta": 31.13
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 119,
+          "procenta": 2.41
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 1101,
+          "procenta": 22.36
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 500,
+          "procenta": 10.15
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 301,
+          "procenta": 6.11
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 206,
+          "procenta": 4.18
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 265,
+          "procenta": 5.38
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 294,
+          "procenta": 5.97
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 175,
+          "procenta": 3.55
+        }
+      ]
+    },
+    "29003": {
+      "okrsek": "29003",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29003",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 737,
+        "vydane_obalky": 306,
+        "ucast_pct": 41.51,
+        "odevzdane_obalky": 306,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8127
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 923,
+          "procenta": 11.35
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1981,
+          "procenta": 24.37
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 156,
+          "procenta": 1.91
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 1897,
+          "procenta": 23.34
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 641,
+          "procenta": 7.88
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 983,
+          "procenta": 12.09
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 360,
+          "procenta": 4.42
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 665,
+          "procenta": 8.18
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 342,
+          "procenta": 4.2
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 179,
+          "procenta": 2.2
+        }
+      ]
+    },
+    "29004": {
+      "okrsek": "29004",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29004",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 775,
+        "vydane_obalky": 368,
+        "ucast_pct": 47.48,
+        "odevzdane_obalky": 367,
+        "odevzdane_pct": 99.72,
+        "platne_hlasy": 9817
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1381,
+          "procenta": 14.06
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1499,
+          "procenta": 15.26
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 183,
+          "procenta": 1.86
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 2634,
+          "procenta": 26.83
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 1050,
+          "procenta": 10.69
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 1667,
+          "procenta": 16.98
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 283,
+          "procenta": 2.88
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 628,
+          "procenta": 6.39
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 357,
+          "procenta": 3.63
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 135,
+          "procenta": 1.37
+        }
+      ]
+    },
+    "29005": {
+      "okrsek": "29005",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29005",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 896,
+        "vydane_obalky": 362,
+        "ucast_pct": 40.4,
+        "odevzdane_obalky": 362,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 9527
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1251,
+          "procenta": 13.13
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1359,
+          "procenta": 14.26
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 149,
+          "procenta": 1.56
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 2770,
+          "procenta": 29.07
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 603,
+          "procenta": 6.32
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 1900,
+          "procenta": 19.94
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 202,
+          "procenta": 2.12
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 827,
+          "procenta": 8.68
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 341,
+          "procenta": 3.57
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 125,
+          "procenta": 1.31
+        }
+      ]
+    },
+    "29006": {
+      "okrsek": "29006",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29006",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 975,
+        "vydane_obalky": 388,
+        "ucast_pct": 39.79,
+        "odevzdane_obalky": 388,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 10142
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 986,
+          "procenta": 9.72
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 2085,
+          "procenta": 20.55
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 434,
+          "procenta": 4.27
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 2085,
+          "procenta": 20.55
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 1427,
+          "procenta": 14.07
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 1279,
+          "procenta": 12.61
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 440,
+          "procenta": 4.33
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 549,
+          "procenta": 5.41
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 768,
+          "procenta": 7.57
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 89,
+          "procenta": 0.87
+        }
+      ]
+    },
+    "29007": {
+      "okrsek": "29007",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29007",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 819,
+        "vydane_obalky": 369,
+        "ucast_pct": 45.05,
+        "odevzdane_obalky": 369,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 10110
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1160,
+          "procenta": 11.47
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1500,
+          "procenta": 14.83
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 450,
+          "procenta": 4.45
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 2713,
+          "procenta": 26.83
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 966,
+          "procenta": 9.55
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 1591,
+          "procenta": 15.73
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 480,
+          "procenta": 4.74
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 548,
+          "procenta": 5.42
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 582,
+          "procenta": 5.75
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 120,
+          "procenta": 1.18
+        }
+      ]
+    },
+    "29008": {
+      "okrsek": "29008",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29008",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 760,
+        "vydane_obalky": 366,
+        "ucast_pct": 48.15,
+        "odevzdane_obalky": 366,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 9940
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1095,
+          "procenta": 11.01
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1199,
+          "procenta": 12.06
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 298,
+          "procenta": 2.99
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 2932,
+          "procenta": 29.49
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 846,
+          "procenta": 8.51
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 2254,
+          "procenta": 22.67
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 584,
+          "procenta": 5.87
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 459,
+          "procenta": 4.61
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 271,
+          "procenta": 2.72
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 2,
+          "procenta": 0.02
+        }
+      ]
+    },
+    "29009": {
+      "okrsek": "29009",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29009",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 705,
+        "vydane_obalky": 272,
+        "ucast_pct": 38.58,
+        "odevzdane_obalky": 272,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 7193
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1345,
+          "procenta": 18.69
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1405,
+          "procenta": 19.53
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 120,
+          "procenta": 1.66
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 1435,
+          "procenta": 19.94
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 553,
+          "procenta": 7.68
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 1440,
+          "procenta": 20.01
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 194,
+          "procenta": 2.69
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 339,
+          "procenta": 4.71
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 216,
+          "procenta": 3.0
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 146,
+          "procenta": 2.02
+        }
+      ]
+    },
+    "29010": {
+      "okrsek": "29010",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29010",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 824,
+        "vydane_obalky": 387,
+        "ucast_pct": 46.96,
+        "odevzdane_obalky": 384,
+        "odevzdane_pct": 99.22,
+        "platne_hlasy": 10394
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1152,
+          "procenta": 11.08
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1453,
+          "procenta": 13.97
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 394,
+          "procenta": 3.79
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 2847,
+          "procenta": 27.39
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 1263,
+          "procenta": 12.15
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 2108,
+          "procenta": 20.28
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 318,
+          "procenta": 3.05
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 644,
+          "procenta": 6.19
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 183,
+          "procenta": 1.76
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 32,
+          "procenta": 0.3
+        }
+      ]
+    },
+    "29011": {
+      "okrsek": "29011",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29011",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 768,
+        "vydane_obalky": 366,
+        "ucast_pct": 47.65,
+        "odevzdane_obalky": 341,
+        "odevzdane_pct": 93.16,
+        "platne_hlasy": 9389
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 751,
+          "procenta": 7.99
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1891,
+          "procenta": 20.14
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 296,
+          "procenta": 3.15
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 2696,
+          "procenta": 28.71
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 1248,
+          "procenta": 13.29
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 1622,
+          "procenta": 17.27
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 120,
+          "procenta": 1.27
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 319,
+          "procenta": 3.39
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 284,
+          "procenta": 3.02
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 162,
+          "procenta": 1.72
+        }
+      ]
+    },
+    "29012": {
+      "okrsek": "29012",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29012",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 791,
+        "vydane_obalky": 419,
+        "ucast_pct": 52.97,
+        "odevzdane_obalky": 418,
+        "odevzdane_pct": 99.76,
+        "platne_hlasy": 11084
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1614,
+          "procenta": 14.56
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1962,
+          "procenta": 17.7
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 146,
+          "procenta": 1.31
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 3185,
+          "procenta": 28.73
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 788,
+          "procenta": 7.1
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 2289,
+          "procenta": 20.65
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 201,
+          "procenta": 1.81
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 665,
+          "procenta": 5.99
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 145,
+          "procenta": 1.3
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 89,
+          "procenta": 0.8
+        }
+      ]
+    },
+    "29013": {
+      "okrsek": "29013",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29013",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 787,
+        "vydane_obalky": 319,
+        "ucast_pct": 40.53,
+        "odevzdane_obalky": 319,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8587
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1663,
+          "procenta": 19.36
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1648,
+          "procenta": 19.19
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 365,
+          "procenta": 4.25
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 1656,
+          "procenta": 19.28
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 766,
+          "procenta": 8.92
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 1246,
+          "procenta": 14.51
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 148,
+          "procenta": 1.72
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 600,
+          "procenta": 6.98
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 371,
+          "procenta": 4.32
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 124,
+          "procenta": 1.44
+        }
+      ]
+    },
+    "29014": {
+      "okrsek": "29014",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29014",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 823,
+        "vydane_obalky": 399,
+        "ucast_pct": 48.48,
+        "odevzdane_obalky": 379,
+        "odevzdane_pct": 94.98,
+        "platne_hlasy": 10780
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1427,
+          "procenta": 13.23
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 2294,
+          "procenta": 21.28
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 229,
+          "procenta": 2.12
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 2582,
+          "procenta": 23.95
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 1105,
+          "procenta": 10.25
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 1728,
+          "procenta": 16.02
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 722,
+          "procenta": 6.69
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 378,
+          "procenta": 3.5
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 287,
+          "procenta": 2.66
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 28,
+          "procenta": 0.25
+        }
+      ]
+    },
+    "29015": {
+      "okrsek": "29015",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29015",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 749,
+        "vydane_obalky": 288,
+        "ucast_pct": 38.45,
+        "odevzdane_obalky": 278,
+        "odevzdane_pct": 96.52,
+        "platne_hlasy": 7327
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 510,
+          "procenta": 6.96
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1598,
+          "procenta": 21.8
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 436,
+          "procenta": 5.95
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 1561,
+          "procenta": 21.3
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 819,
+          "procenta": 11.17
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 841,
+          "procenta": 11.47
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 755,
+          "procenta": 10.3
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 257,
+          "procenta": 3.5
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 427,
+          "procenta": 5.82
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 123,
+          "procenta": 1.67
+        }
+      ]
+    },
+    "29016": {
+      "okrsek": "29016",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29016",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 919,
+        "vydane_obalky": 469,
+        "ucast_pct": 51.03,
+        "odevzdane_obalky": 467,
+        "odevzdane_pct": 99.57,
+        "platne_hlasy": 12264
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1358,
+          "procenta": 11.07
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 2561,
+          "procenta": 20.88
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 331,
+          "procenta": 2.69
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 3302,
+          "procenta": 26.92
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 999,
+          "procenta": 8.14
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 2350,
+          "procenta": 19.16
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 684,
+          "procenta": 5.57
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 505,
+          "procenta": 4.11
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 142,
+          "procenta": 1.15
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 32,
+          "procenta": 0.26
+        }
+      ]
+    },
+    "29017": {
+      "okrsek": "29017",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29017",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 822,
+        "vydane_obalky": 352,
+        "ucast_pct": 42.82,
+        "odevzdane_obalky": 352,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8802
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 871,
+          "procenta": 9.89
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1831,
+          "procenta": 20.8
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 193,
+          "procenta": 2.19
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 2451,
+          "procenta": 27.84
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 588,
+          "procenta": 6.68
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 1932,
+          "procenta": 21.94
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 198,
+          "procenta": 2.24
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 260,
+          "procenta": 2.95
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 416,
+          "procenta": 4.72
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 62,
+          "procenta": 0.7
+        }
+      ]
+    },
+    "29018": {
+      "okrsek": "29018",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29018",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 764,
+        "vydane_obalky": 332,
+        "ucast_pct": 43.45,
+        "odevzdane_obalky": 332,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8601
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 785,
+          "procenta": 9.12
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1793,
+          "procenta": 20.84
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 540,
+          "procenta": 6.27
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 2232,
+          "procenta": 25.95
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 1246,
+          "procenta": 14.48
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 1071,
+          "procenta": 12.45
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 273,
+          "procenta": 3.17
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 239,
+          "procenta": 2.77
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 217,
+          "procenta": 2.52
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 205,
+          "procenta": 2.38
+        }
+      ]
+    },
+    "29019": {
+      "okrsek": "29019",
+      "obec": "Brno-Židenice",
+      "kod_zastupitelstva": 551058,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29019",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 776,
+        "vydane_obalky": 325,
+        "ucast_pct": 41.88,
+        "odevzdane_obalky": 325,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8829
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 767,
+          "procenta": 8.68
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1748,
+          "procenta": 19.79
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+          "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+          "hlasy": 325,
+          "procenta": 3.68
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+          "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+          "hlasy": 3041,
+          "procenta": 34.44
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+          "hlasy": 1028,
+          "procenta": 11.64
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+          "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+          "hlasy": 1102,
+          "procenta": 12.48
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+          "nazev": "Nezávislí s podporou TOP 09",
+          "hlasy": 207,
+          "procenta": 2.34
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_PIRATSKA_STRANA",
+          "nazev": "Česká pirátská strana",
+          "hlasy": 422,
+          "procenta": 4.77
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+          "nazev": "Spojené ruce pro Julec a Šimice",
+          "hlasy": 184,
+          "procenta": 2.08
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 5,
+          "procenta": 0.05
+        }
+      ]
+    }
+  }
+}

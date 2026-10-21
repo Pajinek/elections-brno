@@ -1,0 +1,1059 @@
+{
+  "zastupitelstvo": 551147,
+  "obec": "Brno-Kohoutovice",
+  "datum_voleb": "20220923",
+  "pocet_okrsku": 11,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "MORAVANE_OTEVREME_RADNICI",
+      "nazev": "Moravané: otevřeme radnici!",
+      "nazev_plny": "Moravané: otevřeme radnici!",
+      "zkratka": "HpŽ+NK"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ",
+      "zkratka": "STAN"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "PRO_KOHOUTOVICE",
+      "nazev": "PRO Kohoutovice",
+      "nazev_plny": "PRO Kohoutovice",
+      "zkratka": "SOM+NK"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+      "nazev": "Kohoutovice, jak je chceme",
+      "nazev_plny": "Kohoutovice, jak je chceme",
+      "zkratka": "KDU-ČSL+NK"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "ZELENI_A_NEZAVISLI",
+      "nazev": "Zelení a nezávislí",
+      "nazev_plny": "Zelení a nezávislí",
+      "zkratka": "Zelení+ŽTB+NK"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+      "nazev": "Česká strana sociálně demokratická",
+      "nazev_plny": "Česká strana sociálně demokratická",
+      "zkratka": "ČSSD"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    {
+      "cislo_listiny": 10,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "nazev_plny": "SPOLEČNĚ - ODS a TOP 09",
+      "zkratka": "ODS+TOP 09"
+    }
+  ],
+  "okrsky": {
+    "11001": {
+      "okrsek": "11001",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551147&xstat=0&xvyber=11001",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 1169,
+        "vydane_obalky": 649,
+        "ucast_pct": 55.51,
+        "odevzdane_obalky": 649,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 12364
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "MORAVANE_OTEVREME_RADNICI",
+          "nazev": "Moravané: otevřeme radnici!",
+          "hlasy": 44,
+          "procenta": 0.35
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 346,
+          "procenta": 2.79
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PRO_KOHOUTOVICE",
+          "nazev": "PRO Kohoutovice",
+          "hlasy": 273,
+          "procenta": 2.2
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 3741,
+          "procenta": 30.25
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 224,
+          "procenta": 1.81
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ZELENI_A_NEZAVISLI",
+          "nazev": "Zelení a nezávislí",
+          "hlasy": 589,
+          "procenta": 4.76
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 897,
+          "procenta": 7.25
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+          "nazev": "Česká strana sociálně demokratická",
+          "hlasy": 2637,
+          "procenta": 21.32
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1833,
+          "procenta": 14.82
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1780,
+          "procenta": 14.39
+        }
+      ]
+    },
+    "11002": {
+      "okrsek": "11002",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551147&xstat=0&xvyber=11002",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 1037,
+        "vydane_obalky": 480,
+        "ucast_pct": 46.28,
+        "odevzdane_obalky": 480,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 9029
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "MORAVANE_OTEVREME_RADNICI",
+          "nazev": "Moravané: otevřeme radnici!",
+          "hlasy": 34,
+          "procenta": 0.37
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 293,
+          "procenta": 3.24
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PRO_KOHOUTOVICE",
+          "nazev": "PRO Kohoutovice",
+          "hlasy": 86,
+          "procenta": 0.95
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 2132,
+          "procenta": 23.61
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 135,
+          "procenta": 1.49
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ZELENI_A_NEZAVISLI",
+          "nazev": "Zelení a nezávislí",
+          "hlasy": 282,
+          "procenta": 3.12
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 607,
+          "procenta": 6.72
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+          "nazev": "Česká strana sociálně demokratická",
+          "hlasy": 2814,
+          "procenta": 31.16
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1471,
+          "procenta": 16.29
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1175,
+          "procenta": 13.01
+        }
+      ]
+    },
+    "11003": {
+      "okrsek": "11003",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551147&xstat=0&xvyber=11003",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 1196,
+        "vydane_obalky": 562,
+        "ucast_pct": 46.98,
+        "odevzdane_obalky": 562,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 10890
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "MORAVANE_OTEVREME_RADNICI",
+          "nazev": "Moravané: otevřeme radnici!",
+          "hlasy": 28,
+          "procenta": 0.25
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 514,
+          "procenta": 4.71
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PRO_KOHOUTOVICE",
+          "nazev": "PRO Kohoutovice",
+          "hlasy": 475,
+          "procenta": 4.36
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 3299,
+          "procenta": 30.29
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 270,
+          "procenta": 2.47
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ZELENI_A_NEZAVISLI",
+          "nazev": "Zelení a nezávislí",
+          "hlasy": 347,
+          "procenta": 3.18
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 687,
+          "procenta": 6.3
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+          "nazev": "Česká strana sociálně demokratická",
+          "hlasy": 2449,
+          "procenta": 22.48
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1570,
+          "procenta": 14.41
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1251,
+          "procenta": 11.48
+        }
+      ]
+    },
+    "11004": {
+      "okrsek": "11004",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551147&xstat=0&xvyber=11004",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 935,
+        "vydane_obalky": 433,
+        "ucast_pct": 46.31,
+        "odevzdane_obalky": 433,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8238
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "MORAVANE_OTEVREME_RADNICI",
+          "nazev": "Moravané: otevřeme radnici!",
+          "hlasy": 11,
+          "procenta": 0.13
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 238,
+          "procenta": 2.88
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PRO_KOHOUTOVICE",
+          "nazev": "PRO Kohoutovice",
+          "hlasy": 323,
+          "procenta": 3.92
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 2071,
+          "procenta": 25.13
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 71,
+          "procenta": 0.86
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ZELENI_A_NEZAVISLI",
+          "nazev": "Zelení a nezávislí",
+          "hlasy": 436,
+          "procenta": 5.29
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 554,
+          "procenta": 6.72
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+          "nazev": "Česká strana sociálně demokratická",
+          "hlasy": 1924,
+          "procenta": 23.35
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1669,
+          "procenta": 20.25
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 941,
+          "procenta": 11.42
+        }
+      ]
+    },
+    "11005": {
+      "okrsek": "11005",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551147&xstat=0&xvyber=11005",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 839,
+        "vydane_obalky": 425,
+        "ucast_pct": 50.65,
+        "odevzdane_obalky": 424,
+        "odevzdane_pct": 99.76,
+        "platne_hlasy": 8300
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "MORAVANE_OTEVREME_RADNICI",
+          "nazev": "Moravané: otevřeme radnici!",
+          "hlasy": 53,
+          "procenta": 0.63
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 345,
+          "procenta": 4.15
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PRO_KOHOUTOVICE",
+          "nazev": "PRO Kohoutovice",
+          "hlasy": 246,
+          "procenta": 2.96
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 2535,
+          "procenta": 30.54
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 129,
+          "procenta": 1.55
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ZELENI_A_NEZAVISLI",
+          "nazev": "Zelení a nezávislí",
+          "hlasy": 358,
+          "procenta": 4.31
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 462,
+          "procenta": 5.56
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+          "nazev": "Česká strana sociálně demokratická",
+          "hlasy": 1626,
+          "procenta": 19.59
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1325,
+          "procenta": 15.96
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1221,
+          "procenta": 14.71
+        }
+      ]
+    },
+    "11006": {
+      "okrsek": "11006",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551147&xstat=0&xvyber=11006",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 851,
+        "vydane_obalky": 431,
+        "ucast_pct": 50.64,
+        "odevzdane_obalky": 430,
+        "odevzdane_pct": 99.76,
+        "platne_hlasy": 8271
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "MORAVANE_OTEVREME_RADNICI",
+          "nazev": "Moravané: otevřeme radnici!",
+          "hlasy": 3,
+          "procenta": 0.03
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 438,
+          "procenta": 5.29
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PRO_KOHOUTOVICE",
+          "nazev": "PRO Kohoutovice",
+          "hlasy": 26,
+          "procenta": 0.31
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 2759,
+          "procenta": 33.35
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 33,
+          "procenta": 0.39
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ZELENI_A_NEZAVISLI",
+          "nazev": "Zelení a nezávislí",
+          "hlasy": 215,
+          "procenta": 2.59
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 369,
+          "procenta": 4.46
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+          "nazev": "Česká strana sociálně demokratická",
+          "hlasy": 2333,
+          "procenta": 28.2
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1291,
+          "procenta": 15.6
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 804,
+          "procenta": 9.72
+        }
+      ]
+    },
+    "11007": {
+      "okrsek": "11007",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551147&xstat=0&xvyber=11007",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 1002,
+        "vydane_obalky": 568,
+        "ucast_pct": 56.68,
+        "odevzdane_obalky": 567,
+        "odevzdane_pct": 99.82,
+        "platne_hlasy": 10784
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "MORAVANE_OTEVREME_RADNICI",
+          "nazev": "Moravané: otevřeme radnici!",
+          "hlasy": 48,
+          "procenta": 0.44
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 201,
+          "procenta": 1.86
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PRO_KOHOUTOVICE",
+          "nazev": "PRO Kohoutovice",
+          "hlasy": 238,
+          "procenta": 2.2
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 4433,
+          "procenta": 41.1
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 27,
+          "procenta": 0.25
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ZELENI_A_NEZAVISLI",
+          "nazev": "Zelení a nezávislí",
+          "hlasy": 293,
+          "procenta": 2.71
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 884,
+          "procenta": 8.19
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+          "nazev": "Česká strana sociálně demokratická",
+          "hlasy": 1715,
+          "procenta": 15.9
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1437,
+          "procenta": 13.32
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 1508,
+          "procenta": 13.98
+        }
+      ]
+    },
+    "11008": {
+      "okrsek": "11008",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551147&xstat=0&xvyber=11008",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 746,
+        "vydane_obalky": 406,
+        "ucast_pct": 54.42,
+        "odevzdane_obalky": 406,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 7851
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "MORAVANE_OTEVREME_RADNICI",
+          "nazev": "Moravané: otevřeme radnici!",
+          "hlasy": 42,
+          "procenta": 0.53
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 329,
+          "procenta": 4.19
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PRO_KOHOUTOVICE",
+          "nazev": "PRO Kohoutovice",
+          "hlasy": 56,
+          "procenta": 0.71
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 3632,
+          "procenta": 46.26
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 106,
+          "procenta": 1.35
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ZELENI_A_NEZAVISLI",
+          "nazev": "Zelení a nezávislí",
+          "hlasy": 146,
+          "procenta": 1.85
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 357,
+          "procenta": 4.54
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+          "nazev": "Česká strana sociálně demokratická",
+          "hlasy": 1634,
+          "procenta": 20.81
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 847,
+          "procenta": 10.78
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 702,
+          "procenta": 8.94
+        }
+      ]
+    },
+    "11009": {
+      "okrsek": "11009",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551147&xstat=0&xvyber=11009",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 591,
+        "vydane_obalky": 274,
+        "ucast_pct": 46.36,
+        "odevzdane_obalky": 273,
+        "odevzdane_pct": 99.63,
+        "platne_hlasy": 5157
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "MORAVANE_OTEVREME_RADNICI",
+          "nazev": "Moravané: otevřeme radnici!",
+          "hlasy": 12,
+          "procenta": 0.23
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 59,
+          "procenta": 1.14
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PRO_KOHOUTOVICE",
+          "nazev": "PRO Kohoutovice",
+          "hlasy": 153,
+          "procenta": 2.96
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 1415,
+          "procenta": 27.43
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 86,
+          "procenta": 1.66
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ZELENI_A_NEZAVISLI",
+          "nazev": "Zelení a nezávislí",
+          "hlasy": 211,
+          "procenta": 4.09
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 266,
+          "procenta": 5.15
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+          "nazev": "Česká strana sociálně demokratická",
+          "hlasy": 1578,
+          "procenta": 30.59
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1046,
+          "procenta": 20.28
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 331,
+          "procenta": 6.41
+        }
+      ]
+    },
+    "11010": {
+      "okrsek": "11010",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551147&xstat=0&xvyber=11010",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 776,
+        "vydane_obalky": 351,
+        "ucast_pct": 45.23,
+        "odevzdane_obalky": 351,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 6571
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "MORAVANE_OTEVREME_RADNICI",
+          "nazev": "Moravané: otevřeme radnici!",
+          "hlasy": 11,
+          "procenta": 0.16
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 119,
+          "procenta": 1.81
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PRO_KOHOUTOVICE",
+          "nazev": "PRO Kohoutovice",
+          "hlasy": 136,
+          "procenta": 2.06
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 1608,
+          "procenta": 24.47
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 94,
+          "procenta": 1.43
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ZELENI_A_NEZAVISLI",
+          "nazev": "Zelení a nezávislí",
+          "hlasy": 304,
+          "procenta": 4.62
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 561,
+          "procenta": 8.53
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+          "nazev": "Česká strana sociálně demokratická",
+          "hlasy": 1850,
+          "procenta": 28.15
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1119,
+          "procenta": 17.02
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 769,
+          "procenta": 11.7
+        }
+      ]
+    },
+    "11011": {
+      "okrsek": "11011",
+      "obec": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551147&xstat=0&xvyber=11011",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 555,
+        "vydane_obalky": 285,
+        "ucast_pct": 51.35,
+        "odevzdane_obalky": 285,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 5626
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "MORAVANE_OTEVREME_RADNICI",
+          "nazev": "Moravané: otevřeme radnici!",
+          "hlasy": 29,
+          "procenta": 0.51
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "STAROSTOVE_A_NEZAVISLI",
+          "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+          "hlasy": 211,
+          "procenta": 3.75
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PRO_KOHOUTOVICE",
+          "nazev": "PRO Kohoutovice",
+          "hlasy": 53,
+          "procenta": 0.94
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "KOHOUTOVICE_JAK_JE_CHCEME",
+          "nazev": "Kohoutovice, jak je chceme",
+          "hlasy": 1654,
+          "procenta": 29.39
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 92,
+          "procenta": 1.63
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ZELENI_A_NEZAVISLI",
+          "nazev": "Zelení a nezávislí",
+          "hlasy": 310,
+          "procenta": 5.51
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 364,
+          "procenta": 6.46
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+          "nazev": "Česká strana sociálně demokratická",
+          "hlasy": 957,
+          "procenta": 17.01
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1119,
+          "procenta": 19.88
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ODS_TOP09",
+          "nazev": "SPOLEČNĚ - ODS a TOP 09",
+          "hlasy": 837,
+          "procenta": 14.87
+        }
+      ]
+    }
+  }
+}

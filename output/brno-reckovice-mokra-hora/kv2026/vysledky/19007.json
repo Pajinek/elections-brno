@@ -1,0 +1,83 @@
+{
+  "okrsek": "19007",
+  "obec": "Brno-Řečkovice a Mokrá Hora",
+  "kod_zastupitelstva": 551244,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T21:22:40",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19007",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19007.json",
+  "prehled": {
+    "volici_v_seznamu": 933,
+    "vydane_obalky": 524,
+    "ucast_pct": 56.16,
+    "odevzdane_obalky": 514,
+    "odevzdane_pct": 98.09,
+    "platne_hlasy": 10701
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "HNUTI_MARKA_VISKOTA",
+      "nazev": "Hnutí MARKA VISKOTA",
+      "hlasy": 3014,
+      "procenta": 28.16
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ODS_TOP_09_A_NEZAVISLI",
+      "nazev": "ODS, TOP 09 a nezávislí",
+      "hlasy": 299,
+      "procenta": 2.79
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1205,
+      "procenta": 11.26
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "NOVI_LIDOVCI",
+      "nazev": "Noví lidovci",
+      "hlasy": 1782,
+      "procenta": 16.65
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 297,
+      "procenta": 2.77
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+      "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+      "hlasy": 328,
+      "procenta": 3.06
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "hlasy": 848,
+      "procenta": 7.92
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 1,
+      "procenta": 0
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+      "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+      "hlasy": 2927,
+      "procenta": 27.35
+    }
+  ]
+}

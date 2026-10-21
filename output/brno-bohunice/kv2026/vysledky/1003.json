@@ -1,0 +1,76 @@
+{
+  "okrsek": "1003",
+  "obec": "Brno-Bohunice",
+  "kod_zastupitelstva": 551082,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T19:53:35",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551082___1003",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551082_1003.json",
+  "prehled": {
+    "volici_v_seznamu": 910,
+    "vydane_obalky": 438,
+    "ucast_pct": 48.13,
+    "odevzdane_obalky": 432,
+    "odevzdane_pct": 98.63,
+    "platne_hlasy": 8477
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 527,
+      "procenta": 6.21
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "LIDOVCI",
+      "nazev": "Lidovci",
+      "hlasy": 2243,
+      "procenta": 26.45
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ZMENA_V_BOH_TOP09_PIRATI_BRNOPLUS_STAN_FAKTBR",
+      "nazev": "Změna v Boh.(TOP09,Piráti,BrnoPlus, STAN,FaktBr.)",
+      "hlasy": 1608,
+      "procenta": 18.96
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "BOHUNICE_NAPLNO_PARKOVANI_ZDARMA_AQUAPARK",
+      "nazev": "BOHUNICE NAPLNO: parkování zdarma, aquapark…",
+      "hlasy": 219,
+      "procenta": 2.58
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 68,
+      "procenta": 0.8
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1051,
+      "procenta": 12.39
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 720,
+      "procenta": 8.49
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "PRO_BOHUNICE",
+      "nazev": "PRO BOhunice",
+      "hlasy": 2041,
+      "procenta": 24.07
+    }
+  ]
+}

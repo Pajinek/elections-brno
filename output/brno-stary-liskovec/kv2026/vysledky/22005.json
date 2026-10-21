@@ -1,0 +1,76 @@
+{
+  "okrsek": "22005",
+  "obec": "Brno-Starý Lískovec",
+  "kod_zastupitelstva": 551091,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T19:00:20",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551091___22005",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551091_22005.json",
+  "prehled": {
+    "volici_v_seznamu": 823,
+    "vydane_obalky": 376,
+    "ucast_pct": 45.69,
+    "odevzdane_obalky": 365,
+    "odevzdane_pct": 97.07,
+    "platne_hlasy": 7040
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "LIDOVCI_PRO_STARY_LISKOVEC",
+      "nazev": "Lidovci pro Starý Lískovec",
+      "hlasy": 808,
+      "procenta": 11.47
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "hlasy": 719,
+      "procenta": 10.21
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 127,
+      "procenta": 1.8
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "ALTERNATIVA_PRO_LISKOVEC_SNK",
+      "nazev": "Alternativa pro Lískovec, SNK",
+      "hlasy": 434,
+      "procenta": 6.16
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "ODS_A_OSOBNOSTI_STAREHO_LISKOVCE_S_PODPOROU_TOP_09",
+      "nazev": "ODS a osobnosti Starého Lískovce s podporou TOP 09",
+      "hlasy": 3059,
+      "procenta": 43.45
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 914,
+      "procenta": 12.98
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "PIRATI_A_ZELENI",
+      "nazev": "Piráti a Zelení",
+      "hlasy": 616,
+      "procenta": 8.75
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "ZA_LUZANKY_JSME_Z_LISKOVCE",
+      "nazev": "Za Lužánky - Jsme z Lískovce!",
+      "hlasy": 363,
+      "procenta": 5.15
+    }
+  ]
+}

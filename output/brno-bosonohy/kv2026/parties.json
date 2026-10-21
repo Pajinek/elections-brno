@@ -1,0 +1,48 @@
+{
+  "zastupitelstvo": {
+    "kod": 551325,
+    "nazev": "Brno-Bosonohy",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "BOSONOHY_PRO_SPOKOJENY_ZIVOT",
+      "nazev": "Bosonohy pro spokojený život",
+      "nazev_plny": "Bosonohy pro spokojený život"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "PRO_LEPSI_BOSONOHY",
+      "nazev": "Pro Lepší Bosonohy",
+      "nazev_plny": "Pro Lepší Bosonohy"
+    }
+  ],
+  "podle_kodu": {
+    "BOSONOHY_PRO_SPOKOJENY_ZIVOT": {
+      "cislo_listiny": 1,
+      "kod": "BOSONOHY_PRO_SPOKOJENY_ZIVOT",
+      "nazev": "Bosonohy pro spokojený život",
+      "nazev_plny": "Bosonohy pro spokojený život"
+    },
+    "OBCANSKA_DEMOKRATICKA_STRANA": {
+      "cislo_listiny": 2,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana"
+    },
+    "PRO_LEPSI_BOSONOHY": {
+      "cislo_listiny": 3,
+      "kod": "PRO_LEPSI_BOSONOHY",
+      "nazev": "Pro Lepší Bosonohy",
+      "nazev_plny": "Pro Lepší Bosonohy"
+    }
+  }
+}

@@ -1,0 +1,2230 @@
+{
+  "zastupitelstvo": 551198,
+  "obec": "Brno-Bystrc",
+  "datum_voleb": "20261009",
+  "pocet_okrsku": 24,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "NASE_BYSTRC",
+      "nazev": "Naše Bystrc",
+      "nazev_plny": "Naše Bystrc"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ZELENA_PRO_BYSTRC",
+      "nazev": "Zelená pro Bystrc",
+      "nazev_plny": "Zelená pro Bystrc"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "VOLIM_BYSTRC",
+      "nazev": "Volím Bystrc",
+      "nazev_plny": "Volím Bystrc"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+      "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+      "nazev_plny": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+      "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+      "nazev_plny": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+      "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+      "nazev_plny": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "nazev_plny": "SPD a nezávislí"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 10,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    }
+  ],
+  "okrsky": {
+    "3001": {
+      "okrsek": "3001",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:45:15",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3001",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3001.json",
+      "prehled": {
+        "volici_v_seznamu": 906,
+        "vydane_obalky": 437,
+        "ucast_pct": 48.23,
+        "odevzdane_obalky": 433,
+        "odevzdane_pct": 99.08,
+        "platne_hlasy": 10797
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 444,
+          "procenta": 4.11
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 1003,
+          "procenta": 9.28
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1801,
+          "procenta": 16.68
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 3018,
+          "procenta": 27.95
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1060,
+          "procenta": 9.81
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 60,
+          "procenta": 0.55
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 1231,
+          "procenta": 11.4
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 357,
+          "procenta": 3.3
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 45,
+          "procenta": 0.41
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1778,
+          "procenta": 16.46
+        }
+      ]
+    },
+    "3002": {
+      "okrsek": "3002",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:24:45",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3002",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3002.json",
+      "prehled": {
+        "volici_v_seznamu": 898,
+        "vydane_obalky": 451,
+        "ucast_pct": 50.22,
+        "odevzdane_obalky": 439,
+        "odevzdane_pct": 97.34,
+        "platne_hlasy": 11250
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 862,
+          "procenta": 7.66
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 1114,
+          "procenta": 9.9
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1827,
+          "procenta": 16.24
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 3003,
+          "procenta": 26.69
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1245,
+          "procenta": 11.06
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 119,
+          "procenta": 1.05
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 1154,
+          "procenta": 10.25
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 474,
+          "procenta": 4.21
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 98,
+          "procenta": 0.87
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1354,
+          "procenta": 12.03
+        }
+      ]
+    },
+    "3003": {
+      "okrsek": "3003",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:26:10",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3003",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3003.json",
+      "prehled": {
+        "volici_v_seznamu": 882,
+        "vydane_obalky": 417,
+        "ucast_pct": 47.28,
+        "odevzdane_obalky": 398,
+        "odevzdane_pct": 95.67,
+        "platne_hlasy": 10311
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 93,
+          "procenta": 0.9
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 931,
+          "procenta": 9.02
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 2257,
+          "procenta": 21.88
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 3031,
+          "procenta": 29.39
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1459,
+          "procenta": 14.14
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 204,
+          "procenta": 1.97
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 1266,
+          "procenta": 12.27
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 66,
+          "procenta": 0.64
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 15,
+          "procenta": 0.14
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 989,
+          "procenta": 9.59
+        }
+      ]
+    },
+    "3004": {
+      "okrsek": "3004",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:45:30",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3004",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3004.json",
+      "prehled": {
+        "volici_v_seznamu": 736,
+        "vydane_obalky": 373,
+        "ucast_pct": 50.68,
+        "odevzdane_obalky": 368,
+        "odevzdane_pct": 98.66,
+        "platne_hlasy": 9416
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 418,
+          "procenta": 4.43
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 1046,
+          "procenta": 11.1
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1739,
+          "procenta": 18.46
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 2384,
+          "procenta": 25.31
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 838,
+          "procenta": 8.89
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 210,
+          "procenta": 2.23
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 808,
+          "procenta": 8.58
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 399,
+          "procenta": 4.23
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 41,
+          "procenta": 0.43
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1533,
+          "procenta": 16.28
+        }
+      ]
+    },
+    "3005": {
+      "okrsek": "3005",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:49:35",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3005",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3005.json",
+      "prehled": {
+        "volici_v_seznamu": 710,
+        "vydane_obalky": 284,
+        "ucast_pct": 40,
+        "odevzdane_obalky": 282,
+        "odevzdane_pct": 99.3,
+        "platne_hlasy": 6770
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 183,
+          "procenta": 2.7
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 233,
+          "procenta": 3.44
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1517,
+          "procenta": 22.4
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 1914,
+          "procenta": 28.27
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 489,
+          "procenta": 7.22
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 274,
+          "procenta": 4.04
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 207,
+          "procenta": 3.05
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 428,
+          "procenta": 6.32
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 66,
+          "procenta": 0.97
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1459,
+          "procenta": 21.55
+        }
+      ]
+    },
+    "3006": {
+      "okrsek": "3006",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:55:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3006",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3006.json",
+      "prehled": {
+        "volici_v_seznamu": 580,
+        "vydane_obalky": 269,
+        "ucast_pct": 46.38,
+        "odevzdane_obalky": 259,
+        "odevzdane_pct": 96.28,
+        "platne_hlasy": 6499
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 83,
+          "procenta": 1.27
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 754,
+          "procenta": 11.6
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 894,
+          "procenta": 13.75
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 1978,
+          "procenta": 30.43
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 683,
+          "procenta": 10.5
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 36,
+          "procenta": 0.55
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 743,
+          "procenta": 11.43
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 236,
+          "procenta": 3.63
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 9,
+          "procenta": 0.13
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1083,
+          "procenta": 16.66
+        }
+      ]
+    },
+    "3007": {
+      "okrsek": "3007",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:09:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3007",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3007.json",
+      "prehled": {
+        "volici_v_seznamu": 630,
+        "vydane_obalky": 269,
+        "ucast_pct": 42.7,
+        "odevzdane_obalky": 268,
+        "odevzdane_pct": 99.63,
+        "platne_hlasy": 7001
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 303,
+          "procenta": 4.32
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 648,
+          "procenta": 9.25
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1744,
+          "procenta": 24.91
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 1664,
+          "procenta": 23.76
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 558,
+          "procenta": 7.97
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 150,
+          "procenta": 2.14
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 441,
+          "procenta": 6.29
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 395,
+          "procenta": 5.64
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 62,
+          "procenta": 0.88
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1036,
+          "procenta": 14.79
+        }
+      ]
+    },
+    "3008": {
+      "okrsek": "3008",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:26:30",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3008",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3008.json",
+      "prehled": {
+        "volici_v_seznamu": 626,
+        "vydane_obalky": 262,
+        "ucast_pct": 41.85,
+        "odevzdane_obalky": 261,
+        "odevzdane_pct": 99.62,
+        "platne_hlasy": 6353
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 167,
+          "procenta": 2.62
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 578,
+          "procenta": 9.09
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 826,
+          "procenta": 13
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 1864,
+          "procenta": 29.34
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 813,
+          "procenta": 12.79
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 171,
+          "procenta": 2.69
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 592,
+          "procenta": 9.31
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 178,
+          "procenta": 2.8
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 61,
+          "procenta": 0.96
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1103,
+          "procenta": 17.36
+        }
+      ]
+    },
+    "3009": {
+      "okrsek": "3009",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T16:49:40",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3009",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3009.json",
+      "prehled": {
+        "volici_v_seznamu": 603,
+        "vydane_obalky": 228,
+        "ucast_pct": 37.81,
+        "odevzdane_obalky": 224,
+        "odevzdane_pct": 98.25,
+        "platne_hlasy": 5562
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 150,
+          "procenta": 2.69
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 465,
+          "procenta": 8.36
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 990,
+          "procenta": 17.79
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 1161,
+          "procenta": 20.87
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 609,
+          "procenta": 10.94
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 93,
+          "procenta": 1.67
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 483,
+          "procenta": 8.68
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 335,
+          "procenta": 6.02
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 51,
+          "procenta": 0.91
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1225,
+          "procenta": 22.02
+        }
+      ]
+    },
+    "3010": {
+      "okrsek": "3010",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T17:55:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3010",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3010.json",
+      "prehled": {
+        "volici_v_seznamu": 572,
+        "vydane_obalky": 262,
+        "ucast_pct": 45.8,
+        "odevzdane_obalky": 262,
+        "odevzdane_pct": 100,
+        "platne_hlasy": 6529
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 211,
+          "procenta": 3.23
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 583,
+          "procenta": 8.92
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1089,
+          "procenta": 16.67
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 1534,
+          "procenta": 23.49
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 486,
+          "procenta": 7.44
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 135,
+          "procenta": 2.06
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 925,
+          "procenta": 14.16
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 410,
+          "procenta": 6.27
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 3,
+          "procenta": 0.04
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1153,
+          "procenta": 17.65
+        }
+      ]
+    },
+    "3011": {
+      "okrsek": "3011",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:58:30",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3011",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3011.json",
+      "prehled": {
+        "volici_v_seznamu": 632,
+        "vydane_obalky": 260,
+        "ucast_pct": 41.14,
+        "odevzdane_obalky": 256,
+        "odevzdane_pct": 98.46,
+        "platne_hlasy": 6272
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 137,
+          "procenta": 2.18
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 825,
+          "procenta": 13.15
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1074,
+          "procenta": 17.12
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 1843,
+          "procenta": 29.38
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 560,
+          "procenta": 8.92
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 5,
+          "procenta": 0.07
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 613,
+          "procenta": 9.77
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 299,
+          "procenta": 4.76
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 56,
+          "procenta": 0.89
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 860,
+          "procenta": 13.71
+        }
+      ]
+    },
+    "3012": {
+      "okrsek": "3012",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:18:20",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3012",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3012.json",
+      "prehled": {
+        "volici_v_seznamu": 888,
+        "vydane_obalky": 405,
+        "ucast_pct": 45.61,
+        "odevzdane_obalky": 402,
+        "odevzdane_pct": 99.26,
+        "platne_hlasy": 10535
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 454,
+          "procenta": 4.3
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 1159,
+          "procenta": 11
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1631,
+          "procenta": 15.48
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 2802,
+          "procenta": 26.59
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1361,
+          "procenta": 12.91
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 356,
+          "procenta": 3.37
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 1087,
+          "procenta": 10.31
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 279,
+          "procenta": 2.64
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 91,
+          "procenta": 0.86
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1315,
+          "procenta": 12.48
+        }
+      ]
+    },
+    "3013": {
+      "okrsek": "3013",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:43:05",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3013",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3013.json",
+      "prehled": {
+        "volici_v_seznamu": 712,
+        "vydane_obalky": 330,
+        "ucast_pct": 46.35,
+        "odevzdane_obalky": 326,
+        "odevzdane_pct": 98.79,
+        "platne_hlasy": 8070
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 304,
+          "procenta": 3.76
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 355,
+          "procenta": 4.39
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1984,
+          "procenta": 24.58
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 2767,
+          "procenta": 34.28
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 718,
+          "procenta": 8.89
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 46,
+          "procenta": 0.57
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 463,
+          "procenta": 5.73
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 233,
+          "procenta": 2.88
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 46,
+          "procenta": 0.57
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1154,
+          "procenta": 14.29
+        }
+      ]
+    },
+    "3014": {
+      "okrsek": "3014",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:38:55",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3014",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3014.json",
+      "prehled": {
+        "volici_v_seznamu": 739,
+        "vydane_obalky": 332,
+        "ucast_pct": 44.93,
+        "odevzdane_obalky": 326,
+        "odevzdane_pct": 98.19,
+        "platne_hlasy": 8167
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 239,
+          "procenta": 2.92
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 335,
+          "procenta": 4.1
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1135,
+          "procenta": 13.89
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 2189,
+          "procenta": 26.8
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 836,
+          "procenta": 10.23
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 137,
+          "procenta": 1.67
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 1265,
+          "procenta": 15.48
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 404,
+          "procenta": 4.94
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 117,
+          "procenta": 1.43
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1510,
+          "procenta": 18.48
+        }
+      ]
+    },
+    "3015": {
+      "okrsek": "3015",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:34:10",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3015",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3015.json",
+      "prehled": {
+        "volici_v_seznamu": 752,
+        "vydane_obalky": 402,
+        "ucast_pct": 53.46,
+        "odevzdane_obalky": 398,
+        "odevzdane_pct": 99.25,
+        "platne_hlasy": 10066
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 250,
+          "procenta": 2.48
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 657,
+          "procenta": 6.52
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1562,
+          "procenta": 15.51
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 3476,
+          "procenta": 34.53
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 874,
+          "procenta": 8.68
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 155,
+          "procenta": 1.53
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 746,
+          "procenta": 7.41
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 502,
+          "procenta": 4.98
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 24,
+          "procenta": 0.23
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1820,
+          "procenta": 18.08
+        }
+      ]
+    },
+    "3016": {
+      "okrsek": "3016",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:35:10",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3016",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3016.json",
+      "prehled": {
+        "volici_v_seznamu": 741,
+        "vydane_obalky": 391,
+        "ucast_pct": 52.77,
+        "odevzdane_obalky": 378,
+        "odevzdane_pct": 96.68,
+        "platne_hlasy": 9643
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 279,
+          "procenta": 2.89
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 701,
+          "procenta": 7.26
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1566,
+          "procenta": 16.23
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 2821,
+          "procenta": 29.25
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 831,
+          "procenta": 8.61
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 194,
+          "procenta": 2.01
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 923,
+          "procenta": 9.57
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 534,
+          "procenta": 5.53
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 62,
+          "procenta": 0.64
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1732,
+          "procenta": 17.96
+        }
+      ]
+    },
+    "3017": {
+      "okrsek": "3017",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T17:49:45",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3017",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3017.json",
+      "prehled": {
+        "volici_v_seznamu": 779,
+        "vydane_obalky": 378,
+        "ucast_pct": 48.52,
+        "odevzdane_obalky": 378,
+        "odevzdane_pct": 100,
+        "platne_hlasy": 9372
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 240,
+          "procenta": 2.56
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 627,
+          "procenta": 6.69
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1812,
+          "procenta": 19.33
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 2765,
+          "procenta": 29.5
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 927,
+          "procenta": 9.89
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 95,
+          "procenta": 1.01
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 1155,
+          "procenta": 12.32
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 121,
+          "procenta": 1.29
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 168,
+          "procenta": 1.79
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1462,
+          "procenta": 15.59
+        }
+      ]
+    },
+    "3018": {
+      "okrsek": "3018",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:52:05",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3018",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3018.json",
+      "prehled": {
+        "volici_v_seznamu": 857,
+        "vydane_obalky": 386,
+        "ucast_pct": 45.04,
+        "odevzdane_obalky": 381,
+        "odevzdane_pct": 98.7,
+        "platne_hlasy": 9867
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 343,
+          "procenta": 3.47
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 639,
+          "procenta": 6.47
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1761,
+          "procenta": 17.84
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 2848,
+          "procenta": 28.86
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 824,
+          "procenta": 8.35
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 285,
+          "procenta": 2.88
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 1324,
+          "procenta": 13.41
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 534,
+          "procenta": 5.41
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 99,
+          "procenta": 1
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1210,
+          "procenta": 12.26
+        }
+      ]
+    },
+    "3019": {
+      "okrsek": "3019",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:10:20",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3019",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3019.json",
+      "prehled": {
+        "volici_v_seznamu": 884,
+        "vydane_obalky": 436,
+        "ucast_pct": 49.32,
+        "odevzdane_obalky": 430,
+        "odevzdane_pct": 98.62,
+        "platne_hlasy": 11059
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 270,
+          "procenta": 2.44
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 1077,
+          "procenta": 9.73
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1257,
+          "procenta": 11.36
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 3105,
+          "procenta": 28.07
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1115,
+          "procenta": 10.08
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 300,
+          "procenta": 2.71
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 2283,
+          "procenta": 20.64
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 298,
+          "procenta": 2.69
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 82,
+          "procenta": 0.74
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1272,
+          "procenta": 11.5
+        }
+      ]
+    },
+    "3020": {
+      "okrsek": "3020",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T17:44:55",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3020",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3020.json",
+      "prehled": {
+        "volici_v_seznamu": 809,
+        "vydane_obalky": 364,
+        "ucast_pct": 44.99,
+        "odevzdane_obalky": 350,
+        "odevzdane_pct": 96.15,
+        "platne_hlasy": 9126
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 155,
+          "procenta": 1.69
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 760,
+          "procenta": 8.32
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1517,
+          "procenta": 16.62
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 2591,
+          "procenta": 28.39
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 750,
+          "procenta": 8.21
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 319,
+          "procenta": 3.49
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 1104,
+          "procenta": 12.09
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 189,
+          "procenta": 2.07
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 81,
+          "procenta": 0.88
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1660,
+          "procenta": 18.18
+        }
+      ]
+    },
+    "3021": {
+      "okrsek": "3021",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:55:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3021",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3021.json",
+      "prehled": {
+        "volici_v_seznamu": 778,
+        "vydane_obalky": 389,
+        "ucast_pct": 50,
+        "odevzdane_obalky": 378,
+        "odevzdane_pct": 97.42,
+        "platne_hlasy": 9535
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 262,
+          "procenta": 2.74
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 745,
+          "procenta": 7.81
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1812,
+          "procenta": 19
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 2383,
+          "procenta": 24.99
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 968,
+          "procenta": 10.15
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 285,
+          "procenta": 2.98
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 1052,
+          "procenta": 11.03
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 302,
+          "procenta": 3.16
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 36,
+          "procenta": 0.37
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1690,
+          "procenta": 17.72
+        }
+      ]
+    },
+    "3022": {
+      "okrsek": "3022",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:16:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3022",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3022.json",
+      "prehled": {
+        "volici_v_seznamu": 875,
+        "vydane_obalky": 400,
+        "ucast_pct": 45.71,
+        "odevzdane_obalky": 396,
+        "odevzdane_pct": 99,
+        "platne_hlasy": 10063
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 304,
+          "procenta": 3.02
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 773,
+          "procenta": 7.68
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1997,
+          "procenta": 19.84
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 2501,
+          "procenta": 24.85
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1302,
+          "procenta": 12.93
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 17,
+          "procenta": 0.16
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 1697,
+          "procenta": 16.86
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 496,
+          "procenta": 4.92
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 4,
+          "procenta": 0.03
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 972,
+          "procenta": 9.65
+        }
+      ]
+    },
+    "3023": {
+      "okrsek": "3023",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:07:35",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3023",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3023.json",
+      "prehled": {
+        "volici_v_seznamu": 813,
+        "vydane_obalky": 333,
+        "ucast_pct": 40.96,
+        "odevzdane_obalky": 328,
+        "odevzdane_pct": 98.5,
+        "platne_hlasy": 7427
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 399,
+          "procenta": 5.37
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 680,
+          "procenta": 9.15
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1524,
+          "procenta": 20.51
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 2287,
+          "procenta": 30.79
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 943,
+          "procenta": 12.69
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 61,
+          "procenta": 0.82
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 274,
+          "procenta": 3.68
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 221,
+          "procenta": 2.97
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 1,
+          "procenta": 0.01
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1037,
+          "procenta": 13.96
+        }
+      ]
+    },
+    "3024": {
+      "okrsek": "3024",
+      "obec": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:38:40",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551198___3024",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551198_3024.json",
+      "prehled": {
+        "volici_v_seznamu": 893,
+        "vydane_obalky": 509,
+        "ucast_pct": 57,
+        "odevzdane_obalky": 507,
+        "odevzdane_pct": 99.61,
+        "platne_hlasy": 13324
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "NASE_BYSTRC",
+          "nazev": "Naše Bystrc",
+          "hlasy": 603,
+          "procenta": 4.52
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ZELENA_PRO_BYSTRC",
+          "nazev": "Zelená pro Bystrc",
+          "hlasy": 1128,
+          "procenta": 8.46
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "VOLIM_BYSTRC",
+          "nazev": "Volím Bystrc",
+          "hlasy": 1714,
+          "procenta": 12.86
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "BYSTRC_BLIZ_LIDEM_LIDOVCI_A_STAROSTOVE",
+          "nazev": "BYSTRC BLÍŽ LIDEM (LIDOVCI A STAROSTOVÉ)",
+          "hlasy": 4729,
+          "procenta": 35.49
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1402,
+          "procenta": 10.52
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "BYSTRC_NAPLNO_KOALICE_TRIKOLORA_PRO_SVOBODNI",
+          "nazev": "BYSTRC NAPLNO - koalice Trikolora, PRO, Svobodní",
+          "hlasy": 428,
+          "procenta": 3.21
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "BYSTRCACI_PIRATI_TOP_09_A_NEZAVISLI_PRO_BYSTRC",
+          "nazev": "Bystrčáci, Piráti, TOP 09 a nezávislí pro Bystrc",
+          "hlasy": 2210,
+          "procenta": 16.58
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "SPD",
+          "nazev": "SPD a nezávislí",
+          "hlasy": 261,
+          "procenta": 1.95
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 0,
+          "procenta": 0
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 849,
+          "procenta": 6.37
+        }
+      ]
+    }
+  }
+}

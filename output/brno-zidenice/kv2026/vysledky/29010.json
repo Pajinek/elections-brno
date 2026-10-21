@@ -1,0 +1,76 @@
+{
+  "okrsek": "29010",
+  "obec": "Brno-Židenice",
+  "kod_zastupitelstva": 551058,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T20:22:45",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551058___29010",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551058_29010.json",
+  "prehled": {
+    "volici_v_seznamu": 872,
+    "vydane_obalky": 418,
+    "ucast_pct": 47.94,
+    "odevzdane_obalky": 409,
+    "odevzdane_pct": 97.85,
+    "platne_hlasy": 11412
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ZIDENICE_NAPLNO",
+      "nazev": "Židenice NAPLNO",
+      "hlasy": 75,
+      "procenta": 0.65
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1551,
+      "procenta": 13.59
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ZIDENICE_DOBRA_ADRESA_CZ",
+      "nazev": "Židenice-dobrá-adresa.cz",
+      "hlasy": 940,
+      "procenta": 8.23
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 314,
+      "procenta": 2.75
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "LIDOVCI_A_STAROSTOVE_BLIZ_LIDEM",
+      "nazev": "Lidovci a Starostové Blíž lidem",
+      "hlasy": 3410,
+      "procenta": 29.88
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+      "nazev": "PETR KUNC – HLAS PRO ŽIDENICE",
+      "hlasy": 3697,
+      "procenta": 32.39
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZIDENICE",
+      "nazev": "Piráti a Fakt Brno TU! pro Židenice",
+      "hlasy": 853,
+      "procenta": 7.47
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "SPD_A_NEZAVISLI_KANDIDATI_ZA_ZELENOU_PRO_ZIDENICE",
+      "nazev": "SPD a nezávislí kandidáti za zelenou pro Židenice",
+      "hlasy": 572,
+      "procenta": 5.01
+    }
+  ]
+}

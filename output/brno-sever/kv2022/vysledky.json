@@ -1,0 +1,3763 @@
+{
+  "zastupitelstvo": 551031,
+  "obec": "Brno-sever",
+  "datum_voleb": "20220923",
+  "pocet_okrsku": 45,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "HNUTI_SOL",
+      "nazev": "Hnutí SOL",
+      "nazev_plny": "Hnutí SOL",
+      "zkratka": "SOL"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+      "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+      "nazev_plny": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+      "zkratka": "JSI PRO?"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "CSSD_VASI_STAROSTOVE",
+      "nazev": "ČSSD VAŠI STAROSTOVÉ",
+      "nazev_plny": "ČSSD VAŠI STAROSTOVÉ",
+      "zkratka": "ČSSD+NK"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "KDU_CSL",
+      "nazev": "KDU-ČSL",
+      "nazev_plny": "KDU-ČSL",
+      "zkratka": "KDU-ČSL"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "PIRATI_A_ZELENI",
+      "nazev": "Piráti a Zelení",
+      "nazev_plny": "Piráti a Zelení",
+      "zkratka": "Zelení+Piráti"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana",
+      "zkratka": "ODS"
+    }
+  ],
+  "okrsky": {
+    "20001": {
+      "okrsek": "20001",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20001",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 620,
+        "vydane_obalky": 291,
+        "ucast_pct": 46.93,
+        "odevzdane_obalky": 291,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8981
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 2308,
+          "procenta": 25.69
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 3,
+          "procenta": 0.03
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1288,
+          "procenta": 14.34
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 735,
+          "procenta": 8.18
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 311,
+          "procenta": 3.46
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1275,
+          "procenta": 14.19
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 1510,
+          "procenta": 16.81
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 36,
+          "procenta": 0.4
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1515,
+          "procenta": 16.86
+        }
+      ]
+    },
+    "20002": {
+      "okrsek": "20002",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20002",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 680,
+        "vydane_obalky": 338,
+        "ucast_pct": 49.7,
+        "odevzdane_obalky": 338,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 11176
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 3022,
+          "procenta": 27.04
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 3,
+          "procenta": 0.02
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1230,
+          "procenta": 11.0
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 670,
+          "procenta": 5.99
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 241,
+          "procenta": 2.15
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1268,
+          "procenta": 11.34
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 2444,
+          "procenta": 21.86
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 74,
+          "procenta": 0.66
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 2224,
+          "procenta": 19.89
+        }
+      ]
+    },
+    "20003": {
+      "okrsek": "20003",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20003",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 785,
+        "vydane_obalky": 392,
+        "ucast_pct": 49.93,
+        "odevzdane_obalky": 392,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 12826
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 3851,
+          "procenta": 30.02
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 6,
+          "procenta": 0.04
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 2536,
+          "procenta": 19.77
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 914,
+          "procenta": 7.12
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 430,
+          "procenta": 3.35
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1171,
+          "procenta": 9.12
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 1855,
+          "procenta": 14.46
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 223,
+          "procenta": 1.73
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1840,
+          "procenta": 14.34
+        }
+      ]
+    },
+    "20004": {
+      "okrsek": "20004",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20004",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 770,
+        "vydane_obalky": 361,
+        "ucast_pct": 46.88,
+        "odevzdane_obalky": 360,
+        "odevzdane_pct": 99.72,
+        "platne_hlasy": 11483
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 3371,
+          "procenta": 29.35
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 4,
+          "procenta": 0.03
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1673,
+          "procenta": 14.56
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 961,
+          "procenta": 8.36
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 174,
+          "procenta": 1.51
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1053,
+          "procenta": 9.17
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 1664,
+          "procenta": 14.49
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 40,
+          "procenta": 0.34
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 2543,
+          "procenta": 22.14
+        }
+      ]
+    },
+    "20005": {
+      "okrsek": "20005",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20005",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 696,
+        "vydane_obalky": 281,
+        "ucast_pct": 40.37,
+        "odevzdane_obalky": 280,
+        "odevzdane_pct": 99.64,
+        "platne_hlasy": 9009
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 2077,
+          "procenta": 23.05
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 1,
+          "procenta": 0.01
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1754,
+          "procenta": 19.46
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 1017,
+          "procenta": 11.28
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 346,
+          "procenta": 3.84
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1182,
+          "procenta": 13.12
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 1183,
+          "procenta": 13.13
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 177,
+          "procenta": 1.96
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1272,
+          "procenta": 14.11
+        }
+      ]
+    },
+    "20006": {
+      "okrsek": "20006",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20006",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 738,
+        "vydane_obalky": 205,
+        "ucast_pct": 27.77,
+        "odevzdane_obalky": 205,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 6189
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 1542,
+          "procenta": 24.91
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 0,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 950,
+          "procenta": 15.34
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 491,
+          "procenta": 7.93
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 354,
+          "procenta": 5.71
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 526,
+          "procenta": 8.49
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 1468,
+          "procenta": 23.71
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 36,
+          "procenta": 0.58
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 822,
+          "procenta": 13.28
+        }
+      ]
+    },
+    "20007": {
+      "okrsek": "20007",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20007",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 723,
+        "vydane_obalky": 326,
+        "ucast_pct": 45.08,
+        "odevzdane_obalky": 326,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 10463
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 2742,
+          "procenta": 26.2
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 2,
+          "procenta": 0.01
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1813,
+          "procenta": 17.32
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 813,
+          "procenta": 7.77
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 244,
+          "procenta": 2.33
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1203,
+          "procenta": 11.49
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 1863,
+          "procenta": 17.8
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 70,
+          "procenta": 0.66
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1713,
+          "procenta": 16.37
+        }
+      ]
+    },
+    "20008": {
+      "okrsek": "20008",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20008",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 640,
+        "vydane_obalky": 270,
+        "ucast_pct": 42.18,
+        "odevzdane_obalky": 268,
+        "odevzdane_pct": 99.25,
+        "platne_hlasy": 9015
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 2210,
+          "procenta": 24.51
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 0,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1267,
+          "procenta": 14.05
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 597,
+          "procenta": 6.62
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 266,
+          "procenta": 2.95
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 686,
+          "procenta": 7.6
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 1861,
+          "procenta": 20.64
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 423,
+          "procenta": 4.69
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1705,
+          "procenta": 18.91
+        }
+      ]
+    },
+    "20009": {
+      "okrsek": "20009",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20009",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 653,
+        "vydane_obalky": 111,
+        "ucast_pct": 16.99,
+        "odevzdane_obalky": 111,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 3529
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 361,
+          "procenta": 10.22
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 2,
+          "procenta": 0.05
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1125,
+          "procenta": 31.87
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 540,
+          "procenta": 15.3
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 208,
+          "procenta": 5.89
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 189,
+          "procenta": 5.35
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 747,
+          "procenta": 21.16
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 1,
+          "procenta": 0.02
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 356,
+          "procenta": 10.08
+        }
+      ]
+    },
+    "20010": {
+      "okrsek": "20010",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20010",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 773,
+        "vydane_obalky": 185,
+        "ucast_pct": 23.93,
+        "odevzdane_obalky": 185,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 5835
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 1184,
+          "procenta": 20.29
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 2,
+          "procenta": 0.03
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1308,
+          "procenta": 22.41
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 1125,
+          "procenta": 19.28
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 424,
+          "procenta": 7.26
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 550,
+          "procenta": 9.42
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 489,
+          "procenta": 8.38
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 181,
+          "procenta": 3.1
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 572,
+          "procenta": 9.8
+        }
+      ]
+    },
+    "20011": {
+      "okrsek": "20011",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20011",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 731,
+        "vydane_obalky": 281,
+        "ucast_pct": 38.44,
+        "odevzdane_obalky": 281,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 9074
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 2472,
+          "procenta": 27.24
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 2,
+          "procenta": 0.02
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 2003,
+          "procenta": 22.07
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 500,
+          "procenta": 5.51
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 388,
+          "procenta": 4.27
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 856,
+          "procenta": 9.43
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 1498,
+          "procenta": 16.5
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 154,
+          "procenta": 1.69
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1201,
+          "procenta": 13.23
+        }
+      ]
+    },
+    "20012": {
+      "okrsek": "20012",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20012",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 842,
+        "vydane_obalky": 205,
+        "ucast_pct": 24.34,
+        "odevzdane_obalky": 205,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 6378
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 1113,
+          "procenta": 17.45
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 3,
+          "procenta": 0.04
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1406,
+          "procenta": 22.04
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 611,
+          "procenta": 9.57
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 15,
+          "procenta": 0.23
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 350,
+          "procenta": 5.48
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 1810,
+          "procenta": 28.37
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 87,
+          "procenta": 1.36
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 983,
+          "procenta": 15.41
+        }
+      ]
+    },
+    "20013": {
+      "okrsek": "20013",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20013",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 749,
+        "vydane_obalky": 359,
+        "ucast_pct": 47.93,
+        "odevzdane_obalky": 359,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 11173
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 4482,
+          "procenta": 40.11
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 2,
+          "procenta": 0.01
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1475,
+          "procenta": 13.2
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 787,
+          "procenta": 7.04
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 354,
+          "procenta": 3.16
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1717,
+          "procenta": 15.36
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 729,
+          "procenta": 6.52
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 184,
+          "procenta": 1.64
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1443,
+          "procenta": 12.91
+        }
+      ]
+    },
+    "20014": {
+      "okrsek": "20014",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20014",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 644,
+        "vydane_obalky": 265,
+        "ucast_pct": 41.14,
+        "odevzdane_obalky": 265,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8622
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 2394,
+          "procenta": 27.76
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 0,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 2090,
+          "procenta": 24.24
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 1382,
+          "procenta": 16.02
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 545,
+          "procenta": 6.32
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 522,
+          "procenta": 6.05
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 471,
+          "procenta": 5.46
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 266,
+          "procenta": 3.08
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 952,
+          "procenta": 11.04
+        }
+      ]
+    },
+    "20015": {
+      "okrsek": "20015",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20015",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 723,
+        "vydane_obalky": 275,
+        "ucast_pct": 38.03,
+        "odevzdane_obalky": 275,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8857
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 2857,
+          "procenta": 32.25
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 0,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1490,
+          "procenta": 16.82
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 793,
+          "procenta": 8.95
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 361,
+          "procenta": 4.07
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 999,
+          "procenta": 11.27
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 776,
+          "procenta": 8.76
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 387,
+          "procenta": 4.36
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1194,
+          "procenta": 13.48
+        }
+      ]
+    },
+    "20016": {
+      "okrsek": "20016",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20016",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 674,
+        "vydane_obalky": 270,
+        "ucast_pct": 40.05,
+        "odevzdane_obalky": 270,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 7867
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 2725,
+          "procenta": 34.63
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 2,
+          "procenta": 0.02
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1597,
+          "procenta": 20.29
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 593,
+          "procenta": 7.53
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 254,
+          "procenta": 3.22
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 720,
+          "procenta": 9.15
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 638,
+          "procenta": 8.1
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 79,
+          "procenta": 1.0
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1259,
+          "procenta": 16.0
+        }
+      ]
+    },
+    "20017": {
+      "okrsek": "20017",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20017",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 730,
+        "vydane_obalky": 292,
+        "ucast_pct": 40.0,
+        "odevzdane_obalky": 292,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 9095
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 4084,
+          "procenta": 44.9
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 2,
+          "procenta": 0.02
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1541,
+          "procenta": 16.94
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 740,
+          "procenta": 8.13
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 200,
+          "procenta": 2.19
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 798,
+          "procenta": 8.77
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 643,
+          "procenta": 7.06
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 38,
+          "procenta": 0.41
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1049,
+          "procenta": 11.53
+        }
+      ]
+    },
+    "20018": {
+      "okrsek": "20018",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20018",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 752,
+        "vydane_obalky": 329,
+        "ucast_pct": 43.75,
+        "odevzdane_obalky": 329,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 10255
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 3908,
+          "procenta": 38.1
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 9,
+          "procenta": 0.08
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1469,
+          "procenta": 14.32
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 1031,
+          "procenta": 10.05
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 257,
+          "procenta": 2.5
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1078,
+          "procenta": 10.51
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 1239,
+          "procenta": 12.08
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 116,
+          "procenta": 1.13
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1148,
+          "procenta": 11.19
+        }
+      ]
+    },
+    "20019": {
+      "okrsek": "20019",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20019",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 643,
+        "vydane_obalky": 290,
+        "ucast_pct": 45.1,
+        "odevzdane_obalky": 290,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 9337
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 2972,
+          "procenta": 31.83
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 0,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1280,
+          "procenta": 13.7
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 1185,
+          "procenta": 12.69
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 288,
+          "procenta": 3.08
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1093,
+          "procenta": 11.7
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 978,
+          "procenta": 10.47
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 102,
+          "procenta": 1.09
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1439,
+          "procenta": 15.41
+        }
+      ]
+    },
+    "20020": {
+      "okrsek": "20020",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20020",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 678,
+        "vydane_obalky": 316,
+        "ucast_pct": 46.6,
+        "odevzdane_obalky": 316,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 10309
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 3371,
+          "procenta": 32.69
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 1,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1858,
+          "procenta": 18.02
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 786,
+          "procenta": 7.62
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 424,
+          "procenta": 4.11
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1142,
+          "procenta": 11.07
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 960,
+          "procenta": 9.31
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 142,
+          "procenta": 1.37
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1625,
+          "procenta": 15.76
+        }
+      ]
+    },
+    "20021": {
+      "okrsek": "20021",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20021",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 812,
+        "vydane_obalky": 375,
+        "ucast_pct": 46.18,
+        "odevzdane_obalky": 375,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 11801
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 3537,
+          "procenta": 29.97
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 5,
+          "procenta": 0.04
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1540,
+          "procenta": 13.04
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 837,
+          "procenta": 7.09
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 684,
+          "procenta": 5.79
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1509,
+          "procenta": 12.78
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 1196,
+          "procenta": 10.13
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 109,
+          "procenta": 0.92
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 2384,
+          "procenta": 20.2
+        }
+      ]
+    },
+    "20022": {
+      "okrsek": "20022",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20022",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 926,
+        "vydane_obalky": 403,
+        "ucast_pct": 43.52,
+        "odevzdane_obalky": 403,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 12913
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 3123,
+          "procenta": 24.18
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 6,
+          "procenta": 0.04
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 2669,
+          "procenta": 20.66
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 769,
+          "procenta": 5.95
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 320,
+          "procenta": 2.47
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 2029,
+          "procenta": 15.71
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 1964,
+          "procenta": 15.2
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 196,
+          "procenta": 1.51
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1837,
+          "procenta": 14.22
+        }
+      ]
+    },
+    "20023": {
+      "okrsek": "20023",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20023",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 699,
+        "vydane_obalky": 184,
+        "ucast_pct": 26.32,
+        "odevzdane_obalky": 184,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 5806
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 1808,
+          "procenta": 31.14
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 0,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1050,
+          "procenta": 18.08
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 667,
+          "procenta": 11.48
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 127,
+          "procenta": 2.18
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 872,
+          "procenta": 15.01
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 798,
+          "procenta": 13.74
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 119,
+          "procenta": 2.04
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 365,
+          "procenta": 6.28
+        }
+      ]
+    },
+    "20024": {
+      "okrsek": "20024",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20024",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 601,
+        "vydane_obalky": 203,
+        "ucast_pct": 33.77,
+        "odevzdane_obalky": 203,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 6145
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 2014,
+          "procenta": 32.77
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 3,
+          "procenta": 0.04
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1166,
+          "procenta": 18.97
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 420,
+          "procenta": 6.83
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 131,
+          "procenta": 2.13
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 438,
+          "procenta": 7.12
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 836,
+          "procenta": 13.6
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 73,
+          "procenta": 1.18
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1064,
+          "procenta": 17.31
+        }
+      ]
+    },
+    "20025": {
+      "okrsek": "20025",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20025",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 1029,
+        "vydane_obalky": 452,
+        "ucast_pct": 43.92,
+        "odevzdane_obalky": 449,
+        "odevzdane_pct": 99.33,
+        "platne_hlasy": 13954
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 5106,
+          "procenta": 36.59
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 3,
+          "procenta": 0.02
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1899,
+          "procenta": 13.6
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 1157,
+          "procenta": 8.29
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 419,
+          "procenta": 3.0
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1937,
+          "procenta": 13.88
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 2187,
+          "procenta": 15.67
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 38,
+          "procenta": 0.27
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1208,
+          "procenta": 8.65
+        }
+      ]
+    },
+    "20026": {
+      "okrsek": "20026",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20026",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 803,
+        "vydane_obalky": 322,
+        "ucast_pct": 40.09,
+        "odevzdane_obalky": 322,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 9654
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 2177,
+          "procenta": 22.55
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 7,
+          "procenta": 0.07
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1665,
+          "procenta": 17.24
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 1305,
+          "procenta": 13.51
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 317,
+          "procenta": 3.28
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1564,
+          "procenta": 16.2
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 1076,
+          "procenta": 11.14
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 316,
+          "procenta": 3.27
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1227,
+          "procenta": 12.7
+        }
+      ]
+    },
+    "20027": {
+      "okrsek": "20027",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20027",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 1034,
+        "vydane_obalky": 545,
+        "ucast_pct": 52.7,
+        "odevzdane_obalky": 545,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 17722
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 6591,
+          "procenta": 37.19
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 4,
+          "procenta": 0.02
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 2830,
+          "procenta": 15.96
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 836,
+          "procenta": 4.71
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 649,
+          "procenta": 3.66
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 2136,
+          "procenta": 12.05
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 1507,
+          "procenta": 8.5
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 107,
+          "procenta": 0.6
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 3062,
+          "procenta": 17.27
+        }
+      ]
+    },
+    "20028": {
+      "okrsek": "20028",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20028",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 909,
+        "vydane_obalky": 413,
+        "ucast_pct": 45.43,
+        "odevzdane_obalky": 413,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 13489
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 6321,
+          "procenta": 46.86
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 0,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 2457,
+          "procenta": 18.21
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 722,
+          "procenta": 5.35
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 446,
+          "procenta": 3.3
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1412,
+          "procenta": 10.46
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 618,
+          "procenta": 4.58
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 255,
+          "procenta": 1.89
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1258,
+          "procenta": 9.32
+        }
+      ]
+    },
+    "20029": {
+      "okrsek": "20029",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20029",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 876,
+        "vydane_obalky": 397,
+        "ucast_pct": 45.31,
+        "odevzdane_obalky": 397,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 12988
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 7103,
+          "procenta": 54.68
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 0,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 2244,
+          "procenta": 17.27
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 672,
+          "procenta": 5.17
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 174,
+          "procenta": 1.33
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 522,
+          "procenta": 4.01
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 668,
+          "procenta": 5.14
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 515,
+          "procenta": 3.96
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1090,
+          "procenta": 8.39
+        }
+      ]
+    },
+    "20030": {
+      "okrsek": "20030",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20030",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 624,
+        "vydane_obalky": 236,
+        "ucast_pct": 37.82,
+        "odevzdane_obalky": 236,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 7417
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 2491,
+          "procenta": 33.58
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 2,
+          "procenta": 0.02
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1118,
+          "procenta": 15.07
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 1174,
+          "procenta": 15.82
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 210,
+          "procenta": 2.83
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 507,
+          "procenta": 6.83
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 600,
+          "procenta": 8.08
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 827,
+          "procenta": 11.15
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 488,
+          "procenta": 6.57
+        }
+      ]
+    },
+    "20031": {
+      "okrsek": "20031",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20031",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 669,
+        "vydane_obalky": 254,
+        "ucast_pct": 37.96,
+        "odevzdane_obalky": 254,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8190
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 4292,
+          "procenta": 52.4
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 2,
+          "procenta": 0.02
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1140,
+          "procenta": 13.91
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 665,
+          "procenta": 8.11
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 252,
+          "procenta": 3.07
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 698,
+          "procenta": 8.52
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 499,
+          "procenta": 6.09
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 105,
+          "procenta": 1.28
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 537,
+          "procenta": 6.55
+        }
+      ]
+    },
+    "20032": {
+      "okrsek": "20032",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20032",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 759,
+        "vydane_obalky": 319,
+        "ucast_pct": 42.02,
+        "odevzdane_obalky": 319,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 10507
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 6176,
+          "procenta": 58.77
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 1,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1584,
+          "procenta": 15.07
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 545,
+          "procenta": 5.18
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 173,
+          "procenta": 1.64
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 900,
+          "procenta": 8.56
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 510,
+          "procenta": 4.85
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 181,
+          "procenta": 1.72
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 437,
+          "procenta": 4.15
+        }
+      ]
+    },
+    "20033": {
+      "okrsek": "20033",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20033",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 648,
+        "vydane_obalky": 345,
+        "ucast_pct": 53.24,
+        "odevzdane_obalky": 345,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 11450
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 6948,
+          "procenta": 60.68
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 0,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1203,
+          "procenta": 10.5
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 293,
+          "procenta": 2.55
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 199,
+          "procenta": 1.73
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 757,
+          "procenta": 6.61
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 328,
+          "procenta": 2.86
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 0,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1722,
+          "procenta": 15.03
+        }
+      ]
+    },
+    "20034": {
+      "okrsek": "20034",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20034",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 713,
+        "vydane_obalky": 273,
+        "ucast_pct": 38.28,
+        "odevzdane_obalky": 273,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 9007
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 4296,
+          "procenta": 47.69
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 0,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1673,
+          "procenta": 18.57
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 937,
+          "procenta": 10.4
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 253,
+          "procenta": 2.8
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 473,
+          "procenta": 5.25
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 395,
+          "procenta": 4.38
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 371,
+          "procenta": 4.11
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 609,
+          "procenta": 6.76
+        }
+      ]
+    },
+    "20035": {
+      "okrsek": "20035",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20035",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 855,
+        "vydane_obalky": 385,
+        "ucast_pct": 45.02,
+        "odevzdane_obalky": 383,
+        "odevzdane_pct": 99.48,
+        "platne_hlasy": 12422
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 7786,
+          "procenta": 62.67
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 4,
+          "procenta": 0.03
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1972,
+          "procenta": 15.87
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 768,
+          "procenta": 6.18
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 409,
+          "procenta": 3.29
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 347,
+          "procenta": 2.79
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 384,
+          "procenta": 3.09
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 250,
+          "procenta": 2.01
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 502,
+          "procenta": 4.04
+        }
+      ]
+    },
+    "20036": {
+      "okrsek": "20036",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20036",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 597,
+        "vydane_obalky": 292,
+        "ucast_pct": 48.91,
+        "odevzdane_obalky": 292,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 9479
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 5471,
+          "procenta": 57.71
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 0,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1580,
+          "procenta": 16.66
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 584,
+          "procenta": 6.16
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 90,
+          "procenta": 0.94
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 739,
+          "procenta": 7.79
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 478,
+          "procenta": 5.04
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 173,
+          "procenta": 1.82
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 364,
+          "procenta": 3.84
+        }
+      ]
+    },
+    "20037": {
+      "okrsek": "20037",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20037",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 724,
+        "vydane_obalky": 388,
+        "ucast_pct": 53.59,
+        "odevzdane_obalky": 388,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 12786
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 7107,
+          "procenta": 55.58
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 4,
+          "procenta": 0.03
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1269,
+          "procenta": 9.92
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 877,
+          "procenta": 6.85
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 190,
+          "procenta": 1.48
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1055,
+          "procenta": 8.25
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 622,
+          "procenta": 4.86
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 188,
+          "procenta": 1.47
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1474,
+          "procenta": 11.52
+        }
+      ]
+    },
+    "20038": {
+      "okrsek": "20038",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20038",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 775,
+        "vydane_obalky": 377,
+        "ucast_pct": 48.64,
+        "odevzdane_obalky": 377,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 11033
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 5089,
+          "procenta": 46.12
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 4,
+          "procenta": 0.03
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 2073,
+          "procenta": 18.78
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 632,
+          "procenta": 5.72
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 450,
+          "procenta": 4.07
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1134,
+          "procenta": 10.27
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 510,
+          "procenta": 4.62
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 299,
+          "procenta": 2.71
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 842,
+          "procenta": 7.63
+        }
+      ]
+    },
+    "20039": {
+      "okrsek": "20039",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20039",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 656,
+        "vydane_obalky": 303,
+        "ucast_pct": 46.18,
+        "odevzdane_obalky": 303,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 9947
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 5170,
+          "procenta": 51.97
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 2,
+          "procenta": 0.02
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1759,
+          "procenta": 17.68
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 427,
+          "procenta": 4.29
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 118,
+          "procenta": 1.18
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1030,
+          "procenta": 10.35
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 670,
+          "procenta": 6.73
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 183,
+          "procenta": 1.83
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 588,
+          "procenta": 5.91
+        }
+      ]
+    },
+    "20040": {
+      "okrsek": "20040",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20040",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 844,
+        "vydane_obalky": 407,
+        "ucast_pct": 48.22,
+        "odevzdane_obalky": 407,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 12822
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 7039,
+          "procenta": 54.89
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 0,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1766,
+          "procenta": 13.77
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 688,
+          "procenta": 5.36
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 448,
+          "procenta": 3.49
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1132,
+          "procenta": 8.82
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 728,
+          "procenta": 5.67
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 81,
+          "procenta": 0.63
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 940,
+          "procenta": 7.33
+        }
+      ]
+    },
+    "20041": {
+      "okrsek": "20041",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20041",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 860,
+        "vydane_obalky": 360,
+        "ucast_pct": 41.86,
+        "odevzdane_obalky": 360,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 11584
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 5383,
+          "procenta": 46.46
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 2,
+          "procenta": 0.01
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1716,
+          "procenta": 14.81
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 1071,
+          "procenta": 9.24
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 228,
+          "procenta": 1.96
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 1211,
+          "procenta": 10.45
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 625,
+          "procenta": 5.39
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 107,
+          "procenta": 0.92
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1241,
+          "procenta": 10.71
+        }
+      ]
+    },
+    "20042": {
+      "okrsek": "20042",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20042",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 826,
+        "vydane_obalky": 326,
+        "ucast_pct": 39.46,
+        "odevzdane_obalky": 326,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 10591
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 5031,
+          "procenta": 47.5
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 0,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1852,
+          "procenta": 17.48
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 925,
+          "procenta": 8.73
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 199,
+          "procenta": 1.87
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 910,
+          "procenta": 8.59
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 766,
+          "procenta": 7.23
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 140,
+          "procenta": 1.32
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 768,
+          "procenta": 7.25
+        }
+      ]
+    },
+    "20043": {
+      "okrsek": "20043",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20043",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 544,
+        "vydane_obalky": 263,
+        "ucast_pct": 48.34,
+        "odevzdane_obalky": 263,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 8466
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 4893,
+          "procenta": 57.79
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 2,
+          "procenta": 0.02
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 983,
+          "procenta": 11.61
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 457,
+          "procenta": 5.39
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 105,
+          "procenta": 1.24
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 474,
+          "procenta": 5.59
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 691,
+          "procenta": 8.16
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 8,
+          "procenta": 0.09
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 853,
+          "procenta": 10.07
+        }
+      ]
+    },
+    "20044": {
+      "okrsek": "20044",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20044",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 890,
+        "vydane_obalky": 547,
+        "ucast_pct": 61.46,
+        "odevzdane_obalky": 547,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 17554
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 5988,
+          "procenta": 34.11
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 3,
+          "procenta": 0.01
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 2060,
+          "procenta": 11.73
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 1169,
+          "procenta": 6.65
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 275,
+          "procenta": 1.56
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 4411,
+          "procenta": 25.12
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 613,
+          "procenta": 3.49
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 113,
+          "procenta": 0.64
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 2922,
+          "procenta": 16.64
+        }
+      ]
+    },
+    "20045": {
+      "okrsek": "20045",
+      "obec": "Brno-sever",
+      "kod_zastupitelstva": 551031,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551031&xstat=0&xvyber=20045",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 955,
+        "vydane_obalky": 529,
+        "ucast_pct": 55.39,
+        "odevzdane_obalky": 529,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 13940
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "HNUTI_SOL",
+          "nazev": "Hnutí SOL",
+          "hlasy": 4452,
+          "procenta": 31.93
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "JSI_PRO_JISTOTA_SOLIDARITA_INVESTICE_PRO_BUDOUCNOST",
+          "nazev": "JSI PRO? Jistota Solidarita Investice pro budoucnost",
+          "hlasy": 0,
+          "procenta": 0.0
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 2059,
+          "procenta": 14.77
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD",
+          "nazev": "SPD, Trikolora, Moravané a nezávislí",
+          "hlasy": 816,
+          "procenta": 5.85
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "CSSD_VASI_STAROSTOVE",
+          "nazev": "ČSSD VAŠI STAROSTOVÉ",
+          "hlasy": 305,
+          "procenta": 2.18
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "KDU_CSL",
+          "nazev": "KDU-ČSL",
+          "hlasy": 2527,
+          "procenta": 18.12
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "PIRATI_A_ZELENI",
+          "nazev": "Piráti a Zelení",
+          "hlasy": 780,
+          "procenta": 5.59
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "RESTART",
+          "nazev": "RESTART PRO BRNO",
+          "hlasy": 6,
+          "procenta": 0.04
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 2995,
+          "procenta": 21.48
+        }
+      ]
+    }
+  }
+}

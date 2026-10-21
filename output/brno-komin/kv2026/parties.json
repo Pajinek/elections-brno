@@ -1,0 +1,96 @@
+{
+  "zastupitelstvo": {
+    "kod": 551228,
+    "nazev": "Brno-Komín",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "TOP_09",
+      "nazev": "TOP 09",
+      "nazev_plny": "TOP 09"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "LIDOVCI_A_STAROSTOVE",
+      "nazev": "LIDOVCI A STAROSTOVÉ",
+      "nazev_plny": "LIDOVCI A STAROSTOVÉ"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "BRNOKLIDEM",
+      "nazev": "Brnoklidem",
+      "nazev_plny": "Brnoklidem"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ZELENA_PRO_KOMIN",
+      "nazev": "Zelená pro Komín",
+      "nazev_plny": "Zelená pro Komín"
+    }
+  ],
+  "podle_kodu": {
+    "RESTART": {
+      "cislo_listiny": 1,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    "OBCANSKA_DEMOKRATICKA_STRANA": {
+      "cislo_listiny": 2,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana"
+    },
+    "TOP_09": {
+      "cislo_listiny": 3,
+      "kod": "TOP_09",
+      "nazev": "TOP 09",
+      "nazev_plny": "TOP 09"
+    },
+    "LIDOVCI_A_STAROSTOVE": {
+      "cislo_listiny": 4,
+      "kod": "LIDOVCI_A_STAROSTOVE",
+      "nazev": "LIDOVCI A STAROSTOVÉ",
+      "nazev_plny": "LIDOVCI A STAROSTOVÉ"
+    },
+    "BRNOKLIDEM": {
+      "cislo_listiny": 5,
+      "kod": "BRNOKLIDEM",
+      "nazev": "Brnoklidem",
+      "nazev_plny": "Brnoklidem"
+    },
+    "ANO": {
+      "cislo_listiny": 6,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    "ZELENA_PRO_KOMIN": {
+      "cislo_listiny": 7,
+      "kod": "ZELENA_PRO_KOMIN",
+      "nazev": "Zelená pro Komín",
+      "nazev_plny": "Zelená pro Komín"
+    }
+  }
+}

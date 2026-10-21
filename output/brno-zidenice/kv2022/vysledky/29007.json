@@ -1,0 +1,89 @@
+{
+  "okrsek": "29007",
+  "obec": "Brno-Židenice",
+  "kod_zastupitelstva": 551058,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551058&xstat=0&xvyber=29007",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 819,
+    "vydane_obalky": 369,
+    "ucast_pct": 45.05,
+    "odevzdane_obalky": 369,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 10110
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 1160,
+      "procenta": 11.47
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1500,
+      "procenta": 14.83
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "CSSD_PATRIOTI_PRO_ZIDENICE_A_JULIANOV",
+      "nazev": "ČSSD + PATRIOTI PRO ŽIDENICE A JULIÁNOV",
+      "hlasy": 450,
+      "procenta": 4.45
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "PETR_KUNC_HLAS_PRO_ZIDENICE",
+      "nazev": "PETR KUNC - HLAS PRO ŽIDENICE",
+      "hlasy": 2713,
+      "procenta": 26.83
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "SPD_TRIKOLORA_MORAVANE_A_NEZAVISLI_ZA_ZELENOU_PRO_ZIDENICE",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí za zelenou pro Židenice",
+      "hlasy": 966,
+      "procenta": 9.55
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "KDU_CSL_S_PODPOROU_STAROSTU_A_NEZAVISLYCH",
+      "nazev": "KDU-ČSL s podporou Starostů a nezávislých",
+      "hlasy": 1591,
+      "procenta": 15.73
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "NEZAVISLI_S_PODPOROU_TOP_09",
+      "nazev": "Nezávislí s podporou TOP 09",
+      "hlasy": 480,
+      "procenta": 4.74
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "CESKA_PIRATSKA_STRANA",
+      "nazev": "Česká pirátská strana",
+      "hlasy": 548,
+      "procenta": 5.42
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "SPOJENE_RUCE_PRO_JULEC_A_SIMICE",
+      "nazev": "Spojené ruce pro Julec a Šimice",
+      "hlasy": 582,
+      "procenta": 5.75
+    },
+    {
+      "cislo_listiny": 10,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 120,
+      "procenta": 1.18
+    }
+  ]
+}

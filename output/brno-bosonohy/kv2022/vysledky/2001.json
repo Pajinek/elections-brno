@@ -1,0 +1,61 @@
+{
+  "okrsek": "2001",
+  "obec": "Brno-Bosonohy",
+  "kod_zastupitelstva": 551325,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551325&xstat=0&xvyber=2001",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 1054,
+    "vydane_obalky": 688,
+    "ucast_pct": 65.27,
+    "odevzdane_obalky": 687,
+    "odevzdane_pct": 99.85,
+    "platne_hlasy": 9408
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 1934,
+      "procenta": 20.55
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+      "nazev": "Česká strana sociálně demokratická",
+      "hlasy": 1037,
+      "procenta": 11.02
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "NEZAVISLA_OBCANSKA_SDRUZENI_PRO_BOSONOHY_S_PODPOROU_STRANY_ZELENYCH",
+      "nazev": "Nezávislá občanská sdružení pro Bosonohy s podporou Strany zelených",
+      "hlasy": 1152,
+      "procenta": 12.24
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "PRO_LEPSI_BOSONOHY",
+      "nazev": "Pro Lepší Bosonohy",
+      "hlasy": 2773,
+      "procenta": 29.47
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "BOSONOHY_PRO_SPOKOJENY_ZIVOT",
+      "nazev": "Bosonohy pro spokojený život",
+      "hlasy": 2030,
+      "procenta": 21.57
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "NOVE_BOSONOHY",
+      "nazev": "NOVÉ BOSONOHY",
+      "hlasy": 482,
+      "procenta": 5.12
+    }
+  ]
+}

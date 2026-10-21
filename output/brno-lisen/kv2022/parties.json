@@ -1,0 +1,124 @@
+{
+  "zastupitelstvo": {
+    "kod": 551287,
+    "nazev": "Brno-Líšeň",
+    "datum_voleb": "20220923",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ",
+      "zkratka": "STAN"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SOUSEDE_Z_LISNE",
+      "nazev": "Sousedé z Líšně",
+      "nazev_plny": "Sousedé z Líšně",
+      "zkratka": "SNK ED+NK"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+      "nazev": "Váš starosta a občané pro Líšeň",
+      "nazev_plny": "Váš starosta a občané pro Líšeň",
+      "zkratka": "ČSSD+NK"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "LIDOVCI_A_NESTRANICI_KDU_CSL",
+      "nazev": "Lidovci a nestraníci (KDU-ČSL)",
+      "nazev_plny": "Lidovci a nestraníci (KDU-ČSL)",
+      "zkratka": "KDU-ČSL+NK"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "nazev_plny": "SPOLEČNĚ - ODS a TOP 09",
+      "zkratka": "ODS+TOP 09"
+    }
+  ],
+  "podle_kodu": {
+    "STAROSTOVE_A_NEZAVISLI": {
+      "cislo_listiny": 1,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "nazev_plny": "STAROSTOVÉ A NEZÁVISLÍ",
+      "zkratka": "STAN"
+    },
+    "RESTART": {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    "SPD": {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    "SOUSEDE_Z_LISNE": {
+      "cislo_listiny": 4,
+      "kod": "SOUSEDE_Z_LISNE",
+      "nazev": "Sousedé z Líšně",
+      "nazev_plny": "Sousedé z Líšně",
+      "zkratka": "SNK ED+NK"
+    },
+    "ANO": {
+      "cislo_listiny": 5,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    "VAS_STAROSTA_A_OBCANE_PRO_LISEN": {
+      "cislo_listiny": 6,
+      "kod": "VAS_STAROSTA_A_OBCANE_PRO_LISEN",
+      "nazev": "Váš starosta a občané pro Líšeň",
+      "nazev_plny": "Váš starosta a občané pro Líšeň",
+      "zkratka": "ČSSD+NK"
+    },
+    "LIDOVCI_A_NESTRANICI_KDU_CSL": {
+      "cislo_listiny": 7,
+      "kod": "LIDOVCI_A_NESTRANICI_KDU_CSL",
+      "nazev": "Lidovci a nestraníci (KDU-ČSL)",
+      "nazev_plny": "Lidovci a nestraníci (KDU-ČSL)",
+      "zkratka": "KDU-ČSL+NK"
+    },
+    "ODS_TOP09": {
+      "cislo_listiny": 8,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "nazev_plny": "SPOLEČNĚ - ODS a TOP 09",
+      "zkratka": "ODS+TOP 09"
+    }
+  }
+}

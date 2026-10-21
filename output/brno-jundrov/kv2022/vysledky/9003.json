@@ -1,0 +1,47 @@
+{
+  "okrsek": "9003",
+  "obec": "Brno-Jundrov",
+  "kod_zastupitelstva": 551171,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551171&xstat=0&xvyber=9003",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 783,
+    "vydane_obalky": 453,
+    "ucast_pct": 57.85,
+    "odevzdane_obalky": 453,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 6061
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 51,
+      "procenta": 0.84
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "JUNDROVACI",
+      "nazev": "Jundrováci",
+      "hlasy": 2256,
+      "procenta": 37.22
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ZELENA_PRO_NAS_JUNDROV",
+      "nazev": "Zelená pro Náš Jundrov",
+      "hlasy": 2333,
+      "procenta": 38.49
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPOLECNE_PRO_JUNDROV_ODS_TOP_NESTRANICI",
+      "nazev": "Společně pro Jundrov - ODS + TOP + nestraníci",
+      "hlasy": 1421,
+      "procenta": 23.44
+    }
+  ]
+}

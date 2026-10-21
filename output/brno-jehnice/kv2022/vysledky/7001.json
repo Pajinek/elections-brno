@@ -1,0 +1,68 @@
+{
+  "okrsek": "7001",
+  "obec": "Brno-Jehnice",
+  "kod_zastupitelstva": 551406,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551406&xstat=0&xvyber=7001",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 855,
+    "vydane_obalky": 601,
+    "ucast_pct": 70.29,
+    "odevzdane_obalky": 599,
+    "odevzdane_pct": 99.66,
+    "platne_hlasy": 4177
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 416,
+      "procenta": 9.95
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "KDU_CSL",
+      "nazev": "KDU-ČSL",
+      "hlasy": 492,
+      "procenta": 11.77
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 13,
+      "procenta": 0.31
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SDRUZENI_NEZAVISLYCH_KANDIDATU_PRO_JEHNICE_C_1",
+      "nazev": "Sdružení nezávislých kandidátů PRO JEHNICE č. 1",
+      "hlasy": 604,
+      "procenta": 14.46
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "KLIDNE_JEHNICE",
+      "nazev": "Klidné Jehnice",
+      "hlasy": 451,
+      "procenta": 10.79
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "SDRUZENI_NEZAVISLYCH_KANDIDATU_PRO_JEHNICE_C_2",
+      "nazev": "Sdružení nezávislých kandidátů PRO JEHNICE č. 2",
+      "hlasy": 698,
+      "procenta": 16.71
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "SPOLECNE_V_JEHNICICH",
+      "nazev": "SPOLEČNĚ V JEHNICÍCH",
+      "hlasy": 1503,
+      "procenta": 35.98
+    }
+  ]
+}

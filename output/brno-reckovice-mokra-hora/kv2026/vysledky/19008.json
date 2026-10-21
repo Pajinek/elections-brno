@@ -1,0 +1,83 @@
+{
+  "okrsek": "19008",
+  "obec": "Brno-Řečkovice a Mokrá Hora",
+  "kod_zastupitelstva": 551244,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T20:08:00",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551244___19008",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551244_19008.json",
+  "prehled": {
+    "volici_v_seznamu": 790,
+    "vydane_obalky": 338,
+    "ucast_pct": 42.78,
+    "odevzdane_obalky": 326,
+    "odevzdane_pct": 96.45,
+    "platne_hlasy": 7311
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "HNUTI_MARKA_VISKOTA",
+      "nazev": "Hnutí MARKA VISKOTA",
+      "hlasy": 2207,
+      "procenta": 30.18
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ODS_TOP_09_A_NEZAVISLI",
+      "nazev": "ODS, TOP 09 a nezávislí",
+      "hlasy": 635,
+      "procenta": 8.68
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 844,
+      "procenta": 11.54
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "NOVI_LIDOVCI",
+      "nazev": "Noví lidovci",
+      "hlasy": 1009,
+      "procenta": 13.8
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 382,
+      "procenta": 5.22
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_RECKOVICE_A_MOKROU_HORU",
+      "nazev": "Piráti a Fakt Brno TU! pro Řečkovice a Mokrou Horu",
+      "hlasy": 255,
+      "procenta": 3.48
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "hlasy": 446,
+      "procenta": 6.1
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 1,
+      "procenta": 0.01
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "SPOLEK_ZA_ZDRAVE_RECKOVICE_A_SDRUZENI_NESTRANIKU",
+      "nazev": "Spolek Za zdravé Řečkovice a Sdružení nestraníků",
+      "hlasy": 1532,
+      "procenta": 20.95
+    }
+  ]
+}

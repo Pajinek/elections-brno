@@ -1,0 +1,82 @@
+{
+  "okrsek": "4005",
+  "obec": "Brno-Černovice",
+  "kod_zastupitelstva": 551066,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551066&xstat=0&xvyber=4005",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 651,
+    "vydane_obalky": 327,
+    "ucast_pct": 50.23,
+    "odevzdane_obalky": 327,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 6446
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "CESKA_STRANA_SOCIALNE_DEMOKRATICKA",
+      "nazev": "Česká strana sociálně demokratická",
+      "hlasy": 636,
+      "procenta": 9.86
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 544,
+      "procenta": 8.43
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "hlasy": 278,
+      "procenta": 4.31
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 152,
+      "procenta": 2.35
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "KDU_CSL",
+      "nazev": "KDU-ČSL",
+      "hlasy": 494,
+      "procenta": 7.66
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 510,
+      "procenta": 7.91
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "CERNOVICTI_NEZAVISLI",
+      "nazev": "Černovičtí nezávislí",
+      "hlasy": 230,
+      "procenta": 3.56
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "SPOLECNE_PRO_CERNOVICE",
+      "nazev": "Společně pro Černovice",
+      "hlasy": 1666,
+      "procenta": 25.84
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "CERNOVICTI_PATRIOTI",
+      "nazev": "ČERNOVIČTÍ PATRIOTI",
+      "hlasy": 1936,
+      "procenta": 30.03
+    }
+  ]
+}

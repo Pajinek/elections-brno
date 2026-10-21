@@ -1,0 +1,40 @@
+{
+  "okrsek": "28001",
+  "obec": "Brno-Žebětín",
+  "kod_zastupitelstva": 551368,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551368&xstat=0&xvyber=28001",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 1020,
+    "vydane_obalky": 568,
+    "ucast_pct": 55.68,
+    "odevzdane_obalky": 567,
+    "odevzdane_pct": 99.82,
+    "platne_hlasy": 5621
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1004,
+      "procenta": 17.86
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 787,
+      "procenta": 14.0
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "KDU_CSL",
+      "nazev": "KDU-ČSL",
+      "hlasy": 3830,
+      "procenta": 68.13
+    }
+  ]
+}

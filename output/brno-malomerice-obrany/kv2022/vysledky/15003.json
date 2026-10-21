@@ -1,0 +1,61 @@
+{
+  "okrsek": "15003",
+  "obec": "Brno-Maloměřice a Obřany",
+  "kod_zastupitelstva": 551252,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551252&xstat=0&xvyber=15003",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 1279,
+    "vydane_obalky": 643,
+    "ucast_pct": 50.27,
+    "odevzdane_obalky": 641,
+    "odevzdane_pct": 99.68,
+    "platne_hlasy": 8609
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "hlasy": 1798,
+      "procenta": 20.88
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "KDU_CSL",
+      "nazev": "KDU-ČSL",
+      "hlasy": 1362,
+      "procenta": 15.82
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "PRO_MALOMERICE_A_OBRANY",
+      "nazev": "PRO Maloměřice a Obřany",
+      "hlasy": 4018,
+      "procenta": 46.67
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 323,
+      "procenta": 3.75
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "CSSD_A_NEZAVISLI_KANDIDATI_PRO_MALOMERICE_A_OBRANY",
+      "nazev": "ČSSD a nezávislí kandidáti pro Maloměřice a Obřany",
+      "hlasy": 574,
+      "procenta": 6.66
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "hlasy": 534,
+      "procenta": 6.2
+    }
+  ]
+}

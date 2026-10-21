@@ -1,0 +1,33 @@
+{
+  "okrsek": "18001",
+  "obec": "Brno-Ořešín",
+  "kod_zastupitelstva": 551422,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551422&xstat=0&xvyber=18001",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 470,
+    "vydane_obalky": 310,
+    "ucast_pct": 65.95,
+    "odevzdane_obalky": 310,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 2086
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPOLECNE_S_HASICI_PRO_ORESIN",
+      "nazev": "SPOLEČNĚ s HASIČI pro Ořešín",
+      "hlasy": 1422,
+      "procenta": 68.16
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "STRANA_ZELENYCH",
+      "nazev": "Strana zelených",
+      "hlasy": 664,
+      "procenta": 31.83
+    }
+  ]
+}

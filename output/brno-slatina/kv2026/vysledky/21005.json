@@ -1,0 +1,62 @@
+{
+  "okrsek": "21005",
+  "obec": "Brno-Slatina",
+  "kod_zastupitelstva": 551295,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T20:32:10",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551295___21005",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551295_21005.json",
+  "prehled": {
+    "volici_v_seznamu": 862,
+    "vydane_obalky": 475,
+    "ucast_pct": 55.1,
+    "odevzdane_obalky": 473,
+    "odevzdane_pct": 99.58,
+    "platne_hlasy": 9330
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "NASE_SLATINA",
+      "nazev": "Naše Slatina",
+      "hlasy": 2446,
+      "procenta": 26.21
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "SPD_S_PODPOROU_PRO_A_NEZAVISLYCH_KANDIDATU",
+      "nazev": "SPD s podporou PRO a nezávislých kandidátů",
+      "hlasy": 533,
+      "procenta": 5.71
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "hlasy": 427,
+      "procenta": 4.57
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 975,
+      "procenta": 10.45
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 1,
+      "procenta": 0.01
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "JIRI_IDES_VSICHNI_JSME_SLATINA",
+      "nazev": "JIŘÍ IDES - Všichni JSME Slatina",
+      "hlasy": 4948,
+      "procenta": 53.03
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "zastupitelstvo": 551210,
+  "obec": "Brno-Kníničky",
+  "datum_voleb": "20220923",
+  "pocet_okrsku": 1,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "SPOLECNE_PRO_KNINICKY",
+      "nazev": "Společně pro Kníničky",
+      "nazev_plny": "Společně pro Kníničky",
+      "zkratka": "SNK"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "SDRUZENI_NEZAVISLYCH_KANDIDATU_ZA_KNINICKY_S_PODPOROU_ODS",
+      "nazev": "Sdružení nezávislých kandidátů ZA KNÍNIČKY s podporou ODS",
+      "nazev_plny": "Sdružení nezávislých kandidátů ZA KNÍNIČKY s podporou ODS",
+      "zkratka": "ODS+NK"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "NEZAVISLI_KANDIDATI_PRO_KNINICKY_S_PODPOROU_KDU_CSL",
+      "nazev": "Nezávislí kandidáti pro Kníničky s podporou KDU-ČSL",
+      "nazev_plny": "Nezávislí kandidáti pro Kníničky s podporou KDU-ČSL",
+      "zkratka": "KDU-ČSL+NK"
+    }
+  ],
+  "okrsky": {
+    "10001": {
+      "okrsek": "10001",
+      "obec": "Brno-Kníničky",
+      "kod_zastupitelstva": 551210,
+      "okres": 6202,
+      "datum_voleb": 20220923,
+      "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=551210&xstat=0&xvyber=10001",
+      "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+      "prehled": {
+        "volici_v_seznamu": 836,
+        "vydane_obalky": 524,
+        "ucast_pct": 62.67,
+        "odevzdane_obalky": 524,
+        "odevzdane_pct": 100.0,
+        "platne_hlasy": 4146
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "SPOLECNE_PRO_KNINICKY",
+          "nazev": "Společně pro Kníničky",
+          "hlasy": 1852,
+          "procenta": 44.66
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "SDRUZENI_NEZAVISLYCH_KANDIDATU_ZA_KNINICKY_S_PODPOROU_ODS",
+          "nazev": "Sdružení nezávislých kandidátů ZA KNÍNIČKY s podporou ODS",
+          "hlasy": 920,
+          "procenta": 22.19
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "NEZAVISLI_KANDIDATI_PRO_KNINICKY_S_PODPOROU_KDU_CSL",
+          "nazev": "Nezávislí kandidáti pro Kníničky s podporou KDU-ČSL",
+          "hlasy": 1374,
+          "procenta": 33.14
+        }
+      ]
+    }
+  }
+}

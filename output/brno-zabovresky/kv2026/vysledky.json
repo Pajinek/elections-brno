@@ -1,0 +1,2139 @@
+{
+  "zastupitelstvo": 550990,
+  "obec": "Brno-Žabovřesky",
+  "datum_voleb": "20261009",
+  "pocet_okrsku": 25,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ODS_TOP09",
+      "nazev": "ODS a TOP 09",
+      "nazev_plny": "ODS a TOP 09"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+      "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+      "nazev_plny": "SPD a nezávislí kandidáti s podporou Trikolory"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "HNUTI_PRO_ZABINY",
+      "nazev": "Hnutí pro Žabiny",
+      "nazev_plny": "Hnutí pro Žabiny"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+      "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+      "nazev_plny": "Piráti a Fakt Brno TU! pro Žabiny"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ZALUZANKY",
+      "nazev": "Za Lužánky",
+      "nazev_plny": "Za Lužánky"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "KDU_STAN",
+      "nazev": "Lidovci a Starostové",
+      "nazev_plny": "Lidovci a Starostové"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+      "nazev": "Zelení a osobnosti pro Žabovřesky",
+      "nazev_plny": "Zelení a osobnosti pro Žabovřesky"
+    }
+  ],
+  "okrsky": {
+    "27001": {
+      "okrsek": "27001",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:09:30",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27001",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27001.json",
+      "prehled": {
+        "volici_v_seznamu": 670,
+        "vydane_obalky": 296,
+        "ucast_pct": 44.18,
+        "odevzdane_obalky": 276,
+        "odevzdane_pct": 93.24,
+        "platne_hlasy": 6590
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 683,
+          "procenta": 10.36
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 125,
+          "procenta": 1.89
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1207,
+          "procenta": 18.31
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 733,
+          "procenta": 11.12
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 496,
+          "procenta": 7.52
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 389,
+          "procenta": 5.9
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 193,
+          "procenta": 2.92
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2014,
+          "procenta": 30.56
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 750,
+          "procenta": 11.38
+        }
+      ]
+    },
+    "27002": {
+      "okrsek": "27002",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:24:45",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27002",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27002.json",
+      "prehled": {
+        "volici_v_seznamu": 555,
+        "vydane_obalky": 258,
+        "ucast_pct": 46.49,
+        "odevzdane_obalky": 247,
+        "odevzdane_pct": 95.74,
+        "platne_hlasy": 5811
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 625,
+          "procenta": 10.75
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 115,
+          "procenta": 1.97
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 800,
+          "procenta": 13.76
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 351,
+          "procenta": 6.04
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 554,
+          "procenta": 9.53
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 389,
+          "procenta": 6.69
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 222,
+          "procenta": 3.82
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2344,
+          "procenta": 40.33
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 411,
+          "procenta": 7.07
+        }
+      ]
+    },
+    "27003": {
+      "okrsek": "27003",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:05:30",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27003",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27003.json",
+      "prehled": {
+        "volici_v_seznamu": 707,
+        "vydane_obalky": 352,
+        "ucast_pct": 49.79,
+        "odevzdane_obalky": 351,
+        "odevzdane_pct": 99.72,
+        "platne_hlasy": 7716
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 1215,
+          "procenta": 15.74
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 49,
+          "procenta": 0.63
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1034,
+          "procenta": 13.4
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 373,
+          "procenta": 4.83
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 440,
+          "procenta": 5.7
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 822,
+          "procenta": 10.65
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 214,
+          "procenta": 2.77
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2468,
+          "procenta": 31.98
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 1101,
+          "procenta": 14.26
+        }
+      ]
+    },
+    "27004": {
+      "okrsek": "27004",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:29:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27004",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27004.json",
+      "prehled": {
+        "volici_v_seznamu": 586,
+        "vydane_obalky": 302,
+        "ucast_pct": 51.54,
+        "odevzdane_obalky": 300,
+        "odevzdane_pct": 99.34,
+        "platne_hlasy": 6775
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 964,
+          "procenta": 14.22
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 74,
+          "procenta": 1.09
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1060,
+          "procenta": 15.64
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 158,
+          "procenta": 2.33
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 182,
+          "procenta": 2.68
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 572,
+          "procenta": 8.44
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 322,
+          "procenta": 4.75
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2531,
+          "procenta": 37.35
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 912,
+          "procenta": 13.46
+        }
+      ]
+    },
+    "27005": {
+      "okrsek": "27005",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:17:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27005",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27005.json",
+      "prehled": {
+        "volici_v_seznamu": 523,
+        "vydane_obalky": 273,
+        "ucast_pct": 52.2,
+        "odevzdane_obalky": 265,
+        "odevzdane_pct": 97.79,
+        "platne_hlasy": 6540
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 886,
+          "procenta": 13.54
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 295,
+          "procenta": 4.51
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 947,
+          "procenta": 14.48
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 422,
+          "procenta": 6.45
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 587,
+          "procenta": 8.97
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 744,
+          "procenta": 11.37
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 129,
+          "procenta": 1.97
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 1878,
+          "procenta": 28.71
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 652,
+          "procenta": 9.96
+        }
+      ]
+    },
+    "27006": {
+      "okrsek": "27006",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:50:25",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27006",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27006.json",
+      "prehled": {
+        "volici_v_seznamu": 799,
+        "vydane_obalky": 416,
+        "ucast_pct": 52.07,
+        "odevzdane_obalky": 416,
+        "odevzdane_pct": 100,
+        "platne_hlasy": 9456
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 1739,
+          "procenta": 18.39
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 112,
+          "procenta": 1.18
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1384,
+          "procenta": 14.63
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 307,
+          "procenta": 3.24
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 786,
+          "procenta": 8.31
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 935,
+          "procenta": 9.88
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 294,
+          "procenta": 3.1
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2691,
+          "procenta": 28.45
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 1208,
+          "procenta": 12.77
+        }
+      ]
+    },
+    "27007": {
+      "okrsek": "27007",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:17:15",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27007",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27007.json",
+      "prehled": {
+        "volici_v_seznamu": 746,
+        "vydane_obalky": 456,
+        "ucast_pct": 61.13,
+        "odevzdane_obalky": 435,
+        "odevzdane_pct": 95.81,
+        "platne_hlasy": 10424
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 2375,
+          "procenta": 22.78
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 25,
+          "procenta": 0.23
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1018,
+          "procenta": 9.76
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 361,
+          "procenta": 3.46
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 735,
+          "procenta": 7.05
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 781,
+          "procenta": 7.49
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 384,
+          "procenta": 3.68
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 3495,
+          "procenta": 33.52
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 1250,
+          "procenta": 11.99
+        }
+      ]
+    },
+    "27008": {
+      "okrsek": "27008",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:07:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27008",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27008.json",
+      "prehled": {
+        "volici_v_seznamu": 645,
+        "vydane_obalky": 380,
+        "ucast_pct": 58.91,
+        "odevzdane_obalky": 368,
+        "odevzdane_pct": 97.35,
+        "platne_hlasy": 8859
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 1598,
+          "procenta": 18.03
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 77,
+          "procenta": 0.86
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1448,
+          "procenta": 16.34
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 216,
+          "procenta": 2.43
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 519,
+          "procenta": 5.85
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 770,
+          "procenta": 8.69
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 396,
+          "procenta": 4.47
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2847,
+          "procenta": 32.13
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 988,
+          "procenta": 11.15
+        }
+      ]
+    },
+    "27009": {
+      "okrsek": "27009",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:03:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27009",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27009.json",
+      "prehled": {
+        "volici_v_seznamu": 625,
+        "vydane_obalky": 399,
+        "ucast_pct": 63.84,
+        "odevzdane_obalky": 382,
+        "odevzdane_pct": 96.71,
+        "platne_hlasy": 8627
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 2187,
+          "procenta": 25.35
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 7,
+          "procenta": 0.08
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1038,
+          "procenta": 12.03
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 331,
+          "procenta": 3.83
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 582,
+          "procenta": 6.74
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 275,
+          "procenta": 3.18
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 52,
+          "procenta": 0.6
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 3361,
+          "procenta": 38.95
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 794,
+          "procenta": 9.2
+        }
+      ]
+    },
+    "27010": {
+      "okrsek": "27010",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:03:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27010",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27010.json",
+      "prehled": {
+        "volici_v_seznamu": 594,
+        "vydane_obalky": 369,
+        "ucast_pct": 62.12,
+        "odevzdane_obalky": 351,
+        "odevzdane_pct": 95.64,
+        "platne_hlasy": 8699
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 1604,
+          "procenta": 18.43
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 78,
+          "procenta": 0.89
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 835,
+          "procenta": 9.59
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 529,
+          "procenta": 6.08
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 1209,
+          "procenta": 13.89
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 850,
+          "procenta": 9.77
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 309,
+          "procenta": 3.55
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2478,
+          "procenta": 28.48
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 807,
+          "procenta": 9.27
+        }
+      ]
+    },
+    "27011": {
+      "okrsek": "27011",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:22:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27011",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27011.json",
+      "prehled": {
+        "volici_v_seznamu": 587,
+        "vydane_obalky": 368,
+        "ucast_pct": 62.69,
+        "odevzdane_obalky": 367,
+        "odevzdane_pct": 99.73,
+        "platne_hlasy": 9175
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 1457,
+          "procenta": 15.88
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 50,
+          "procenta": 0.54
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 790,
+          "procenta": 8.61
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 343,
+          "procenta": 3.73
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 562,
+          "procenta": 6.12
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 575,
+          "procenta": 6.26
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 266,
+          "procenta": 2.89
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 4078,
+          "procenta": 44.44
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 1054,
+          "procenta": 11.48
+        }
+      ]
+    },
+    "27012": {
+      "okrsek": "27012",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:31:15",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27012",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27012.json",
+      "prehled": {
+        "volici_v_seznamu": 551,
+        "vydane_obalky": 323,
+        "ucast_pct": 58.62,
+        "odevzdane_obalky": 309,
+        "odevzdane_pct": 95.67,
+        "platne_hlasy": 7078
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 1351,
+          "procenta": 19.08
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 71,
+          "procenta": 1
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1122,
+          "procenta": 15.85
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 357,
+          "procenta": 5.04
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 669,
+          "procenta": 9.45
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 727,
+          "procenta": 10.27
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 159,
+          "procenta": 2.24
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2007,
+          "procenta": 28.35
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 615,
+          "procenta": 8.68
+        }
+      ]
+    },
+    "27013": {
+      "okrsek": "27013",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:14:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27013",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27013.json",
+      "prehled": {
+        "volici_v_seznamu": 562,
+        "vydane_obalky": 311,
+        "ucast_pct": 55.34,
+        "odevzdane_obalky": 294,
+        "odevzdane_pct": 94.53,
+        "platne_hlasy": 6558
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 1841,
+          "procenta": 28.07
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 29,
+          "procenta": 0.44
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 650,
+          "procenta": 9.91
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 271,
+          "procenta": 4.13
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 499,
+          "procenta": 7.6
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 650,
+          "procenta": 9.91
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 69,
+          "procenta": 1.05
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2230,
+          "procenta": 34
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 319,
+          "procenta": 4.86
+        }
+      ]
+    },
+    "27014": {
+      "okrsek": "27014",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:38:05",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27014",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27014.json",
+      "prehled": {
+        "volici_v_seznamu": 804,
+        "vydane_obalky": 450,
+        "ucast_pct": 55.97,
+        "odevzdane_obalky": 446,
+        "odevzdane_pct": 99.78,
+        "platne_hlasy": 10267
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 1874,
+          "procenta": 18.25
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 6,
+          "procenta": 0.05
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1601,
+          "procenta": 15.59
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 254,
+          "procenta": 2.47
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 1091,
+          "procenta": 10.62
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 1027,
+          "procenta": 10
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 293,
+          "procenta": 2.85
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 3218,
+          "procenta": 31.34
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 903,
+          "procenta": 8.79
+        }
+      ]
+    },
+    "27015": {
+      "okrsek": "27015",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:25:30",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27015",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27015.json",
+      "prehled": {
+        "volici_v_seznamu": 566,
+        "vydane_obalky": 323,
+        "ucast_pct": 57.07,
+        "odevzdane_obalky": 319,
+        "odevzdane_pct": 99.07,
+        "platne_hlasy": 7389
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 1412,
+          "procenta": 19.1
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 58,
+          "procenta": 0.78
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1154,
+          "procenta": 15.61
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 245,
+          "procenta": 3.31
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 699,
+          "procenta": 9.46
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 573,
+          "procenta": 7.75
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 148,
+          "procenta": 2
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2320,
+          "procenta": 31.39
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 780,
+          "procenta": 10.55
+        }
+      ]
+    },
+    "27016": {
+      "okrsek": "27016",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:03:10",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27016",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27016.json",
+      "prehled": {
+        "volici_v_seznamu": 573,
+        "vydane_obalky": 322,
+        "ucast_pct": 56.2,
+        "odevzdane_obalky": 301,
+        "odevzdane_pct": 93.48,
+        "platne_hlasy": 7456
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 1171,
+          "procenta": 15.7
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 32,
+          "procenta": 0.42
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1221,
+          "procenta": 16.37
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 401,
+          "procenta": 5.37
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 717,
+          "procenta": 9.61
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 527,
+          "procenta": 7.06
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 159,
+          "procenta": 2.13
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2585,
+          "procenta": 34.67
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 643,
+          "procenta": 8.62
+        }
+      ]
+    },
+    "27017": {
+      "okrsek": "27017",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:24:15",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27017",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27017.json",
+      "prehled": {
+        "volici_v_seznamu": 660,
+        "vydane_obalky": 317,
+        "ucast_pct": 48.03,
+        "odevzdane_obalky": 299,
+        "odevzdane_pct": 94.62,
+        "platne_hlasy": 7182
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 1117,
+          "procenta": 15.55
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 40,
+          "procenta": 0.55
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1666,
+          "procenta": 23.19
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 483,
+          "procenta": 6.72
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 1024,
+          "procenta": 14.25
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 298,
+          "procenta": 4.14
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 122,
+          "procenta": 1.69
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 1930,
+          "procenta": 26.87
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 502,
+          "procenta": 6.98
+        }
+      ]
+    },
+    "27018": {
+      "okrsek": "27018",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:02:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27018",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27018.json",
+      "prehled": {
+        "volici_v_seznamu": 592,
+        "vydane_obalky": 361,
+        "ucast_pct": 60.98,
+        "odevzdane_obalky": 352,
+        "odevzdane_pct": 97.78,
+        "platne_hlasy": 8435
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 1580,
+          "procenta": 18.73
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 47,
+          "procenta": 0.55
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1311,
+          "procenta": 15.54
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 275,
+          "procenta": 3.26
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 484,
+          "procenta": 5.73
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 749,
+          "procenta": 8.87
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 217,
+          "procenta": 2.57
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 3140,
+          "procenta": 37.22
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 632,
+          "procenta": 7.49
+        }
+      ]
+    },
+    "27019": {
+      "okrsek": "27019",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:52:35",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27019",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27019.json",
+      "prehled": {
+        "volici_v_seznamu": 612,
+        "vydane_obalky": 309,
+        "ucast_pct": 50.49,
+        "odevzdane_obalky": 287,
+        "odevzdane_pct": 92.88,
+        "platne_hlasy": 6806
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 985,
+          "procenta": 14.47
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 30,
+          "procenta": 0.44
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1283,
+          "procenta": 18.85
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 307,
+          "procenta": 4.51
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 529,
+          "procenta": 7.77
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 545,
+          "procenta": 8
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 217,
+          "procenta": 3.18
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2015,
+          "procenta": 29.6
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 895,
+          "procenta": 13.15
+        }
+      ]
+    },
+    "27020": {
+      "okrsek": "27020",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:34:25",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27020",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27020.json",
+      "prehled": {
+        "volici_v_seznamu": 611,
+        "vydane_obalky": 356,
+        "ucast_pct": 58.27,
+        "odevzdane_obalky": 342,
+        "odevzdane_pct": 96.34,
+        "platne_hlasy": 8219
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 1725,
+          "procenta": 20.98
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 123,
+          "procenta": 1.49
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1618,
+          "procenta": 19.68
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 128,
+          "procenta": 1.55
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 522,
+          "procenta": 6.35
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 706,
+          "procenta": 8.58
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 398,
+          "procenta": 4.84
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2421,
+          "procenta": 29.45
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 578,
+          "procenta": 7.03
+        }
+      ]
+    },
+    "27021": {
+      "okrsek": "27021",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:55:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27021",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27021.json",
+      "prehled": {
+        "volici_v_seznamu": 699,
+        "vydane_obalky": 369,
+        "ucast_pct": 52.79,
+        "odevzdane_obalky": 362,
+        "odevzdane_pct": 98.1,
+        "platne_hlasy": 8289
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 1264,
+          "procenta": 15.24
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 50,
+          "procenta": 0.6
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1519,
+          "procenta": 18.32
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 615,
+          "procenta": 7.41
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 759,
+          "procenta": 9.15
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 308,
+          "procenta": 3.71
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 469,
+          "procenta": 5.65
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2536,
+          "procenta": 30.59
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 769,
+          "procenta": 9.27
+        }
+      ]
+    },
+    "27022": {
+      "okrsek": "27022",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:05:05",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27022",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27022.json",
+      "prehled": {
+        "volici_v_seznamu": 542,
+        "vydane_obalky": 276,
+        "ucast_pct": 50.92,
+        "odevzdane_obalky": 265,
+        "odevzdane_pct": 96.36,
+        "platne_hlasy": 6283
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 930,
+          "procenta": 14.8
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 28,
+          "procenta": 0.44
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1035,
+          "procenta": 16.47
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 279,
+          "procenta": 4.44
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 757,
+          "procenta": 12.04
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 679,
+          "procenta": 10.8
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 156,
+          "procenta": 2.48
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 1899,
+          "procenta": 30.22
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 520,
+          "procenta": 8.27
+        }
+      ]
+    },
+    "27023": {
+      "okrsek": "27023",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:14:25",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27023",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27023.json",
+      "prehled": {
+        "volici_v_seznamu": 670,
+        "vydane_obalky": 324,
+        "ucast_pct": 48.36,
+        "odevzdane_obalky": 308,
+        "odevzdane_pct": 95.06,
+        "platne_hlasy": 7276
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 886,
+          "procenta": 12.17
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 50,
+          "procenta": 0.68
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1738,
+          "procenta": 23.88
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 222,
+          "procenta": 3.05
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 707,
+          "procenta": 9.71
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 572,
+          "procenta": 7.86
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 252,
+          "procenta": 3.46
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2439,
+          "procenta": 33.52
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 410,
+          "procenta": 5.63
+        }
+      ]
+    },
+    "27024": {
+      "okrsek": "27024",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:22:30",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27024",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27024.json",
+      "prehled": {
+        "volici_v_seznamu": 835,
+        "vydane_obalky": 346,
+        "ucast_pct": 41.44,
+        "odevzdane_obalky": 345,
+        "odevzdane_pct": 99.71,
+        "platne_hlasy": 7817
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 1124,
+          "procenta": 14.37
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 170,
+          "procenta": 2.17
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1722,
+          "procenta": 22.02
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 457,
+          "procenta": 5.84
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 712,
+          "procenta": 9.1
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 486,
+          "procenta": 6.21
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 255,
+          "procenta": 3.26
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2334,
+          "procenta": 29.85
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 557,
+          "procenta": 7.12
+        }
+      ]
+    },
+    "27025": {
+      "okrsek": "27025",
+      "obec": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:58:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550990___27025",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550990_27025.json",
+      "prehled": {
+        "volici_v_seznamu": 575,
+        "vydane_obalky": 298,
+        "ucast_pct": 51.83,
+        "odevzdane_obalky": 292,
+        "odevzdane_pct": 97.99,
+        "platne_hlasy": 6851
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "ODS_TOP09",
+          "nazev": "ODS a TOP 09",
+          "hlasy": 875,
+          "procenta": 12.77
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 153,
+          "procenta": 2.23
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1513,
+          "procenta": 22.08
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "SPD_A_NEZAVISLI_KANDIDATI_S_PODPOROU_TRIKOLORY",
+          "nazev": "SPD a nezávislí kandidáti s podporou Trikolory",
+          "hlasy": 233,
+          "procenta": 3.4
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "HNUTI_PRO_ZABINY",
+          "nazev": "Hnutí pro Žabiny",
+          "hlasy": 531,
+          "procenta": 7.75
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "PIRATI_A_FAKT_BRNO_TU_PRO_ZABINY",
+          "nazev": "Piráti a Fakt Brno TU! pro Žabiny",
+          "hlasy": 518,
+          "procenta": 7.56
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZALUZANKY",
+          "nazev": "Za Lužánky",
+          "hlasy": 247,
+          "procenta": 3.6
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "KDU_STAN",
+          "nazev": "Lidovci a Starostové",
+          "hlasy": 2390,
+          "procenta": 34.88
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "ZELENI_A_OSOBNOSTI_PRO_ZABOVRESKY",
+          "nazev": "Zelení a osobnosti pro Žabovřesky",
+          "hlasy": 391,
+          "procenta": 5.7
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "zastupitelstvo": {
+    "kod": 551210,
+    "nazev": "Brno-Kníničky",
+    "datum_voleb": "20261009",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ZA_KNINICKY_NK_S_PODPOROU_ODS_A_KDU_CSL",
+      "nazev": "Za Kníničky NK s podporou ODS a KDU-ČSL",
+      "nazev_plny": "Za Kníničky nezávislí kandidáti s podporou ODS a KDU-ČSL"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "SPOLECNE_PRO_KNINICKY",
+      "nazev": "Společně pro Kníničky",
+      "nazev_plny": "Společně pro Kníničky"
+    }
+  ],
+  "podle_kodu": {
+    "ZA_KNINICKY_NK_S_PODPOROU_ODS_A_KDU_CSL": {
+      "cislo_listiny": 1,
+      "kod": "ZA_KNINICKY_NK_S_PODPOROU_ODS_A_KDU_CSL",
+      "nazev": "Za Kníničky NK s podporou ODS a KDU-ČSL",
+      "nazev_plny": "Za Kníničky nezávislí kandidáti s podporou ODS a KDU-ČSL"
+    },
+    "SPOLECNE_PRO_KNINICKY": {
+      "cislo_listiny": 2,
+      "kod": "SPOLECNE_PRO_KNINICKY",
+      "nazev": "Společně pro Kníničky",
+      "nazev_plny": "Společně pro Kníničky"
+    }
+  }
+}

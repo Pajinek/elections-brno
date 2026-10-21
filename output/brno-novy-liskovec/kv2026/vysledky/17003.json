@@ -1,0 +1,55 @@
+{
+  "okrsek": "17003",
+  "obec": "Brno-Nový Lískovec",
+  "kod_zastupitelstva": 551112,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T21:00:35",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551112___17003",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551112_17003.json",
+  "prehled": {
+    "volici_v_seznamu": 965,
+    "vydane_obalky": 412,
+    "ucast_pct": 42.69,
+    "odevzdane_obalky": 405,
+    "odevzdane_pct": 99.26,
+    "platne_hlasy": 7297
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "ODS_TOP_09_A_NEZAVISLI",
+      "nazev": "ODS, TOP 09 a nezávislí",
+      "hlasy": 1618,
+      "procenta": 22.17
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "TRI_ORISKY_PRO_LISKOVEC",
+      "nazev": "Tři oříšky pro Lískovec",
+      "hlasy": 2616,
+      "procenta": 35.85
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1274,
+      "procenta": 17.45
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "NOVI_LIDOVCI_PRO_LISKOVEC",
+      "nazev": "Noví lidovci pro Lískovec",
+      "hlasy": 1156,
+      "procenta": 15.84
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "NOVOLISKOVECTI_PATRIOTI",
+      "nazev": "NOVOLÍSKOVEČTÍ PATRIOTI",
+      "hlasy": 633,
+      "procenta": 8.67
+    }
+  ]
+}

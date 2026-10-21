@@ -1,0 +1,69 @@
+{
+  "okrsek": "15004",
+  "obec": "Brno-Maloměřice a Obřany",
+  "kod_zastupitelstva": 551252,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T20:54:40",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551252___15004",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551252_15004.json",
+  "prehled": {
+    "volici_v_seznamu": 1012,
+    "vydane_obalky": 493,
+    "ucast_pct": 48.72,
+    "odevzdane_obalky": 488,
+    "odevzdane_pct": 98.99,
+    "platne_hlasy": 6948
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 266,
+      "procenta": 3.82
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ODS_TOP09",
+      "nazev": "ODS a TOP 09",
+      "hlasy": 577,
+      "procenta": 8.3
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "NOVI_LIDOVCI",
+      "nazev": "Noví lidovci",
+      "hlasy": 886,
+      "procenta": 12.75
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1032,
+      "procenta": 14.85
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "STAROSTOVE_A_NEZAVISLI",
+      "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+      "hlasy": 802,
+      "procenta": 11.54
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "MOPLUS",
+      "nazev": "MOplus",
+      "hlasy": 1241,
+      "procenta": 17.86
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "PRO_MALOMERICE_A_OBRANY",
+      "nazev": "PRO Maloměřice a Obřany",
+      "hlasy": 2144,
+      "procenta": 30.85
+    }
+  ]
+}

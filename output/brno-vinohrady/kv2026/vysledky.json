@@ -1,0 +1,970 @@
+{
+  "zastupitelstvo": 551279,
+  "obec": "Brno-Vinohrady",
+  "datum_voleb": "20261009",
+  "pocet_okrsku": 10,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "VINOHRADY_SPOLECNE",
+      "nazev": "Vinohrady společně",
+      "nazev_plny": "Vinohrady společně"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "PLUS_PRO_VINOHRADY_S_PODPOROU_BRNOKLIDEM",
+      "nazev": "Plus pro Vinohrady s podporou Brnoklidem",
+      "nazev_plny": "Plus pro Vinohrady s podporou Brnoklidem"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "PRIVETIVE_VINOHRADY",
+      "nazev": "Přívětivé Vinohrady",
+      "nazev_plny": "Přívětivé Vinohrady"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "MAME_RADI_VINOHRADY_PIR_ZEL_STAROST_A_OSOB",
+      "nazev": "Máme rádi Vinohrady + Pir., Zel., Starost. a osob.",
+      "nazev_plny": "Máme rádi Vinohrady + Piráti, Zelení, Starostové a osobnosti"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+      "nazev": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)",
+      "nazev_plny": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "REVA",
+      "nazev": "RÉVA",
+      "nazev_plny": "RÉVA"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "PRO_VINOHRADY_SPD_PRISAHA_A_NEZAVISLI",
+      "nazev": "Pro Vinohrady - SPD, Přísaha a nezávislí",
+      "nazev_plny": "Pro Vinohrady - SPD, Přísaha a nezávislí"
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "SANCE_PRO_VINOHRADY_S_PODPOROU_STAROSTU",
+      "nazev": "ŠANCE PRO VINOHRADY s podporou Starostů",
+      "nazev_plny": "ŠANCE PRO VINOHRADY s podporou Starostů"
+    },
+    {
+      "cislo_listiny": 10,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    }
+  ],
+  "okrsky": {
+    "26001": {
+      "okrsek": "26001",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:35:05",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551279___26001",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551279_26001.json",
+      "prehled": {
+        "volici_v_seznamu": 859,
+        "vydane_obalky": 405,
+        "ucast_pct": 47.15,
+        "odevzdane_obalky": 399,
+        "odevzdane_pct": 98.76,
+        "platne_hlasy": 7994
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1121,
+          "procenta": 14.02
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1587,
+          "procenta": 19.85
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PLUS_PRO_VINOHRADY_S_PODPOROU_BRNOKLIDEM",
+          "nazev": "Plus pro Vinohrady s podporou Brnoklidem",
+          "hlasy": 546,
+          "procenta": 6.83
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PRIVETIVE_VINOHRADY",
+          "nazev": "Přívětivé Vinohrady",
+          "hlasy": 471,
+          "procenta": 5.89
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "MAME_RADI_VINOHRADY_PIR_ZEL_STAROST_A_OSOB",
+          "nazev": "Máme rádi Vinohrady + Pir., Zel., Starost. a osob.",
+          "hlasy": 747,
+          "procenta": 9.34
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 2287,
+          "procenta": 28.6
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "REVA",
+          "nazev": "RÉVA",
+          "hlasy": 368,
+          "procenta": 4.6
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_VINOHRADY_SPD_PRISAHA_A_NEZAVISLI",
+          "nazev": "Pro Vinohrady - SPD, Přísaha a nezávislí",
+          "hlasy": 245,
+          "procenta": 3.06
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SANCE_PRO_VINOHRADY_S_PODPOROU_STAROSTU",
+          "nazev": "ŠANCE PRO VINOHRADY s podporou Starostů",
+          "hlasy": 610,
+          "procenta": 7.63
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 12,
+          "procenta": 0.15
+        }
+      ]
+    },
+    "26002": {
+      "okrsek": "26002",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:43:35",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551279___26002",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551279_26002.json",
+      "prehled": {
+        "volici_v_seznamu": 1005,
+        "vydane_obalky": 423,
+        "ucast_pct": 42.09,
+        "odevzdane_obalky": 418,
+        "odevzdane_pct": 98.82,
+        "platne_hlasy": 8192
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 808,
+          "procenta": 9.86
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1305,
+          "procenta": 15.93
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PLUS_PRO_VINOHRADY_S_PODPOROU_BRNOKLIDEM",
+          "nazev": "Plus pro Vinohrady s podporou Brnoklidem",
+          "hlasy": 496,
+          "procenta": 6.05
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PRIVETIVE_VINOHRADY",
+          "nazev": "Přívětivé Vinohrady",
+          "hlasy": 645,
+          "procenta": 7.87
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "MAME_RADI_VINOHRADY_PIR_ZEL_STAROST_A_OSOB",
+          "nazev": "Máme rádi Vinohrady + Pir., Zel., Starost. a osob.",
+          "hlasy": 1215,
+          "procenta": 14.83
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 2732,
+          "procenta": 33.34
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "REVA",
+          "nazev": "RÉVA",
+          "hlasy": 134,
+          "procenta": 1.63
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_VINOHRADY_SPD_PRISAHA_A_NEZAVISLI",
+          "nazev": "Pro Vinohrady - SPD, Přísaha a nezávislí",
+          "hlasy": 496,
+          "procenta": 6.05
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SANCE_PRO_VINOHRADY_S_PODPOROU_STAROSTU",
+          "nazev": "ŠANCE PRO VINOHRADY s podporou Starostů",
+          "hlasy": 361,
+          "procenta": 4.4
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 0,
+          "procenta": 0
+        }
+      ]
+    },
+    "26003": {
+      "okrsek": "26003",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:23:25",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551279___26003",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551279_26003.json",
+      "prehled": {
+        "volici_v_seznamu": 831,
+        "vydane_obalky": 368,
+        "ucast_pct": 44.28,
+        "odevzdane_obalky": 361,
+        "odevzdane_pct": 98.1,
+        "platne_hlasy": 7360
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1096,
+          "procenta": 14.89
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1273,
+          "procenta": 17.29
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PLUS_PRO_VINOHRADY_S_PODPOROU_BRNOKLIDEM",
+          "nazev": "Plus pro Vinohrady s podporou Brnoklidem",
+          "hlasy": 356,
+          "procenta": 4.83
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PRIVETIVE_VINOHRADY",
+          "nazev": "Přívětivé Vinohrady",
+          "hlasy": 497,
+          "procenta": 6.75
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "MAME_RADI_VINOHRADY_PIR_ZEL_STAROST_A_OSOB",
+          "nazev": "Máme rádi Vinohrady + Pir., Zel., Starost. a osob.",
+          "hlasy": 858,
+          "procenta": 11.65
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 2260,
+          "procenta": 30.7
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "REVA",
+          "nazev": "RÉVA",
+          "hlasy": 251,
+          "procenta": 3.41
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_VINOHRADY_SPD_PRISAHA_A_NEZAVISLI",
+          "nazev": "Pro Vinohrady - SPD, Přísaha a nezávislí",
+          "hlasy": 321,
+          "procenta": 4.36
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SANCE_PRO_VINOHRADY_S_PODPOROU_STAROSTU",
+          "nazev": "ŠANCE PRO VINOHRADY s podporou Starostů",
+          "hlasy": 442,
+          "procenta": 6
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 6,
+          "procenta": 0.08
+        }
+      ]
+    },
+    "26004": {
+      "okrsek": "26004",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T23:21:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551279___26004",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551279_26004.json",
+      "prehled": {
+        "volici_v_seznamu": 1127,
+        "vydane_obalky": 509,
+        "ucast_pct": 45.16,
+        "odevzdane_obalky": 504,
+        "odevzdane_pct": 99.02,
+        "platne_hlasy": 10170
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1485,
+          "procenta": 14.6
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1513,
+          "procenta": 14.87
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PLUS_PRO_VINOHRADY_S_PODPOROU_BRNOKLIDEM",
+          "nazev": "Plus pro Vinohrady s podporou Brnoklidem",
+          "hlasy": 419,
+          "procenta": 4.11
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PRIVETIVE_VINOHRADY",
+          "nazev": "Přívětivé Vinohrady",
+          "hlasy": 619,
+          "procenta": 6.08
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "MAME_RADI_VINOHRADY_PIR_ZEL_STAROST_A_OSOB",
+          "nazev": "Máme rádi Vinohrady + Pir., Zel., Starost. a osob.",
+          "hlasy": 911,
+          "procenta": 8.95
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 2706,
+          "procenta": 26.6
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "REVA",
+          "nazev": "RÉVA",
+          "hlasy": 177,
+          "procenta": 1.74
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_VINOHRADY_SPD_PRISAHA_A_NEZAVISLI",
+          "nazev": "Pro Vinohrady - SPD, Přísaha a nezávislí",
+          "hlasy": 640,
+          "procenta": 6.29
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SANCE_PRO_VINOHRADY_S_PODPOROU_STAROSTU",
+          "nazev": "ŠANCE PRO VINOHRADY s podporou Starostů",
+          "hlasy": 1686,
+          "procenta": 16.57
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 14,
+          "procenta": 0.13
+        }
+      ]
+    },
+    "26005": {
+      "okrsek": "26005",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:31:25",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551279___26005",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551279_26005.json",
+      "prehled": {
+        "volici_v_seznamu": 905,
+        "vydane_obalky": 429,
+        "ucast_pct": 47.4,
+        "odevzdane_obalky": 425,
+        "odevzdane_pct": 99.07,
+        "platne_hlasy": 8549
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 873,
+          "procenta": 10.21
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1287,
+          "procenta": 15.05
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PLUS_PRO_VINOHRADY_S_PODPOROU_BRNOKLIDEM",
+          "nazev": "Plus pro Vinohrady s podporou Brnoklidem",
+          "hlasy": 646,
+          "procenta": 7.55
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PRIVETIVE_VINOHRADY",
+          "nazev": "Přívětivé Vinohrady",
+          "hlasy": 541,
+          "procenta": 6.32
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "MAME_RADI_VINOHRADY_PIR_ZEL_STAROST_A_OSOB",
+          "nazev": "Máme rádi Vinohrady + Pir., Zel., Starost. a osob.",
+          "hlasy": 640,
+          "procenta": 7.48
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 3380,
+          "procenta": 39.53
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "REVA",
+          "nazev": "RÉVA",
+          "hlasy": 210,
+          "procenta": 2.45
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_VINOHRADY_SPD_PRISAHA_A_NEZAVISLI",
+          "nazev": "Pro Vinohrady - SPD, Přísaha a nezávislí",
+          "hlasy": 418,
+          "procenta": 4.88
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SANCE_PRO_VINOHRADY_S_PODPOROU_STAROSTU",
+          "nazev": "ŠANCE PRO VINOHRADY s podporou Starostů",
+          "hlasy": 550,
+          "procenta": 6.43
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 4,
+          "procenta": 0.04
+        }
+      ]
+    },
+    "26006": {
+      "okrsek": "26006",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:54:15",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551279___26006",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551279_26006.json",
+      "prehled": {
+        "volici_v_seznamu": 862,
+        "vydane_obalky": 421,
+        "ucast_pct": 48.84,
+        "odevzdane_obalky": 418,
+        "odevzdane_pct": 99.29,
+        "platne_hlasy": 8286
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1102,
+          "procenta": 13.29
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1030,
+          "procenta": 12.43
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PLUS_PRO_VINOHRADY_S_PODPOROU_BRNOKLIDEM",
+          "nazev": "Plus pro Vinohrady s podporou Brnoklidem",
+          "hlasy": 469,
+          "procenta": 5.66
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PRIVETIVE_VINOHRADY",
+          "nazev": "Přívětivé Vinohrady",
+          "hlasy": 1005,
+          "procenta": 12.12
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "MAME_RADI_VINOHRADY_PIR_ZEL_STAROST_A_OSOB",
+          "nazev": "Máme rádi Vinohrady + Pir., Zel., Starost. a osob.",
+          "hlasy": 979,
+          "procenta": 11.81
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 1720,
+          "procenta": 20.75
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "REVA",
+          "nazev": "RÉVA",
+          "hlasy": 404,
+          "procenta": 4.87
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_VINOHRADY_SPD_PRISAHA_A_NEZAVISLI",
+          "nazev": "Pro Vinohrady - SPD, Přísaha a nezávislí",
+          "hlasy": 385,
+          "procenta": 4.64
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SANCE_PRO_VINOHRADY_S_PODPOROU_STAROSTU",
+          "nazev": "ŠANCE PRO VINOHRADY s podporou Starostů",
+          "hlasy": 1185,
+          "procenta": 14.3
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 7,
+          "procenta": 0.08
+        }
+      ]
+    },
+    "26007": {
+      "okrsek": "26007",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:18:30",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551279___26007",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551279_26007.json",
+      "prehled": {
+        "volici_v_seznamu": 859,
+        "vydane_obalky": 370,
+        "ucast_pct": 43.07,
+        "odevzdane_obalky": 368,
+        "odevzdane_pct": 99.46,
+        "platne_hlasy": 7727
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1051,
+          "procenta": 13.6
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 970,
+          "procenta": 12.55
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PLUS_PRO_VINOHRADY_S_PODPOROU_BRNOKLIDEM",
+          "nazev": "Plus pro Vinohrady s podporou Brnoklidem",
+          "hlasy": 505,
+          "procenta": 6.53
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PRIVETIVE_VINOHRADY",
+          "nazev": "Přívětivé Vinohrady",
+          "hlasy": 829,
+          "procenta": 10.72
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "MAME_RADI_VINOHRADY_PIR_ZEL_STAROST_A_OSOB",
+          "nazev": "Máme rádi Vinohrady + Pir., Zel., Starost. a osob.",
+          "hlasy": 836,
+          "procenta": 10.81
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 1475,
+          "procenta": 19.08
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "REVA",
+          "nazev": "RÉVA",
+          "hlasy": 333,
+          "procenta": 4.3
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_VINOHRADY_SPD_PRISAHA_A_NEZAVISLI",
+          "nazev": "Pro Vinohrady - SPD, Přísaha a nezávislí",
+          "hlasy": 253,
+          "procenta": 3.27
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SANCE_PRO_VINOHRADY_S_PODPOROU_STAROSTU",
+          "nazev": "ŠANCE PRO VINOHRADY s podporou Starostů",
+          "hlasy": 1475,
+          "procenta": 19.08
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 0,
+          "procenta": 0
+        }
+      ]
+    },
+    "26008": {
+      "okrsek": "26008",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:57:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551279___26008",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551279_26008.json",
+      "prehled": {
+        "volici_v_seznamu": 882,
+        "vydane_obalky": 435,
+        "ucast_pct": 49.32,
+        "odevzdane_obalky": 425,
+        "odevzdane_pct": 98.15,
+        "platne_hlasy": 8657
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1148,
+          "procenta": 13.26
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1256,
+          "procenta": 14.5
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PLUS_PRO_VINOHRADY_S_PODPOROU_BRNOKLIDEM",
+          "nazev": "Plus pro Vinohrady s podporou Brnoklidem",
+          "hlasy": 379,
+          "procenta": 4.37
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PRIVETIVE_VINOHRADY",
+          "nazev": "Přívětivé Vinohrady",
+          "hlasy": 900,
+          "procenta": 10.39
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "MAME_RADI_VINOHRADY_PIR_ZEL_STAROST_A_OSOB",
+          "nazev": "Máme rádi Vinohrady + Pir., Zel., Starost. a osob.",
+          "hlasy": 1052,
+          "procenta": 12.15
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 2425,
+          "procenta": 28.01
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "REVA",
+          "nazev": "RÉVA",
+          "hlasy": 394,
+          "procenta": 4.55
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_VINOHRADY_SPD_PRISAHA_A_NEZAVISLI",
+          "nazev": "Pro Vinohrady - SPD, Přísaha a nezávislí",
+          "hlasy": 368,
+          "procenta": 4.25
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SANCE_PRO_VINOHRADY_S_PODPOROU_STAROSTU",
+          "nazev": "ŠANCE PRO VINOHRADY s podporou Starostů",
+          "hlasy": 734,
+          "procenta": 8.47
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 1,
+          "procenta": 0.01
+        }
+      ]
+    },
+    "26009": {
+      "okrsek": "26009",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T18:09:25",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551279___26009",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551279_26009.json",
+      "prehled": {
+        "volici_v_seznamu": 898,
+        "vydane_obalky": 475,
+        "ucast_pct": 52.9,
+        "odevzdane_obalky": 456,
+        "odevzdane_pct": 96,
+        "platne_hlasy": 8894
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 1357,
+          "procenta": 15.25
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1249,
+          "procenta": 14.04
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PLUS_PRO_VINOHRADY_S_PODPOROU_BRNOKLIDEM",
+          "nazev": "Plus pro Vinohrady s podporou Brnoklidem",
+          "hlasy": 461,
+          "procenta": 5.18
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PRIVETIVE_VINOHRADY",
+          "nazev": "Přívětivé Vinohrady",
+          "hlasy": 556,
+          "procenta": 6.25
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "MAME_RADI_VINOHRADY_PIR_ZEL_STAROST_A_OSOB",
+          "nazev": "Máme rádi Vinohrady + Pir., Zel., Starost. a osob.",
+          "hlasy": 702,
+          "procenta": 7.89
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 1248,
+          "procenta": 14.03
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "REVA",
+          "nazev": "RÉVA",
+          "hlasy": 225,
+          "procenta": 2.52
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_VINOHRADY_SPD_PRISAHA_A_NEZAVISLI",
+          "nazev": "Pro Vinohrady - SPD, Přísaha a nezávislí",
+          "hlasy": 494,
+          "procenta": 5.55
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SANCE_PRO_VINOHRADY_S_PODPOROU_STAROSTU",
+          "nazev": "ŠANCE PRO VINOHRADY s podporou Starostů",
+          "hlasy": 2586,
+          "procenta": 29.07
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 16,
+          "procenta": 0.17
+        }
+      ]
+    },
+    "26010": {
+      "okrsek": "26010",
+      "obec": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T19:47:40",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551279___26010",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551279_26010.json",
+      "prehled": {
+        "volici_v_seznamu": 873,
+        "vydane_obalky": 374,
+        "ucast_pct": 42.84,
+        "odevzdane_obalky": 363,
+        "odevzdane_pct": 97.06,
+        "platne_hlasy": 7345
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "VINOHRADY_SPOLECNE",
+          "nazev": "Vinohrady společně",
+          "hlasy": 737,
+          "procenta": 10.03
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1013,
+          "procenta": 13.79
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "PLUS_PRO_VINOHRADY_S_PODPOROU_BRNOKLIDEM",
+          "nazev": "Plus pro Vinohrady s podporou Brnoklidem",
+          "hlasy": 439,
+          "procenta": 5.97
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "PRIVETIVE_VINOHRADY",
+          "nazev": "Přívětivé Vinohrady",
+          "hlasy": 540,
+          "procenta": 7.35
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "MAME_RADI_VINOHRADY_PIR_ZEL_STAROST_A_OSOB",
+          "nazev": "Máme rádi Vinohrady + Pir., Zel., Starost. a osob.",
+          "hlasy": 765,
+          "procenta": 10.41
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "SPOLU_PRO_VINOHRADY_ODS_KDU_CSL_TOP_09",
+          "nazev": "SPOLU PRO VINOHRADY (ODS, KDU-ČSL, TOP 09)",
+          "hlasy": 1521,
+          "procenta": 20.7
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "REVA",
+          "nazev": "RÉVA",
+          "hlasy": 71,
+          "procenta": 0.96
+        },
+        {
+          "cislo_listiny": 8,
+          "kod": "PRO_VINOHRADY_SPD_PRISAHA_A_NEZAVISLI",
+          "nazev": "Pro Vinohrady - SPD, Přísaha a nezávislí",
+          "hlasy": 414,
+          "procenta": 5.63
+        },
+        {
+          "cislo_listiny": 9,
+          "kod": "SANCE_PRO_VINOHRADY_S_PODPOROU_STAROSTU",
+          "nazev": "ŠANCE PRO VINOHRADY s podporou Starostů",
+          "hlasy": 1843,
+          "procenta": 25.09
+        },
+        {
+          "cislo_listiny": 10,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 2,
+          "procenta": 0.02
+        }
+      ]
+    }
+  }
+}

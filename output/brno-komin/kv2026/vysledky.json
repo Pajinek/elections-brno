@@ -1,0 +1,466 @@
+{
+  "zastupitelstvo": 551228,
+  "obec": "Brno-Komín",
+  "datum_voleb": "20261009",
+  "pocet_okrsku": 6,
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "nazev_plny": "Restart pro Brno"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+      "nazev": "Občanská demokratická strana",
+      "nazev_plny": "Občanská demokratická strana"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "TOP_09",
+      "nazev": "TOP 09",
+      "nazev_plny": "TOP 09"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "LIDOVCI_A_STAROSTOVE",
+      "nazev": "LIDOVCI A STAROSTOVÉ",
+      "nazev_plny": "LIDOVCI A STAROSTOVÉ"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "BRNOKLIDEM",
+      "nazev": "Brnoklidem",
+      "nazev_plny": "Brnoklidem"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ZELENA_PRO_KOMIN",
+      "nazev": "Zelená pro Komín",
+      "nazev_plny": "Zelená pro Komín"
+    }
+  ],
+  "okrsky": {
+    "12001": {
+      "okrsek": "12001",
+      "obec": "Brno-Komín",
+      "kod_zastupitelstva": 551228,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:22:20",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551228___12001",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551228_12001.json",
+      "prehled": {
+        "volici_v_seznamu": 1069,
+        "vydane_obalky": 655,
+        "ucast_pct": 61.27,
+        "odevzdane_obalky": 623,
+        "odevzdane_pct": 95.55,
+        "platne_hlasy": 10221
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 17,
+          "procenta": 0.16
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 1128,
+          "procenta": 11.03
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "TOP_09",
+          "nazev": "TOP 09",
+          "hlasy": 687,
+          "procenta": 6.72
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "LIDOVCI_A_STAROSTOVE",
+          "nazev": "LIDOVCI A STAROSTOVÉ",
+          "hlasy": 1940,
+          "procenta": 18.98
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 1346,
+          "procenta": 13.16
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 937,
+          "procenta": 9.16
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZELENA_PRO_KOMIN",
+          "nazev": "Zelená pro Komín",
+          "hlasy": 4166,
+          "procenta": 40.75
+        }
+      ]
+    },
+    "12002": {
+      "okrsek": "12002",
+      "obec": "Brno-Komín",
+      "kod_zastupitelstva": 551228,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:51:50",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551228___12002",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551228_12002.json",
+      "prehled": {
+        "volici_v_seznamu": 1079,
+        "vydane_obalky": 665,
+        "ucast_pct": 61.63,
+        "odevzdane_obalky": 620,
+        "odevzdane_pct": 93.8,
+        "platne_hlasy": 9896
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 20,
+          "procenta": 0.2
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 732,
+          "procenta": 7.39
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "TOP_09",
+          "nazev": "TOP 09",
+          "hlasy": 386,
+          "procenta": 3.9
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "LIDOVCI_A_STAROSTOVE",
+          "nazev": "LIDOVCI A STAROSTOVÉ",
+          "hlasy": 1746,
+          "procenta": 17.64
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 1210,
+          "procenta": 12.22
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1745,
+          "procenta": 17.63
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZELENA_PRO_KOMIN",
+          "nazev": "Zelená pro Komín",
+          "hlasy": 4057,
+          "procenta": 40.99
+        }
+      ]
+    },
+    "12003": {
+      "okrsek": "12003",
+      "obec": "Brno-Komín",
+      "kod_zastupitelstva": 551228,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T20:08:30",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551228___12003",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551228_12003.json",
+      "prehled": {
+        "volici_v_seznamu": 965,
+        "vydane_obalky": 495,
+        "ucast_pct": 51.3,
+        "odevzdane_obalky": 488,
+        "odevzdane_pct": 99.19,
+        "platne_hlasy": 7567
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 15,
+          "procenta": 0.19
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 359,
+          "procenta": 4.74
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "TOP_09",
+          "nazev": "TOP 09",
+          "hlasy": 235,
+          "procenta": 3.1
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "LIDOVCI_A_STAROSTOVE",
+          "nazev": "LIDOVCI A STAROSTOVÉ",
+          "hlasy": 1180,
+          "procenta": 15.59
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 1168,
+          "procenta": 15.43
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1054,
+          "procenta": 13.92
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZELENA_PRO_KOMIN",
+          "nazev": "Zelená pro Komín",
+          "hlasy": 3556,
+          "procenta": 46.99
+        }
+      ]
+    },
+    "12004": {
+      "okrsek": "12004",
+      "obec": "Brno-Komín",
+      "kod_zastupitelstva": 551228,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:32:45",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551228___12004",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551228_12004.json",
+      "prehled": {
+        "volici_v_seznamu": 981,
+        "vydane_obalky": 552,
+        "ucast_pct": 56.27,
+        "odevzdane_obalky": 549,
+        "odevzdane_pct": 99.82,
+        "platne_hlasy": 8636
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 7,
+          "procenta": 0.08
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 731,
+          "procenta": 8.46
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "TOP_09",
+          "nazev": "TOP 09",
+          "hlasy": 207,
+          "procenta": 2.39
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "LIDOVCI_A_STAROSTOVE",
+          "nazev": "LIDOVCI A STAROSTOVÉ",
+          "hlasy": 1573,
+          "procenta": 18.21
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 1371,
+          "procenta": 15.87
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 963,
+          "procenta": 11.15
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZELENA_PRO_KOMIN",
+          "nazev": "Zelená pro Komín",
+          "hlasy": 3784,
+          "procenta": 43.81
+        }
+      ]
+    },
+    "12005": {
+      "okrsek": "12005",
+      "obec": "Brno-Komín",
+      "kod_zastupitelstva": 551228,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T22:09:45",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551228___12005",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551228_12005.json",
+      "prehled": {
+        "volici_v_seznamu": 955,
+        "vydane_obalky": 557,
+        "ucast_pct": 58.32,
+        "odevzdane_obalky": 556,
+        "odevzdane_pct": 99.82,
+        "platne_hlasy": 8601
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 11,
+          "procenta": 0.12
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 666,
+          "procenta": 7.74
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "TOP_09",
+          "nazev": "TOP 09",
+          "hlasy": 232,
+          "procenta": 2.69
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "LIDOVCI_A_STAROSTOVE",
+          "nazev": "LIDOVCI A STAROSTOVÉ",
+          "hlasy": 1207,
+          "procenta": 14.03
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 1212,
+          "procenta": 14.09
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1259,
+          "procenta": 14.63
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZELENA_PRO_KOMIN",
+          "nazev": "Zelená pro Komín",
+          "hlasy": 4014,
+          "procenta": 46.66
+        }
+      ]
+    },
+    "12006": {
+      "okrsek": "12006",
+      "obec": "Brno-Komín",
+      "kod_zastupitelstva": 551228,
+      "okres": 6202,
+      "datum_voleb": 20261009,
+      "generovano": "2026-10-10T21:35:00",
+      "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_551228___12006",
+      "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/551228_12006.json",
+      "prehled": {
+        "volici_v_seznamu": 980,
+        "vydane_obalky": 537,
+        "ucast_pct": 54.8,
+        "odevzdane_obalky": 529,
+        "odevzdane_pct": 98.69,
+        "platne_hlasy": 8217
+      },
+      "strany": [
+        {
+          "cislo_listiny": 1,
+          "kod": "RESTART",
+          "nazev": "Restart pro Brno",
+          "hlasy": 17,
+          "procenta": 0.2
+        },
+        {
+          "cislo_listiny": 2,
+          "kod": "OBCANSKA_DEMOKRATICKA_STRANA",
+          "nazev": "Občanská demokratická strana",
+          "hlasy": 499,
+          "procenta": 6.07
+        },
+        {
+          "cislo_listiny": 3,
+          "kod": "TOP_09",
+          "nazev": "TOP 09",
+          "hlasy": 230,
+          "procenta": 2.79
+        },
+        {
+          "cislo_listiny": 4,
+          "kod": "LIDOVCI_A_STAROSTOVE",
+          "nazev": "LIDOVCI A STAROSTOVÉ",
+          "hlasy": 1777,
+          "procenta": 21.62
+        },
+        {
+          "cislo_listiny": 5,
+          "kod": "BRNOKLIDEM",
+          "nazev": "Brnoklidem",
+          "hlasy": 1396,
+          "procenta": 16.98
+        },
+        {
+          "cislo_listiny": 6,
+          "kod": "ANO",
+          "nazev": "ANO 2011",
+          "hlasy": 1329,
+          "procenta": 16.17
+        },
+        {
+          "cislo_listiny": 7,
+          "kod": "ZELENA_PRO_KOMIN",
+          "nazev": "Zelená pro Komín",
+          "hlasy": 2969,
+          "procenta": 36.13
+        }
+      ]
+    }
+  }
+}
