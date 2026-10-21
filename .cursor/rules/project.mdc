@@ -1,0 +1,23 @@
+---
+description: Invarianty pipeline volebních okrsků Brna
+alwaysApply: true
+---
+
+# Brno
+
+Území, kódy MČ a data voleb jsou v `data/uzemi.json` a `uzemi.py`. Výchozí MČ je `brno-stred`. Podrobnosti jsou v `README.md` a `AGENTS.md`.
+
+- Cesty vedou přes `uzemi.py` (`output/<uzemi>/`, `output/<uzemi>/kv<rok>/`). Nehardcoduj `output/vysledky.json`.
+- `output/` a `data/` jsou verzované. Výsledkové JSON neupravuj ručně; znovu spusť skript.
+- Novou MČ přidej slugem do `data/uzemi.json`. `make` / `make all` stahuje všech 29 MČ — nespouštěj to, pokud uživatel nechce obnovit data.
+- Kód strany ber z `PARTY_CODE_OVERRIDES`. Existující kód nepřejmenovávej, novou listinu přidej do slovníku.
+- Okrsek ve výsledcích a CSV je řetězec `"23001"`, v GeoJSON je `cislo` číslo. Při spojení normalizuj.
+- `ulice.csv` skládá více okrsků do buňky jako `23037; 23038`. SVG má `path.okrsek` a `data-okrsek`. CRS je EPSG:5514.
+
+```python
+# špatně: kód odvozený až ve výstupu, bez záznamu ve slovníku
+kod = slugify("ODS a TOP 09")  # "ODS_A_TOP_09"
+
+# správně: stabilní kód, který už je v parties.json
+"ODS a TOP 09": "ODS_TOP09"
+```

@@ -1,0 +1,24 @@
+---
+description: Úpravy CLI skriptů a parseru ulic
+globs: "**/*.py"
+alwaysApply: false
+---
+
+# Skripty
+
+Samostatné CLI: `argparse`, `pathlib`, typové anotace, `from __future__ import annotations`. České texty hlášek a polí (`okrsek`, `ulice`). Závislost jen do `requirements.txt`; mimo standardní knihovnu je jen `pypdf`.
+
+JSON: `json.dumps(..., ensure_ascii=False, indent=2) + "\n"`. CSV: `utf-8-sig`.
+
+`parse_prehled` mapuje poziční pole volby.cz a přeskakuje indexy 3 a 4. `vysledky` je `[cislo, nazev, hlasy, procenta]`.
+
+```python
+# špatně: doplnění „chybějících“ indexů bez surového payloadu
+"ucast_pct": padded[3]
+
+# správně: podíl je na indexu 2, odevzdané obálky až na 5
+"ucast_pct": padded[2]
+"odevzdane_obalky": padded[5]
+```
+
+`SPEC_RE` a `OKRSEK_SPLIT_RE` popisují text PDF. Po jejich změně spusť `python3 load_streets.py --lookup "Barvičova" --cislo 11` a zkontroluj, že vzniknou desítky okrsků, ne prázdný výstup. Cesty skládej přes `uzemi.py`. `make all` a hromadné stažení všech MČ nespouštěj, pokud uživatel nechce obnovit data.
