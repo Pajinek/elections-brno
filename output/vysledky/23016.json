@@ -1,0 +1,97 @@
+{
+  "okrsek": "23016",
+  "obec": "Brno-střed",
+  "kod_zastupitelstva": 550973,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T20:42:40",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_550973___23016",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550973_23016.json",
+  "prehled": {
+    "volici_v_seznamu": 876,
+    "vydane_obalky": 263,
+    "ucast_pct": 30.02,
+    "odevzdane_obalky": 258,
+    "odevzdane_pct": 98.1,
+    "platne_hlasy": 10815
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "BRNOKLIDEM",
+      "nazev": "Brnoklidem",
+      "hlasy": 467,
+      "procenta": 4.31
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "B3",
+      "nazev": "Brno Brňankám a Brňanům! (B3!)",
+      "hlasy": 92,
+      "procenta": 0.85
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 1688,
+      "procenta": 15.6
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 633,
+      "procenta": 5.85
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "KDU_STAN",
+      "nazev": "Lidovci a Starostové",
+      "hlasy": 2375,
+      "procenta": 21.96
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "ZELENI_ZITBRNO",
+      "nazev": "Žít Zelené Brno (Zelení a Žít Brno)",
+      "hlasy": 1694,
+      "procenta": 15.66
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 318,
+      "procenta": 2.94
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "ODS_TOP09",
+      "nazev": "ODS a TOP 09",
+      "hlasy": 1972,
+      "procenta": 18.23
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "PIRATI_FAKT",
+      "nazev": "Piráti a Fakt Brno TU! pro Střed",
+      "hlasy": 929,
+      "procenta": 8.58
+    },
+    {
+      "cislo_listiny": 10,
+      "kod": "NAPLNO",
+      "nazev": "Brno-střed NAPLNO",
+      "hlasy": 95,
+      "procenta": 0.87
+    },
+    {
+      "cislo_listiny": 11,
+      "kod": "ZALUZANKY",
+      "nazev": "Za Lužánky",
+      "hlasy": 552,
+      "procenta": 5.1
+    }
+  ]
+}

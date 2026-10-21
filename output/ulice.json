@@ -1,0 +1,1718 @@
+[
+  {
+    "ulice": "Anenská",
+    "cislo_okrsku": "23037; 23038",
+    "pocet_okrsku": "2",
+    "rozdeleni": "sudá → 23037; 13 do konce lichá → 23037; 3-11 lichá → 23038"
+  },
+  {
+    "ulice": "Antonínská",
+    "cislo_okrsku": "23065",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23065"
+  },
+  {
+    "ulice": "Arne Nováka",
+    "cislo_okrsku": "23070",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23070"
+  },
+  {
+    "ulice": "Bakalovo nábřeží",
+    "cislo_okrsku": "23025",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23025"
+  },
+  {
+    "ulice": "Bartošova",
+    "cislo_okrsku": "23008",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23008"
+  },
+  {
+    "ulice": "Barvičova",
+    "cislo_okrsku": "23043; 23044",
+    "pocet_okrsku": "2",
+    "rozdeleni": "11 do konce lichá → 23043; 72 do konce sudá → 23043; 1-9 lichá → 23044; 2-70 sudá → 23044"
+  },
+  {
+    "ulice": "Barvířská",
+    "cislo_okrsku": "23012",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23012"
+  },
+  {
+    "ulice": "Bauerova",
+    "cislo_okrsku": "23034",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23034"
+  },
+  {
+    "ulice": "Bayerova",
+    "cislo_okrsku": "23058; 23059; 23060; 23061",
+    "pocet_okrsku": "4",
+    "rozdeleni": "39 do konce lichá → 23058; 2-30 sudá → 23059; 19-37 lichá → 23059; 32 do konce sudá → 23060; 1-17 lichá → 23061"
+  },
+  {
+    "ulice": "Bašty",
+    "cislo_okrsku": "23005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23005"
+  },
+  {
+    "ulice": "Beethovenova",
+    "cislo_okrsku": "23004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23004"
+  },
+  {
+    "ulice": "Benešova",
+    "cislo_okrsku": "23005; 23006",
+    "pocet_okrsku": "2",
+    "rozdeleni": "7 → 23005; 1-5 lichá → 23006; 9-21 lichá → 23006; sudá → 23006"
+  },
+  {
+    "ulice": "Besední",
+    "cislo_okrsku": "23002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23002"
+  },
+  {
+    "ulice": "Bezručova",
+    "cislo_okrsku": "23022",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23022"
+  },
+  {
+    "ulice": "Bidláky",
+    "cislo_okrsku": "23026",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23026"
+  },
+  {
+    "ulice": "Biskupská",
+    "cislo_okrsku": "23005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23005"
+  },
+  {
+    "ulice": "Bohuslava Martinů",
+    "cislo_okrsku": "23041",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23041"
+  },
+  {
+    "ulice": "Botanická",
+    "cislo_okrsku": "23058; 23061; 23062; 23063",
+    "pocet_okrsku": "4",
+    "rozdeleni": "39-45a lichá → 23058; 40-56 sudá → 23058; 66-68 sudá → 23058; 3-19 lichá → 23061; 20-38 sudá → 23061; 21-37 lichá → 23062; 1 → 23063; 2-18 sudá → 23063"
+  },
+  {
+    "ulice": "Brandlova",
+    "cislo_okrsku": "23002; 23004",
+    "pocet_okrsku": "2",
+    "rozdeleni": "6 → 23002; 1-4 → 23004"
+  },
+  {
+    "ulice": "Bratislavská",
+    "cislo_okrsku": "23010; 23011; 23012",
+    "pocet_okrsku": "3",
+    "rozdeleni": "1-11a lichá → 23010; 2-34 sudá → 23010; 13-35a lichá → 23011; 36-62 → 23012"
+  },
+  {
+    "ulice": "bratří Čapků",
+    "cislo_okrsku": "23048",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23048"
+  },
+  {
+    "ulice": "Burešova",
+    "cislo_okrsku": "23063",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23063"
+  },
+  {
+    "ulice": "Bílého",
+    "cislo_okrsku": "23044",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23044"
+  },
+  {
+    "ulice": "Běhounská",
+    "cislo_okrsku": "23004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23004"
+  },
+  {
+    "ulice": "Bělidla",
+    "cislo_okrsku": "23033",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23033"
+  },
+  {
+    "ulice": "Cejl",
+    "cislo_okrsku": "23010; 23012; 23014",
+    "pocet_okrsku": "3",
+    "rozdeleni": "1-63 lichá → 23010; 52-64 sudá → 23012; 65-69 lichá → 23012; 2-50a sudá → 23014"
+  },
+  {
+    "ulice": "Celní",
+    "cislo_okrsku": "23024",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23024"
+  },
+  {
+    "ulice": "Cihlářská",
+    "cislo_okrsku": "23064",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23064"
+  },
+  {
+    "ulice": "Cyrilská",
+    "cislo_okrsku": "23016",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23016"
+  },
+  {
+    "ulice": "Divadelní",
+    "cislo_okrsku": "23006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23006"
+  },
+  {
+    "ulice": "Dominikánská",
+    "cislo_okrsku": "23001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23001"
+  },
+  {
+    "ulice": "Dominikánské náměstí",
+    "cislo_okrsku": "23001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23001"
+  },
+  {
+    "ulice": "Dornych",
+    "cislo_okrsku": "23017",
+    "pocet_okrsku": "1",
+    "rozdeleni": "1-45 lichá → 23017; 2-76 sudá → 23017"
+  },
+  {
+    "ulice": "Dostálova",
+    "cislo_okrsku": "23043",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23043"
+  },
+  {
+    "ulice": "Drobného",
+    "cislo_okrsku": "23007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "1-7 lichá → 23007; 27 → 23007"
+  },
+  {
+    "ulice": "Dvorského",
+    "cislo_okrsku": "23029",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23029"
+  },
+  {
+    "ulice": "Dvořákova",
+    "cislo_okrsku": "23004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23004"
+  },
+  {
+    "ulice": "Dřevařská",
+    "cislo_okrsku": "23058; 23059; 23060",
+    "pocet_okrsku": "3",
+    "rozdeleni": "24-30 sudá → 23058; 29 do konce → 23059; 1-27 lichá → 23060; 2-22 sudá → 23060"
+  },
+  {
+    "ulice": "Foustkova",
+    "cislo_okrsku": "23042",
+    "pocet_okrsku": "1",
+    "rozdeleni": "11-35 lichá → 23042"
+  },
+  {
+    "ulice": "Francouzská",
+    "cislo_okrsku": "23013",
+    "pocet_okrsku": "1",
+    "rozdeleni": "2-62 sudá → 23013"
+  },
+  {
+    "ulice": "Františky Stránecké",
+    "cislo_okrsku": "23044",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23044"
+  },
+  {
+    "ulice": "Františkánská",
+    "cislo_okrsku": "23006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23006"
+  },
+  {
+    "ulice": "Gallašova",
+    "cislo_okrsku": "23027",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23027"
+  },
+  {
+    "ulice": "Gorazdova",
+    "cislo_okrsku": "23047; 23049",
+    "pocet_okrsku": "2",
+    "rozdeleni": "sudá → 23047; lichá → 23049"
+  },
+  {
+    "ulice": "Gorkého",
+    "cislo_okrsku": "23048; 23049; 23050; 23051; 23070",
+    "pocet_okrsku": "5",
+    "rozdeleni": "37 do konce lichá → 23048; 56 do konce sudá → 23048; 25-35 lichá → 23049; 42-54 sudá → 23050; 16-40 sudá → 23051; 1-23 lichá → 23070; 2-14 sudá → 23070"
+  },
+  {
+    "ulice": "Grmelova",
+    "cislo_okrsku": "23025",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23025"
+  },
+  {
+    "ulice": "Grohova",
+    "cislo_okrsku": "23048; 23050; 23051; 23052; 23069; 23070",
+    "pocet_okrsku": "6",
+    "rozdeleni": "43 do konce lichá → 23048; 46 do konce sudá → 23048; 31-41 lichá → 23050; 13-29 lichá → 23051; 36-40 sudá → 23052; 2-34 sudá → 23069; 1-11 lichá → 23070"
+  },
+  {
+    "ulice": "Havlenova",
+    "cislo_okrsku": "23024; 23027; 23028",
+    "pocet_okrsku": "3",
+    "rozdeleni": "24 → 23024; 12-22 → 23027; 27 do konce lichá → 23027; 1-25 lichá → 23028; 2-10 sudá → 23028"
+  },
+  {
+    "ulice": "Havlíčkova",
+    "cislo_okrsku": "23042; 23045",
+    "pocet_okrsku": "2",
+    "rozdeleni": "38 do konce sudá → 23042; 45 do konce lichá → 23042; 1-43 lichá → 23045; 2-36 sudá → 23045"
+  },
+  {
+    "ulice": "Heinrichova",
+    "cislo_okrsku": "23045; 23046",
+    "pocet_okrsku": "2",
+    "rozdeleni": "21 do konce → 23045; 1-19 lichá → 23046; 2-20 sudá → 23046"
+  },
+  {
+    "ulice": "Helceletova",
+    "cislo_okrsku": "23045",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23045"
+  },
+  {
+    "ulice": "Heršpická",
+    "cislo_okrsku": "23026",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23026"
+  },
+  {
+    "ulice": "Hilleho",
+    "cislo_okrsku": "23008",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23008"
+  },
+  {
+    "ulice": "Hlinky",
+    "cislo_okrsku": "23035; 23036; 23039",
+    "pocet_okrsku": "3",
+    "rozdeleni": "1-149 lichá → 23035; 94-140 sudá → 23035; 2-92 sudá → 23036; 142 do konce sudá → 23039; 151 do konce lichá → 23039"
+  },
+  {
+    "ulice": "Hluboká",
+    "cislo_okrsku": "23030",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23030"
+  },
+  {
+    "ulice": "Hlávkova",
+    "cislo_okrsku": "23043",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23043"
+  },
+  {
+    "ulice": "Hlídka",
+    "cislo_okrsku": "23002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23002"
+  },
+  {
+    "ulice": "Holandská",
+    "cislo_okrsku": "23026",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23026"
+  },
+  {
+    "ulice": "Hoppova",
+    "cislo_okrsku": "23060",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23060"
+  },
+  {
+    "ulice": "Horní",
+    "cislo_okrsku": "23031",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23031"
+  },
+  {
+    "ulice": "Hrnčířská",
+    "cislo_okrsku": "23056; 23058; 23060; 23062",
+    "pocet_okrsku": "4",
+    "rozdeleni": "51,60 → 23056; 23-33 lichá → 23058; 1-21 lichá → 23060; 37-43 lichá → 23062"
+  },
+  {
+    "ulice": "Hroznová",
+    "cislo_okrsku": "23039",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23039"
+  },
+  {
+    "ulice": "Husova",
+    "cislo_okrsku": "23002; 23018; 23038",
+    "pocet_okrsku": "3",
+    "rozdeleni": "4 do konce sudá → 23002; 15 do konce lichá → 23002; 5 → 23018; 1-3 → 23038; 7-13 lichá → 23038"
+  },
+  {
+    "ulice": "Hvězdová",
+    "cislo_okrsku": "23012",
+    "pocet_okrsku": "1",
+    "rozdeleni": "lichá → 23012"
+  },
+  {
+    "ulice": "Hybešova",
+    "cislo_okrsku": "23021; 23023",
+    "pocet_okrsku": "2",
+    "rozdeleni": "2 do konce → 23021; 1,1a → 23023"
+  },
+  {
+    "ulice": "Jakubská",
+    "cislo_okrsku": "23002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23002"
+  },
+  {
+    "ulice": "Jakubské náměstí",
+    "cislo_okrsku": "23004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23004"
+  },
+  {
+    "ulice": "Jana Uhra",
+    "cislo_okrsku": "23052; 23053; 23054; 23055",
+    "pocet_okrsku": "4",
+    "rozdeleni": "23 do konce lichá → 23052; 22 do konce sudá → 23053; 1-21 lichá → 23054; 2-10 sudá → 23054; 12-20 sudá → 23055"
+  },
+  {
+    "ulice": "Janáčkovo náměstí",
+    "cislo_okrsku": "23065",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23065"
+  },
+  {
+    "ulice": "Jaroslava Foglara",
+    "cislo_okrsku": "23031",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23031"
+  },
+  {
+    "ulice": "Jaselská",
+    "cislo_okrsku": "23070",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23070"
+  },
+  {
+    "ulice": "Jezuitská",
+    "cislo_okrsku": "23004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23004"
+  },
+  {
+    "ulice": "Jeřabinová",
+    "cislo_okrsku": "23046",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23046"
+  },
+  {
+    "ulice": "Jeřábkova",
+    "cislo_okrsku": "23008",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23008"
+  },
+  {
+    "ulice": "Jihlavská",
+    "cislo_okrsku": "23030",
+    "pocet_okrsku": "1",
+    "rozdeleni": "1 → 23030"
+  },
+  {
+    "ulice": "Jircháře",
+    "cislo_okrsku": "23038",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23038"
+  },
+  {
+    "ulice": "Jiráskova",
+    "cislo_okrsku": "23051; 23054; 23069",
+    "pocet_okrsku": "3",
+    "rozdeleni": "1-11 lichá → 23051; 2-14 sudá → 23051; 36 do konce → 23054; 13-35 lichá → 23069; 16-34 sudá → 23069"
+  },
+  {
+    "ulice": "Jiříkovského",
+    "cislo_okrsku": "23046",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23046"
+  },
+  {
+    "ulice": "Josefská",
+    "cislo_okrsku": "23006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23006"
+  },
+  {
+    "ulice": "Joštova",
+    "cislo_okrsku": "23002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23002"
+  },
+  {
+    "ulice": "Jánská",
+    "cislo_okrsku": "23003; 23006",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-17 lichá → 23003; 2-12 sudá → 23003; 14 do konce sudá → 23006; 19 do konce lichá → 23006"
+  },
+  {
+    "ulice": "Jílová",
+    "cislo_okrsku": "23024; 23031",
+    "pocet_okrsku": "2",
+    "rozdeleni": "26 do konce sudá → 23024; 31 do konce lichá → 23024; 1-29b lichá → 23031; 2-24 sudá → 23031"
+  },
+  {
+    "ulice": "k.ú. Pisárky",
+    "cislo_okrsku": "23031",
+    "pocet_okrsku": "1",
+    "rozdeleni": "č.ev. 180,639,645,648 → 23031"
+  },
+  {
+    "ulice": "Kalvodova",
+    "cislo_okrsku": "23039",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23039"
+  },
+  {
+    "ulice": "Kamenná",
+    "cislo_okrsku": "23032",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23032"
+  },
+  {
+    "ulice": "Kamenná čtvrť",
+    "cislo_okrsku": "23032",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23032"
+  },
+  {
+    "ulice": "Kamenomlýnská",
+    "cislo_okrsku": "23039",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23039"
+  },
+  {
+    "ulice": "Kampelíkova",
+    "cislo_okrsku": "23045",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23045"
+  },
+  {
+    "ulice": "Kaplanova",
+    "cislo_okrsku": "23043",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23043"
+  },
+  {
+    "ulice": "Kapucínské náměstí",
+    "cislo_okrsku": "23005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23005"
+  },
+  {
+    "ulice": "Klácelova",
+    "cislo_okrsku": "23045",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23045"
+  },
+  {
+    "ulice": "Kobližná",
+    "cislo_okrsku": "23004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23004"
+  },
+  {
+    "ulice": "Koliště",
+    "cislo_okrsku": "23009; 23010; 23014; 23015",
+    "pocet_okrsku": "4",
+    "rozdeleni": "1-35 lichá → 23009; 37-49 lichá → 23010; 4 → 23014; 49a -67 lichá → 23014; 69 do konce → 23015"
+  },
+  {
+    "ulice": "Kolískova",
+    "cislo_okrsku": "23016",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23016"
+  },
+  {
+    "ulice": "Komenského náměstí",
+    "cislo_okrsku": "23002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23002"
+  },
+  {
+    "ulice": "Konečného náměstí",
+    "cislo_okrsku": "23054; 23055",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-3 → 23054; 4 do konce → 23055"
+  },
+  {
+    "ulice": "Kopečná",
+    "cislo_okrsku": "23037; 23038",
+    "pocet_okrsku": "2",
+    "rozdeleni": "23 do konce lichá → 23037; 38 do konce sudá → 23037; 1-21 lichá → 23038; 2-36 sudá → 23038"
+  },
+  {
+    "ulice": "Kotlářská",
+    "cislo_okrsku": "23056; 23057; 23059; 23061; 23062; 23063",
+    "pocet_okrsku": "6",
+    "rozdeleni": "1-9 lichá → 23056; 2-16 sudá → 23057; 11-19 lichá → 23057; 27 do konce lichá → 23059; 18-26 sudá → 23061; 21-25 lichá → 23062; 28 do konce sudá → 23063"
+  },
+  {
+    "ulice": "Kounicova",
+    "cislo_okrsku": "23057; 23066; 23067; 23068",
+    "pocet_okrsku": "4",
+    "rozdeleni": "30-44 sudá → 23057; 57-67 lichá → 23057; 2-6 sudá → 23066; 16-28 sudá → 23067; 45-55 lichá → 23067; 1-43 lichá → 23068; 8-14 sudá → 23068"
+  },
+  {
+    "ulice": "Kozí",
+    "cislo_okrsku": "23004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23004"
+  },
+  {
+    "ulice": "Koželužská",
+    "cislo_okrsku": "23016",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23016"
+  },
+  {
+    "ulice": "Kraví hora",
+    "cislo_okrsku": "23048",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23048"
+  },
+  {
+    "ulice": "Krondl ova",
+    "cislo_okrsku": "23042",
+    "pocet_okrsku": "1",
+    "rozdeleni": "1-9 lichá → 23042"
+  },
+  {
+    "ulice": "Kudelova",
+    "cislo_okrsku": "23009",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23009"
+  },
+  {
+    "ulice": "Květinářská",
+    "cislo_okrsku": "23005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23005"
+  },
+  {
+    "ulice": "Květná",
+    "cislo_okrsku": "23039",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23039"
+  },
+  {
+    "ulice": "Körnerova",
+    "cislo_okrsku": "23011",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23011"
+  },
+  {
+    "ulice": "Křenová",
+    "cislo_okrsku": "23015; 23016; 23017",
+    "pocet_okrsku": "3",
+    "rozdeleni": "19 do konce lichá → 23015; 48 do konce sudá → 23016; 1-17 lichá → 23017; 2-46 sudá → 23017"
+  },
+  {
+    "ulice": "Křídlovická",
+    "cislo_okrsku": "23019; 23020; 23022; 23023",
+    "pocet_okrsku": "4",
+    "rozdeleni": "1-3 → 23019; 4-28 sudá → 23020; 5-17 lichá → 23020; 19-47 lichá → 23022; 30-52 sudá → 23022; 49 do konce lichá → 23023; 54 do konce sudá → 23023"
+  },
+  {
+    "ulice": "Křížkovského",
+    "cislo_okrsku": "23034; 23035",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-19 lichá → 23034; sudá → 23035; 21 do konce lichá → 23035"
+  },
+  {
+    "ulice": "Křížová",
+    "cislo_okrsku": "23019; 23033",
+    "pocet_okrsku": "2",
+    "rozdeleni": "lichá → 23019; sudá → 23033"
+  },
+  {
+    "ulice": "Leitnerova",
+    "cislo_okrsku": "23021; 23037; 23038",
+    "pocet_okrsku": "3",
+    "rozdeleni": "1 → 23021; 2-18 sudá → 23021; 7-9 lichá → 23037; 30-34 sudá → 23037; 22-26 sudá → 23038"
+  },
+  {
+    "ulice": "Lerchova",
+    "cislo_okrsku": "23044; 23045",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-11 lichá → 23044; 2-10 sudá → 23044; 12 do konce → 23045"
+  },
+  {
+    "ulice": "Lidická",
+    "cislo_okrsku": "23007; 23008; 23063; 23065; 23066",
+    "pocet_okrsku": "5",
+    "rozdeleni": "38 do konce sudá → 23007; 2-36 sudá → 23008; 61 do konce lichá → 23063; 33-59 lichá → 23065; 1-31 lichá → 23066"
+  },
+  {
+    "ulice": "Lipová",
+    "cislo_okrsku": "23039; 23044; 23046",
+    "pocet_okrsku": "3",
+    "rozdeleni": "1a do konce lichá → 23039; 14 do konce sudá → 23039; 2-12 sudá → 23044; 1 → 23046"
+  },
+  {
+    "ulice": "Londýnské náměstí",
+    "cislo_okrsku": "23029",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23029"
+  },
+  {
+    "ulice": "Ludmily Konečné",
+    "cislo_okrsku": "23032",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23032"
+  },
+  {
+    "ulice": "Ludvíka Podéště",
+    "cislo_okrsku": "23039",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23039"
+  },
+  {
+    "ulice": "Lužánecká",
+    "cislo_okrsku": "23007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23007"
+  },
+  {
+    "ulice": "Mahenova",
+    "cislo_okrsku": "23044; 23046",
+    "pocet_okrsku": "2",
+    "rozdeleni": "13 do konce lichá → 23044; 16 do konce sudá → 23044; 1-11 lichá → 23046; 2-14 sudá → 23046"
+  },
+  {
+    "ulice": "Malinovského náměstí",
+    "cislo_okrsku": "23006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23006"
+  },
+  {
+    "ulice": "Marešova",
+    "cislo_okrsku": "23070",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23070"
+  },
+  {
+    "ulice": "Marie Pujmanové",
+    "cislo_okrsku": "23039",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23039"
+  },
+  {
+    "ulice": "Masarykova",
+    "cislo_okrsku": "23003; 23005; 23006",
+    "pocet_okrsku": "3",
+    "rozdeleni": "1-17 lichá → 23003; sudá → 23005; 19-23 lichá → 23005; 25 do konce lichá → 23006"
+  },
+  {
+    "ulice": "Masná",
+    "cislo_okrsku": "23016",
+    "pocet_okrsku": "1",
+    "rozdeleni": "1-5a lichá → 23016; 2-20 sudá → 23016"
+  },
+  {
+    "ulice": "Mendlovo náměstí",
+    "cislo_okrsku": "23033; 23034",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-15 → 23033; 16 do konce → 23034"
+  },
+  {
+    "ulice": "Mezírka",
+    "cislo_okrsku": "23065",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23065"
+  },
+  {
+    "ulice": "Mečová",
+    "cislo_okrsku": "23001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23001"
+  },
+  {
+    "ulice": "Milady Horákové",
+    "cislo_okrsku": "23007; 23009; 23013",
+    "pocet_okrsku": "3",
+    "rozdeleni": "21 do konce lichá → 23007; 1-19 lichá → 23009; 2-28 sudá → 23009; 30 do konce sudá → 23013"
+  },
+  {
+    "ulice": "Minoritská",
+    "cislo_okrsku": "23003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23003"
+  },
+  {
+    "ulice": "Mlýnská",
+    "cislo_okrsku": "23016; 23017",
+    "pocet_okrsku": "2",
+    "rozdeleni": "25 do konce → 23016; 1-23 → 23017"
+  },
+  {
+    "ulice": "Moravské náměstí",
+    "cislo_okrsku": "23004; 23066",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-10 → 23004; 11 do konce → 23066"
+  },
+  {
+    "ulice": "Mozartova",
+    "cislo_okrsku": "23004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23004"
+  },
+  {
+    "ulice": "Muzejní",
+    "cislo_okrsku": "23005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23005"
+  },
+  {
+    "ulice": "Mášova",
+    "cislo_okrsku": "23066",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23066"
+  },
+  {
+    "ulice": "Měnínská",
+    "cislo_okrsku": "23006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23006"
+  },
+  {
+    "ulice": "Nerudova",
+    "cislo_okrsku": "23056",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23056"
+  },
+  {
+    "ulice": "Neumannova",
+    "cislo_okrsku": "23039; 23040",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-17 → 23039; 18 do konce → 23040"
+  },
+  {
+    "ulice": "Novobranská",
+    "cislo_okrsku": "23006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23006"
+  },
+  {
+    "ulice": "Nové sady",
+    "cislo_okrsku": "23023",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23023"
+  },
+  {
+    "ulice": "Nádražní",
+    "cislo_okrsku": "23005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23005"
+  },
+  {
+    "ulice": "Nádvorní",
+    "cislo_okrsku": "23022",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23022"
+  },
+  {
+    "ulice": "náměstí 28. října",
+    "cislo_okrsku": "23007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "1-12 → 23007; 20 do konce → 23007"
+  },
+  {
+    "ulice": "náměstí Míru",
+    "cislo_okrsku": "23045",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23045"
+  },
+  {
+    "ulice": "náměstí S vobody",
+    "cislo_okrsku": "23003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "8-14 → 23003"
+  },
+  {
+    "ulice": "náměstí Svobody",
+    "cislo_okrsku": "23001; 23002; 23004",
+    "pocet_okrsku": "3",
+    "rozdeleni": "15-19 → 23001; 1 → 23002; 2-7 → 23004; 20 do konce → 23004"
+  },
+  {
+    "ulice": "Náplavka",
+    "cislo_okrsku": "23022",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23022"
+  },
+  {
+    "ulice": "Obilní trh",
+    "cislo_okrsku": "23070",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23070"
+  },
+  {
+    "ulice": "Opavská",
+    "cislo_okrsku": "23029",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23029"
+  },
+  {
+    "ulice": "Opletalova",
+    "cislo_okrsku": "23002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23002"
+  },
+  {
+    "ulice": "Opuštěná",
+    "cislo_okrsku": "23017",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23017"
+  },
+  {
+    "ulice": "Orlí",
+    "cislo_okrsku": "23003; 23006",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-18b → 23003; 19 do konce → 23006"
+  },
+  {
+    "ulice": "Panenská",
+    "cislo_okrsku": "23001; 23002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "2 do konce → 23001; 1 → 23002"
+  },
+  {
+    "ulice": "Panská",
+    "cislo_okrsku": "23001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23001"
+  },
+  {
+    "ulice": "Pavlíkova",
+    "cislo_okrsku": "23043",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23043"
+  },
+  {
+    "ulice": "Pekařská",
+    "cislo_okrsku": "23037; 23038",
+    "pocet_okrsku": "2",
+    "rozdeleni": "9 do konce lichá → 23037; 18 do konce sudá → 23037; 1-7 lichá → 23038; 2-16 sudá → 23038"
+  },
+  {
+    "ulice": "Pekárenská",
+    "cislo_okrsku": "23067; 23068",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1 → 23067; 2 do konce → 23068"
+  },
+  {
+    "ulice": "Pellicova",
+    "cislo_okrsku": "23002; 23038",
+    "pocet_okrsku": "2",
+    "rozdeleni": "55 do konce → 23002; 1-53a → 23038"
+  },
+  {
+    "ulice": "Peroutková",
+    "cislo_okrsku": "23001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23001"
+  },
+  {
+    "ulice": "Petrov",
+    "cislo_okrsku": "23005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23005"
+  },
+  {
+    "ulice": "Petrská",
+    "cislo_okrsku": "23005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23005"
+  },
+  {
+    "ulice": "Pionýrská",
+    "cislo_okrsku": "23007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "4 → 23007"
+  },
+  {
+    "ulice": "Pisárecká",
+    "cislo_okrsku": "23039",
+    "pocet_okrsku": "1",
+    "rozdeleni": "lichá → 23039"
+  },
+  {
+    "ulice": "Pivovarská",
+    "cislo_okrsku": "23036",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23036"
+  },
+  {
+    "ulice": "Plotní",
+    "cislo_okrsku": "23017",
+    "pocet_okrsku": "1",
+    "rozdeleni": "1-37 lichá → 23017; 2-10 sudá → 23017"
+  },
+  {
+    "ulice": "Plynárenská",
+    "cislo_okrsku": "23012; 23014",
+    "pocet_okrsku": "2",
+    "rozdeleni": "lichá → 23012; sudá → 23014"
+  },
+  {
+    "ulice": "Pod Červenou skálou",
+    "cislo_okrsku": "23032",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23032"
+  },
+  {
+    "ulice": "Podnásepní",
+    "cislo_okrsku": "23015",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23015"
+  },
+  {
+    "ulice": "Pohořelec",
+    "cislo_okrsku": "23006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23006"
+  },
+  {
+    "ulice": "Polní",
+    "cislo_okrsku": "23025; 23026",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-35 lichá → 23025; 2-88 sudá → 23025; 37 do konce lichá → 23026; 90 do konce sudá → 23026"
+  },
+  {
+    "ulice": "Ponávka",
+    "cislo_okrsku": "23010",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23010"
+  },
+  {
+    "ulice": "Poříčí",
+    "cislo_okrsku": "23019; 23034; 23035",
+    "pocet_okrsku": "3",
+    "rozdeleni": "5 do konce lichá → 23019; 1-3a → 23034; 2a, 2 → 23035"
+  },
+  {
+    "ulice": "Poštovská",
+    "cislo_okrsku": "23003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23003"
+  },
+  {
+    "ulice": "Pražákova",
+    "cislo_okrsku": "23026",
+    "pocet_okrsku": "1",
+    "rozdeleni": "53 do konce → 23026"
+  },
+  {
+    "ulice": "Preslova",
+    "cislo_okrsku": "23039; 23040",
+    "pocet_okrsku": "2",
+    "rozdeleni": "89 do konce lichá → 23039; 1-87 lichá → 23040; sudá → 23040"
+  },
+  {
+    "ulice": "Průchodní",
+    "cislo_okrsku": "23005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23005"
+  },
+  {
+    "ulice": "Příkop",
+    "cislo_okrsku": "23009",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23009"
+  },
+  {
+    "ulice": "Přízova",
+    "cislo_okrsku": "23017",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23017"
+  },
+  {
+    "ulice": "Příční",
+    "cislo_okrsku": "23011; 23013",
+    "pocet_okrsku": "2",
+    "rozdeleni": "lichá → 23011; sudá → 23013"
+  },
+  {
+    "ulice": "Pšeník",
+    "cislo_okrsku": "23030",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23030"
+  },
+  {
+    "ulice": "Radlas",
+    "cislo_okrsku": "23014",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23014"
+  },
+  {
+    "ulice": "Radnická",
+    "cislo_okrsku": "23005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23005"
+  },
+  {
+    "ulice": "Rašínova",
+    "cislo_okrsku": "23004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23004"
+  },
+  {
+    "ulice": "Renneská tř.",
+    "cislo_okrsku": "23025; 23026; 23027",
+    "pocet_okrsku": "3",
+    "rozdeleni": "2-12 sudá → 23025; lichá → 23026; 14 do konce sudá → 23027"
+  },
+  {
+    "ulice": "Resslova",
+    "cislo_okrsku": "23055",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23055"
+  },
+  {
+    "ulice": "Rezkova",
+    "cislo_okrsku": "23043",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23043"
+  },
+  {
+    "ulice": "Rooseveltova",
+    "cislo_okrsku": "23004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23004"
+  },
+  {
+    "ulice": "Rosická",
+    "cislo_okrsku": "23017",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23017"
+  },
+  {
+    "ulice": "Roubalova",
+    "cislo_okrsku": "23045; 23046",
+    "pocet_okrsku": "2",
+    "rozdeleni": "11 do konce lichá → 23045; 24 do konce sudá → 23045; 1-9 lichá → 23046; 2-22 sudá → 23046"
+  },
+  {
+    "ulice": "Rovná",
+    "cislo_okrsku": "23031",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23031"
+  },
+  {
+    "ulice": "Rudišova",
+    "cislo_okrsku": "23042",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23042"
+  },
+  {
+    "ulice": "Rumiště",
+    "cislo_okrsku": "23017",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23017"
+  },
+  {
+    "ulice": "Rybkova",
+    "cislo_okrsku": "23048; 23055",
+    "pocet_okrsku": "2",
+    "rozdeleni": "17 do konce → 23048; 1-15 → 23055"
+  },
+  {
+    "ulice": "Rybářská",
+    "cislo_okrsku": "23034",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23034"
+  },
+  {
+    "ulice": "Schovaná",
+    "cislo_okrsku": "23036",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23036"
+  },
+  {
+    "ulice": "Sedlákova",
+    "cislo_okrsku": "23042; 23044",
+    "pocet_okrsku": "2",
+    "rozdeleni": "30 do konce sudá → 23042; 33 do konce lichá → 23042; 1-31 lichá → 23044; 2-28a sudá → 23044"
+  },
+  {
+    "ulice": "Skořepka",
+    "cislo_okrsku": "23015",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23015"
+  },
+  {
+    "ulice": "Skrytá",
+    "cislo_okrsku": "23001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23001"
+  },
+  {
+    "ulice": "Sladová",
+    "cislo_okrsku": "23002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23002"
+  },
+  {
+    "ulice": "Slovákova",
+    "cislo_okrsku": "23068",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23068"
+  },
+  {
+    "ulice": "Smetanova",
+    "cislo_okrsku": "23064; 23068",
+    "pocet_okrsku": "2",
+    "rozdeleni": "20 do konce → 23064; 1-19 → 23068"
+  },
+  {
+    "ulice": "Sobotkova",
+    "cislo_okrsku": "23025",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23025"
+  },
+  {
+    "ulice": "Sokolská",
+    "cislo_okrsku": "23067",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23067"
+  },
+  {
+    "ulice": "Solniční",
+    "cislo_okrsku": "23002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23002"
+  },
+  {
+    "ulice": "Soudní",
+    "cislo_okrsku": "23012",
+    "pocet_okrsku": "1",
+    "rozdeleni": "1-11 lichá → 23012"
+  },
+  {
+    "ulice": "Soukenická",
+    "cislo_okrsku": "23021",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23021"
+  },
+  {
+    "ulice": "Soukopova",
+    "cislo_okrsku": "23044",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23044"
+  },
+  {
+    "ulice": "Sovinec",
+    "cislo_okrsku": "23030",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23030"
+  },
+  {
+    "ulice": "Spálená",
+    "cislo_okrsku": "23017",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23017"
+  },
+  {
+    "ulice": "Starobrněnská",
+    "cislo_okrsku": "23001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23001"
+  },
+  {
+    "ulice": "Stará",
+    "cislo_okrsku": "23011",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23011"
+  },
+  {
+    "ulice": "Stavební",
+    "cislo_okrsku": "23015",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23015"
+  },
+  {
+    "ulice": "Stojanova",
+    "cislo_okrsku": "23048; 23050",
+    "pocet_okrsku": "2",
+    "rozdeleni": "lichá → 23048; sudá → 23050"
+  },
+  {
+    "ulice": "Stráň",
+    "cislo_okrsku": "23031",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23031"
+  },
+  {
+    "ulice": "Strážní",
+    "cislo_okrsku": "23029",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23029"
+  },
+  {
+    "ulice": "Strž",
+    "cislo_okrsku": "23031",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23031"
+  },
+  {
+    "ulice": "Studánka",
+    "cislo_okrsku": "23038",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23038"
+  },
+  {
+    "ulice": "Středova",
+    "cislo_okrsku": "23001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23001"
+  },
+  {
+    "ulice": "Sukova",
+    "cislo_okrsku": "23006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23006"
+  },
+  {
+    "ulice": "Sušilova",
+    "cislo_okrsku": "23067",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23067"
+  },
+  {
+    "ulice": "Tkalcovská",
+    "cislo_okrsku": "23012",
+    "pocet_okrsku": "1",
+    "rozdeleni": "sudá → 23012"
+  },
+  {
+    "ulice": "Tomešova",
+    "cislo_okrsku": "23047",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23047"
+  },
+  {
+    "ulice": "Traubova",
+    "cislo_okrsku": "23007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "lichá → 23007"
+  },
+  {
+    "ulice": "Trnitá",
+    "cislo_okrsku": "23017",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23017"
+  },
+  {
+    "ulice": "Trýbova",
+    "cislo_okrsku": "23036",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23036"
+  },
+  {
+    "ulice": "Tučkova",
+    "cislo_okrsku": "23057; 23062; 23067",
+    "pocet_okrsku": "3",
+    "rozdeleni": "13 do konce lichá → 23057; 20 do konce sudá → 23062; 1-11 lichá → 23067; 2-18 sudá → 23067"
+  },
+  {
+    "ulice": "Tvrdého",
+    "cislo_okrsku": "23046; 23047",
+    "pocet_okrsku": "2",
+    "rozdeleni": "sudá → 23046; lichá → 23047"
+  },
+  {
+    "ulice": "Táborského nábřeží",
+    "cislo_okrsku": "23032",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23032"
+  },
+  {
+    "ulice": "třída Kpt. Jaroše",
+    "cislo_okrsku": "23008",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23008"
+  },
+  {
+    "ulice": "Uhelná",
+    "cislo_okrsku": "23017",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23017"
+  },
+  {
+    "ulice": "ulička Kurta Gödela",
+    "cislo_okrsku": "23038",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23038"
+  },
+  {
+    "ulice": "ulička Václava Havla",
+    "cislo_okrsku": "23005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23005"
+  },
+  {
+    "ulice": "Vachova",
+    "cislo_okrsku": "23006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23006"
+  },
+  {
+    "ulice": "Valcha",
+    "cislo_okrsku": "23014",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23014"
+  },
+  {
+    "ulice": "Vaňkovo náměstí",
+    "cislo_okrsku": "23044",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23044"
+  },
+  {
+    "ulice": "Ve Vaňkovce",
+    "cislo_okrsku": "23017",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23017"
+  },
+  {
+    "ulice": "Veletržní",
+    "cislo_okrsku": "23033; 23034; 23035",
+    "pocet_okrsku": "3",
+    "rozdeleni": "1-7 lichá → 23033; 2 → 23034; 9-13 → 23034; 15 do konce lichá → 23035"
+  },
+  {
+    "ulice": "Veselá",
+    "cislo_okrsku": "23001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23001"
+  },
+  {
+    "ulice": "Veveří",
+    "cislo_okrsku": "23054; 23055; 23056; 23067; 23068; 23069; 23070",
+    "pocet_okrsku": "7",
+    "rozdeleni": "51-71 lichá → 23054; 79-109 lichá → 23055; 52-72 sudá → 23056; 73-77 lichá → 23056; 40-50 sudá → 23067; 2-38 sudá → 23068; 33-49 lichá → 23069; 1-31 lichá → 23070"
+  },
+  {
+    "ulice": "Vinařská",
+    "cislo_okrsku": "23039",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23039"
+  },
+  {
+    "ulice": "Vinohrady",
+    "cislo_okrsku": "23031",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23031"
+  },
+  {
+    "ulice": "Vlhká",
+    "cislo_okrsku": "23014; 23015",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-19 lichá → 23014; 2-26 sudá → 23014; 21 do konce lichá → 23015; 28 do konce sudá → 23015"
+  },
+  {
+    "ulice": "Vodní",
+    "cislo_okrsku": "23038",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23038"
+  },
+  {
+    "ulice": "Vojtova",
+    "cislo_okrsku": "23025",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23025"
+  },
+  {
+    "ulice": "Vrchlického sad",
+    "cislo_okrsku": "23007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23007"
+  },
+  {
+    "ulice": "Vsetínská",
+    "cislo_okrsku": "23029",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23029"
+  },
+  {
+    "ulice": "Vysoká",
+    "cislo_okrsku": "23030",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23030"
+  },
+  {
+    "ulice": "Václavská",
+    "cislo_okrsku": "23020; 23033",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-6 → 23020; 7 do konce → 23033"
+  },
+  {
+    "ulice": "Vídeňská",
+    "cislo_okrsku": "23024; 23028; 23029; 23030",
+    "pocet_okrsku": "4",
+    "rozdeleni": "54-88 → 23024; 1-53 → 23028; 89-101 lichá → 23029; 90-96 sudá → 23030"
+  },
+  {
+    "ulice": "Výstaviště",
+    "cislo_okrsku": "23035",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23035"
+  },
+  {
+    "ulice": "Výstavní",
+    "cislo_okrsku": "23034; 23035",
+    "pocet_okrsku": "2",
+    "rozdeleni": "lichá → 23034; 2-12 sudá → 23034; 14 do konce sudá → 23035"
+  },
+  {
+    "ulice": "Všetičkova",
+    "cislo_okrsku": "23046",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23046"
+  },
+  {
+    "ulice": "Wanklova",
+    "cislo_okrsku": "23043",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23043"
+  },
+  {
+    "ulice": "Wolkrova",
+    "cislo_okrsku": "23043",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23043"
+  },
+  {
+    "ulice": "Wurmova",
+    "cislo_okrsku": "23042",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23042"
+  },
+  {
+    "ulice": "Ypsilantiho",
+    "cislo_okrsku": "23019",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23019"
+  },
+  {
+    "ulice": "Za divadlem",
+    "cislo_okrsku": "23006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23006"
+  },
+  {
+    "ulice": "Zachova",
+    "cislo_okrsku": "23046",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23046"
+  },
+  {
+    "ulice": "Zahradnická",
+    "cislo_okrsku": "23020",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23020"
+  },
+  {
+    "ulice": "Zahradníkova",
+    "cislo_okrsku": "23056; 23057; 23062",
+    "pocet_okrsku": "3",
+    "rozdeleni": "2-8 sudá → 23056; 1-7 lichá → 23057; 10-18 sudá → 23057; 20-28 sudá → 23062; 9-15 lichá → 23062"
+  },
+  {
+    "ulice": "Zderadova",
+    "cislo_okrsku": "23016",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23016"
+  },
+  {
+    "ulice": "Zedníkova",
+    "cislo_okrsku": "23035",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23035"
+  },
+  {
+    "ulice": "Zelný trh",
+    "cislo_okrsku": "23001; 23005",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-7 → 23001; 9 do konce → 23001; 8 → 23005"
+  },
+  {
+    "ulice": "Zvonařka",
+    "cislo_okrsku": "23017",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23017"
+  },
+  {
+    "ulice": "Zámečnická",
+    "cislo_okrsku": "23001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23001"
+  },
+  {
+    "ulice": "Závodní",
+    "cislo_okrsku": "23067",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23067"
+  },
+  {
+    "ulice": "Údolní",
+    "cislo_okrsku": "23002; 23045; 23046; 23047; 23048; 23049; 23070",
+    "pocet_okrsku": "7",
+    "rozdeleni": "1-11 lichá → 23002; 72a do konce sudá → 23045; 75 do konce lichá → 23045; 53-73 lichá → 23046; 13-39 lichá → 23047; 56-72 sudá → 23048; 30-54 sudá → 23049; 41-51 lichá → 23049; 2-28 sudá → 23070"
+  },
+  {
+    "ulice": "Úvoz",
+    "cislo_okrsku": "23033; 23036; 23047; 23049; 23050; 23052; 23053",
+    "pocet_okrsku": "7",
+    "rozdeleni": "1 → 23033; 3-5 lichá → 23036; 2-46 sudá → 23036; 48-56 sudá → 23047; 7-31 lichá → 23047; 33-39 lichá → 23049; 58-76 sudá → 23049; 41-53 lichá → 23050; 78-88 sudá → 23050; 90-116 sudá → 23052; 55 do konce lichá → 23053; 118 do konce sudá → 23053"
+  },
+  {
+    "ulice": "Úzká",
+    "cislo_okrsku": "23017",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23017"
+  },
+  {
+    "ulice": "Čechyňská",
+    "cislo_okrsku": "23016",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23016"
+  },
+  {
+    "ulice": "Červený kopec",
+    "cislo_okrsku": "23031",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23031"
+  },
+  {
+    "ulice": "Česká",
+    "cislo_okrsku": "23002; 23004",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-33 → 23002; 34 → 23004"
+  },
+  {
+    "ulice": "Čápkova",
+    "cislo_okrsku": "23051; 23052; 23053; 23055; 23069",
+    "pocet_okrsku": "5",
+    "rozdeleni": "1-11 → 23051; 13-29 lichá → 23052; 31 do konce lichá → 23053; 30 do konce sudá → 23055; 12-28 sudá → 23069"
+  },
+  {
+    "ulice": "Řeznická",
+    "cislo_okrsku": "23016",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23016"
+  },
+  {
+    "ulice": "Šilingrovo náměstí",
+    "cislo_okrsku": "23005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23005"
+  },
+  {
+    "ulice": "Špilberk",
+    "cislo_okrsku": "23002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23002"
+  },
+  {
+    "ulice": "Špitálka",
+    "cislo_okrsku": "23012; 23014; 23015",
+    "pocet_okrsku": "3",
+    "rozdeleni": "13 → 23012; 1-11 lichá → 23014; 15 → 23014; 2-6 sudá → 23014; 8 do konce sudá → 23015; 17 do konce lichá → 23015"
+  },
+  {
+    "ulice": "Štefánikova",
+    "cislo_okrsku": "23060",
+    "pocet_okrsku": "1",
+    "rozdeleni": "1-23 lichá → 23060"
+  },
+  {
+    "ulice": "Štěpánská",
+    "cislo_okrsku": "23016",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23016"
+  },
+  {
+    "ulice": "Šujanovo náměstí",
+    "cislo_okrsku": "23016",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23016"
+  },
+  {
+    "ulice": "Šumavská",
+    "cislo_okrsku": "23056",
+    "pocet_okrsku": "1",
+    "rozdeleni": "31-35 lichá → 23056"
+  },
+  {
+    "ulice": "Žabovřeská",
+    "cislo_okrsku": "23039",
+    "pocet_okrsku": "1",
+    "rozdeleni": "1 → 23039; 2-14 sudá → 23039"
+  },
+  {
+    "ulice": "Železniční",
+    "cislo_okrsku": "23017",
+    "pocet_okrsku": "1",
+    "rozdeleni": "2-16 sudá → 23017"
+  },
+  {
+    "ulice": "Žerotínovo náměstí",
+    "cislo_okrsku": "23068; 23070",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-5 → 23068; 6 do konce → 23070"
+  },
+  {
+    "ulice": "Žižkova",
+    "cislo_okrsku": "23053; 23055",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-15 lichá → 23053; 2-22 sudá → 23055; 17-55 lichá → 23055"
+  },
+  {
+    "ulice": "Žlutý kopec",
+    "cislo_okrsku": "23046",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 23046"
+  }
+]
