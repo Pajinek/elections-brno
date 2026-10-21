@@ -1,21 +1,41 @@
-# Volby Brno-střed
+# Volby Brno
 
-Datová pipeline pro městskou část Brno-střed: ulice podle volebních okrsků, výsledky komunálních voleb 2026 a SVG mapa okrsků.
+Datová pipeline pro městské části Brna: ulice podle volebních okrsků, výsledky komunálních voleb a SVG mapy.
 
-Tři samostatné skripty v Pythonu. Výstupy v `output/` i zdrojová data v `data/` jsou součástí repozitáře.
+Skripty berou `--uzemi <slug>`. Výchozí je `brno-stred`. Registr všech 29 MČ je v `data/uzemi.json`.
 
-## Rozsah
+```bash
+python3 download_results.py --list-uzemi
+```
+
+## Rozsah (výchozí `brno-stred`)
 
 | Údaj | Hodnota |
 | --- | --- |
-| Volby | komunální (KV) 2026, datum `20261009` |
+| Volby | komunální (KV) 2026 (`20261009`) a 2022 (`20220923`) |
 | Území | Brno-střed |
 | Kód zastupitelstva (MOMC) | `550973` |
-| Okres / kraj | `6202` / `6200` |
+| Okres / kraj / obec | `6202` / `6200` / `582786` |
 | Okrsky | 70, čísla `23001`–`23070` |
-| Ulice | 286 názvů, 518 úseků (jedna ulice může spadat do více okrsků) |
 
-Ulice pocházejí z definice okrsků pro volbu prezidenta 2023. Geometrie okrsků je z RÚIAN (ČÚZK). Hlasy jsou z otevřených dat [volby.cz](https://volby.gov.cz) pro KV 2026. Čísla okrsků se mezi těmito zdroji shodují.
+Ulice pocházejí z definice okrsků pro volbu prezidenta 2023. Geometrie okrsků je z RÚIAN (ČÚZK). Hlasy jsou z [volby.cz](https://volby.gov.cz).
+
+## Struktura
+
+Každá městská část má stejný tvar cest:
+
+```
+data/uzemi.json
+data/<uzemi>/okrsky.geojson
+data/<uzemi>/katastry.geojson
+data/<uzemi>/definice-okrsku.pdf      # volitelné, ulice
+output/<uzemi>/ulice.csv
+output/<uzemi>/okrsky.svg
+output/<uzemi>/kv2026/vysledky.json
+output/<uzemi>/kv2022/vysledky.json
+```
+
+Novou MČ doplníte tak, že ji necháte v `data/uzemi.json` (už tam je) a spustíte skripty s `--uzemi brno-sever` (nebo jiným slugem). GeoJSON se stáhne sám; PDF s ulicemi je potřeba jen když chcete seznam ulic.
 
 ## Požadavky
 
@@ -28,52 +48,64 @@ python3 -m venv .venv
 
 ## Postup
 
-Skripty jdou v tomto pořadí. `download_results.py` bere seznam okrsků z `output/ulice.csv`; když CSV chybí, stáhne `23001`–`23070`.
+Všechny městské části (29 MČ, stahuje RÚIAN a volby.cz):
 
 ```bash
-python3 load_streets.py
-python3 download_results.py
-python3 generate_map_svg.py
+make
 ```
+
+Jen jedna MČ, nebo jen mapy:
+
+```bash
+make brno-stred
+make maps
+make UZEMI=brno-sever
+make help
+```
+
+Stejné kroky ručně:
+
+```bash
+python3 generate_map_svg.py --uzemi brno-stred
+python3 load_streets.py --uzemi brno-stred
+python3 download_results.py --uzemi brno-stred
+python3 download_results.py --uzemi brno-stred --year 2022
+python3 generate_results_map.py --uzemi brno-stred
+python3 generate_results_map.py --uzemi brno-stred --diff
+```
+
+`download_results.py` bere seznam okrsků z `output/<uzemi>/ulice.csv`; když CSV chybí, použije čísla z GeoJSON.
 
 ### Ulice
 
-`load_streets.py` čte `data/volby_prezident_2023_definice_volebnich_okrsku.pdf` a zapíše:
+`load_streets.py` čte `data/<uzemi>/definice-okrsku.pdf` a zapíše:
 
-- `output/ulice_okrsky.csv` — jeden řádek na úsek ulice (název, popis čísel, sudá/lichá, okrsek, volební místnost)
-- `output/ulice.csv` a `output/ulice.json` — ulice sloučené; `cislo_okrsku` je seznam oddělený `; `
-
-Vyhledání konkrétní adresy (bez zápisu souborů):
+- `output/<uzemi>/ulice_okrsky.csv` — jeden řádek na úsek ulice
+- `output/<uzemi>/ulice.csv` a `ulice.json` — ulice sloučené; `cislo_okrsku` je seznam oddělený `; `
 
 ```bash
 python3 load_streets.py --lookup "Barvičova" --cislo 11
 ```
 
-Popis úseku v PDF má tvary jako `celá`, `3-11 lichá`, `72 do konce sudá` nebo `č.ev. 5`. `--cislo` je orientační číslo domu a filtruje úseky podle rozsahu, parity a výčtu.
-
 ### Výsledky
 
-`download_results.py` stáhne JSON každého okrsku z
+KV 2026 z
 
-`https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/550973_{okrsek}.json`
+`https://volby.gov.cz/appdata/kv2026/{datum}/vysled/okrsek/{okres}/{kodzastup}_{okrsek}.json`
 
-a uloží:
-
-- `output/vysledky/{okrsek}.json` — normalizovaný záznam jednoho okrsku
-- `output/vysledky.json` — všech 70 okrsků v jednom souboru
-- `output/parties.json` — kandidátní listiny a stabilní kódy (`BRNOKLIDEM`, `ODS_TOP09`, …)
-
-Jen vybrané okrsky:
+KV 2022 z otevřených CSV ČSÚ. Výstup je `output/<uzemi>/kv{rok}/`.
 
 ```bash
 python3 download_results.py --okrsek 23001 --okrsek 23002
 ```
 
-Návratové kódy: `0` v pořádku, `1` žádné okrsky, `2` nic se nestáhlo, `3` část okrsků selhala (úspěšné se přesto zapíší).
+Návratové kódy: `0` v pořádku, `1` žádné okrsky, `2` nic se nestáhlo, `3` část okrsků selhala.
 
 ### Mapa
 
-`generate_map_svg.py` vezme `data/okrsky-brno-stred.geojson` (EPSG:5514, vrstva RÚIAN 20, filtr `momc=550973`). Když soubor chybí, stáhne ho z ArcGIS ČÚZK. Výsledek je `output/okrsky.svg`: jeden `<path class="okrsek" data-okrsek="23001">` na okrsek a popisek s číslem. Skript skončí chybou, když ve vstupu není přesně 70 polygonů.
+`generate_map_svg.py` stáhne polygony z RÚIAN (`momc=<kod zastupitelstva>`, EPSG:5514), když `data/<uzemi>/okrsky.geojson` chybí. Výsledek je `output/<uzemi>/okrsky.svg`.
+
+`generate_results_map.py` kreslí choropleth podle % a s `--diff` mapu změny 2022→2026.
 
 ## Tvar výsledku okrsku
 
@@ -96,17 +128,17 @@ Návratové kódy: `0` v pořádku, `1` žádné okrsky, `2` nic se nestáhlo, `
 }
 ```
 
-`okrsek` ve výsledcích je řetězec. V GeoJSON je `properties.cislo` číslo. Při spojení obou zdrojů je sjednoťte (řetězec o pěti znacích, nebo `int`).
+`okrsek` ve výsledcích je řetězec. V GeoJSON je `properties.cislo` číslo. Při spojení obou zdrojů je sjednoťte.
 
-Kódy stran jsou v `PARTY_CODE_OVERRIDES` v `download_results.py`. Neznámý název dostane kód ze `slugify` (ASCII, velká písmena, podtržítka).
+Kódy stran jsou v `PARTY_CODE_OVERRIDES` v `download_results.py`. Neznámý název dostane kód ze `slugify`.
 
 ## Soubory
 
 | Cesta | Role |
 | --- | --- |
+| `uzemi.py` | registr MČ a cesty |
+| `data/uzemi.json` | kódy zastupitelstev všech 29 MČ |
 | `load_streets.py` | PDF → CSV/JSON ulic |
 | `download_results.py` | volby.cz → JSON výsledků |
-| `generate_map_svg.py` | GeoJSON → SVG |
-| `data/volby_prezident_2023_definice_volebnich_okrsku.pdf` | definice okrsků a ulic |
-| `data/okrsky-brno-stred.geojson` | polygony okrsků, EPSG:5514 |
-| `output/` | vygenerovaná data a mapa, verzovaná v gitu |
+| `generate_map_svg.py` | GeoJSON → SVG okrsků |
+| `generate_results_map.py` | výsledky → choropleth / rozdíl |

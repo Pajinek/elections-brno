@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate an SVG map of Brno-střed electoral precincts with numbers."""
+"""Generate an SVG map of electoral precincts with numbers."""
 
 from __future__ import annotations
 
@@ -11,62 +11,59 @@ import urllib.request
 from pathlib import Path
 from xml.sax.saxutils import escape
 
-GEOJSON_URL = (
-    "https://ags.cuzk.gov.cz/arcgis/rest/services/RUIAN/MapServer/20/query?"
-    + urllib.parse.urlencode(
-        {
-            "where": "momc=550973",
-            "outFields": "kod,cislo,momc,obec",
-            "outSR": "5514",
-            "returnGeometry": "true",
-            "f": "geojson",
-        }
-    )
-)
-
-KATASTRY_URL = (
-    "https://ags.cuzk.gov.cz/arcgis/rest/services/RUIAN/MapServer/7/query?"
-    + urllib.parse.urlencode(
-        {
-            "where": "obec=582786",
-            "outFields": "kod,nazev,obec",
-            "outSR": "5514",
-            "returnGeometry": "true",
-            "f": "geojson",
-        }
-    )
-)
-
-CAST_DISPLAY = {
-    "Město Brno": "Centrum",
-}
-
-# Posun popisku v metrech S-JTSK (x východ, y sever), ať nelézá na čísla okrsků.
-CAST_NUDGE = {
-    "Staré Brno": (-280, 80),
-    "Stránice": (-160, 50),
-    "Veveří": (30, 90),
-    "Město Brno": (70, 30),
-    "Zábrdovice": (120, 20),
-}
+from uzemi import Cast, add_uzemi_args, load_uzemi, resolve_cast
 
 WIDTH = 1600
 PADDING = 56
-TITLE = "Brno-střed — volební okrsky"
 
 
-def download_geojson(path: Path) -> dict:
-    request = urllib.request.Request(GEOJSON_URL, headers={"User-Agent": "elections-brno/1.0"})
+def okrsky_url(kod_zastupitelstva: int) -> str:
+    return (
+        "https://ags.cuzk.gov.cz/arcgis/rest/services/RUIAN/MapServer/20/query?"
+        + urllib.parse.urlencode(
+            {
+                "where": f"momc={kod_zastupitelstva}",
+                "outFields": "kod,cislo,momc,obec",
+                "outSR": "5514",
+                "returnGeometry": "true",
+                "f": "geojson",
+            }
+        )
+    )
+
+
+def katastry_url(obec: int) -> str:
+    return (
+        "https://ags.cuzk.gov.cz/arcgis/rest/services/RUIAN/MapServer/7/query?"
+        + urllib.parse.urlencode(
+            {
+                "where": f"obec={obec}",
+                "outFields": "kod,nazev,obec",
+                "outSR": "5514",
+                "returnGeometry": "true",
+                "f": "geojson",
+            }
+        )
+    )
+
+
+def download_geojson(path: Path, kod_zastupitelstva: int) -> dict:
+    request = urllib.request.Request(
+        okrsky_url(kod_zastupitelstva),
+        headers={"User-Agent": "elections-brno/1.0"},
+    )
+    path.parent.mkdir(parents=True, exist_ok=True)
     with urllib.request.urlopen(request, timeout=60) as response:
         path.write_bytes(response.read())
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def load_geojson(path: Path) -> dict:
+def load_geojson(path: Path, kod_zastupitelstva: int | None = None) -> dict:
     if path.exists():
         return json.loads(path.read_text(encoding="utf-8"))
-    path.parent.mkdir(parents=True, exist_ok=True)
-    return download_geojson(path)
+    if kod_zastupitelstva is None:
+        raise FileNotFoundError(path)
+    return download_geojson(path, kod_zastupitelstva)
 
 
 def download_json(url: str) -> dict:
@@ -96,10 +93,14 @@ def point_in_geometry(x: float, y: float, geometry: dict) -> bool:
     return False
 
 
-def load_katastry(path: Path, features: list[dict] | None = None) -> dict:
+def load_katastry(
+    path: Path,
+    features: list[dict] | None = None,
+    obec: int = 582786,
+) -> dict:
     if path.exists():
         return json.loads(path.read_text(encoding="utf-8"))
-    data = download_json(KATASTRY_URL)
+    data = download_json(katastry_url(obec))
     if features:
         used = set()
         for item in features:
@@ -126,7 +127,12 @@ def load_katastry(path: Path, features: list[dict] | None = None) -> dict:
     return data
 
 
-def neighborhood_labels(features: list[dict], katastry: dict) -> list[dict]:
+def neighborhood_labels(
+    features: list[dict],
+    katastry: dict,
+    popisky: dict[str, str] | None = None,
+    posun: dict[str, tuple[float, float]] | None = None,
+) -> list[dict]:
     groups: dict[str, list[dict]] = {}
     for item in features:
         cx, cy = item["centroid"]
@@ -146,12 +152,12 @@ def neighborhood_labels(features: list[dict], katastry: dict) -> list[dict]:
             continue
         x = sum(item["centroid"][0] * item["area"] for item in items) / area
         y = sum(item["centroid"][1] * item["area"] for item in items) / area
-        dx, dy = CAST_NUDGE.get(nazev, (0.0, 0.0))
+        dx, dy = (posun or {}).get(nazev, (0.0, 0.0))
         x += dx
         y += dy
         labels.append(
             {
-                "nazev": CAST_DISPLAY.get(nazev, nazev),
+                "nazev": (popisky or {}).get(nazev, nazev),
                 "x": x,
                 "y": y,
                 "area": area,
@@ -261,7 +267,11 @@ def path_d(rings: list[list[list[float]]], tx, ty) -> str:
     return " ".join(parts)
 
 
-def generate_svg(features: list[dict], neighborhoods: list[dict] | None = None) -> str:
+def generate_svg(
+    features: list[dict],
+    neighborhoods: list[dict] | None = None,
+    title: str = "Volební okrsky",
+) -> str:
     points = [(x, y) for item in features for ring in item["rings"] for x, y in ring]
     minx, miny, maxx, maxy = bbox(points)
     span_x = maxx - minx
@@ -304,7 +314,7 @@ def generate_svg(features: list[dict], neighborhoods: list[dict] | None = None) 
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {height:.1f}" width="{WIDTH}" height="{height:.0f}">
-  <title>{escape(TITLE)}</title>
+  <title>{escape(title)}</title>
   <style>
     .okrsek {{
       fill: #e8eef6;
@@ -366,8 +376,8 @@ def generate_svg(features: list[dict], neighborhoods: list[dict] | None = None) 
     }}
   </style>
   <rect width="100%" height="100%" fill="#f8fafc"/>
-  <text class="title" x="{PADDING}" y="18">{escape(TITLE)}</text>
-  <text class="subtitle" x="{PADDING}" y="48">70 okrsků · čísla 23001–23070</text>
+  <text class="title" x="{PADDING}" y="18">{escape(title)}</text>
+  <text class="subtitle" x="{PADDING}" y="48">{len(features)} okrsků</text>
   <g fill-rule="evenodd">
 {chr(10).join(paths)}
   </g>
@@ -382,31 +392,33 @@ def generate_svg(features: list[dict], neighborhoods: list[dict] | None = None) 
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Vygeneruje SVG mapu okrsků Brno-střed.")
-    parser.add_argument(
-        "--geojson",
-        type=Path,
-        default=Path(__file__).resolve().parent / "data" / "okrsky-brno-stred.geojson",
-    )
-    parser.add_argument(
-        "--out",
-        type=Path,
-        default=Path(__file__).resolve().parent / "output" / "okrsky.svg",
-    )
-    parser.add_argument(
-        "--katastry",
-        type=Path,
-        default=Path(__file__).resolve().parent / "data" / "katastry-brno-stred.geojson",
-    )
+    parser = argparse.ArgumentParser(description="Vygeneruje SVG mapu okrsků městské části.")
+    add_uzemi_args(parser)
+    parser.add_argument("--geojson", type=Path)
+    parser.add_argument("--out", type=Path)
+    parser.add_argument("--katastry", type=Path)
     args = parser.parse_args()
-    data = load_geojson(args.geojson)
+    uzemi = load_uzemi()
+    cast = resolve_cast(args, uzemi)
+    if cast is None:
+        return 0
+    geojson = args.geojson or cast.geojson
+    katastry_path = args.katastry or cast.katastry
+    out_path = args.out or (cast.output_dir / "okrsky.svg")
+    data = load_geojson(geojson, cast.kod_zastupitelstva)
     features = collect_features(data)
-    if len(features) != 70:
-        raise SystemExit(f"Očekáváno 70 okrsků, nalezeno {len(features)}")
-    neighborhoods = neighborhood_labels(features, load_katastry(args.katastry, features))
-    args.out.parent.mkdir(parents=True, exist_ok=True)
-    args.out.write_text(generate_svg(features, neighborhoods), encoding="utf-8")
-    print(f"SVG: {args.out} ({args.out.stat().st_size} B, {len(features)} okrsků)")
+    if not features:
+        raise SystemExit(f"V GeoJSON nejsou žádné okrsky: {geojson}")
+    neighborhoods = neighborhood_labels(
+        features,
+        load_katastry(katastry_path, features, uzemi.obec),
+        popisky=cast.popisky,
+        posun=cast.posun_popisku,
+    )
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    title = f"{cast.nazev} — volební okrsky"
+    out_path.write_text(generate_svg(features, neighborhoods, title), encoding="utf-8")
+    print(f"SVG: {out_path} ({out_path.stat().st_size} B, {len(features)} okrsků)")
     return 0
 
 

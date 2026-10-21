@@ -1,0 +1,154 @@
+{
+  "kraj": 6200,
+  "okres": 6202,
+  "obec": 582786,
+  "typzastup_mc": 2,
+  "datum_voleb": {
+    "2022": "20220923",
+    "2026": "20261009"
+  },
+  "vychozi": "brno-stred",
+  "casti": {
+    "brno-bohunice": {
+      "nazev": "Brno-Bohunice",
+      "kod_zastupitelstva": 551082
+    },
+    "brno-bosonohy": {
+      "nazev": "Brno-Bosonohy",
+      "kod_zastupitelstva": 551325
+    },
+    "brno-bystrc": {
+      "nazev": "Brno-Bystrc",
+      "kod_zastupitelstva": 551198
+    },
+    "brno-cernovice": {
+      "nazev": "Brno-Černovice",
+      "kod_zastupitelstva": 551066
+    },
+    "brno-chrlice": {
+      "nazev": "Brno-Chrlice",
+      "kod_zastupitelstva": 551317
+    },
+    "brno-ivanovice": {
+      "nazev": "Brno-Ivanovice",
+      "kod_zastupitelstva": 551376
+    },
+    "brno-jehnice": {
+      "nazev": "Brno-Jehnice",
+      "kod_zastupitelstva": 551406
+    },
+    "brno-jih": {
+      "nazev": "Brno-jih",
+      "kod_zastupitelstva": 551074
+    },
+    "brno-jundrov": {
+      "nazev": "Brno-Jundrov",
+      "kod_zastupitelstva": 551171
+    },
+    "brno-kninicky": {
+      "nazev": "Brno-Kníničky",
+      "kod_zastupitelstva": 551210
+    },
+    "brno-kohoutovice": {
+      "nazev": "Brno-Kohoutovice",
+      "kod_zastupitelstva": 551147
+    },
+    "brno-komin": {
+      "nazev": "Brno-Komín",
+      "kod_zastupitelstva": 551228
+    },
+    "brno-kralovo-pole": {
+      "nazev": "Brno-Královo Pole",
+      "kod_zastupitelstva": 551007
+    },
+    "brno-lisen": {
+      "nazev": "Brno-Líšeň",
+      "kod_zastupitelstva": 551287
+    },
+    "brno-malomerice-obrany": {
+      "nazev": "Brno-Maloměřice a Obřany",
+      "kod_zastupitelstva": 551252
+    },
+    "brno-medlanky": {
+      "nazev": "Brno-Medlánky",
+      "kod_zastupitelstva": 551236
+    },
+    "brno-novy-liskovec": {
+      "nazev": "Brno-Nový Lískovec",
+      "kod_zastupitelstva": 551112
+    },
+    "brno-oresin": {
+      "nazev": "Brno-Ořešín",
+      "kod_zastupitelstva": 551422
+    },
+    "brno-reckovice-mokra-hora": {
+      "nazev": "Brno-Řečkovice a Mokrá Hora",
+      "kod_zastupitelstva": 551244
+    },
+    "brno-sever": {
+      "nazev": "Brno-sever",
+      "kod_zastupitelstva": 551031
+    },
+    "brno-slatina": {
+      "nazev": "Brno-Slatina",
+      "kod_zastupitelstva": 551295
+    },
+    "brno-stary-liskovec": {
+      "nazev": "Brno-Starý Lískovec",
+      "kod_zastupitelstva": 551091
+    },
+    "brno-stred": {
+      "nazev": "Brno-střed",
+      "kod_zastupitelstva": 550973,
+      "popisky": {
+        "Město Brno": "Centrum"
+      },
+      "posun_popisku": {
+        "Staré Brno": [
+          -280,
+          80
+        ],
+        "Stránice": [
+          -160,
+          50
+        ],
+        "Veveří": [
+          30,
+          90
+        ],
+        "Město Brno": [
+          70,
+          30
+        ],
+        "Zábrdovice": [
+          120,
+          20
+        ]
+      }
+    },
+    "brno-turany": {
+      "nazev": "Brno-Tuřany",
+      "kod_zastupitelstva": 551309
+    },
+    "brno-utechov": {
+      "nazev": "Brno-Útěchov",
+      "kod_zastupitelstva": 551431
+    },
+    "brno-vinohrady": {
+      "nazev": "Brno-Vinohrady",
+      "kod_zastupitelstva": 551279
+    },
+    "brno-zabovresky": {
+      "nazev": "Brno-Žabovřesky",
+      "kod_zastupitelstva": 550990
+    },
+    "brno-zebetin": {
+      "nazev": "Brno-Žebětín",
+      "kod_zastupitelstva": 551368
+    },
+    "brno-zidenice": {
+      "nazev": "Brno-Židenice",
+      "kod_zastupitelstva": 551058
+    }
+  }
+}

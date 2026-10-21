@@ -20,6 +20,7 @@ from generate_map_svg import (
     neighborhood_texts,
     path_d,
 )
+from uzemi import add_uzemi_args, load_uzemi, resolve_cast
 
 PARTY_COLORS = {
     "ANO": (11, 61, 145),
@@ -295,9 +296,10 @@ def generate_diff_svg(
 
     casti = neighborhood_texts(neighborhoods or [], tx, ty, min_font=16, max_font=26)
     overall_delta = overall_after - overall_before
+    uzemi_nazev = after.get("obec") or before.get("obec") or ""
     title = f"{name} — změna podílu hlasů 2022 → 2026"
     subtitle = (
-        f"Brno-střed {fmt_pct(overall_before)} → {fmt_pct(overall_after)} "
+        f"{uzemi_nazev} {fmt_pct(overall_before)} → {fmt_pct(overall_after)} "
         f"({fmt_delta(overall_delta, with_unit=True)}) · okrsky "
         f"{fmt_delta(min(values))} až {fmt_delta(max(values))} p.b."
     )
@@ -413,6 +415,7 @@ def generate_svg(
     features: list[dict],
     results: dict,
     neighborhoods: list[dict] | None = None,
+    nazev: str | None = None,
 ) -> str:
     stats = party_stats(results)
     parties = [row["kod"] for row in results["strany"]]
@@ -438,6 +441,7 @@ def generate_svg(
 
     year = str(results.get("datum_voleb", ""))
     year_label = f"{year[6:8]}.{year[4:6]}.{year[:4]}" if len(year) == 8 else year
+    heading = f"{nazev or results.get('obec') or 'MČ'} — podíl hlasů podle okrsků"
 
     panels = []
     for index, kod in enumerate(parties):
@@ -490,7 +494,7 @@ def generate_svg(
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {width:.1f} {height:.1f}" width="{width:.0f}" height="{height:.0f}">
-  <title>Brno-střed — podíl hlasů podle okrsků ({year_label})</title>
+  <title>{escape(f"{heading} ({year_label})")}</title>
   <defs>
     {"".join(gradients)}
 {chr(10).join(defs_paths)}
@@ -542,7 +546,7 @@ def generate_svg(
     .legend-tick {{ font-size: 12px; text-anchor: middle; dominant-baseline: hanging; }}
   </style>
   <rect width="100%" height="100%" fill="#f8fafc"/>
-  <text class="title" x="{PAGE_PAD}" y="20">Brno-střed — podíl hlasů podle okrsků</text>
+  <text class="title" x="{PAGE_PAD}" y="20">{escape(heading)}</text>
   <text class="subtitle" x="{PAGE_PAD}" y="54">Komunální volby {year_label} · zastupitelstvo MČ · každá mapa = jedna kandidátní listina</text>
 {chr(10).join(panels)}
   <text class="legend-label" x="{legend_x}" y="{legend_y - 6}">Legenda: podíl hlasů v okrsku</text>
@@ -556,6 +560,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description="Vygeneruje SVG mapy okrsků obarvené podle % hlasů stran."
     )
+    add_uzemi_args(parser)
     parser.add_argument(
         "--year",
         choices=("2022", "2026"),
@@ -564,38 +569,69 @@ def main() -> int:
     parser.add_argument(
         "--diff",
         action="store_true",
-        help="Mapa změny procentních bodů mezi KV 2022 a 2026 (výchozí strana Lidovci a Starostové).",
+        help="Mapa změny procentních bodů mezi KV 2022 a 2026. Bez --party všechny strany, které jsou v obou letech.",
     )
-    parser.add_argument("--party", default="KDU_STAN", help="Kód strany pro --diff.")
+    parser.add_argument(
+        "--party",
+        help="Kód strany pro --diff. Bez zadání se kreslí všechny porovnatelné listiny.",
+    )
     parser.add_argument("--geojson", type=Path)
     parser.add_argument("--katastry", type=Path)
     parser.add_argument("--results", type=Path)
     parser.add_argument("--out", type=Path)
     args = parser.parse_args()
-    root = Path(__file__).resolve().parent
-    geojson = args.geojson or (root / "data" / "okrsky-brno-stred.geojson")
-    katastry_path = args.katastry or (root / "data" / "katastry-brno-stred.geojson")
-    features = collect_features(load_geojson(geojson))
-    neighborhoods = neighborhood_labels(features, load_katastry(katastry_path, features))
+    uzemi = load_uzemi()
+    cast = resolve_cast(args, uzemi)
+    if cast is None:
+        return 0
+    geojson = args.geojson or cast.geojson
+    katastry_path = args.katastry or cast.katastry
+    features = collect_features(load_geojson(geojson, cast.kod_zastupitelstva))
+    neighborhoods = neighborhood_labels(
+        features,
+        load_katastry(katastry_path, features, uzemi.obec),
+        popisky=cast.popisky,
+        posun=cast.posun_popisku,
+    )
 
     if args.diff:
-        before = load_results(root / "output" / "kv2022" / "vysledky.json")
-        after = load_results(args.results or (root / "output" / "vysledky.json"))
-        codes = {row["kod"] for row in after["strany"]} | {row["kod"] for row in before["strany"]}
-        if args.party not in codes:
-            raise SystemExit(f"Neznámý kód strany {args.party!r}. Dostupné: {', '.join(sorted(codes))}")
-        out_path = args.out or (root / "output" / f"okrsky-rozdil-{args.party}.svg")
-        svg = generate_diff_svg(features, before, after, args.party, neighborhoods)
-    else:
-        if args.year == "2022":
-            results_path = args.results or (root / "output" / "kv2022" / "vysledky.json")
-            out_path = args.out or (root / "output" / "kv2022" / "okrsky-vysledky.svg")
+        before = load_results(cast.year_dir("2022") / "vysledky.json")
+        after = load_results(args.results or (cast.year_dir("2026") / "vysledky.json"))
+        before_codes = [row["kod"] for row in before["strany"]]
+        after_codes = [row["kod"] for row in after["strany"]]
+        comparable = [kod for kod in after_codes if kod in set(before_codes)]
+        if args.party:
+            codes = set(before_codes) | set(after_codes)
+            if args.party not in codes:
+                raise SystemExit(
+                    f"Neznámý kód strany {args.party!r}. Dostupné: {', '.join(sorted(codes))}"
+                )
+            if args.party not in comparable:
+                raise SystemExit(
+                    f"Strana {args.party} není v obou letech. Porovnatelné: {', '.join(comparable)}"
+                )
+            parties = [args.party]
         else:
-            results_path = args.results or (root / "output" / "vysledky.json")
-            out_path = args.out or (root / "output" / "okrsky-vysledky.svg")
-        results = load_results(results_path)
-        svg = generate_svg(features, results, neighborhoods)
+            parties = comparable
+            skipped = [kod for kod in after_codes if kod not in set(before_codes)]
+            if skipped:
+                print(f"Přeskočeno (není v roce 2022): {', '.join(skipped)}")
+        if not parties:
+            raise SystemExit("Žádná strana není v obou letech.")
+        for kod in parties:
+            out_path = args.out or (cast.year_dir("2026") / f"okrsky-rozdil-{kod}.svg")
+            if args.out and len(parties) > 1:
+                raise SystemExit("--out lze použít jen s jednou stranou (--party).")
+            svg = generate_diff_svg(features, before, after, kod, neighborhoods)
+            out_path.parent.mkdir(parents=True, exist_ok=True)
+            out_path.write_text(svg, encoding="utf-8")
+            print(f"SVG: {out_path} ({out_path.stat().st_size} B)")
+        return 0
 
+    results_path = args.results or (cast.year_dir(args.year) / "vysledky.json")
+    out_path = args.out or (cast.year_dir(args.year) / "okrsky-vysledky.svg")
+    results = load_results(results_path)
+    svg = generate_svg(features, results, neighborhoods, cast.nazev)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(svg, encoding="utf-8")
     print(f"SVG: {out_path} ({out_path.stat().st_size} B)")

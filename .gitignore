@@ -1,4 +1,6 @@
 __pycache__/
 *.py[cod]
 .Python
+cache/
 data/kv2022/
+output/*/*/.diff-stamp

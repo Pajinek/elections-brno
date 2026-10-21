@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Load Brno-střed streets from the presidential-election precinct PDF
+"""Load streets from a presidential-election precinct PDF
 and attach číslo okrsku to each street (including house-number ranges).
 
 The source PDF lists streets per volební okrsek, so one street can appear
@@ -18,11 +18,7 @@ from pathlib import Path
 
 from pypdf import PdfReader
 
-DEFAULT_PDF = (
-    Path(__file__).resolve().parent
-    / "data"
-    / "volby_prezident_2023_definice_volebnich_okrsku.pdf"
-)
+from uzemi import add_uzemi_args, load_uzemi, resolve_cast
 
 OKRSEK_SPLIT_RE = re.compile(r"ve volebním okrsku č\.\s*(\d+)\s*", re.IGNORECASE)
 MISTNOST_RE = re.compile(
@@ -32,7 +28,7 @@ MISTNOST_RE = re.compile(
 STREETS_RE = re.compile(r"pobytu:\s*(.*)", re.IGNORECASE | re.DOTALL)
 
 HEADER_RE = re.compile(
-    r"ÚŘAD MĚSTSKÉ ČÁSTI MĚSTA BRNA,?\s*BRNO[-\s]*STŘED|"
+    r"ÚŘAD MĚSTSKÉ ČÁSTI MĚSTA BRNA[^\n]*|"
     r"Dominikánská 2,\s*60169 Brno\s*VOLBY\s*01/2023|"
     r"VOLEBNÍ OKRSKY|"
     r"Volba prezidenta České republiky",
@@ -247,17 +243,16 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Načte ulice z PDF volebních okrsků a doplní číslo okrsku."
     )
+    add_uzemi_args(parser)
     parser.add_argument(
         "--pdf",
         type=Path,
-        default=DEFAULT_PDF,
-        help="Cesta k PDF s definicí volebních okrsků",
+        help="Cesta k PDF s definicí volebních okrsků (výchozí: data/<uzemi>/definice-okrsku.pdf)",
     )
     parser.add_argument(
         "--out",
         type=Path,
-        default=Path(__file__).resolve().parent / "output",
-        help="Výstupní adresář pro CSV/JSON",
+        help="Výstupní adresář pro CSV/JSON (výchozí: output/<uzemi>/)",
     )
     parser.add_argument("--lookup", metavar="ULICE", help="Vyhledat ulici")
     parser.add_argument("--cislo", help="Orientační číslo domu pro --lookup")
@@ -266,7 +261,12 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
-    pdf_path = args.pdf.expanduser().resolve()
+    uzemi = load_uzemi()
+    cast = resolve_cast(args, uzemi)
+    if cast is None:
+        return 0
+    pdf_path = (args.pdf or cast.pdf).expanduser().resolve()
+    args.out = args.out or cast.output_dir
     if not pdf_path.exists():
         print(f"PDF neexistuje: {pdf_path}", file=sys.stderr)
         return 1
