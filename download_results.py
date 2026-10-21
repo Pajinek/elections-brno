@@ -302,11 +302,9 @@ def download_kv2022(
     hlasy = load_kv2022_hlasy(kvhl_zip, datum, kod, typ)
 
     results: dict[str, dict] = {}
-    failed: list[str] = []
     wanted = set(okrsky)
     available = sorted(wanted & set(prehled) & set(hlasy), key=int)
-    for missing in sorted(wanted - set(available), key=int):
-        failed.append(missing)
+    skipped = sorted(wanted - set(available), key=int)
 
     for index, okrsek in enumerate(available, start=1):
         stats = prehled[okrsek]
@@ -337,8 +335,8 @@ def download_kv2022(
         }
         results[okrsek] = record
         write_json(out_dir / "vysledky" / f"{okrsek}.json", record)
-        print(f"[{index}/{len(available)}] okrsek {okrsek}")
-    return results, [parties[key] for key in sorted(parties)], failed
+        print(f"[{index}/{len(available)}] okrsek {okrsek}", flush=True)
+    return results, [parties[key] for key in sorted(parties)], skipped
 
 
 def write_outputs(
@@ -348,6 +346,7 @@ def write_outputs(
     uzemi: Uzemi,
     cast: Cast,
     datum_voleb: str,
+    preskoceno: list[str] | None = None,
 ) -> None:
     write_json(
         out_dir / "parties.json",
@@ -362,17 +361,17 @@ def write_outputs(
             "podle_kodu": {row["kod"]: row for row in party_rows},
         },
     )
-    write_json(
-        out_dir / "vysledky.json",
-        {
-            "zastupitelstvo": cast.kod_zastupitelstva,
-            "obec": next(iter(results.values())).get("obec") or cast.nazev,
-            "datum_voleb": datum_voleb,
-            "pocet_okrsku": len(results),
-            "strany": party_rows,
-            "okrsky": results,
-        },
-    )
+    payload = {
+        "zastupitelstvo": cast.kod_zastupitelstva,
+        "obec": next(iter(results.values())).get("obec") or cast.nazev,
+        "datum_voleb": datum_voleb,
+        "pocet_okrsku": len(results),
+        "strany": party_rows,
+        "okrsky": results,
+    }
+    if preskoceno:
+        payload["preskoceno"] = preskoceno
+    write_json(out_dir / "vysledky.json", payload)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -447,10 +446,16 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     out_dir = args.out or cast.year_dir(args.year)
+    skipped: list[str] = []
+    failed: list[str] = []
     if args.year == "2022":
-        results, party_rows, failed = download_kv2022(
+        results, party_rows, missing = download_kv2022(
             out_dir, CACHE_DIR, okrsky, uzemi, cast
         )
+        if args.okrsek:
+            failed = missing
+        else:
+            skipped = missing
     else:
         results, party_rows, failed = download_kv2026(out_dir, okrsky, uzemi, cast)
 
@@ -458,11 +463,21 @@ def main(argv: list[str] | None = None) -> int:
         print("Nepodařilo se stáhnout žádný okrsek.", file=sys.stderr)
         return 2
 
-    write_outputs(out_dir, results, party_rows, uzemi, cast, uzemi.datum_voleb[args.year])
+    write_outputs(
+        out_dir,
+        results,
+        party_rows,
+        uzemi,
+        cast,
+        uzemi.datum_voleb[args.year],
+        preskoceno=skipped or None,
+    )
     print(f"Území: {cast.nazev} ({cast.slug})")
     print(f"Staženo okrsků: {len(results)}")
     print(f"Strany: {out_dir / 'parties.json'}")
     print(f"Výsledky: {out_dir / 'vysledky.json'}")
+    if skipped:
+        print(f"Přeskočeno (v KV {args.year} nejsou): {', '.join(skipped)}")
     if failed:
         print(f"Chyba u okrsků: {', '.join(failed)}", file=sys.stderr)
         return 3

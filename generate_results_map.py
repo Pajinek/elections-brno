@@ -85,6 +85,7 @@ DIFF_STOPS = (
 )
 
 DIFF_FOOTER = 118
+MISSING_FILL = "#cbd5e1"
 
 
 def lerp(a: float, b: float, t: float) -> float:
@@ -234,10 +235,13 @@ def generate_diff_svg(
     overall_before = party_overall(before, kod)
     overall_after = party_overall(after, kod)
     name = party_name(after, kod)
+    comparable = set(before["okrsky"]) & set(after["okrsky"])
     deltas = {}
     for item in features:
         number = str(item["cislo"])
-        deltas[number] = pct_after.get(number, 0.0) - pct_before.get(number, 0.0)
+        if number not in comparable:
+            continue
+        deltas[number] = pct_after[number] - pct_before[number]
     values = list(deltas.values())
     scale_max = 5 * math.ceil(max(abs(v) for v in values) / 5) if values else 20
     if scale_max <= 0:
@@ -261,7 +265,6 @@ def generate_diff_svg(
     labels = []
     for item in features:
         number = str(item["cislo"])
-        delta = deltas[number]
         x, y = tx(item["centroid"][0]), ty(item["centroid"][1])
         size_px = math.sqrt(item["area"]) * scale
         font = 13 if size_px >= 90 else 11 if size_px >= 55 else 9
@@ -275,7 +278,13 @@ def generate_diff_svg(
             labels.append(
                 f'    <rect class="label-bg" x="{label_x - 28:.1f}" y="{label_y - 16:.1f}" width="56" height="32" rx="3"/>'
             )
-        fill = diff_color(delta, scale_max)
+        if number in deltas:
+            delta = deltas[number]
+            fill = diff_color(delta, scale_max)
+            delta_text = fmt_delta(delta)
+        else:
+            fill = MISSING_FILL
+            delta_text = "—"
         paths.append(
             f'    <path class="okrsek" data-okrsek="{number}" d="{path_d(item["rings"], tx, ty)}" fill="{fill}"/>'
         )
@@ -286,22 +295,26 @@ def generate_diff_svg(
             )
             labels.append(
                 f'    <text class="okrsek-delta" x="{label_x:.1f}" y="{label_y + 8:.1f}" '
-                f'font-size="{font}">{escape(fmt_delta(delta))}</text>'
+                f'font-size="{font}">{escape(delta_text)}</text>'
             )
         else:
             labels.append(
                 f'    <text class="okrsek-delta" x="{label_x:.1f}" y="{label_y:.1f}" '
-                f'font-size="{font}">{escape(fmt_delta(delta))}</text>'
+                f'font-size="{font}">{escape(delta_text)}</text>'
             )
 
     casti = neighborhood_texts(neighborhoods or [], tx, ty, min_font=16, max_font=26)
     overall_delta = overall_after - overall_before
     uzemi_nazev = after.get("obec") or before.get("obec") or ""
     title = f"{name} — změna podílu hlasů 2022 → 2026"
+    range_text = (
+        f" · okrsky {fmt_delta(min(values))} až {fmt_delta(max(values))} p.b."
+        if values
+        else ""
+    )
     subtitle = (
         f"{uzemi_nazev} {fmt_pct(overall_before)} → {fmt_pct(overall_after)} "
-        f"({fmt_delta(overall_delta, with_unit=True)}) · okrsky "
-        f"{fmt_delta(min(values))} až {fmt_delta(max(values))} p.b."
+        f"({fmt_delta(overall_delta, with_unit=True)}){range_text}"
     )
 
     ticks = list(range(-int(scale_max), int(scale_max) + 1, 5 if scale_max <= 20 else 10))
@@ -437,6 +450,7 @@ def generate_svg(
         )
     casti = neighborhood_texts(neighborhoods or [], tx, ty, min_font=10, max_font=15)
 
+    known = set(results["okrsky"])
     gradients = [legend_gradient("pctScale")]
 
     year = str(results.get("datum_voleb", ""))
@@ -454,8 +468,11 @@ def generate_svg(
         uses = []
         for item in features:
             number = str(item["cislo"])
-            pct = info["by_okrsek"].get(number, 0.0)
-            fill = scale_color(pct / scale_max)
+            if number in known:
+                pct = info["by_okrsek"].get(number, 0.0)
+                fill = scale_color(pct / scale_max)
+            else:
+                fill = MISSING_FILL
             uses.append(
                 f'      <use href="#p{number}" fill="{fill}" stroke="#334155" stroke-width="0.7"/>'
             )
