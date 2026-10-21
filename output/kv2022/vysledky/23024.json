@@ -1,0 +1,75 @@
+{
+  "okrsek": "23024",
+  "obec": "Brno-střed",
+  "kod_zastupitelstva": 550973,
+  "okres": 6202,
+  "datum_voleb": 20220923,
+  "url": "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5&xnumnuts=6202&xobec=550973&xstat=0&xvyber=23024",
+  "zdroj": "https://volby.gov.cz/opendata/kv2022/",
+  "prehled": {
+    "volici_v_seznamu": 576,
+    "vydane_obalky": 214,
+    "ucast_pct": 37.15,
+    "odevzdane_obalky": 214,
+    "odevzdane_pct": 100.0,
+    "platne_hlasy": 9102
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "PIRATI_ZELENI_ZITBRNO",
+      "nazev": "Piráti, Zelení a Žít Brno",
+      "hlasy": 1498,
+      "procenta": 16.45
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ZDRAVY_STRED",
+      "nazev": "Zdravý střed s podporou Sociální demokracie",
+      "hlasy": 140,
+      "procenta": 1.53
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "hlasy": 560,
+      "procenta": 6.15
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "KDU_STAN",
+      "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+      "hlasy": 1735,
+      "procenta": 19.06
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "hlasy": 135,
+      "procenta": 1.48
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "FAKT",
+      "nazev": "Fakt Brno",
+      "hlasy": 328,
+      "procenta": 3.6
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 2312,
+      "procenta": 25.4
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "hlasy": 2394,
+      "procenta": 26.3
+    }
+  ]
+}

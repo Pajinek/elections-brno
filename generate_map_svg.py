@@ -24,6 +24,32 @@ GEOJSON_URL = (
     )
 )
 
+KATASTRY_URL = (
+    "https://ags.cuzk.gov.cz/arcgis/rest/services/RUIAN/MapServer/7/query?"
+    + urllib.parse.urlencode(
+        {
+            "where": "obec=582786",
+            "outFields": "kod,nazev,obec",
+            "outSR": "5514",
+            "returnGeometry": "true",
+            "f": "geojson",
+        }
+    )
+)
+
+CAST_DISPLAY = {
+    "Město Brno": "Centrum",
+}
+
+# Posun popisku v metrech S-JTSK (x východ, y sever), ať nelézá na čísla okrsků.
+CAST_NUDGE = {
+    "Staré Brno": (-280, 80),
+    "Stránice": (-160, 50),
+    "Veveří": (30, 90),
+    "Město Brno": (70, 30),
+    "Zábrdovice": (120, 20),
+}
+
 WIDTH = 1600
 PADDING = 56
 TITLE = "Brno-střed — volební okrsky"
@@ -41,6 +67,118 @@ def load_geojson(path: Path) -> dict:
         return json.loads(path.read_text(encoding="utf-8"))
     path.parent.mkdir(parents=True, exist_ok=True)
     return download_geojson(path)
+
+
+def download_json(url: str) -> dict:
+    request = urllib.request.Request(url, headers={"User-Agent": "elections-brno/1.0"})
+    with urllib.request.urlopen(request, timeout=90) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def point_in_ring(x: float, y: float, ring: list[list[float]]) -> bool:
+    inside = False
+    previous = ring[-1]
+    for current in ring:
+        x1, y1 = previous
+        x2, y2 = current
+        if (y1 > y) != (y2 > y):
+            at_x = x1 + (x2 - x1) * (y - y1) / (y2 - y1)
+            if x < at_x:
+                inside = not inside
+        previous = current
+    return inside
+
+
+def point_in_geometry(x: float, y: float, geometry: dict) -> bool:
+    for ring in exterior_rings(geometry):
+        if point_in_ring(x, y, ring):
+            return True
+    return False
+
+
+def load_katastry(path: Path, features: list[dict] | None = None) -> dict:
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
+    data = download_json(KATASTRY_URL)
+    if features:
+        used = set()
+        for item in features:
+            cx, cy = item["centroid"]
+            for katastr in data["features"]:
+                if point_in_geometry(cx, cy, katastr["geometry"]):
+                    used.add(katastr["properties"]["kod"])
+                    break
+        data = {
+            "type": "FeatureCollection",
+            "crs": data.get("crs")
+            or {"type": "name", "properties": {"name": "EPSG:5514"}},
+            "features": [
+                item
+                for item in data["features"]
+                if item["properties"]["kod"] in used
+            ],
+        }
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n",
+        encoding="utf-8",
+    )
+    return data
+
+
+def neighborhood_labels(features: list[dict], katastry: dict) -> list[dict]:
+    groups: dict[str, list[dict]] = {}
+    for item in features:
+        cx, cy = item["centroid"]
+        hit = None
+        for katastr in katastry["features"]:
+            if point_in_geometry(cx, cy, katastr["geometry"]):
+                hit = katastr["properties"]["nazev"]
+                break
+        if hit is None:
+            continue
+        groups.setdefault(hit, []).append(item)
+
+    labels = []
+    for nazev, items in groups.items():
+        area = sum(item["area"] for item in items)
+        if area <= 0:
+            continue
+        x = sum(item["centroid"][0] * item["area"] for item in items) / area
+        y = sum(item["centroid"][1] * item["area"] for item in items) / area
+        dx, dy = CAST_NUDGE.get(nazev, (0.0, 0.0))
+        x += dx
+        y += dy
+        labels.append(
+            {
+                "nazev": CAST_DISPLAY.get(nazev, nazev),
+                "x": x,
+                "y": y,
+                "area": area,
+            }
+        )
+    return sorted(labels, key=lambda item: item["area"], reverse=True)
+
+
+def neighborhood_texts(
+    labels: list[dict],
+    tx,
+    ty,
+    min_font: float,
+    max_font: float,
+) -> list[str]:
+    if not labels:
+        return []
+    max_area = max(item["area"] for item in labels)
+    texts = []
+    for item in labels:
+        t = math.sqrt(item["area"] / max_area) if max_area else 1.0
+        font = min_font + (max_font - min_font) * t
+        texts.append(
+            f'    <text class="cast" x="{tx(item["x"]):.1f}" y="{ty(item["y"]):.1f}" '
+            f'font-size="{font:.1f}">{escape(item["nazev"])}</text>'
+        )
+    return texts
 
 
 def exterior_rings(geometry: dict) -> list[list[list[float]]]:
@@ -123,7 +261,7 @@ def path_d(rings: list[list[list[float]]], tx, ty) -> str:
     return " ".join(parts)
 
 
-def generate_svg(features: list[dict]) -> str:
+def generate_svg(features: list[dict], neighborhoods: list[dict] | None = None) -> str:
     points = [(x, y) for item in features for ring in item["rings"] for x, y in ring]
     minx, miny, maxx, maxy = bbox(points)
     span_x = maxx - minx
@@ -162,6 +300,7 @@ def generate_svg(features: list[dict]) -> str:
         labels.append(
             f'    <text x="{label_x:.1f}" y="{label_y:.1f}" font-size="{font}">{escape(number)}</text>'
         )
+    casti = neighborhood_texts(neighborhoods or [], tx, ty, min_font=17, max_font=28)
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {height:.1f}" width="{WIDTH}" height="{height:.0f}">
@@ -194,6 +333,20 @@ def generate_svg(features: list[dict]) -> str:
       stroke: #1e3a5f;
       stroke-width: 0.8;
     }}
+    .cast {{
+      font-family: "Source Sans 3", "Liberation Sans", "DejaVu Sans", sans-serif;
+      font-weight: 750;
+      fill: #1e3a5f;
+      fill-opacity: 0.78;
+      stroke: #ffffff;
+      stroke-width: 5;
+      stroke-opacity: 0.9;
+      paint-order: stroke fill;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      letter-spacing: 0.4px;
+      pointer-events: none;
+    }}
     .title {{
       font-family: "Source Sans 3", "Liberation Sans", "DejaVu Sans", sans-serif;
       font-size: 28px;
@@ -218,6 +371,9 @@ def generate_svg(features: list[dict]) -> str:
   <g fill-rule="evenodd">
 {chr(10).join(paths)}
   </g>
+  <g class="casti">
+{chr(10).join(casti)}
+  </g>
   <g>
 {chr(10).join(labels)}
   </g>
@@ -237,13 +393,19 @@ def main() -> int:
         type=Path,
         default=Path(__file__).resolve().parent / "output" / "okrsky.svg",
     )
+    parser.add_argument(
+        "--katastry",
+        type=Path,
+        default=Path(__file__).resolve().parent / "data" / "katastry-brno-stred.geojson",
+    )
     args = parser.parse_args()
     data = load_geojson(args.geojson)
     features = collect_features(data)
     if len(features) != 70:
         raise SystemExit(f"Očekáváno 70 okrsků, nalezeno {len(features)}")
+    neighborhoods = neighborhood_labels(features, load_katastry(args.katastry, features))
     args.out.parent.mkdir(parents=True, exist_ok=True)
-    args.out.write_text(generate_svg(features), encoding="utf-8")
+    args.out.write_text(generate_svg(features, neighborhoods), encoding="utf-8")
     print(f"SVG: {args.out} ({args.out.stat().st_size} B, {len(features)} okrsků)")
     return 0
 

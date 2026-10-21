@@ -1,0 +1,124 @@
+{
+  "zastupitelstvo": {
+    "kod": 550973,
+    "nazev": "Brno-střed",
+    "datum_voleb": "20220923",
+    "okres": 6202
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "PIRATI_ZELENI_ZITBRNO",
+      "nazev": "Piráti, Zelení a Žít Brno",
+      "nazev_plny": "Piráti, Zelení a Žít Brno",
+      "zkratka": "Zelen+Pirát+ŽTB"
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "ZDRAVY_STRED",
+      "nazev": "Zdravý střed s podporou Sociální demokracie",
+      "nazev_plny": "Zdravý střed s podporou Sociální demokracie",
+      "zkratka": "ČSSD+NK"
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "KDU_STAN",
+      "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+      "nazev_plny": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+      "zkratka": "KDU-ČSL+STAN"
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "FAKT",
+      "nazev": "Fakt Brno",
+      "nazev_plny": "Fakt Brno",
+      "zkratka": "Fakt Brno"
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "nazev_plny": "SPOLEČNĚ - ODS a TOP 09",
+      "zkratka": "ODS+TOP 09"
+    }
+  ],
+  "podle_kodu": {
+    "PIRATI_ZELENI_ZITBRNO": {
+      "cislo_listiny": 1,
+      "kod": "PIRATI_ZELENI_ZITBRNO",
+      "nazev": "Piráti, Zelení a Žít Brno",
+      "nazev_plny": "Piráti, Zelení a Žít Brno",
+      "zkratka": "Zelen+Pirát+ŽTB"
+    },
+    "ZDRAVY_STRED": {
+      "cislo_listiny": 2,
+      "kod": "ZDRAVY_STRED",
+      "nazev": "Zdravý střed s podporou Sociální demokracie",
+      "nazev_plny": "Zdravý střed s podporou Sociální demokracie",
+      "zkratka": "ČSSD+NK"
+    },
+    "SPD": {
+      "cislo_listiny": 3,
+      "kod": "SPD",
+      "nazev": "SPD, Trikolora, Moravané a nezávislí",
+      "nazev_plny": "SPD, Trikolora, Moravané a nezávislí",
+      "zkratka": "Mor+SPD+Trik+NK"
+    },
+    "KDU_STAN": {
+      "cislo_listiny": 4,
+      "kod": "KDU_STAN",
+      "nazev": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+      "nazev_plny": "Lidovci a Starostové (KDU-ČSL + Starostové a nezávislí)",
+      "zkratka": "KDU-ČSL+STAN"
+    },
+    "RESTART": {
+      "cislo_listiny": 5,
+      "kod": "RESTART",
+      "nazev": "RESTART PRO BRNO",
+      "nazev_plny": "RESTART PRO BRNO",
+      "zkratka": "KSČMSPOZSuvDOM"
+    },
+    "FAKT": {
+      "cislo_listiny": 6,
+      "kod": "FAKT",
+      "nazev": "Fakt Brno",
+      "nazev_plny": "Fakt Brno",
+      "zkratka": "Fakt Brno"
+    },
+    "ANO": {
+      "cislo_listiny": 7,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "nazev_plny": "ANO 2011",
+      "zkratka": "ANO"
+    },
+    "ODS_TOP09": {
+      "cislo_listiny": 8,
+      "kod": "ODS_TOP09",
+      "nazev": "SPOLEČNĚ - ODS a TOP 09",
+      "nazev_plny": "SPOLEČNĚ - ODS a TOP 09",
+      "zkratka": "ODS+TOP 09"
+    }
+  }
+}
