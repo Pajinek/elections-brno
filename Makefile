@@ -4,9 +4,11 @@
 #   make UZEMI=brno-sever
 #   make brno-stred   jedna MČ
 #   make -j4 maps     paralelní stahování geometrie
+#   make deploy       web/ → s1.varhoo.cz:/var/www/volby-brno/
 
 PYTHON ?= python3
 RSVG ?= rsvg-convert
+ANSIBLE ?= ansible-playbook
 PNG_ZOOM ?= 1
 SHELL := /bin/bash
 
@@ -31,7 +33,7 @@ PNGS := $(SVG_FOR_PNG:.svg=.png)
 .SECONDARY:
 .SUFFIXES:
 
-.PHONY: all maps streets results choropleth diffs png help list $(UZEMI)
+.PHONY: all maps streets results choropleth diffs png deploy help list $(UZEMI)
 
 help:
 	@echo "make [all]              GeoJSON, mapy, výsledky 2022/2026, choropleth, rozdíly"
@@ -41,10 +43,11 @@ help:
 	@echo "make choropleth         SVG podílů hlasů"
 	@echo "make diffs              SVG změny 2022→2026 (strany v obou letech)"
 	@echo "make png                SVG → PNG (librsvg: rsvg-convert)"
+	@echo "make deploy             web/ → s1.varhoo.cz:/var/www/volby-brno/"
 	@echo "make UZEMI=brno-sever   jen jedna MČ"
 	@echo "make brno-stred         totéž"
 	@echo "make list               seznam MČ"
-	@echo "PYTHON=$(PYTHON)  RSVG=$(RSVG)  PNG_ZOOM=$(PNG_ZOOM)"
+	@echo "PYTHON=$(PYTHON)  RSVG=$(RSVG)  ANSIBLE=$(ANSIBLE)  PNG_ZOOM=$(PNG_ZOOM)"
 
 list:
 	@$(PYTHON) download_results.py --list-uzemi
@@ -57,6 +60,9 @@ results: $(KV2026) $(KV2022)
 choropleth: $(CHORO2026) $(CHORO2022)
 diffs: $(DIFFS)
 png: $(PNGS)
+
+deploy:
+	$(ANSIBLE) -i ansible/hosts ansible/deploy-web.yml
 
 %.png: %.svg
 	$(RSVG) -z $(PNG_ZOOM) -f png -o $@ $<

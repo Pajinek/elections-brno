@@ -1,0 +1,28 @@
+---
+# Nasadí soubory z web/ na s1.varhoo.cz.
+# Adresář web/_src (checkout pro build) se nekopíruje.
+#
+#   ansible-playbook -i ansible/hosts ansible/deploy-web.yml
+
+- name: Nasadit web Volby Brno
+  hosts: s1.varhoo.cz
+  vars:
+    web_root: /var/www/volby-brno
+
+  tasks:
+    - name: Adresář webu
+      ansible.builtin.file:
+        path: "{{ web_root }}"
+        state: directory
+        owner: root
+        group: root
+        mode: "0755"
+
+    - name: Soubory z web/
+      ansible.builtin.copy:
+        src: "{{ item }}"
+        dest: "{{ web_root }}/{{ item | basename }}"
+        owner: root
+        group: root
+        mode: "0644"
+      loop: "{{ query('fileglob', playbook_dir + '/../web/*') }}"
