@@ -1,0 +1,757 @@
+<title>Volby Brno 2026</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400..700&family=Source+Serif+4:opsz,wght@8..60,700..800&display=swap">
+<style>
+/* Layout: mapa okrsků jako hlavní plocha, vpravo panel výsledků (na mobilu pod mapou); barvy z brněnské červené a papíru volebního lístku.
+   Písmo: Source Serif 4 na nadpisy, Source Sans 3 na text, popisky mapy i čísla (tabulkové číslice, čeština, stejná rodina jako SVG). */
+:root {
+  --bg: #f3f3f0;
+  --surface: #ffffff;
+  --surface-2: #ebebe6;
+  --fg: #1b1d22;
+  --muted: #5d616b;
+  --line: #d6d6cf;
+  --accent: #c8102e;
+  --accent-fg: #ffffff;
+  --map-line: rgba(27, 29, 34, .28);
+  --map-outline: #1b1d22;
+  --gain: #12866a;
+  --loss: #c2185b;
+  --seq: #2f57a8;
+  --shadow: 0 1px 2px rgba(20, 22, 28, .06), 0 8px 24px rgba(20, 22, 28, .06);
+  --f-display: "Source Serif 4", "Liberation Serif", Georgia, serif;
+  --f-body: "Source Sans 3", "Liberation Sans", "DejaVu Sans", sans-serif;
+  --f-num: "Source Sans 3", "Liberation Sans", "DejaVu Sans", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121419; --surface: #1b1e25; --surface-2: #252932; --fg: #e9eaee; --muted: #9ba0ab;
+    --line: #333844; --accent: #ff4d5e; --accent-fg: #16080a; --map-line: rgba(233, 234, 238, .22);
+    --map-outline: #e9eaee; --gain: #35c79f; --loss: #f06292; --seq: #7ea3f0;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121419; --surface: #1b1e25; --surface-2: #252932; --fg: #e9eaee; --muted: #9ba0ab;
+  --line: #333844; --accent: #ff4d5e; --accent-fg: #16080a; --map-line: rgba(233, 234, 238, .22);
+  --map-outline: #e9eaee; --gain: #35c79f; --loss: #f06292; --seq: #7ea3f0;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25); color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--f-body); }
+.wrap { max-width: 1480px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 20px 40px; }
+
+header.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; padding-bottom: 16px; }
+.brand { display: flex; align-items: center; gap: 14px; min-width: 0; }
+.mark { width: 38px; height: 44px; flex: none; display: block; }
+.eyebrow { font: 600 11px/1.2 var(--f-body); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+h1 { font: 800 clamp(26px, 3.4vw, 38px)/1.05 var(--f-display); margin: 2px 0 0; letter-spacing: -.02em; text-wrap: balance; }
+h1 em { font-style: normal; color: var(--accent); }
+
+.seg { display: inline-flex; background: var(--surface-2); border-radius: 999px; padding: 3px; gap: 2px; }
+.seg button { border: 0; background: transparent; color: var(--muted); font: 600 13px/1 var(--f-body); padding: 8px 14px; border-radius: 999px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--fg); box-shadow: 0 1px 2px rgba(0,0,0,.12); }
+.seg button:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+select, input[type="search"] { font: 500 14px/1.2 var(--f-body); color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; max-width: 100%; }
+
+main.grid { display: grid; grid-template-columns: minmax(0, 1fr) 420px; gap: 20px; align-items: start; }
+@media (max-width: 1000px) { main.grid { grid-template-columns: minmax(0, 1fr); } }
+
+.mapcard { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); overflow: hidden; }
+.maptools { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 12px 14px; border-bottom: 1px solid var(--line); }
+.maptools .spacer { flex: 1; }
+.crumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; font-size: 13px; color: var(--muted); padding: 10px 14px 0; }
+.crumbs button { border: 0; background: none; padding: 2px 4px; color: var(--fg); font: 600 13px var(--f-body); cursor: pointer; border-radius: 4px; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--line); }
+.crumbs button:hover { text-decoration-color: var(--accent); }
+.crumbs span.cur { font-weight: 600; color: var(--fg); }
+#map { display: block; width: 100%; height: min(72vh, 760px); min-height: 380px; touch-action: none; cursor: grab; user-select: none; }
+#map.drag { cursor: grabbing; }
+#map path.ok { stroke: var(--map-line); stroke-width: .6; vector-effect: non-scaling-stroke; cursor: pointer; transition: opacity .2s; }
+#map path.ok:hover { stroke: var(--fg); stroke-width: 1.6; }
+#map path.ok.sel { stroke: var(--accent); stroke-width: 3; }
+#map g.mc.dim path.ok { opacity: .28; }
+#map path.outline { fill: none; stroke: var(--map-outline); stroke-width: 1.4; vector-effect: non-scaling-stroke; pointer-events: none; stroke-linejoin: round; }
+#map text { font-family: var(--f-body); font-weight: 600; fill: var(--fg); paint-order: stroke; stroke: var(--surface); stroke-linejoin: round; pointer-events: none; text-anchor: middle; dominant-baseline: middle; }
+.mapbox { position: relative; }
+.zoom { position: absolute; right: 12px; bottom: 12px; display: flex; flex-direction: column; gap: 4px; }
+.zoom button { width: 34px; height: 34px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); font: 600 18px/1 var(--f-body); cursor: pointer; box-shadow: var(--shadow); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; padding: 10px 14px 12px; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--muted); min-height: 48px; }
+.legend .sw { display: inline-flex; align-items: center; gap: 6px; }
+.legend .sw i { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.legend .ramp { display: flex; align-items: center; gap: 8px; font-family: var(--f-num); font-variant-numeric: tabular-nums; font-size: 12px; }
+.legend .ramp b { display: block; width: 180px; max-width: 40vw; height: 10px; border-radius: 3px; }
+#tip { position: absolute; pointer-events: none; background: var(--fg); color: var(--bg); padding: 8px 10px; border-radius: 8px; font-size: 12.5px; line-height: 1.35; max-width: 260px; box-shadow: var(--shadow); z-index: 5; }
+#tip b { font-family: var(--f-body); font-weight: 650; font-size: 14px; }
+#tip .n { font-family: var(--f-num); font-variant-numeric: tabular-nums; }
+
+aside.panel { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px; min-width: 0; }
+.card h2 { font: 700 24px/1.1 var(--f-display); margin: 4px 0 2px; letter-spacing: -.01em; text-wrap: balance; }
+.card h3 { font: 600 11px/1.2 var(--f-body); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 12px; }
+.sub { color: var(--muted); font-size: 13px; }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 14px; }
+.stat { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; }
+.stat .v { font: 500 18px/1.2 var(--f-num); font-variant-numeric: tabular-nums; }
+.stat .l { font-size: 11.5px; color: var(--muted); }
+
+.bars { display: flex; flex-direction: column; gap: 10px; }
+.bar { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 3px 10px; align-items: baseline; }
+.bar .nm { font-size: 13.5px; font-weight: 500; min-width: 0; overflow-wrap: anywhere; display: flex; gap: 8px; align-items: baseline; }
+.bar .nm i { width: 10px; height: 10px; border-radius: 2px; flex: none; transform: translateY(1px); }
+.bar .pc { font: 500 13.5px var(--f-num); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.bar .track { grid-column: 1 / -1; height: 8px; background: var(--surface-2); border-radius: 4px; overflow: hidden; position: relative; }
+.bar .track b { display: block; height: 100%; border-radius: 4px; }
+.bar .track s { position: absolute; top: -2px; bottom: -2px; width: 2px; background: var(--fg); opacity: .55; }
+.bar .meta { grid-column: 1 / -1; font: 12px var(--f-num); font-variant-numeric: tabular-nums; color: var(--muted); display: flex; gap: 10px; flex-wrap: wrap; }
+.bar.click { cursor: pointer; border-radius: 6px; }
+.bar.click:hover .nm { text-decoration: underline; text-underline-offset: 3px; }
+.bar.below .nm, .bar.below .pc { color: var(--muted); }
+.chip { font: 500 11.5px/1 var(--f-num); font-variant-numeric: tabular-nums; padding: 3px 6px; border-radius: 999px; background: var(--surface-2); white-space: nowrap; }
+.chip.up { color: var(--gain); }
+.chip.down { color: var(--loss); }
+.note { font-size: 12.5px; color: var(--muted); margin-top: 12px; }
+.note a, .card a { color: var(--fg); text-underline-offset: 3px; text-decoration-color: var(--accent); }
+
+.tbl-wrap { overflow-x: auto; max-height: 420px; overflow-y: auto; margin: 0 -6px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: left; font: 600 11px var(--f-body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 6px; position: sticky; top: 0; background: var(--surface); border-bottom: 1px solid var(--line); cursor: pointer; white-space: nowrap; }
+td { padding: 7px 6px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+td.n { font-family: var(--f-num); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+th.n { text-align: right; }
+tr.row { cursor: pointer; }
+tr.row:hover td { background: var(--surface-2); }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; vertical-align: 0; }
+
+.search { position: relative; }
+.search input { width: 100%; }
+.hits { list-style: none; margin: 8px 0 0; padding: 0; max-height: 260px; overflow-y: auto; }
+.hits li button { width: 100%; text-align: left; border: 0; background: none; color: var(--fg); padding: 8px 6px; border-bottom: 1px solid var(--line); cursor: pointer; font: 14px var(--f-body); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; }
+.hits li button:hover { background: var(--surface-2); }
+.hits small { color: var(--muted); grid-column: 1 / -1; font-size: 12px; }
+.hits .n { font-family: var(--f-num); font-variant-numeric: tabular-nums; font-size: 13px; }
+ul.streets { margin: 6px 0 0; padding-left: 18px; font-size: 13px; columns: 2; column-gap: 18px; }
+ul.streets li { break-inside: avoid; }
+ul.streets small { color: var(--muted); }
+footer { margin-top: 28px; font-size: 12.5px; color: var(--muted); max-width: 80ch; }
+footer a { color: var(--fg); }
+@media (max-width: 520px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } ul.streets { columns: 1; } #map { height: 62vh; } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 600 700" role="img" aria-label="Znak města Brna">
+        <path fill="#dc2b19" d="M 0.00296,-3e-005 L 0.00296,244.71871 C -0.00075,245.06924 0.00594,245.43051 0.00296,245.78121 C -2e-005,246.13329 0.0052,246.49146 0.00296,246.84371 C -0.00203,247.63092 0.0014,248.4292 0.00296,249.21871 L 0.00296,249.99996 C 0.00296,251.05113 -0.0037,252.07535 0.00296,253.12496 C 1.27888,454.3623 124.69222,626.81655 299.78421,700 L 300.22171,700 C 475.31458,626.81655 598.72703,454.3623 600.00296,253.12496 C 600.00962,252.07535 600.00296,251.05113 600.00296,249.99996 C 600.00296,248.94879 600.00962,247.89332 600.00296,246.84371 C 600.00073,246.49146 600.00594,246.13329 600.00296,245.78121 C 599.99999,245.43051 600.00667,245.06924 600.00296,244.71871 L 600.00296,-3e-005 L 531.03421,-3e-005 L 68.971707,-3e-005 L 0.00296,-3e-005 z"/>
+        <path fill="#ffffff" d="M 12.03125,12.0128 C 12.041667,13.81488 12.052083,15.61697 12.0625,17.41905 C 12.426315,44.94279 12.323901,72.47155 12.125,100.0128 L 588,100.0128 C 587.98325,70.67797 587.95194,41.34761 588,12.0128 C 396.01042,12.0128 204.02083,12.0128 12.03125,12.0128 z"/>
+        <path fill="#ffffff" d="M 14.4375,300.0128 C 21.895206,370.72315 45.822168,439.51896 83.09375,500.0128 L 516.9375,500.0128 C 546.38593,452.75391 567.6089,400.43973 578.4375,345.60655 C 581.56574,330.51789 583.77231,315.29104 585.28125,300.0128 L 14.4375,300.0128 z"/>
+      </svg>
+      <div>
+        <div class="eyebrow">Komunální volby · zastupitelstva městských částí</div>
+        <h1>Volby Brno <em id="yearTitle">2026</em></h1>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="eyebrow" for="mcSel">Městská část</label>
+      <select id="mcSel"></select>
+      <div class="seg" role="group" aria-label="Rok voleb">
+        <button id="y2026" aria-pressed="true">2026</button>
+        <button id="y2022" aria-pressed="false">2022</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="grid">
+    <section class="mapcard" aria-label="Mapa okrsků">
+      <div class="maptools">
+        <div class="seg" role="group" aria-label="Co mapa ukazuje">
+          <button data-mode="winner" aria-pressed="true">Vítěz</button>
+          <button data-mode="share" aria-pressed="false">Podíl strany</button>
+          <button data-mode="change" aria-pressed="false">Změna od 2022</button>
+          <button data-mode="turnout" aria-pressed="false">Účast</button>
+        </div>
+        <div class="spacer"></div>
+        <select id="partySel" aria-label="Strana" hidden></select>
+      </div>
+      <nav class="crumbs" id="crumbs" aria-label="Kde jste"></nav>
+      <div class="mapbox">
+        <svg id="map" role="img" aria-label="Mapa volebních okrsků Brna"></svg>
+        <div class="zoom">
+          <button id="zIn" aria-label="Přiblížit">+</button>
+          <button id="zOut" aria-label="Oddálit">−</button>
+        </div>
+        <div id="tip" hidden></div>
+      </div>
+      <div class="legend" id="legend"></div>
+    </section>
+
+    <aside class="panel" id="panel"></aside>
+  </main>
+
+  <footer>
+    Data: <a href="https://volby.gov.cz" target="_blank" rel="noopener">volby.gov.cz</a> (výsledky po okrscích), hranice okrsků RÚIAN (ČÚZK), seznam ulic z definice okrsků. Zpracováno z repozitáře
+    <a href="https://github.com/Pajinek/elections-brno" target="_blank" rel="noopener">Pajinek/elections-brno</a>.
+    Každý volič v komunálních volbách má tolik hlasů, kolik členů zastupitelstvo má, proto se procenta počítají z platných hlasů. Souhrn za celé Brno přepočítává podíly na voliče, protože zastupitelstva MČ mají různý počet členů.
+  </footer>
+</div>
+
+<script>
+const D = /*__DATA__*/null;
+
+/* ---------- strany a barvy ---------- */
+const FAM = {
+  ANO:        { n: "ANO",                   l: "#1795d4", d: "#3db2ef" },
+  SPD:        { n: "SPD",                   l: "#8b5a2b", d: "#c08a55" },
+  RESTART:    { n: "Restart pro Brno",      l: "#e8650c", d: "#ff8a3d" },
+  BRNOKLIDEM: { n: "Brnoklidem",            l: "#b0185a", d: "#e9578f" },
+  MOTORISTE:  { n: "Motoristé",             l: "#8f8e1f", d: "#c4c24a" },
+  NAPLNO:     { n: "NAPLNO",                l: "#5a36b0", d: "#957bea" },
+  ODS:        { n: "ODS, TOP 09, SPOLU",    l: "#1d3f94", d: "#6d8fe6" },
+  CSSD:       { n: "Sociální demokraté",    l: "#dc3a35", d: "#f26c64" },
+  KDU:        { n: "Lidovci a Starostové",  l: "#d9a100", d: "#f2c230" },
+  TOP09:      { n: "TOP 09",                l: "#8e44ad", d: "#bf7fdb" },
+  PIRATI:     { n: "Piráti a Fakt Brno",    l: "#3b414b", d: "#c5cad3" },
+  ZELENI:     { n: "Zelení a Žít Brno",     l: "#2e9a4b", d: "#55c674" },
+  LOCAL:      { n: "Místní uskupení",       l: "#6f8591", d: "#94a9b4" },
+};
+const LOCAL_PAL = { l: ["#00897b", "#7a5547", "#6f9a2c", "#0097a7", "#ad1457", "#5c6bc0", "#9e7b1c", "#455a64"],
+                    d: ["#3fbfae", "#b08a7c", "#9ccc5a", "#4dd0e1", "#ec5f99", "#8c9eff", "#d4ae4e", "#90a4ae"] };
+const isDark = () => getComputedStyle(document.documentElement).colorScheme.includes("dark");
+let dark = false;
+function hashStr(s) { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; }
+function partyColor(p) {
+  const t = dark ? "d" : "l";
+  if (p.f === "LOCAL") return LOCAL_PAL[t][hashStr(p.k) % LOCAL_PAL[t].length];
+  return FAM[p.f][t];
+}
+const famColor = f => FAM[f][dark ? "d" : "l"];
+
+function hex2rgb(h) { const n = parseInt(h.slice(1), 16); return [n >> 16 & 255, n >> 8 & 255, n & 255]; }
+function cssColor(name) {
+  const tmp = document.createElement("i"); tmp.style.color = `var(${name})`; document.body.appendChild(tmp);
+  const c = getComputedStyle(tmp).color.match(/\d+/g).slice(0, 3).map(Number); tmp.remove(); return c;
+}
+let SURF = [255, 255, 255];
+function mix(c, t) {
+  const a = typeof c === "string" ? hex2rgb(c) : c;
+  return `rgb(${a.map((v, i) => Math.round(SURF[i] + (v - SURF[i]) * t)).join(",")})`;
+}
+
+/* ---------- formát ---------- */
+const nf = new Intl.NumberFormat("cs-CZ");
+const pf = new Intl.NumberFormat("cs-CZ", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const pct = v => v == null || !isFinite(v) ? "–" : pf.format(v * 100) + " %";
+const pp = v => (v > 0 ? "+" : v < 0 ? "−" : "±") + pf.format(Math.abs(v * 100)) + " b.";
+const short = n => n.replace(/^Brno-/, "");
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+/* ---------- výpočty ---------- */
+const MC = D.mc;
+const bySlug = Object.fromEntries(MC.map(m => [m.slug, m]));
+const OTHER = { "2026": "2022", "2022": "2026" };
+
+function okRes(ok, y) { return ok.r[y] || null; }
+// r = [voliči, vydané obálky, odevzdané obálky, platné hlasy, [hlasy podle strany]]
+function aggMC(m, y) {
+  const ps = m.parties[y]; if (!ps) return null;
+  const a = [0, 0, 0, 0, ps.map(() => 0)];
+  for (const ok of m.ok) {
+    const r = ok.r[y]; if (!r) continue;
+    for (let i = 0; i < 4; i++) a[i] += r[i];
+    r[4].forEach((v, i) => a[4][i] += v);
+  }
+  return a;
+}
+function shareOf(r, ps, sel) {
+  if (!r || !ps || !r[3]) return null;
+  if (sel.type === "kod") {
+    const i = ps.findIndex(p => p.k === sel.v); if (i < 0) return null;
+    return r[4][i] / r[3];
+  }
+  let s = 0, any = false;
+  ps.forEach((p, i) => { if (p.f === sel.v) { s += r[4][i]; any = true; } });
+  return any ? s / r[3] : 0;
+}
+function winnerOf(r, ps) {
+  if (!r || !ps || !r[3]) return null;
+  let bi = 0; r[4].forEach((v, i) => { if (v > r[4][bi]) bi = i; });
+  return { p: ps[bi], share: r[4][bi] / r[3] };
+}
+// celé Brno: podíly MČ přepočtené na voliče (odevzdané obálky)
+function cityFamilies(y) {
+  const tot = {}; let env = 0, vol = 0, vyd = 0;
+  for (const m of MC) {
+    const a = aggMC(m, y); if (!a || !a[3]) continue;
+    env += a[2]; vol += a[0]; vyd += a[1];
+    m.parties[y].forEach((p, i) => { tot[p.f] = (tot[p.f] || 0) + a[4][i] / a[3] * a[2]; });
+  }
+  return { tot, env, vol, vyd };
+}
+
+/* ---------- stav ---------- */
+const S = { year: "2026", mode: "winner", mc: null, ok: null, party: null };
+function scopeParties() {
+  if (S.mc) return (bySlug[S.mc].parties[S.year] || []).map(p => ({ sel: { type: "kod", v: p.k }, n: p.n, color: partyColor(p), p }));
+  return Object.keys(FAM).map(f => ({ sel: { type: "fam", v: f }, n: FAM[f].n, color: famColor(f) }));
+}
+function currentSel() {
+  const list = scopeParties();
+  return list.find(x => x.sel.type === S.party?.type && x.sel.v === S.party?.v) || null;
+}
+function defaultParty() {
+  if (S.mc) {
+    const m = bySlug[S.mc], a = aggMC(m, S.year); if (!a) return null;
+    let bi = 0; a[4].forEach((v, i) => { if (v > a[4][bi]) bi = i; });
+    return { type: "kod", v: m.parties[S.year][bi].k };
+  }
+  const { tot } = cityFamilies(S.year);
+  const f = Object.keys(tot).filter(f => f !== "LOCAL").sort((a, b) => tot[b] - tot[a])[0];
+  return { type: "fam", v: f };
+}
+function selForYear(sel, m, y) {
+  if (sel.type === "kod" && m.parties[y] && !m.parties[y].some(p => p.k === sel.v)) {
+    const p = m.parties[S.year]?.find(p => p.k === sel.v) || m.parties[OTHER[y]]?.find(p => p.k === sel.v);
+    return p ? { type: "fam", v: p.f, fallback: true } : sel;
+  }
+  return sel;
+}
+
+/* ---------- mapa ---------- */
+const svg = document.getElementById("map");
+const NS = "http://www.w3.org/2000/svg";
+const el = (n, a = {}) => { const e = document.createElementNS(NS, n); for (const k in a) e.setAttribute(k, a[k]); return e; };
+const gOk = el("g"), gOut = el("g"), gLab = el("g");
+svg.append(gOk, gOut, gLab);
+const pathIndex = new Map();
+for (const m of MC) {
+  const g = el("g", { class: "mc", "data-mc": m.slug });
+  let b = [Infinity, Infinity, -Infinity, -Infinity];
+  for (const ok of m.ok) {
+    const p = el("path", { d: ok.d, class: "ok" });
+    p.__ok = ok; p.__mc = m;
+    g.appendChild(p); pathIndex.set(m.slug + "." + ok.c, p);
+    b = [Math.min(b[0], ok.b[0]), Math.min(b[1], ok.b[1]), Math.max(b[2], ok.b[2]), Math.max(b[3], ok.b[3])];
+  }
+  m.bbox = b; m.g = g;
+  gOk.appendChild(g);
+  gOut.appendChild(el("path", { d: m.outline, class: "outline" }));
+  const t = el("text", { x: (b[0] + b[2]) / 2, y: (b[1] + b[3]) / 2 });
+  t.textContent = short(m.name); t.__w = b[2] - b[0]; t.__mc = m;
+  gLab.appendChild(t);
+}
+const FULL = [0, 0, D.w, D.h];
+let vb = [...FULL];
+function applyVB() {
+  svg.setAttribute("viewBox", vb.join(" "));
+  const s = vb[2] / svg.clientWidth || vb[2] / 800; // metrů na pixel
+  for (const t of gLab.children) {
+    const vis = !S.mc && t.__w / s > 70;
+    t.style.display = vis ? "" : "none";
+    t.setAttribute("font-size", 12.5 * s); t.setAttribute("stroke-width", 3 * s);
+  }
+}
+let anim = null;
+function fitTo(b, pad = .08) {
+  const w = b[2] - b[0], h = b[3] - b[1];
+  const target = [b[0] - w * pad, b[1] - h * pad, w * (1 + 2 * pad), h * (1 + 2 * pad)];
+  const from = [...vb], t0 = performance.now();
+  const dur = matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 450;
+  cancelAnimationFrame(anim);
+  const step = now => {
+    const k = dur ? Math.min(1, (now - t0) / dur) : 1, e = 1 - Math.pow(1 - k, 3);
+    vb = from.map((v, i) => v + (target[i] - v) * e); applyVB();
+    if (k < 1) anim = requestAnimationFrame(step);
+  };
+  anim = requestAnimationFrame(step);
+}
+function svgPoint(cx, cy) {
+  const pt = svg.createSVGPoint(); pt.x = cx; pt.y = cy;
+  return pt.matrixTransform(svg.getScreenCTM().inverse());
+}
+function zoomAt(cx, cy, f) {
+  cancelAnimationFrame(anim);
+  const p = svgPoint(cx, cy);
+  const nw = Math.min(D.w * 1.6, Math.max(400, vb[2] * f)); f = nw / vb[2];
+  vb = [p.x - (p.x - vb[0]) * f, p.y - (p.y - vb[1]) * f, vb[2] * f, vb[3] * f]; applyVB();
+}
+svg.addEventListener("wheel", e => { e.preventDefault(); zoomAt(e.clientX, e.clientY, Math.exp(e.deltaY * .0015)); }, { passive: false });
+const ptrs = new Map(); let dragMoved = 0, pinch0 = null;
+svg.addEventListener("pointerdown", e => { ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY }); dragMoved = 0; svg.setPointerCapture(e.pointerId); });
+svg.addEventListener("pointermove", e => {
+  if (!ptrs.has(e.pointerId)) { hover(e); return; }
+  const prev = ptrs.get(e.pointerId); ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  if (ptrs.size === 2) {
+    const [a, b] = [...ptrs.values()], d = Math.hypot(a.x - b.x, a.y - b.y);
+    if (pinch0) zoomAt((a.x + b.x) / 2, (a.y + b.y) / 2, pinch0 / d);
+    pinch0 = d; dragMoved += 10; return;
+  }
+  const dx = e.clientX - prev.x, dy = e.clientY - prev.y; dragMoved += Math.abs(dx) + Math.abs(dy);
+  if (dragMoved > 4) {
+    svg.classList.add("drag"); cancelAnimationFrame(anim);
+    const s = 1 / svg.getScreenCTM().a; vb[0] -= dx * s; vb[1] -= dy * s; applyVB(); hideTip();
+  }
+});
+const endPtr = e => {
+  ptrs.delete(e.pointerId); if (ptrs.size < 2) pinch0 = null;
+  svg.classList.remove("drag");
+  if (e.type === "pointerup" && dragMoved <= 4 && ptrs.size === 0) {
+    const target = document.elementFromPoint(e.clientX, e.clientY);
+    if (target?.__ok) clickOk(target);
+  }
+};
+svg.addEventListener("pointerup", endPtr); svg.addEventListener("pointercancel", endPtr);
+svg.addEventListener("pointerleave", hideTip);
+document.getElementById("zIn").onclick = () => { const r = svg.getBoundingClientRect(); zoomAt(r.left + r.width / 2, r.top + r.height / 2, 1 / 1.5); };
+document.getElementById("zOut").onclick = () => { const r = svg.getBoundingClientRect(); zoomAt(r.left + r.width / 2, r.top + r.height / 2, 1.5); };
+
+function clickOk(p) {
+  const m = p.__mc, ok = p.__ok;
+  if (S.mc !== m.slug) { go(m.slug, null); return; }
+  go(m.slug, S.ok === ok.c ? null : ok.c);
+}
+
+/* ---------- barvení ---------- */
+function okValue(ok, m) {
+  const y = S.year, r = ok.r[y], ps = m.parties[y];
+  if (S.mode === "winner") return winnerOf(r, ps);
+  if (S.mode === "turnout") return r && r[0] ? r[1] / r[0] : null;
+  const sel = S.party; if (!sel) return null;
+  if (S.mode === "share") return shareOf(r, ps, selForYear(sel, m, y));
+  const a = shareOf(ok.r["2026"], m.parties["2026"], selForYear(sel, m, "2026"));
+  const b = shareOf(ok.r["2022"], m.parties["2022"], selForYear(sel, m, "2022"));
+  return a == null || b == null ? null : a - b;
+}
+let scale = null;
+function paint() {
+  dark = isDark(); SURF = cssColor("--surface");
+  const empty = mix(cssColor("--surface-2"), 1);
+  const vals = [];
+  for (const [, p] of pathIndex) { p.__v = okValue(p.__ok, p.__mc); vals.push(p.__v); }
+  const inScope = [...pathIndex.values()].filter(p => !S.mc || p.__mc.slug === S.mc).map(p => p.__v).filter(v => v != null);
+  const sel = currentSel();
+  if (S.mode === "share") {
+    const mx = Math.max(.05, ...inScope); scale = { min: 0, max: mx, color: sel?.color || "#888" };
+  } else if (S.mode === "turnout") {
+    const sorted = inScope.slice().sort((a, b) => a - b);
+    const lo = sorted[Math.floor(sorted.length * .02)] ?? 0, hi = sorted[Math.ceil(sorted.length * .98) - 1] ?? 1;
+    scale = { min: Math.floor(lo * 20) / 20, max: Math.ceil(hi * 20) / 20, color: cssColor("--seq") };
+  } else if (S.mode === "change") {
+    const mx = Math.max(.02, ...inScope.map(Math.abs)); scale = { max: Math.ceil(mx * 100) / 100 };
+  }
+  const gain = cssColor("--gain"), loss = cssColor("--loss");
+  for (const [, p] of pathIndex) {
+    const v = p.__v; let fill = empty;
+    if (v != null) {
+      if (S.mode === "winner") fill = mix(S.mc ? partyColor(v.p) : famColor(v.p.f), Math.max(.3, Math.min(1, (v.share - .12) / .33)));
+      else if (S.mode === "share" || S.mode === "turnout") {
+        const t = Math.max(0, Math.min(1, (v - scale.min) / (scale.max - scale.min || 1)));
+        fill = mix(scale.color, .08 + .92 * t);
+      } else fill = mix(v >= 0 ? gain : loss, .08 + .92 * Math.min(1, Math.abs(v) / scale.max));
+    }
+    p.setAttribute("fill", fill);
+  }
+  for (const m of MC) m.g.classList.toggle("dim", !!S.mc && m.slug !== S.mc);
+  for (const [, p] of pathIndex) {
+    const on = S.mc === p.__mc.slug && S.ok === p.__ok.c;
+    p.classList.toggle("sel", on); if (on) p.parentNode.appendChild(p);
+  }
+  legend();
+}
+function legend() {
+  const L = document.getElementById("legend");
+  if (S.mode === "winner") {
+    const seen = new Map();
+    for (const [, p] of pathIndex) {
+      if (S.mc && p.__mc.slug !== S.mc) continue;
+      const v = p.__v; if (!v) continue;
+      const key = S.mc ? v.p.k : v.p.f;
+      if (!seen.has(key)) seen.set(key, { n: S.mc ? v.p.n : FAM[v.p.f].n, c: S.mc ? partyColor(v.p) : famColor(v.p.f), cnt: 0 });
+      seen.get(key).cnt++;
+    }
+    const items = [...seen.values()].sort((a, b) => b.cnt - a.cnt);
+    L.innerHTML = `<span>Vítěz okrsku (sytost = výše podílu):</span>` + items.map(i => `<span class="sw"><i style="background:${i.c}"></i>${esc(i.n)} <span class="chip">${i.cnt}</span></span>`).join("");
+    if (!S.mc) L.innerHTML += `<span>Barvy v pohledu na celé Brno slučují listiny podle politické rodiny.</span>`;
+  } else if (S.mode === "change") {
+    const g = mix(cssColor("--gain"), 1), l = mix(cssColor("--loss"), 1), n = mix(cssColor("--surface-2"), 1);
+    const sel = currentSel();
+    L.innerHTML = `<span>${esc(sel?.n || "")}: rozdíl podílu 2026 − 2022</span><span class="ramp">${pp(-scale.max)}<b style="background:linear-gradient(90deg,${l},${n},${g})"></b>${pp(scale.max)}</span>`;
+  } else {
+    const c0 = mix(scale.color, .08), c1 = mix(scale.color, 1);
+    const label = S.mode === "turnout" ? "Volební účast" : `Podíl: ${esc(currentSel()?.n || "")}`;
+    L.innerHTML = `<span>${label}</span><span class="ramp">${pct(scale.min)}<b style="background:linear-gradient(90deg,${c0},${c1})"></b>${pct(scale.max)}</span>`;
+  }
+}
+
+/* ---------- tooltip ---------- */
+const tip = document.getElementById("tip");
+function hideTip() { tip.hidden = true; }
+function hover(e) {
+  const p = e.target.__ok ? e.target : null;
+  if (!p) { hideTip(); return; }
+  const m = p.__mc, ok = p.__ok, r = ok.r[S.year];
+  const w = winnerOf(r, m.parties[S.year]);
+  let line = "";
+  if (S.mode === "winner" && w) line = `${esc(w.p.n)} <span class="n">${pct(w.share)}</span>`;
+  else if (S.mode === "turnout") line = `Účast <span class="n">${pct(p.__v)}</span>`;
+  else if (S.mode === "share") line = `${esc(currentSel()?.n || "")} <span class="n">${pct(p.__v)}</span>`;
+  else if (S.mode === "change") line = `${esc(currentSel()?.n || "")} <span class="n">${p.__v == null ? "bez srovnání" : pp(p.__v)}</span>`;
+  tip.innerHTML = `<b>Okrsek ${ok.c}</b> · ${esc(short(m.name))}<br>${line || "Bez výsledků"}`;
+  tip.hidden = false;
+  const box = svg.parentElement.getBoundingClientRect();
+  let x = e.clientX - box.left + 14, y = e.clientY - box.top + 14;
+  if (x + 260 > box.width) x = e.clientX - box.left - 14 - tip.offsetWidth;
+  tip.style.left = Math.max(4, x) + "px"; tip.style.top = y + "px";
+}
+
+/* ---------- panel ---------- */
+const panel = document.getElementById("panel");
+function statsHTML(a, third) {
+  if (!a) return "";
+  return `<div class="stats">
+    <div class="stat"><div class="v">${nf.format(a[0])}</div><div class="l">voličů v seznamu</div></div>
+    <div class="stat"><div class="v">${pct(a[0] ? a[1] / a[0] : null)}</div><div class="l">účast (${nf.format(a[1])} obálek)</div></div>
+    ${third || `<div class="stat"><div class="v">${nf.format(a[3])}</div><div class="l">platných hlasů</div></div>`}
+  </div>`;
+}
+function barsHTML(rows, opts = {}) {
+  const mx = Math.max(...rows.map(r => r.share), .01);
+  return `<div class="bars">` + rows.map(r => {
+    const ch = r.prev == null ? (opts.cmp ? `<span class="chip">nová listina</span>` : "") :
+      `<span class="chip ${r.share - r.prev > .0005 ? "up" : r.share - r.prev < -.0005 ? "down" : ""}">${pp(r.share - r.prev)}</span>`;
+    const tick = r.prev != null ? `<s style="left:calc(${Math.min(100, r.prev / mx * 100)}% - 1px)" title="${OTHER[S.year]}: ${pct(r.prev)}"></s>` : "";
+    return `<div class="bar${opts.click ? " click" : ""}${r.share < .05 && opts.threshold ? " below" : ""}" ${opts.click ? `tabindex="0" data-party='${esc(JSON.stringify(r.sel))}'` : ""}>
+      <div class="nm"><i style="background:${r.color}"></i><span>${esc(r.n)}</span></div>
+      <div class="pc">${pct(r.share)}</div>
+      <div class="track"><b style="width:${r.share / mx * 100}%;background:${r.color}"></b>${tick}</div>
+      <div class="meta">${r.votes != null ? `<span>${nf.format(r.votes)} hlasů</span>` : ""}${ch}</div>
+    </div>`;
+  }).join("") + `</div>`;
+}
+function partyRows(m, rNow, rPrev) {
+  const y = S.year, ps = m.parties[y], prevPs = m.parties[OTHER[y]];
+  return ps.map((p, i) => {
+    let prev = null;
+    if (y === "2026" && rPrev && prevPs) {
+      const j = prevPs.findIndex(q => q.k === p.k);
+      if (j >= 0 && rPrev[3]) prev = rPrev[4][j] / rPrev[3];
+    }
+    return { n: p.n, color: partyColor(p), votes: rNow[4][i], share: rNow[3] ? rNow[4][i] / rNow[3] : 0, prev, sel: { type: "kod", v: p.k } };
+  }).sort((a, b) => b.share - a.share);
+}
+function bindPartyBars(root) {
+  root.querySelectorAll(".bar.click").forEach(b => {
+    const act = () => { S.party = JSON.parse(b.dataset.party); if (S.mode === "winner" || S.mode === "turnout") S.mode = "share"; syncControls(); paint(); };
+    b.onclick = act; b.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); act(); } };
+  });
+}
+function streetSearchHTML(slug) {
+  if (!D.streets[slug]) return "";
+  return `<section class="card search"><h3>Najít ulici · ${esc(bySlug[slug].name)}</h3>
+    <input type="search" id="streetQ" placeholder="Např. Údolní, Kounicova…" autocomplete="off" aria-label="Hledat ulici">
+    <ul class="hits" id="streetHits"></ul></section>`;
+}
+const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+function bindStreetSearch(slug) {
+  const q = document.getElementById("streetQ"); if (!q) return;
+  const rows = D.streets[slug];
+  const run = () => {
+    const v = norm(q.value.trim()); const ul = document.getElementById("streetHits");
+    if (v.length < 2) { ul.innerHTML = ""; return; }
+    const hits = rows.filter(r => norm(r[0]).includes(v)).slice(0, 40);
+    ul.innerHTML = hits.length ? hits.map(r => `<li><button data-c="${esc(r[3])}"><span>${esc(r[0])}${r[1] && r[1] !== "celá" ? ` <small style="display:inline">${esc(r[1])}${r[2] ? " " + esc(r[2]) : ""}</small>` : ""}</span><span class="n">${esc(r[3])}</span><small>${esc(r[4])}</small></button></li>`).join("")
+      : `<li class="sub" style="padding:8px 6px">Žádná ulice neodpovídá. Zkuste kratší část názvu.</li>`;
+    ul.querySelectorAll("button").forEach(b => b.onclick = () => go(slug, b.dataset.c));
+  };
+  q.oninput = run;
+}
+
+function renderCity() {
+  const y = S.year, { tot, env, vol, vyd } = cityFamilies(y), prev = y === "2026" ? cityFamilies("2022") : null;
+  const rows = Object.keys(tot).map(f => ({
+    n: FAM[f].n, color: famColor(f), share: tot[f] / env, prev: prev ? (prev.tot[f] || 0) / prev.env : null, sel: { type: "fam", v: f },
+  })).sort((a, b) => b.share - a.share);
+  const mcRows = MC.map(m => {
+    const a = aggMC(m, y), w = winnerOf(a, m.parties[y]);
+    return { m, a, w, t: a && a[0] ? a[1] / a[0] : null };
+  });
+  panel.innerHTML = `
+    <section class="card">
+      <div class="eyebrow">Celé Brno · ${y}</div>
+      <h2>29 městských částí, ${nf.format(MC.reduce((s, m) => s + m.ok.filter(o => o.r[y]).length, 0))} okrsků</h2>
+      <div class="sub">Volby do zastupitelstev městských částí ${y === "2026" ? "9.–10. října 2026" : "23.–24. září 2022"}</div>
+      ${statsHTML([vol, vyd, env, 0], `<div class="stat"><div class="v">${nf.format(MC.reduce((s, m) => s + (m.parties[y]?.length || 0), 0))}</div><div class="l">kandidátních listin</div></div>`)}
+    </section>
+    <section class="card">
+      <h3>Podle politické rodiny, přepočteno na voliče</h3>
+      ${barsHTML(rows.map(r => ({ ...r, votes: null })), { click: true, cmp: false })}
+      <p class="note">Listiny se v každé MČ jmenují jinak, proto jsou sloučené podle hlavní strany v názvu (např. „Noví lidovci“ patří k lidovcům). Klikněte na stranu pro mapu jejího podílu.${y === "2026" ? " Svislá čárka ukazuje rok 2022." : ""}</p>
+    </section>
+    <section class="card">
+      <h3>Městské části</h3>
+      <div class="tbl-wrap"><table>
+        <thead><tr><th data-k="name">Městská část</th><th data-k="win">Vítěz</th><th class="n" data-k="t">Účast</th></tr></thead>
+        <tbody id="mcBody"></tbody></table></div>
+    </section>
+    ${streetSearchHTML("brno-stred")}`;
+  let sortK = "name", dir = 1;
+  const fill = () => {
+    const rs = mcRows.slice().sort((a, b) => {
+      const va = sortK === "name" ? a.m.name : sortK === "t" ? a.t : a.w?.share, vb_ = sortK === "name" ? b.m.name : sortK === "t" ? b.t : b.w?.share;
+      return (typeof va === "string" ? va.localeCompare(vb_, "cs") : (va ?? -1) - (vb_ ?? -1)) * dir;
+    });
+    document.getElementById("mcBody").innerHTML = rs.map(r => `<tr class="row" tabindex="0" data-mc="${r.m.slug}">
+      <td>${esc(short(r.m.name))}</td>
+      <td>${r.w ? `<span class="dot" style="background:${partyColor(r.w.p)}"></span>${esc(r.w.p.n)} <span class="sub">${pct(r.w.share)}</span>` : "–"}</td>
+      <td class="n">${pct(r.t)}</td></tr>`).join("");
+    document.querySelectorAll("#mcBody tr").forEach(tr => {
+      tr.onclick = () => go(tr.dataset.mc, null);
+      tr.onkeydown = e => { if (e.key === "Enter") go(tr.dataset.mc, null); };
+      tr.onmouseenter = () => MC.forEach(m => m.g.classList.toggle("dim", m.slug !== tr.dataset.mc));
+      tr.onmouseleave = () => MC.forEach(m => m.g.classList.remove("dim"));
+    });
+  };
+  panel.querySelectorAll("th").forEach(th => th.onclick = () => { const k = th.dataset.k; dir = sortK === k ? -dir : (k === "name" ? 1 : -1); sortK = k; fill(); });
+  fill(); bindPartyBars(panel); bindStreetSearch("brno-stred");
+}
+
+function renderMC() {
+  const m = bySlug[S.mc], y = S.year, a = aggMC(m, y);
+  if (!a) { panel.innerHTML = `<section class="card"><h2>${esc(m.name)}</h2><p class="sub">Pro rok ${y} nejsou výsledky k dispozici.</p></section>`; return; }
+  const rows = partyRows(m, a, aggMC(m, OTHER[y]));
+  const okRows = m.ok.map(ok => ({ ok, r: ok.r[y], w: winnerOf(ok.r[y], m.parties[y]), t: ok.r[y] && ok.r[y][0] ? ok.r[y][1] / ok.r[y][0] : null }));
+  panel.innerHTML = `
+    <section class="card">
+      <div class="eyebrow">Městská část · ${y}</div>
+      <h2>${esc(m.name)}</h2>
+      <div class="sub">${m.ok.length} ${m.ok.length === 1 ? "okrsek" : m.ok.length < 5 ? "okrsky" : "okrsků"} · ${m.parties[y].length} kandidátních listin</div>
+      ${statsHTML(a)}
+    </section>
+    <section class="card">
+      <h3>Výsledek v městské části</h3>
+      ${barsHTML(rows, { click: true, cmp: y === "2026", threshold: true })}
+      <p class="note">Šedě listiny pod 5 %, které obvykle nezískají mandát. ${y === "2026" ? "Změna se počítá jen u listin, které kandidovaly pod stejným názvem i v roce 2022." : ""} Klikněte na listinu pro mapu jejího podílu.</p>
+    </section>
+    ${streetSearchHTML(m.slug)}
+    <section class="card">
+      <h3>Okrsky</h3>
+      <div class="tbl-wrap"><table>
+        <thead><tr><th data-k="c">Okrsek</th><th data-k="w">Vítěz</th><th class="n" data-k="t">Účast</th></tr></thead>
+        <tbody id="okBody"></tbody></table></div>
+    </section>`;
+  let sortK = "c", dir = 1;
+  const fill = () => {
+    const rs = okRows.slice().sort((p, q) => {
+      const va = sortK === "c" ? +p.ok.c : sortK === "t" ? p.t : p.w?.share, vq = sortK === "c" ? +q.ok.c : sortK === "t" ? q.t : q.w?.share;
+      return ((va ?? -1) - (vq ?? -1)) * dir;
+    });
+    document.getElementById("okBody").innerHTML = rs.map(r => `<tr class="row" tabindex="0" data-c="${r.ok.c}">
+      <td class="n" style="text-align:left">${r.ok.c}</td>
+      <td>${r.w ? `<span class="dot" style="background:${partyColor(r.w.p)}"></span>${esc(r.w.p.n)} <span class="sub">${pct(r.w.share)}</span>` : "–"}</td>
+      <td class="n">${pct(r.t)}</td></tr>`).join("");
+    document.querySelectorAll("#okBody tr").forEach(tr => {
+      tr.onclick = () => go(m.slug, tr.dataset.c);
+      tr.onkeydown = e => { if (e.key === "Enter") go(m.slug, tr.dataset.c); };
+    });
+  };
+  panel.querySelectorAll("th").forEach(th => th.onclick = () => { const k = th.dataset.k; dir = sortK === k ? -dir : (k === "c" ? 1 : -1); sortK = k; fill(); });
+  fill(); bindPartyBars(panel); bindStreetSearch(m.slug);
+}
+
+function renderOk() {
+  const m = bySlug[S.mc], ok = m.ok.find(o => o.c === S.ok), y = S.year, r = ok?.r[y];
+  if (!r) { panel.innerHTML = `<section class="card"><h2>Okrsek ${esc(S.ok)}</h2><p class="sub">Pro rok ${y} tu nejsou výsledky.</p></section>`; return; }
+  const rows = partyRows(m, r, ok.r[OTHER[y]]);
+  const st = (D.streets[m.slug] || []).filter(s => s[3] === ok.c);
+  const room = st[0]?.[4];
+  const url = m.url?.[y]?.replace("{c}", ok.c);
+  panel.innerHTML = `
+    <section class="card">
+      <div class="eyebrow">${esc(m.name)} · ${y}</div>
+      <h2>Okrsek ${ok.c}</h2>
+      ${room ? `<div class="sub">Volební místnost: ${esc(room)}</div>` : ""}
+      ${statsHTML(r)}
+      ${r[0] && r[1] / r[0] < .1 ? `<p class="note">Neobvykle nízká účast. Okrsek může mít v seznamu i voliče, kteří volí jinde (například v zařízeních), zkontrolujte údaje u zdroje.</p>` : ""}
+    </section>
+    <section class="card">
+      <h3>Výsledek v okrsku</h3>
+      ${barsHTML(rows, { click: true, cmp: y === "2026" && !!ok.r["2022"] })}
+      <p class="note">${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">Okrsek ${ok.c} na volby.gov.cz</a>` : ""}</p>
+    </section>
+    ${st.length ? `<section class="card"><h3>Ulice v okrsku</h3><ul class="streets">${st.map(s => `<li>${esc(s[0])}${s[1] && s[1] !== "celá" ? ` <small>${esc(s[1])}${s[2] ? " " + esc(s[2]) : ""}</small>` : ""}</li>`).join("")}</ul></section>` : ""}
+    <button class="seg" style="border:0;padding:10px 16px;cursor:pointer;color:var(--fg);font:600 13px var(--f-body);align-self:flex-start" id="backMc">← Zpět na ${esc(m.name)}</button>`;
+  document.getElementById("backMc").onclick = () => go(m.slug, null);
+  bindPartyBars(panel);
+}
+
+/* ---------- ovládání ---------- */
+const mcSel = document.getElementById("mcSel"), partySel = document.getElementById("partySel");
+mcSel.innerHTML = `<option value="">Celé Brno</option>` + MC.slice().sort((a, b) => a.name.localeCompare(b.name, "cs")).map(m => `<option value="${m.slug}">${esc(m.name)}</option>`).join("");
+mcSel.onchange = () => go(mcSel.value || null, null);
+for (const y of ["2026", "2022"]) document.getElementById("y" + y).onclick = () => {
+  S.year = y; if (y === "2022" && S.mode === "change") S.mode = "share";
+  if (!currentSel()) S.party = defaultParty();
+  syncControls(); render();
+};
+document.querySelectorAll("[data-mode]").forEach(b => b.onclick = () => {
+  S.mode = b.dataset.mode; if (S.mode === "change") { S.year = "2026"; }
+  if (!currentSel()) S.party = defaultParty();
+  syncControls(); render();
+});
+partySel.onchange = () => { S.party = JSON.parse(partySel.value); paint(); };
+
+function syncControls() {
+  document.getElementById("yearTitle").textContent = S.year;
+  for (const y of ["2026", "2022"]) document.getElementById("y" + y).setAttribute("aria-pressed", S.year === y);
+  document.querySelectorAll("[data-mode]").forEach(b => b.setAttribute("aria-pressed", b.dataset.mode === S.mode));
+  mcSel.value = S.mc || "";
+  const needParty = S.mode === "share" || S.mode === "change";
+  partySel.hidden = !needParty;
+  if (needParty) {
+    const list = scopeParties();
+    partySel.innerHTML = list.map(x => `<option value='${esc(JSON.stringify(x.sel))}'>${esc(x.n)}</option>`).join("");
+    const cur = currentSel(); if (cur) partySel.value = JSON.stringify(cur.sel);
+  }
+  const c = document.getElementById("crumbs");
+  c.innerHTML = `<button data-go="">Brno</button>` +
+    (S.mc ? ` › ${S.ok ? `<button data-go="${S.mc}">${esc(bySlug[S.mc].name)}</button>` : `<span class="cur">${esc(bySlug[S.mc].name)}</span>`}` : "") +
+    (S.ok ? ` › <span class="cur">okrsek ${esc(S.ok)}</span>` : "");
+  if (!S.mc) c.firstElementChild.outerHTML = `<span class="cur">Celé Brno</span>`;
+  c.querySelectorAll("button").forEach(b => b.onclick = () => go(b.dataset.go || null, null));
+}
+
+function render() {
+  paint();
+  if (!S.mc) renderCity(); else if (!S.ok) renderMC(); else renderOk();
+}
+
+function go(mc, ok, { push = true } = {}) {
+  if (ok && !pathIndex.has(mc + "." + ok)) ok = null;
+  const scopeChanged = mc !== S.mc;
+  S.mc = mc; S.ok = ok;
+  if (scopeChanged || !currentSel()) S.party = defaultParty();
+  syncControls(); render();
+  if (ok) { const p = pathIndex.get(mc + "." + ok); const b = p.__ok.b, m = bySlug[mc].bbox;
+    // přiblíž na okrsek, ale ne víc než na čtvrtinu MČ, ať je vidět okolí
+    const w = Math.max(b[2] - b[0], (m[2] - m[0]) / 3), h = Math.max(b[3] - b[1], (m[3] - m[1]) / 3);
+    const cx = (b[0] + b[2]) / 2, cy = (b[1] + b[3]) / 2; fitTo([cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2], .25);
+  } else if (mc) fitTo(bySlug[mc].bbox); else fitTo([0, 0, D.w, D.h], .02);
+  if (push) { try { history.replaceState(null, "", mc ? "#" + mc + (ok ? "." + ok : "") : location.pathname + location.search); } catch (e) {} }
+}
+
+function fromHash() {
+  const h = decodeURIComponent(location.hash.slice(1));
+  const [mc, ok] = h.split(".");
+  if (mc && bySlug[mc]) return go(mc, ok && pathIndex.has(mc + "." + ok) ? ok : null, { push: false });
+  go(null, null, { push: false });
+}
+window.addEventListener("hashchange", fromHash);
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => render());
+new MutationObserver(() => render()).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+window.addEventListener("resize", applyVB);
+applyVB();
+fromHash();
+</script>
