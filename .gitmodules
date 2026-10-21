@@ -1,0 +1,3 @@
+[submodule "web/_src"]
+	path = web/_src
+	url = https://github.com/Pajinek/elections-brno.git
