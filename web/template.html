@@ -45,7 +45,7 @@ body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--f-body); }
 
 header.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; padding-bottom: 16px; }
 .brand { display: flex; align-items: center; gap: 14px; min-width: 0; }
-.mark { width: 38px; height: 44px; flex: none; display: block; }
+.mark { width: auto; height: 56px; flex: none; display: block; border-radius: 6px; }
 .eyebrow { font: 600 11px/1.2 var(--f-body); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 h1 { font: 800 clamp(26px, 3.4vw, 38px)/1.05 var(--f-display); margin: 2px 0 0; letter-spacing: -.02em; text-wrap: balance; }
 h1 em { font-style: normal; color: var(--accent); }
@@ -147,17 +147,17 @@ footer a { color: var(--fg); }
 <div class="wrap">
   <header class="top">
     <div class="brand">
-      <svg class="mark" viewBox="0 0 600 700" role="img" aria-label="Znak města Brna">
-        <path fill="#dc2b19" d="M 0.00296,-3e-005 L 0.00296,244.71871 C -0.00075,245.06924 0.00594,245.43051 0.00296,245.78121 C -2e-005,246.13329 0.0052,246.49146 0.00296,246.84371 C -0.00203,247.63092 0.0014,248.4292 0.00296,249.21871 L 0.00296,249.99996 C 0.00296,251.05113 -0.0037,252.07535 0.00296,253.12496 C 1.27888,454.3623 124.69222,626.81655 299.78421,700 L 300.22171,700 C 475.31458,626.81655 598.72703,454.3623 600.00296,253.12496 C 600.00962,252.07535 600.00296,251.05113 600.00296,249.99996 C 600.00296,248.94879 600.00962,247.89332 600.00296,246.84371 C 600.00073,246.49146 600.00594,246.13329 600.00296,245.78121 C 599.99999,245.43051 600.00667,245.06924 600.00296,244.71871 L 600.00296,-3e-005 L 531.03421,-3e-005 L 68.971707,-3e-005 L 0.00296,-3e-005 z"/>
-        <path fill="#ffffff" d="M 12.03125,12.0128 C 12.041667,13.81488 12.052083,15.61697 12.0625,17.41905 C 12.426315,44.94279 12.323901,72.47155 12.125,100.0128 L 588,100.0128 C 587.98325,70.67797 587.95194,41.34761 588,12.0128 C 396.01042,12.0128 204.02083,12.0128 12.03125,12.0128 z"/>
-        <path fill="#ffffff" d="M 14.4375,300.0128 C 21.895206,370.72315 45.822168,439.51896 83.09375,500.0128 L 516.9375,500.0128 C 546.38593,452.75391 567.6089,400.43973 578.4375,345.60655 C 581.56574,330.51789 583.77231,315.29104 585.28125,300.0128 L 14.4375,300.0128 z"/>
-      </svg>
+      <img class="mark" src="logo.svg" alt="Logo Volby Brno" width="82" height="56">
       <div>
-        <div class="eyebrow">Komunální volby · zastupitelstva městských částí</div>
+        <div class="eyebrow" id="eyebrowTop">Komunální volby · zastupitelstva městských částí</div>
         <h1>Volby Brno <em id="yearTitle">2026</em></h1>
       </div>
     </div>
     <div class="controls">
+      <div class="seg" role="group" aria-label="Zastupitelstvo, do kterého se volilo">
+        <button id="lvlmc" aria-pressed="true" title="Volby do zastupitelstev městských částí">Městské části</button>
+        <button id="lvlmesto" aria-pressed="false" title="Volby do zastupitelstva města Brna">Magistrát města Brna</button>
+      </div>
       <label class="eyebrow" for="mcSel">Městská část</label>
       <select id="mcSel"></select>
       <div class="seg" role="group" aria-label="Rok voleb">
@@ -198,7 +198,8 @@ footer a { color: var(--fg); }
   <footer>
     Data: <a href="https://volby.gov.cz" target="_blank" rel="noopener">volby.gov.cz</a> (výsledky po okrscích), hranice okrsků RÚIAN (ČÚZK), seznam ulic z definice okrsků. Zpracováno z repozitáře
     <a href="https://github.com/Pajinek/elections-brno" target="_blank" rel="noopener">Pajinek/elections-brno</a>.
-    Každý volič v komunálních volbách má tolik hlasů, kolik členů zastupitelstvo má, proto se procenta počítají z platných hlasů. Souhrn za celé Brno přepočítává podíly na voliče, protože zastupitelstva MČ mají různý počet členů.
+    Každý volič v komunálních volbách má tolik hlasů, kolik členů zastupitelstvo má, proto se procenta počítají z platných hlasů.
+    <span id="footLevel"></span>
   </footer>
 </div>
 
@@ -245,6 +246,7 @@ function mix(c, t) {
 }
 
 /* ---------- formát ---------- */
+const LVL_LABEL = { mc: "zastupitelstvo MČ", mesto: "zastupitelstvo města" };
 const nf = new Intl.NumberFormat("cs-CZ");
 const pf = new Intl.NumberFormat("cs-CZ", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
 const pct = v => v == null || !isFinite(v) ? "–" : pf.format(v * 100) + " %";
@@ -296,11 +298,30 @@ function cityFamilies(y) {
 }
 
 /* ---------- stav ---------- */
-const S = { year: "2026", mode: "winner", mc: null, ok: null, party: null };
+const S = { year: "2026", mode: "winner", mc: null, ok: null, party: null, level: "mc" };
+/* Dvoje volby nad stejnými okrsky: level "mc" = zastupitelstva MČ, "mesto" = zastupitelstvo města Brna (magistrát).
+   Zbytek kódu čte jen m.parties[rok], ok.r[rok] a m.url[rok]; setLevel() tyto odkazy přepíná. */
+const levelFrom = v => ["mesto", "magistrat"].includes((v || "").toLowerCase()) ? "mesto" : "mc";
+const isMesto = () => S.level === "mesto";
+const CITYM = { slug: null, name: "Brno", parties: {}, ok: MC.flatMap(m => m.ok) };  // celé město jako jedna „MČ“ (jen úroveň mesto)
+for (const m of MC) {
+  m.P = { mc: m.parties, mesto: D.city || {} }; m.U = { mc: m.url, mesto: m.urlm };
+  for (const ok of m.ok) ok.R = { mc: ok.r, mesto: ok.rm || {} };
+}
+function setLevel(l) {
+  S.level = l;
+  for (const m of MC) { m.parties = m.P[l]; m.url = m.U[l]; for (const ok of m.ok) ok.r = ok.R[l]; }
+  CITYM.parties = D.city || {};
+}
+setLevel("mc");
+// rozsah, ve kterém se barví a počítá podle jednotlivých listin: MČ, nebo celé město u voleb do zastupitelstva města
+const scopeM = () => S.mc ? bySlug[S.mc] : (S.level === "mesto" ? CITYM : null);
+const perList = () => !!scopeM();
 const MODE_FROM = { vitez: "winner", winner: "winner", podil: "share", share: "share", zmena: "change", change: "change", ucast: "turnout", turnout: "turnout" };
 const MODE_TO = { winner: "vitez", share: "podil", change: "zmena", turnout: "ucast" };
 function scopeParties() {
-  if (S.mc) return (bySlug[S.mc].parties[S.year] || []).map(p => ({ sel: { type: "kod", v: p.k }, n: p.n, color: partyColor(p), p }));
+  const sm = scopeM();
+  if (sm) return (sm.parties[S.year] || []).map(p => ({ sel: { type: "kod", v: p.k }, n: p.n, color: partyColor(p), p }));
   return Object.keys(FAM).map(f => ({ sel: { type: "fam", v: f }, n: FAM[f].n, color: famColor(f) }));
 }
 function currentSel() {
@@ -308,8 +329,9 @@ function currentSel() {
   return list.find(x => x.sel.type === S.party?.type && x.sel.v === S.party?.v) || null;
 }
 function defaultParty() {
-  if (S.mc) {
-    const m = bySlug[S.mc], a = aggMC(m, S.year); if (!a) return null;
+  const m = scopeM();
+  if (m) {
+    const a = aggMC(m, S.year); if (!a) return null;
     let bi = 0; a[4].forEach((v, i) => { if (v > a[4][bi]) bi = i; });
     return { type: "kod", v: m.parties[S.year][bi].k };
   }
@@ -451,7 +473,7 @@ function paint() {
   for (const [, p] of pathIndex) {
     const v = p.__v; let fill = empty;
     if (v != null) {
-      if (S.mode === "winner") fill = mix(S.mc ? partyColor(v.p) : famColor(v.p.f), Math.max(.3, Math.min(1, (v.share - .12) / .33)));
+      if (S.mode === "winner") fill = mix(perList() ? partyColor(v.p) : famColor(v.p.f), Math.max(.3, Math.min(1, (v.share - .12) / .33)));
       else if (S.mode === "share" || S.mode === "turnout") {
         const t = Math.max(0, Math.min(1, (v - scale.min) / (scale.max - scale.min || 1)));
         fill = mix(scale.color, .08 + .92 * t);
@@ -473,13 +495,13 @@ function legend() {
     for (const [, p] of pathIndex) {
       if (S.mc && p.__mc.slug !== S.mc) continue;
       const v = p.__v; if (!v) continue;
-      const key = S.mc ? v.p.k : v.p.f;
-      if (!seen.has(key)) seen.set(key, { n: S.mc ? v.p.n : FAM[v.p.f].n, c: S.mc ? partyColor(v.p) : famColor(v.p.f), cnt: 0 });
+      const key = perList() ? v.p.k : v.p.f;
+      if (!seen.has(key)) seen.set(key, { n: perList() ? v.p.n : FAM[v.p.f].n, c: perList() ? partyColor(v.p) : famColor(v.p.f), cnt: 0 });
       seen.get(key).cnt++;
     }
     const items = [...seen.values()].sort((a, b) => b.cnt - a.cnt);
     L.innerHTML = `<span>Vítěz okrsku (sytost = výše podílu):</span>` + items.map(i => `<span class="sw"><i style="background:${i.c}"></i>${esc(i.n)} <span class="chip">${i.cnt}</span></span>`).join("");
-    if (!S.mc) L.innerHTML += `<span>Barvy v pohledu na celé Brno slučují listiny podle politické rodiny.</span>`;
+    if (!perList()) L.innerHTML += `<span>Barvy v pohledu na celé Brno slučují listiny podle politické rodiny.</span>`;
   } else if (S.mode === "change") {
     const g = mix(cssColor("--gain"), 1), l = mix(cssColor("--loss"), 1), n = mix(cssColor("--surface-2"), 1);
     const sel = currentSel();
@@ -574,18 +596,14 @@ function bindStreetSearch(slug) {
   q.oninput = run;
 }
 
-function renderCity() {
-  const y = S.year, { tot, env, vol, vyd } = cityFamilies(y), prev = y === "2026" ? cityFamilies("2022") : null;
+function cityCardsMC(y) {
+  const { tot, env, vol, vyd } = cityFamilies(y), prev = y === "2026" ? cityFamilies("2022") : null;
   const rows = Object.keys(tot).map(f => ({
     n: FAM[f].n, color: famColor(f), share: tot[f] / env, prev: prev ? (prev.tot[f] || 0) / prev.env : null, sel: { type: "fam", v: f },
   })).sort((a, b) => b.share - a.share);
-  const mcRows = MC.map(m => {
-    const a = aggMC(m, y), w = winnerOf(a, m.parties[y]);
-    return { m, a, w, t: a && a[0] ? a[1] / a[0] : null };
-  });
-  panel.innerHTML = `
+  return `
     <section class="card">
-      <div class="eyebrow">Celé Brno · ${y}</div>
+      <div class="eyebrow">Celé Brno · ${y} · ${LVL_LABEL.mc}</div>
       <h2>29 městských částí, ${nf.format(MC.reduce((s, m) => s + m.ok.filter(o => o.r[y]).length, 0))} okrsků</h2>
       <div class="sub">Volby do zastupitelstev městských částí ${y === "2026" ? "9.–10. října 2026" : "23.–24. září 2022"}</div>
       ${statsHTML([vol, vyd, env, 0], `<div class="stat"><div class="v">${nf.format(MC.reduce((s, m) => s + (m.parties[y]?.length || 0), 0))}</div><div class="l">kandidátních listin</div></div>`)}
@@ -594,9 +612,35 @@ function renderCity() {
       <h3>Podle politické rodiny, přepočteno na voliče</h3>
       ${barsHTML(rows.map(r => ({ ...r, votes: null })), { click: true, cmp: false })}
       <p class="note">Listiny se v každé MČ jmenují jinak, proto jsou sloučené podle hlavní strany v názvu (např. „Noví lidovci“ patří k lidovcům). Klikněte na stranu pro mapu jejího podílu.${y === "2026" ? " Svislá čárka ukazuje rok 2022." : ""}</p>
+    </section>`;
+}
+// zastupitelstvo města: kandidátky jsou ve všech MČ stejné, takže se hlasy prostě sečtou
+function cityCardsMesto(y) {
+  const a = aggMC(CITYM, y);
+  if (!a || !a[3]) return `<section class="card"><div class="eyebrow">Celé Brno · ${y} · ${LVL_LABEL.mesto}</div><h2>Zastupitelstvo města Brna</h2><p class="sub">Pro rok ${y} nejsou výsledky k dispozici.</p></section>`;
+  const rows = partyRows(CITYM, a, y === "2026" ? aggMC(CITYM, "2022") : null);
+  return `
+    <section class="card">
+      <div class="eyebrow">Celé Brno · ${y} · ${LVL_LABEL.mesto}</div>
+      <h2>Zastupitelstvo města Brna</h2>
+      <div class="sub">${nf.format(CITYM.ok.filter(o => o.r[y]).length)} okrsků ve 29 městských částech · volby ${y === "2026" ? "9.–10. října 2026" : "23.–24. září 2022"}</div>
+      ${statsHTML(a, `<div class="stat"><div class="v">${nf.format(CITYM.parties[y].length)}</div><div class="l">kandidátních listin</div></div>`)}
     </section>
     <section class="card">
-      <h3>Městské části</h3>
+      <h3>Výsledek v celém Brně</h3>
+      ${barsHTML(rows, { click: true, cmp: y === "2026", threshold: true })}
+      <p class="note">Součet platných hlasů ze všech okrsků. Šedě listiny pod 5 %, které obvykle nezískají mandát. ${y === "2026" ? "Změna se počítá jen u listin, které kandidovaly pod stejným názvem i v roce 2022; svislá čárka ukazuje rok 2022." : ""} Klikněte na listinu pro mapu jejího podílu.</p>
+    </section>`;
+}
+function renderCity() {
+  const y = S.year;
+  const mcRows = MC.map(m => {
+    const a = aggMC(m, y), w = winnerOf(a, m.parties[y]);
+    return { m, a, w, t: a && a[0] ? a[1] / a[0] : null };
+  });
+  panel.innerHTML = (isMesto() ? cityCardsMesto(y) : cityCardsMC(y)) + `
+    <section class="card">
+      <h3>${isMesto() ? "Městské části · vítěz voleb do zastupitelstva města" : "Městské části"}</h3>
       <div class="tbl-wrap"><table>
         <thead><tr><th data-k="name">Městská část</th><th data-k="win">Vítěz</th><th class="n" data-k="t">Účast</th></tr></thead>
         <tbody id="mcBody"></tbody></table></div>
@@ -630,13 +674,13 @@ function renderMC() {
   const okRows = m.ok.map(ok => ({ ok, r: ok.r[y], w: winnerOf(ok.r[y], m.parties[y]), t: ok.r[y] && ok.r[y][0] ? ok.r[y][1] / ok.r[y][0] : null }));
   panel.innerHTML = `
     <section class="card">
-      <div class="eyebrow">Městská část · ${y}</div>
+      <div class="eyebrow">Městská část · ${y} · ${LVL_LABEL[S.level]}</div>
       <h2>${esc(m.name)}</h2>
       <div class="sub">${m.ok.length} ${m.ok.length === 1 ? "okrsek" : m.ok.length < 5 ? "okrsky" : "okrsků"} · ${m.parties[y].length} kandidátních listin</div>
       ${statsHTML(a)}
     </section>
     <section class="card">
-      <h3>Výsledek v městské části</h3>
+      <h3>${isMesto() ? "Výsledek voleb do zastupitelstva města v této městské části" : "Výsledek v městské části"}</h3>
       ${barsHTML(rows, { click: true, cmp: y === "2026", threshold: true })}
       <p class="note">Šedě listiny pod 5 %, které obvykle nezískají mandát. ${y === "2026" ? "Změna se počítá jen u listin, které kandidovaly pod stejným názvem i v roce 2022." : ""} Klikněte na listinu pro mapu jejího podílu.</p>
     </section>
@@ -675,7 +719,7 @@ function renderOk() {
   const url = m.url?.[y]?.replace("{c}", ok.c);
   panel.innerHTML = `
     <section class="card">
-      <div class="eyebrow">${esc(m.name)} · ${y}</div>
+      <div class="eyebrow">${esc(m.name)} · ${y} · ${LVL_LABEL[S.level]}</div>
       <h2>Okrsek ${ok.c}</h2>
       ${room ? `<div class="sub">Volební místnost: ${esc(room)}</div>` : ""}
       ${statsHTML(r)}
@@ -706,10 +750,24 @@ document.querySelectorAll("[data-mode]").forEach(b => b.onclick = () => {
   if (!currentSel()) S.party = defaultParty();
   syncControls(); render();
 });
+for (const l of ["mc", "mesto"]) document.getElementById("lvl" + l).onclick = () => {
+  if (S.level === l) return;
+  const code = S.party?.v;
+  setLevel(l);
+  // zachovej vybranou stranu, pokud na nové úrovni existuje (jinak výchozí)
+  S.party = code ? resolveParty(code, S.mc, S.year) : null;
+  if (!currentSel()) S.party = defaultParty();
+  syncControls(); render();
+};
 partySel.onchange = () => { S.party = JSON.parse(partySel.value); paint(); writeUrl(); };
 
 function syncControls() {
   document.getElementById("yearTitle").textContent = S.year;
+  for (const l of ["mc", "mesto"]) document.getElementById("lvl" + l).setAttribute("aria-pressed", S.level === l);
+  document.getElementById("eyebrowTop").textContent = "Komunální volby · " + (isMesto() ? "zastupitelstvo města Brna (magistrát)" : "zastupitelstva městských částí");
+  document.getElementById("footLevel").textContent = isMesto()
+    ? "Výsledky do zastupitelstva města Brna (55 členů) jsou prostý součet hlasů ze všech okrsků; okrsky jsou stejné jako ve volbách do zastupitelstev MČ."
+    : "Souhrn za celé Brno přepočítává podíly na voliče, protože zastupitelstva MČ mají různý počet členů.";
   for (const y of ["2026", "2022"]) document.getElementById("y" + y).setAttribute("aria-pressed", S.year === y);
   document.querySelectorAll("[data-mode]").forEach(b => b.setAttribute("aria-pressed", b.dataset.mode === S.mode));
   mcSel.value = S.mc || "";
@@ -747,11 +805,12 @@ function go(mc, ok, opts = {}) {
   } else if (mc) fitTo(bySlug[mc].bbox); else fitTo([0, 0, D.w, D.h], .02);
 }
 
-/* Adresa nese výběr, např. ?rok=2022&mapa=podil&strana=ANO&mc=brno-stred&okrsek=23001
-   mapa: vitez | podil | zmena | ucast. Starý hash #mc.okrsek pořád otevře stejné místo. */
+/* Adresa nese výběr, např. ?zastupitelstvo=mesto&rok=2022&mapa=podil&strana=ANO&mc=brno-stred&okrsek=23001
+   zastupitelstvo: mc (výchozí, vynechá se) | mesto. mapa: vitez | podil | zmena | ucast. Starý hash #mc.okrsek pořád otevře stejné místo. */
 function resolveParty(code, mc, year) {
-  if (mc && bySlug[mc]) {
-    const m = bySlug[mc], ps = m.parties[year] || [];
+  const m = mc && bySlug[mc] ? bySlug[mc] : (isMesto() ? CITYM : null);
+  if (m) {
+    const ps = m.parties[year] || [];
     const exact = ps.find(p => p.k === code);
     if (exact) return { type: "kod", v: exact.k };
     const hits = ps.filter(p => p.f === code);
@@ -772,6 +831,7 @@ function resolveParty(code, mc, year) {
   }
   return null;
 }
+function urlLevel() { return levelFrom(new URLSearchParams(location.search).get("zastupitelstvo")); }
 function readUrl() {
   const q = new URLSearchParams(location.search);
   let mc = q.get("mc") || null;
@@ -789,10 +849,11 @@ function readUrl() {
   const mode = MODE_FROM[(q.get("mapa") || q.get("mode") || "").toLowerCase()] || "winner";
   if (mode === "change") year = "2026";
   const code = q.get("strana") || q.get("party");
-  return { year, mode, mc, ok, party: code ? resolveParty(code, mc, year) : null };
+  return { year, mode, mc, ok, level: S.level, party: code ? resolveParty(code, mc, year) : null };
 }
 function writeUrl() {
   const q = new URLSearchParams();
+  if (isMesto()) q.set("zastupitelstvo", "mesto");
   if (S.year !== "2026") q.set("rok", S.year);
   if (S.mode !== "winner") q.set("mapa", MODE_TO[S.mode]);
   if ((S.mode === "share" || S.mode === "change") && S.party) q.set("strana", S.party.v);
@@ -806,6 +867,7 @@ function writeUrl() {
   try { history.replaceState(null, "", url); } catch (e) {}
 }
 function applyUrl() {
+  setLevel(urlLevel());  // před readUrl(): odkazy na stranu se rozhodují podle úrovně
   const spec = readUrl();
   S.year = spec.year;
   S.mode = spec.mode;

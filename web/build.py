@@ -1,7 +1,12 @@
-"""Sestaví index.html z dat repozitáře elections-brno (složka _src).
+"""Sestaví index.html z dat repozitáře elections-brno.
 
-python build.py  →  index.html (jeden soubor, data jsou vložená)
+python build.py            →  index.html (jeden soubor, data jsou vložená)
+python build.py --src DIR  →  data z jiného checkoutu (např. _src)
+
+Výsledky jsou dvoje: zastupitelstva městských částí (output/<mč>/kv<rok>/) a zastupitelstvo
+města Brna, tj. magistrát (output/<mč>/kv<rok>-mesto/). Stránka mezi nimi přepíná.
 """
+import argparse
 import csv
 import json
 import re
@@ -9,7 +14,7 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-SRC = ROOT / "_src"
+SRC = ROOT.parent  # kořen repozitáře s data/ a output/ (--src přepíše)
 YEARS = ("2026", "2022")
 TOL = 2.5  # tolerance zjednodušení hranic v metrech
 
@@ -144,7 +149,32 @@ def outline(rings_list):
     return lines
 
 
+def load_results(slug, y, mesto):
+    """Výsledky okrsků jedné MČ; None, když soubor chybí."""
+    p = SRC / f"output/{slug}/kv{y}{'-mesto' if mesto else ''}/vysledky.json"
+    return load(p) if p.exists() else None
+
+
+def pack(o, strany):
+    """Okrsek → [voliči, vydané obálky, odevzdané obálky, platné hlasy, [hlasy podle strany]]."""
+    pr = o["prehled"]
+    by = {s["kod"]: s["hlasy"] for s in o["strany"]}
+    return [pr["volici_v_seznamu"], pr["vydane_obalky"], pr["odevzdane_obalky"],
+            pr["platne_hlasy"], [by.get(s["kod"], 0) for s in strany]]
+
+
+def party_list(strany):
+    return [{"k": s["kod"], "n": s["nazev"], "c": s["cislo_listiny"], "f": family(s["kod"])}
+            for s in strany]
+
+
 def main():
+    global SRC
+    ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    ap.add_argument("--src", type=Path, help="kořen repozitáře s data/ a output/ (výchozí: nadřazená složka)")
+    args = ap.parse_args()
+    if args.src:
+        SRC = args.src.resolve()
     uz = load(SRC / "data/uzemi.json")
     casti = uz["casti"]
 
@@ -163,25 +193,35 @@ def main():
     # EPSG:5514: x roste na východ, y (záporné) roste na sever → SVG y = maxy - y
     proj = lambda x, y: (x - minx, maxy - y)
 
-    out = {"w": round(maxx - minx), "h": round(maxy - miny), "mc": []}
+    out = {"w": round(maxx - minx), "h": round(maxy - miny), "mc": [], "city": {}}
 
     for slug, meta in casti.items():
         mc = {"slug": slug, "name": meta["nazev"], "kod": meta["kod_zastupitelstva"],
               "parties": {}, "ok": []}
-        results = {}
+        results = {}   # zastupitelstvo MČ
+        results_m = {}  # zastupitelstvo města Brna (stejné okrsky)
         for y in YEARS:
-            p = SRC / f"output/{slug}/kv{y}/vysledky.json"
-            if not p.exists():
-                continue
-            d = load(p)
-            first = next(iter(d["okrsky"].values()), None)
-            if first and first.get("url"):
-                mc.setdefault("url", {})[y] = first["url"].replace(first["okrsek"], "{c}")
-            mc["parties"][y] = [
-                {"k": s["kod"], "n": s["nazev"], "c": s["cislo_listiny"], "f": family(s["kod"])}
-                for s in d["strany"]
-            ]
-            results[y] = (d["strany"], d["okrsky"])
+            d = load_results(slug, y, False)
+            if d:
+                first = next(iter(d["okrsky"].values()), None)
+                if first and first.get("url"):
+                    mc.setdefault("url", {})[y] = first["url"].replace(first["okrsek"], "{c}")
+                mc["parties"][y] = party_list(d["strany"])
+                results[y] = (d["strany"], d["okrsky"])
+            d = load_results(slug, y, True)
+            if d:
+                first = next(iter(d["okrsky"].values()), None)
+                if first and first.get("url"):
+                    mc.setdefault("urlm", {})[y] = first["url"].replace(first["okrsek"], "{c}")
+                # kandidátky města jsou ve všech MČ stejné, ukládáme je jednou (out["city"])
+                city = party_list(d["strany"])
+                if y not in out["city"]:
+                    codes = [p["k"] for p in city]
+                    assert len(set(codes)) == len(codes), f"duplicitní kód strany v KV {y} (město): {codes}"
+                    out["city"][y] = city
+                elif [p["k"] for p in out["city"][y]] != [p["k"] for p in city]:
+                    raise SystemExit(f"Kandidátky města KV {y} se v {slug} liší od ostatních MČ.")
+                results_m[y] = (d["strany"], d["okrsky"])
 
         all_rings = []
         for f in sorted(feats[slug], key=lambda f: f["properties"]["cislo"]):
@@ -195,12 +235,12 @@ def main():
                   "r": {}}
             for y, (strany, okrsky) in results.items():
                 o = okrsky.get(cislo)
-                if not o:
-                    continue
-                pr = o["prehled"]
-                by = {s["kod"]: s["hlasy"] for s in o["strany"]}
-                ok["r"][y] = [pr["volici_v_seznamu"], pr["vydane_obalky"], pr["odevzdane_obalky"],
-                              pr["platne_hlasy"], [by.get(s["kod"], 0) for s in strany]]
+                if o:
+                    ok["r"][y] = pack(o, strany)
+            for y, (strany, okrsky) in results_m.items():
+                o = okrsky.get(cislo)
+                if o:
+                    ok.setdefault("rm", {})[y] = pack(o, strany)
             mc["ok"].append(ok)
         mc["outline"] = path_d(outline(all_rings), proj, closed=False)
         out["mc"].append(mc)
