@@ -140,6 +140,10 @@ python3 build.py --src web/_src     # data z jiného checkoutu
 
 Stránka má v hlavičce přepínač **Městské části / Magistrát města Brna**. Přepíná výsledky voleb do zastupitelstev MČ (`kv<rok>/`) a do zastupitelstva města (`kv<rok>-mesto/`) nad stejnými okrsky. Volba je v adrese: `?zastupitelstvo=mesto` (u MČ se vynechává). Pohled na celé Brno u magistrátu sčítá hlasy po jednotlivých listinách, u MČ je sloučí podle politické rodiny. Bez dat `kv*-mesto/` (`make mesto`) stránka magistrát nezobrazí.
 
+## Co stojí za pozornost
+
+- **Chybějící okrsek:** jeden okrsek z 353 nemá v roce 2022 data (`16005`, Brno-Medlánky). Je to stejné u voleb do MČ i do zastupitelstva města. Ve výsledcích je v poli `preskoceno` a ve stránce se ukáže jako bez dat.
+
 ## Tvar výsledku okrsku
 
 ```json

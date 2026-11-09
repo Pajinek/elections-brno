@@ -5,3 +5,4 @@ cache/
 data/kv2022/
 output/*/*/.diff-stamp
 output/**/*.png
+ansible/hosts

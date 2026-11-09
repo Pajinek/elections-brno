@@ -140,6 +140,8 @@ ul.streets li { break-inside: avoid; }
 ul.streets small { color: var(--muted); }
 footer { margin-top: 28px; font-size: 12.5px; color: var(--muted); max-width: 80ch; }
 footer a { color: var(--fg); }
+footer .credit { display: flex; align-items: center; gap: 10px; margin-top: 14px; }
+footer .credit img { display: block; height: 28px; width: auto; mix-blend-mode: multiply; }
 @media (max-width: 520px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } ul.streets { columns: 1; } #map { height: 62vh; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
@@ -200,6 +202,10 @@ footer a { color: var(--fg); }
     <a href="https://github.com/Pajinek/elections-brno" target="_blank" rel="noopener">Pajinek/elections-brno</a>.
     Každý volič v komunálních volbách má tolik hlasů, kolik členů zastupitelstvo má, proto se procenta počítají z platných hlasů.
     <span id="footLevel"></span>
+    <p class="credit">
+      <a href="https://varhoo.cz" target="_blank" rel="noopener"><img src="varhoo-logo.png" alt="varhoo.cz" width="78" height="28"></a>
+      <span>Projekt byl vytvořen a je hostován díky <a href="https://varhoo.cz" target="_blank" rel="noopener">varhoo.cz</a>.</span>
+    </p>
   </footer>
 </div>
 

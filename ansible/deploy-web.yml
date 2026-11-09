@@ -1,11 +1,12 @@
 ---
-# Nasadí soubory z web/ na s1.varhoo.cz.
+# Nasadí soubory z web/ na hosty z inventáře.
 # Adresář web/_src (checkout pro build) se nekopíruje.
+# Inventář ansible/hosts není v gitu: cp ansible/hosts.example ansible/hosts
 #
 #   ansible-playbook -i ansible/hosts ansible/deploy-web.yml
 
 - name: Nasadit web Volby Brno
-  hosts: s1.varhoo.cz
+  hosts: all
   vars:
     web_root: /var/www/volby-brno
 
