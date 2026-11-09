@@ -2,6 +2,8 @@
 
 Datová pipeline pro městské části Brna: ulice podle volebních okrsků, výsledky komunálních voleb a SVG mapy.
 
+**Produkční web: <https://brno.volby.varhoo.cz/>**
+
 Skripty berou `--uzemi <slug>`. Výchozí je `brno-stred`. Registr všech 29 MČ je v `data/uzemi.json`.
 
 ```bash
@@ -132,6 +134,8 @@ Návratové kódy: `0` v pořádku, `1` žádné okrsky, `2` nic se nestáhlo, `
 `generate_results_map.py` kreslí choropleth podle % a s `--diff` mapu změny 2022→2026.
 
 ## Webová prezentace
+
+Produkční web běží na <https://brno.volby.varhoo.cz/>.
 
 ```bash
 cd web && python3 build.py          # data z kořene repozitáře → web/index.html
