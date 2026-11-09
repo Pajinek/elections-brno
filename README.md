@@ -92,6 +92,16 @@ python3 generate_results_map.py --uzemi brno-stred --diff
 python3 load_streets.py --lookup "Barvičova" --cislo 11
 ```
 
+Pro MČ bez PDF složí stejné soubory `load_streets_ruian.py` z adresních míst RÚIAN (`vo_kod` = volební okrsek). Existující `ulice.csv` (z PDF) nepřepíše bez `--force`.
+
+```bash
+python3 load_streets_ruian.py --uzemi brno-sever
+python3 load_streets_ruian.py --all
+make streets-ruian
+```
+
+Číslo domu je orientační, a když chybí, popisné. Adresy bez ulice jsou pod názvem části obce, evidenční čísla pod `Část (č.ev.)`. Volební místnost RÚIAN nezná (`volebni_mistnost` je prázdná). Úseky (`13-29 lichá`, `31 do konce lichá`) se počítají z existujících adres, ne z textu vyhlášky.
+
 ### Výsledky
 
 KV 2026 z

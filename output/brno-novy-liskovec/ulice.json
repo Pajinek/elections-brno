@@ -1,0 +1,152 @@
+[
+  {
+    "ulice": "Bítešská",
+    "cislo_okrsku": "17004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17004"
+  },
+  {
+    "ulice": "Chironova",
+    "cislo_okrsku": "17007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17007"
+  },
+  {
+    "ulice": "Jihlavská",
+    "cislo_okrsku": "17009",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17009"
+  },
+  {
+    "ulice": "Kamínky",
+    "cislo_okrsku": "17002; 17003",
+    "pocet_okrsku": "2",
+    "rozdeleni": "5a do konce lichá → 17002; 6 do konce sudá → 17002; 3-5 lichá → 17003; 2-4 sudá → 17003"
+  },
+  {
+    "ulice": "Kluchova",
+    "cislo_okrsku": "17001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17001"
+  },
+  {
+    "ulice": "Koniklecová",
+    "cislo_okrsku": "17003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17003"
+  },
+  {
+    "ulice": "Lesní",
+    "cislo_okrsku": "17001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17001"
+  },
+  {
+    "ulice": "Nový Lískovec (č.ev.)",
+    "cislo_okrsku": "17001; 17002; 17003",
+    "pocet_okrsku": "3",
+    "rozdeleni": "2-3 → 17001; 5 → 17001; 9-23 → 17001; 25 → 17001; 27 → 17001; 33-46 → 17001; 53 → 17001; 63-85 → 17001; 94 → 17001; 97-107 → 17001; 121 → 17001; 255-265 → 17001; 298-318 → 17001; 359-388 → 17001; 596 → 17001; 618-621 → 17001; 648 → 17001; 653 → 17001; 656 → 17001; 663 → 17001; 665-667 → 17001; 670 → 17001; 4 → 17002; 31 → 17002; 200 → 17002; 204-219 → 17002; 237 → 17002; 554 → 17002; 571 → 17002; 587-589 → 17002; 615 → 17002; 617 → 17002; 624 → 17002; 649 → 17002; 651 → 17002; 669 → 17002; 6-8 → 17003; 24 → 17003; 26 → 17003; 29-30 → 17003; 32 → 17003; 51 → 17003; 55-58 → 17003; 87-89 → 17003; 96 → 17003; 120 → 17003; 126-198 → 17003; 203 → 17003; 233 → 17003; 240-254 → 17003; 280-289 → 17003; 323-343 → 17003; 399-541 → 17003; 555-570 → 17003; 572-586 → 17003; 590-595 → 17003; 601-614 → 17003; 616 → 17003; 625-627 → 17003; 650 → 17003; 652 → 17003; 654-655 → 17003; 657-662 → 17003; 664 → 17003; 668 → 17003; 733 do konce → 17003"
+  },
+  {
+    "ulice": "Obecní",
+    "cislo_okrsku": "17001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17001"
+  },
+  {
+    "ulice": "Oblá",
+    "cislo_okrsku": "17004; 17005; 17006; 17007",
+    "pocet_okrsku": "4",
+    "rozdeleni": "1-35 lichá → 17004; 2-14 sudá → 17004; 18 do konce sudá → 17005; 39-75a lichá → 17006; 77 do konce lichá → 17007"
+  },
+  {
+    "ulice": "Oldřišky Keithové",
+    "cislo_okrsku": "17001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17001"
+  },
+  {
+    "ulice": "Palouk",
+    "cislo_okrsku": "17001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17001"
+  },
+  {
+    "ulice": "Petra Křivky",
+    "cislo_okrsku": "17004; 17005; 17007",
+    "pocet_okrsku": "3",
+    "rozdeleni": "1a lichá → 17004; 1 lichá → 17005; 5 do konce lichá → 17007; sudá → 17007"
+  },
+  {
+    "ulice": "Plachty",
+    "cislo_okrsku": "17007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17007"
+  },
+  {
+    "ulice": "Prostřední",
+    "cislo_okrsku": "17001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17001"
+  },
+  {
+    "ulice": "Raisova",
+    "cislo_okrsku": "17001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17001"
+  },
+  {
+    "ulice": "Rybnická",
+    "cislo_okrsku": "17001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17001"
+  },
+  {
+    "ulice": "Slunečná",
+    "cislo_okrsku": "17007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17007"
+  },
+  {
+    "ulice": "Svážná",
+    "cislo_okrsku": "17008; 17009",
+    "pocet_okrsku": "2",
+    "rozdeleni": "sudá → 17008; lichá → 17009"
+  },
+  {
+    "ulice": "Travní",
+    "cislo_okrsku": "17003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17003"
+  },
+  {
+    "ulice": "Zavřená",
+    "cislo_okrsku": "17001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17001"
+  },
+  {
+    "ulice": "Zoubkova",
+    "cislo_okrsku": "17001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17001"
+  },
+  {
+    "ulice": "Úpatní",
+    "cislo_okrsku": "17001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17001"
+  },
+  {
+    "ulice": "Čtvrtě",
+    "cislo_okrsku": "17001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17001"
+  },
+  {
+    "ulice": "Šťastného",
+    "cislo_okrsku": "17001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 17001"
+  }
+]

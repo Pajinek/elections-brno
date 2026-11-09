@@ -1,0 +1,374 @@
+[
+  {
+    "ulice": "Baarovo nábřeží",
+    "cislo_okrsku": "15004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15004"
+  },
+  {
+    "ulice": "Babická",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Borky",
+    "cislo_okrsku": "15003; 15004",
+    "pocet_okrsku": "2",
+    "rozdeleni": "24-26 sudá → 15003; 40 do konce sudá → 15003; lichá → 15004; 4-22 sudá → 15004; 28-36 sudá → 15004"
+  },
+  {
+    "ulice": "Bílovická",
+    "cislo_okrsku": "15001; 15002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "9 lichá → 15001; 5-7 lichá → 15002; 11 do konce lichá → 15002; sudá → 15002"
+  },
+  {
+    "ulice": "Břehová",
+    "cislo_okrsku": "15002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15002"
+  },
+  {
+    "ulice": "Cacovice",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Cihelní",
+    "cislo_okrsku": "15001; 15002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "3 do konce lichá → 15001; 6 do konce sudá → 15001; 1-1a lichá → 15002; 2-2b sudá → 15002"
+  },
+  {
+    "ulice": "Dolnopolní",
+    "cislo_okrsku": "15004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15004"
+  },
+  {
+    "ulice": "Fantova",
+    "cislo_okrsku": "15001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15001"
+  },
+  {
+    "ulice": "Faulhabrova",
+    "cislo_okrsku": "15002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15002"
+  },
+  {
+    "ulice": "Franzova",
+    "cislo_okrsku": "15003; 15004",
+    "pocet_okrsku": "2",
+    "rozdeleni": "63a lichá → 15003; 65a lichá → 15003; 75 do konce lichá → 15003; 74 do konce sudá → 15003; 3-63 lichá → 15004; 65 lichá → 15004; 71-73 lichá → 15004; 10-72 sudá → 15004"
+  },
+  {
+    "ulice": "Fryčajova",
+    "cislo_okrsku": "15001; 15002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "43 do konce lichá → 15001; 42 do konce sudá → 15001; 3-37 lichá → 15002; 6-40 sudá → 15002"
+  },
+  {
+    "ulice": "Hamry",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Hlaváčova",
+    "cislo_okrsku": "15001; 15002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "54 do konce sudá → 15001; lichá → 15002; 2-50 sudá → 15002"
+  },
+  {
+    "ulice": "Hradiska",
+    "cislo_okrsku": "15002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15002"
+  },
+  {
+    "ulice": "Hrubinky",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Hádecká",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Hády",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Jarní",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Karlova",
+    "cislo_okrsku": "15004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15004"
+  },
+  {
+    "ulice": "Kmochova",
+    "cislo_okrsku": "15002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15002"
+  },
+  {
+    "ulice": "Krasová",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Kulkova",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Liští",
+    "cislo_okrsku": "15002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15002"
+  },
+  {
+    "ulice": "Maloměřice",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Maloměřice (č.ev.)",
+    "cislo_okrsku": "15003; 15004",
+    "pocet_okrsku": "2",
+    "rozdeleni": "5-327 → 15003; 395-422 → 15003; 751 → 15003; 827 → 15003; 841-861 → 15003; 891 do konce → 15003; 332-382 → 15004; 430-738 → 15004; 783-818 → 15004; 836-837 → 15004; 862-864 → 15004"
+  },
+  {
+    "ulice": "Manželů Suchých",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Markéty Kuncové",
+    "cislo_okrsku": "15004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15004"
+  },
+  {
+    "ulice": "Mateří",
+    "cislo_okrsku": "15004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15004"
+  },
+  {
+    "ulice": "Mlýnské nábřeží",
+    "cislo_okrsku": "15002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15002"
+  },
+  {
+    "ulice": "Na Sedláku",
+    "cislo_okrsku": "15001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15001"
+  },
+  {
+    "ulice": "Nad Jordánem",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Obřanská",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Obřany",
+    "cislo_okrsku": "15001; 15002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "748 do konce → 15001; 100 → 15002"
+  },
+  {
+    "ulice": "Obřany (č.ev.)",
+    "cislo_okrsku": "15001; 15002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "17 → 15001; 24-41 → 15001; 43-77 → 15001; 87 → 15001; 90 → 15001; 92-107 → 15001; 113-119 → 15001; 123-125 → 15001; 129-131 → 15001; 133-135 → 15001; 162 → 15001; 179 → 15001; 196-197 → 15001; 199-200 → 15001; 205 → 15001; 210 → 15001; 214-217 → 15001; 219-236 → 15001; 243 → 15001; 252-259 → 15001; 264-267 → 15001; 270 → 15001; 272 → 15001; 275-280 → 15001; 282-301 → 15001; 313 → 15001; 319-334 → 15001; 338-359 → 15001; 361-363 → 15001; 365-372 → 15001; 379 → 15001; 409-464 → 15001; 467-473 → 15001; 480-484 → 15001; 488-499 → 15001; 503-505 → 15001; 507-512 → 15001; 514-515 → 15001; 517-523 → 15001; 525-561 → 15001; 591 → 15001; 593-595 → 15001; 601-604 → 15001; 607-608 → 15001; 610 → 15001; 612-614 → 15001; 616 → 15001; 621 → 15001; 624-625 → 15001; 627-629 → 15001; 631-632 → 15001; 635-637 → 15001; 639-645 → 15001; 648-651 → 15001; 653 → 15001; 1-15 → 15002; 18-21 → 15002; 42 → 15002; 80-85 → 15002; 88 → 15002; 91 → 15002; 109-111 → 15002; 120-121 → 15002; 126-127 → 15002; 132 → 15002; 136-161 → 15002; 163-178 → 15002; 181-195 → 15002; 198 → 15002; 202-204 → 15002; 206-209 → 15002; 212 → 15002; 218 → 15002; 237-242 → 15002; 244-248 → 15002; 261-263 → 15002; 269 → 15002; 271 → 15002; 273 → 15002; 281 → 15002; 302-312 → 15002; 316-318 → 15002; 335-336 → 15002; 360 → 15002; 364 → 15002; 373-375 → 15002; 381-384 → 15002; 466 → 15002; 476-479 → 15002; 485-487 → 15002; 502 → 15002; 506 → 15002; 513 → 15002; 516 → 15002; 524 → 15002; 576 → 15002; 592 → 15002; 596 → 15002; 606 → 15002; 609 → 15002; 611 → 15002; 615 → 15002; 617-620 → 15002; 622-623 → 15002; 626 → 15002; 630 → 15002; 633 → 15002; 638 → 15002; 646-647 → 15002; 652 → 15002; 1507 do konce → 15002"
+  },
+  {
+    "ulice": "Olší",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Panská lícha",
+    "cislo_okrsku": "15001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15001"
+  },
+  {
+    "ulice": "Plíže",
+    "cislo_okrsku": "15004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15004"
+  },
+  {
+    "ulice": "Pod Kavkami",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Podzimní",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Proškovo náměstí",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Rázusova",
+    "cislo_okrsku": "15003; 15004",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-13 lichá → 15003; 15 do konce lichá → 15003; sudá → 15003; 13a lichá → 15004"
+  },
+  {
+    "ulice": "Růženin lom",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Sady",
+    "cislo_okrsku": "15004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15004"
+  },
+  {
+    "ulice": "Selská",
+    "cislo_okrsku": "15003; 15004",
+    "pocet_okrsku": "2",
+    "rozdeleni": "89 do konce lichá → 15003; 90 do konce sudá → 15003; 1-85 lichá → 15004; 2-88a sudá → 15004"
+  },
+  {
+    "ulice": "Slaměníkova",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Světlá",
+    "cislo_okrsku": "15004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15004"
+  },
+  {
+    "ulice": "Těsná",
+    "cislo_okrsku": "15004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15004"
+  },
+  {
+    "ulice": "U splavu",
+    "cislo_okrsku": "15002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15002"
+  },
+  {
+    "ulice": "Vrbí",
+    "cislo_okrsku": "15004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15004"
+  },
+  {
+    "ulice": "Výpustky",
+    "cislo_okrsku": "15001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15001"
+  },
+  {
+    "ulice": "Vřesová",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Wágnerova",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Zimní",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Zlatníky",
+    "cislo_okrsku": "15002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15002"
+  },
+  {
+    "ulice": "Zázmolí",
+    "cislo_okrsku": "15002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15002"
+  },
+  {
+    "ulice": "Újezdy",
+    "cislo_okrsku": "15002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15002"
+  },
+  {
+    "ulice": "Čtvery hony",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Řádky",
+    "cislo_okrsku": "15002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15002"
+  },
+  {
+    "ulice": "Říční",
+    "cislo_okrsku": "15003; 15004",
+    "pocet_okrsku": "2",
+    "rozdeleni": "7 do konce lichá → 15003; sudá → 15003; 1 lichá → 15004"
+  },
+  {
+    "ulice": "Švestková",
+    "cislo_okrsku": "15003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 15003"
+  },
+  {
+    "ulice": "Švábenského",
+    "cislo_okrsku": "15003; 15004",
+    "pocet_okrsku": "2",
+    "rozdeleni": "17 do konce lichá → 15003; 1-15 lichá → 15004; sudá → 15004"
+  }
+]

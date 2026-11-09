@@ -1,0 +1,206 @@
+[
+  {
+    "ulice": "Bratří Ocelků",
+    "cislo_okrsku": "9003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9003"
+  },
+  {
+    "ulice": "Brno-město (č.ev.)",
+    "cislo_okrsku": "9004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9004"
+  },
+  {
+    "ulice": "Březová",
+    "cislo_okrsku": "9003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9003"
+  },
+  {
+    "ulice": "Dubová",
+    "cislo_okrsku": "9003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9003"
+  },
+  {
+    "ulice": "Gellnerova",
+    "cislo_okrsku": "9001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9001"
+  },
+  {
+    "ulice": "Jasanová",
+    "cislo_okrsku": "9004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9004"
+  },
+  {
+    "ulice": "Jedlová",
+    "cislo_okrsku": "9002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9002"
+  },
+  {
+    "ulice": "Jundrov (č.ev.)",
+    "cislo_okrsku": "9001; 9002; 9003; 9004",
+    "pocet_okrsku": "4",
+    "rozdeleni": "18 → 9001; 125 → 9001; 170 → 9001; 192 → 9001; 207 → 9001; 221 → 9001; 233 → 9001; 249-250 → 9001; 255 → 9001; 260-262 → 9001; 313 → 9001; 386-387 → 9001; 402 → 9001; 404-448 → 9001; 456 → 9001; 600 → 9001; 603 → 9001; 606 → 9001; 635-643 → 9001; 647-648 → 9001; 652 → 9001; 694-699 → 9001; 703 → 9001; 727-733 → 9001; 834-844 → 9001; 909 → 9001; 1041-1043 → 9001; 1104-1109 → 9001; 1124 → 9001; 1206 → 9001; 1230 → 9001; 1237 → 9001; 1239 → 9001; 1250-1251 → 9001; 1253 → 9001; 4 → 9002; 39 → 9002; 197 → 9002; 209 → 9002; 222-230 → 9002; 286 → 9002; 929 → 9002; 1090 → 9002; 1113 → 9002; 1221 → 9002; 7-17 → 9003; 19-23 → 9003; 25 → 9003; 27-31 → 9003; 34 → 9003; 42-43 → 9003; 49-52 → 9003; 59 → 9003; 61-66 → 9003; 69-99 → 9003; 103-105 → 9003; 107-114 → 9003; 120 → 9003; 127-133 → 9003; 135-145 → 9003; 150 → 9003; 163-169 → 9003; 175 → 9003; 177-191 → 9003; 193 → 9003; 232 → 9003; 235 → 9003; 239 → 9003; 247 → 9003; 252 → 9003; 256-258 → 9003; 266 → 9003; 268 → 9003; 287 → 9003; 449 → 9003; 511-550 → 9003; 561 → 9003; 568-571 → 9003; 577 → 9003; 668 → 9003; 741 → 9003; 850 → 9003; 908 → 9003; 934 → 9003; 1092-1100 → 9003; 1118 → 9003; 1133-1138 → 9003; 1142-1202 → 9003; 1212-1213 → 9003; 1236 → 9003; 1238 → 9003; 1243 → 9003; 1249 → 9003; 1252 → 9003; 1254 → 9003; 1 → 9004; 5 → 9004; 24 → 9004; 26 → 9004; 33 → 9004; 38 → 9004; 45-47 → 9004; 55 → 9004; 60 → 9004; 67 → 9004; 100-101 → 9004; 106 → 9004; 116-119 → 9004; 122 → 9004; 126 → 9004; 134 → 9004; 146 → 9004; 152-156 → 9004; 172 → 9004; 176 → 9004; 198-206 → 9004; 210-220 → 9004; 238 → 9004; 242-245 → 9004; 264-265 → 9004; 267 → 9004; 269-282 → 9004; 288-312 → 9004; 317-382 → 9004; 391-399 → 9004; 403 → 9004; 452 → 9004; 459-503 → 9004; 555-556 → 9004; 562-565 → 9004; 574 → 9004; 582-598 → 9004; 601-602 → 9004; 605 → 9004; 607-634 → 9004; 644-646 → 9004; 649-651 → 9004; 653-667 → 9004; 669-693 → 9004; 700-702 → 9004; 704-725 → 9004; 736 → 9004; 747-830 → 9004; 845-847 → 9004; 852-906 → 9004; 910-927 → 9004; 930-932 → 9004; 1081-1086 → 9004; 1110 → 9004; 1114-1116 → 9004; 1120-1122 → 9004; 1125-1132 → 9004; 1140-1141 → 9004; 1203-1205 → 9004; 1207-1210 → 9004; 1214-1220 → 9004; 1228 → 9004; 1234-1235 → 9004; 1242 → 9004; 1245-1248 → 9004; 1255 do konce → 9004"
+  },
+  {
+    "ulice": "Ke Káčatům",
+    "cislo_okrsku": "9003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9003"
+  },
+  {
+    "ulice": "Kopretinová",
+    "cislo_okrsku": "9004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9004"
+  },
+  {
+    "ulice": "Lelkova",
+    "cislo_okrsku": "9002; 9003",
+    "pocet_okrsku": "2",
+    "rozdeleni": "lichá → 9002; 6-64 sudá → 9002; 66 do konce sudá → 9003"
+  },
+  {
+    "ulice": "Modřínová",
+    "cislo_okrsku": "9001; 9002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "lichá → 9001; sudá → 9002"
+  },
+  {
+    "ulice": "Muškátová",
+    "cislo_okrsku": "9001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9001"
+  },
+  {
+    "ulice": "Na Jurance",
+    "cislo_okrsku": "9004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9004"
+  },
+  {
+    "ulice": "Na Kopaninách",
+    "cislo_okrsku": "9004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9004"
+  },
+  {
+    "ulice": "Nálepkova",
+    "cislo_okrsku": "9002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9002"
+  },
+  {
+    "ulice": "Olšová",
+    "cislo_okrsku": "9002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9002"
+  },
+  {
+    "ulice": "Optátova",
+    "cislo_okrsku": "9002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9002"
+  },
+  {
+    "ulice": "Osiková",
+    "cislo_okrsku": "9001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9001"
+  },
+  {
+    "ulice": "Pisárecká",
+    "cislo_okrsku": "9004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9004"
+  },
+  {
+    "ulice": "Pisárky",
+    "cislo_okrsku": "9004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9004"
+  },
+  {
+    "ulice": "Pisárky (č.ev.)",
+    "cislo_okrsku": "9004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9004"
+  },
+  {
+    "ulice": "Pivoňkova",
+    "cislo_okrsku": "9002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9002"
+  },
+  {
+    "ulice": "Pod Holednou",
+    "cislo_okrsku": "9003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9003"
+  },
+  {
+    "ulice": "Prašnice",
+    "cislo_okrsku": "9002; 9003",
+    "pocet_okrsku": "2",
+    "rozdeleni": "9-13 lichá → 9002; 1-7 lichá → 9003; 15 do konce lichá → 9003; sudá → 9003"
+  },
+  {
+    "ulice": "Rozmarýnová",
+    "cislo_okrsku": "9001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9001"
+  },
+  {
+    "ulice": "Smrčková",
+    "cislo_okrsku": "9002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9002"
+  },
+  {
+    "ulice": "Sosnová",
+    "cislo_okrsku": "9001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9001"
+  },
+  {
+    "ulice": "Stromovka",
+    "cislo_okrsku": "9002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9002"
+  },
+  {
+    "ulice": "Tyršovo návrší",
+    "cislo_okrsku": "9002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9002"
+  },
+  {
+    "ulice": "V luzích",
+    "cislo_okrsku": "9004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9004"
+  },
+  {
+    "ulice": "Veslařská",
+    "cislo_okrsku": "9004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9004"
+  },
+  {
+    "ulice": "Výšina",
+    "cislo_okrsku": "9004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9004"
+  },
+  {
+    "ulice": "Šeříková",
+    "cislo_okrsku": "9001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 9001"
+  }
+]

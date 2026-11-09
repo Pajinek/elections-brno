@@ -1,0 +1,218 @@
+[
+  {
+    "ulice": "Achtelky",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Bosonohy",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Bosonohy (č.ev.)",
+    "cislo_okrsku": "2001; 2002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-2 → 2001; 6-333 → 2001; 341-353 → 2001; 355-363 → 2001; 366-416 → 2001; 419-421 → 2001; 423-428 → 2001; 431-439 → 2001; 444-465 → 2001; 467-484 → 2001; 488-505 → 2001; 507-563 → 2001; 566 do konce → 2001; 5 → 2002; 335-340 → 2002; 354 → 2002; 364-365 → 2002; 417-418 → 2002; 422 → 2002; 430 → 2002; 442-443 → 2002; 466 → 2002; 486 → 2002; 506 → 2002; 564-565 → 2002"
+  },
+  {
+    "ulice": "Bosonožské náměstí",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Chironova",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Elišky Junkové",
+    "cislo_okrsku": "2002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2002"
+  },
+  {
+    "ulice": "Horynova",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Hoštická",
+    "cislo_okrsku": "2002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2002"
+  },
+  {
+    "ulice": "Jihlavská",
+    "cislo_okrsku": "2001; 2002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "sudá → 2001; lichá → 2002"
+  },
+  {
+    "ulice": "Jámy",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "K Berce",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Kolmá",
+    "cislo_okrsku": "2002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2002"
+  },
+  {
+    "ulice": "Konopiska",
+    "cislo_okrsku": "2002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2002"
+  },
+  {
+    "ulice": "Křivánky",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Mlaty",
+    "cislo_okrsku": "2001; 2002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "lichá → 2001; sudá → 2002"
+  },
+  {
+    "ulice": "Ostopovická",
+    "cislo_okrsku": "2002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2002"
+  },
+  {
+    "ulice": "Padělíky",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Pražská",
+    "cislo_okrsku": "2001; 2002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "10b-10c sudá → 2001; lichá → 2002; 8-10a sudá → 2002; 12 do konce sudá → 2002"
+  },
+  {
+    "ulice": "Práčata",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Průjezdní",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Pusty",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Přímá",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Rebovka",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Rušná",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Sedla",
+    "cislo_okrsku": "2002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2002"
+  },
+  {
+    "ulice": "Skalní",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Sojkova",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Troubská",
+    "cislo_okrsku": "2002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2002"
+  },
+  {
+    "ulice": "U smyčky",
+    "cislo_okrsku": "2001; 2002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "lichá → 2001; 2-8 sudá → 2001; 560 do konce sudá → 2002"
+  },
+  {
+    "ulice": "Vratná",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Vrchní",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Vzhledná",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Za vodojemem",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Ztracená",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Zájezdní",
+    "cislo_okrsku": "2001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2001"
+  },
+  {
+    "ulice": "Ševčenkova",
+    "cislo_okrsku": "2002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 2002"
+  }
+]

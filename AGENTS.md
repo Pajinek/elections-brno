@@ -8,6 +8,7 @@ CLI skripty, žádný balíček, žádné testy, žádný web. Území řídí `
 
 1. `generate_map_svg.py` — RÚIAN GeoJSON → `output/<uzemi>/okrsky.svg`.
 2. `load_streets.py` — PDF definice okrsků → ulice (`output/<uzemi>/`).
+   `load_streets_ruian.py` — totéž z adresních míst RÚIAN (`vo_kod`) pro MČ bez PDF; stejné soubory, `ulice.csv` z PDF nepřepisuje bez `--force`.
 3. `download_results.py` — KV 2026 / 2022 → `output/<uzemi>/kv<rok>/` (ZMČ). S `--zastupitelstvo mesto` zastupitelstvo města Brna (magistrát) za okrsky té MČ → `output/<uzemi>/kv<rok>-mesto/`. Seznam okrsků bere z `ulice.csv`, jinak z GeoJSON.
 4. `generate_results_map.py` — choropleth a mapa rozdílu 2022→2026.
 

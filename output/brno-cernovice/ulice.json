@@ -1,0 +1,272 @@
+[
+  {
+    "ulice": "Blatouchová",
+    "cislo_okrsku": "4006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4006"
+  },
+  {
+    "ulice": "Bolzanova",
+    "cislo_okrsku": "4002; 4003; 4005",
+    "pocet_okrsku": "3",
+    "rozdeleni": "57 do konce lichá → 4002; 70 do konce sudá → 4002; 29-55 lichá → 4003; 32-68 sudá → 4003; 1-27 lichá → 4005; 2-30 sudá → 4005"
+  },
+  {
+    "ulice": "Charbulova",
+    "cislo_okrsku": "4004; 4005; 4006; 4007",
+    "pocet_okrsku": "4",
+    "rozdeleni": "3-35 lichá → 4004; 41-117 lichá → 4004; 4-106 sudá → 4004; 37-39 lichá → 4005; 2 sudá → 4006; 131 do konce lichá → 4007; 148 do konce sudá → 4007"
+  },
+  {
+    "ulice": "Churého",
+    "cislo_okrsku": "4004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4004"
+  },
+  {
+    "ulice": "Cornovova",
+    "cislo_okrsku": "4002; 4005",
+    "pocet_okrsku": "2",
+    "rozdeleni": "lichá → 4002; 4-60 sudá → 4002; 66 do konce sudá → 4005"
+  },
+  {
+    "ulice": "Elišky Krásnohorské",
+    "cislo_okrsku": "4004; 4006; 4007",
+    "pocet_okrsku": "3",
+    "rozdeleni": "9-11 lichá → 4004; 31 lichá → 4004; 1-7 lichá → 4006; 13-29 lichá → 4006; 33a-61 lichá → 4006; 661 do konce lichá → 4006; sudá → 4006; 609 lichá → 4007"
+  },
+  {
+    "ulice": "Ericha Roučky",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Faměrovo náměstí",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Ferrerova",
+    "cislo_okrsku": "4004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4004"
+  },
+  {
+    "ulice": "Havraní",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Hájecká",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Húskova",
+    "cislo_okrsku": "4001; 4002; 4005",
+    "pocet_okrsku": "3",
+    "rozdeleni": "6 do konce sudá → 4001; 47 do konce lichá → 4002; 1-45 lichá → 4005; 2-4 sudá → 4005"
+  },
+  {
+    "ulice": "Jiránkova",
+    "cislo_okrsku": "4005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4005"
+  },
+  {
+    "ulice": "Klíčova",
+    "cislo_okrsku": "4004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4004"
+  },
+  {
+    "ulice": "Kneslova",
+    "cislo_okrsku": "4001; 4002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "lichá → 4001; 4 do konce sudá → 4001; 2 sudá → 4002"
+  },
+  {
+    "ulice": "Kotkova",
+    "cislo_okrsku": "4003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4003"
+  },
+  {
+    "ulice": "Kovácká",
+    "cislo_okrsku": "4006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4006"
+  },
+  {
+    "ulice": "Krausova",
+    "cislo_okrsku": "4001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4001"
+  },
+  {
+    "ulice": "Mírová",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Olomoucká",
+    "cislo_okrsku": "4002; 4003; 4004; 4007",
+    "pocet_okrsku": "4",
+    "rozdeleni": "61-81 lichá → 4002; 83 do konce lichá → 4002; 146-156 sudá → 4002; 158 do konce sudá → 4002; 15-57 lichá → 4003; 83 lichá → 4003; 80-144 sudá → 4003; 2-40 sudá → 4004; 156c sudá → 4007"
+  },
+  {
+    "ulice": "Pahrbek",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Přední",
+    "cislo_okrsku": "4006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4006"
+  },
+  {
+    "ulice": "Skřivánčí",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Slámova",
+    "cislo_okrsku": "4003; 4005",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-55 lichá → 4003; 2-10 sudá → 4003; 22 do konce sudá → 4003; 57 do konce lichá → 4005; 12-20 sudá → 4005"
+  },
+  {
+    "ulice": "Smutná",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Spojka",
+    "cislo_okrsku": "4006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4006"
+  },
+  {
+    "ulice": "Spáčilova",
+    "cislo_okrsku": "4003; 4005",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-67 lichá → 4003; 2-50 sudá → 4003; 69 do konce lichá → 4005; 52 do konce sudá → 4005"
+  },
+  {
+    "ulice": "Stinná",
+    "cislo_okrsku": "4006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4006"
+  },
+  {
+    "ulice": "Tržní",
+    "cislo_okrsku": "4004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4004"
+  },
+  {
+    "ulice": "Turgeněvova",
+    "cislo_okrsku": "4002; 4003",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1a do konce lichá → 4002; sudá → 4002; 1 lichá → 4003"
+  },
+  {
+    "ulice": "Těžební",
+    "cislo_okrsku": "4002; 4007",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1a do konce lichá → 4002; 2b sudá → 4002; 1 lichá → 4007; 2 sudá → 4007; 2c do konce sudá → 4007"
+  },
+  {
+    "ulice": "U Svitavy",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Vinohradská",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Vlastimila Pecha",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Vítězslavy Kaprálové",
+    "cislo_okrsku": "4004; 4006",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-29 lichá → 4004; sudá → 4004; 31 do konce lichá → 4006"
+  },
+  {
+    "ulice": "Wainerovo náměstí",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Zvěřinova",
+    "cislo_okrsku": "4004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4004"
+  },
+  {
+    "ulice": "Černovice",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Černovice (č.ev.)",
+    "cislo_okrsku": "4001; 4002; 4004; 4006; 4007",
+    "pocet_okrsku": "5",
+    "rozdeleni": "246-286 → 4001; 650-652 → 4001; 657-658 → 4001; 662 → 4001; 684-796 → 4001; 802 → 4001; 805 → 4002; 85 → 4004; 665 → 4004; 797 → 4004; 806 → 4004; 89 → 4006; 360-496 → 4006; 518 → 4006; 659-660 → 4006; 681 → 4006; 798-801 → 4006; 3-82 → 4007; 86-88 → 4007; 177 → 4007; 351 → 4007; 512 → 4007; 608-649 → 4007; 653-654 → 4007; 663 → 4007; 666-679 → 4007; 683 → 4007; 803 → 4007; 808 do konce → 4007"
+  },
+  {
+    "ulice": "Černovická",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Řehořova",
+    "cislo_okrsku": "4004; 4006",
+    "pocet_okrsku": "2",
+    "rozdeleni": "2 sudá → 4004; lichá → 4006; 4 do konce sudá → 4006"
+  },
+  {
+    "ulice": "Šestákova",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Štolcova",
+    "cislo_okrsku": "4004; 4005",
+    "pocet_okrsku": "2",
+    "rozdeleni": "80 do konce sudá → 4004; lichá → 4005; 6-78 sudá → 4005"
+  },
+  {
+    "ulice": "Švédské valy",
+    "cislo_okrsku": "4007",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4007"
+  },
+  {
+    "ulice": "Životského",
+    "cislo_okrsku": "4003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 4003"
+  }
+]

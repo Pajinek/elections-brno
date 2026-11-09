@@ -1,0 +1,338 @@
+[
+  {
+    "ulice": "Akátová",
+    "cislo_okrsku": "28001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28001"
+  },
+  {
+    "ulice": "Bartolomějská",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Bešůvka",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Buková",
+    "cislo_okrsku": "28001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28001"
+  },
+  {
+    "ulice": "Chrpová",
+    "cislo_okrsku": "28003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28003"
+  },
+  {
+    "ulice": "Chudčická",
+    "cislo_okrsku": "28004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28004"
+  },
+  {
+    "ulice": "Chvalovka",
+    "cislo_okrsku": "28004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28004"
+  },
+  {
+    "ulice": "Dlážděná",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Drdy",
+    "cislo_okrsku": "28003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28003"
+  },
+  {
+    "ulice": "Fojtíkova",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Helenčina",
+    "cislo_okrsku": "28001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28001"
+  },
+  {
+    "ulice": "Hlinecká",
+    "cislo_okrsku": "28004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28004"
+  },
+  {
+    "ulice": "Hostislavova",
+    "cislo_okrsku": "28003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28003"
+  },
+  {
+    "ulice": "Hvozdecká",
+    "cislo_okrsku": "28004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28004"
+  },
+  {
+    "ulice": "Jalovcová",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Jehličnatá",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Jerlínová",
+    "cislo_okrsku": "28003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28003"
+  },
+  {
+    "ulice": "Kamechy",
+    "cislo_okrsku": "28004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28004"
+  },
+  {
+    "ulice": "Keřová",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Klobouček",
+    "cislo_okrsku": "28001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28001"
+  },
+  {
+    "ulice": "Kohoutovická",
+    "cislo_okrsku": "28003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28003"
+  },
+  {
+    "ulice": "Koreisova",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Křepelčí",
+    "cislo_okrsku": "28004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28004"
+  },
+  {
+    "ulice": "Křivánkovo náměstí",
+    "cislo_okrsku": "28001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28001"
+  },
+  {
+    "ulice": "Lavičky",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Listnatá",
+    "cislo_okrsku": "28004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28004"
+  },
+  {
+    "ulice": "Lišejníková",
+    "cislo_okrsku": "28004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28004"
+  },
+  {
+    "ulice": "Maršíkova",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Májová",
+    "cislo_okrsku": "28001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28001"
+  },
+  {
+    "ulice": "Na Padělkách",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Nad Cihelnou",
+    "cislo_okrsku": "28001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28001"
+  },
+  {
+    "ulice": "Novodvorská",
+    "cislo_okrsku": "28004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28004"
+  },
+  {
+    "ulice": "Ostrovačická",
+    "cislo_okrsku": "28001; 28003",
+    "pocet_okrsku": "2",
+    "rozdeleni": "lichá → 28001; 2-18 sudá → 28001; 22 do konce sudá → 28001; 20 sudá → 28003"
+  },
+  {
+    "ulice": "Otevřená",
+    "cislo_okrsku": "28003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28003"
+  },
+  {
+    "ulice": "Pilařova",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Pod Borovníkem",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Pod kopcem",
+    "cislo_okrsku": "28003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28003"
+  },
+  {
+    "ulice": "Pramenná",
+    "cislo_okrsku": "28001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28001"
+  },
+  {
+    "ulice": "Prokopův kopec",
+    "cislo_okrsku": "28001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28001"
+  },
+  {
+    "ulice": "Přírodní",
+    "cislo_okrsku": "28004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28004"
+  },
+  {
+    "ulice": "Remízky",
+    "cislo_okrsku": "28001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28001"
+  },
+  {
+    "ulice": "Revírníkova",
+    "cislo_okrsku": "28001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28001"
+  },
+  {
+    "ulice": "Ríšova",
+    "cislo_okrsku": "28001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28001"
+  },
+  {
+    "ulice": "Sedlička",
+    "cislo_okrsku": "28004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28004"
+  },
+  {
+    "ulice": "Sentická",
+    "cislo_okrsku": "28004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28004"
+  },
+  {
+    "ulice": "Srnčí",
+    "cislo_okrsku": "28001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28001"
+  },
+  {
+    "ulice": "U hájovny",
+    "cislo_okrsku": "28001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28001"
+  },
+  {
+    "ulice": "U Křivé borovice",
+    "cislo_okrsku": "28004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28004"
+  },
+  {
+    "ulice": "Vrbová",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Výpadní",
+    "cislo_okrsku": "28001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28001"
+  },
+  {
+    "ulice": "Za hřbitovem",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Za Kněžským hájkem",
+    "cislo_okrsku": "28002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28002"
+  },
+  {
+    "ulice": "Říčanská",
+    "cislo_okrsku": "28004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28004"
+  },
+  {
+    "ulice": "Žabí",
+    "cislo_okrsku": "28004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 28004"
+  },
+  {
+    "ulice": "Žebětín",
+    "cislo_okrsku": "28003; 28004",
+    "pocet_okrsku": "2",
+    "rozdeleni": "929 → 28003; 1071 do konce → 28004"
+  },
+  {
+    "ulice": "Žebětín (č.ev.)",
+    "cislo_okrsku": "28001; 28002; 28003; 28004",
+    "pocet_okrsku": "4",
+    "rozdeleni": "804 → 28001; 848 → 28001; 855-857 → 28001; 862 → 28001; 872 → 28001; 901 → 28001; 914-916 → 28001; 960 → 28001; 975 → 28001; 1023 → 28001; 1042 → 28001; 1113 → 28001; 1134 → 28001; 1231-1232 → 28001; 1252 → 28001; 1315-1316 → 28001; 1331 → 28001; 1333-1334 → 28001; 1339 → 28001; 1414 → 28001; 1433 → 28001; 1457 → 28001; 1463 → 28001; 1472-1473 → 28001; 801 → 28002; 851 → 28002; 853 → 28002; 917-921 → 28002; 940-944 → 28002; 955 → 28002; 969-973 → 28002; 990 → 28002; 993 → 28002; 1009-1010 → 28002; 1025 → 28002; 1059 → 28002; 1071 → 28002; 1083 → 28002; 1128 → 28002; 1137-1141 → 28002; 1147 → 28002; 1196 → 28002; 1313-1314 → 28002; 1337 → 28002; 1345 → 28002; 1399 → 28002; 1444-1447 → 28002; 1455 → 28002; 1459 → 28002; 802-803 → 28003; 805-840 → 28003; 844-846 → 28003; 849-850 → 28003; 852 → 28003; 858-860 → 28003; 865-870 → 28003; 898-900 → 28003; 923-938 → 28003; 946-948 → 28003; 952 → 28003; 957 → 28003; 961-963 → 28003; 974 → 28003; 984 → 28003; 991-992 → 28003; 1000 → 28003; 1004-1007 → 28003; 1014-1017 → 28003; 1026 → 28003; 1033 → 28003; 1037 → 28003; 1039 → 28003; 1041 → 28003; 1044-1047 → 28003; 1060-1061 → 28003; 1069 → 28003; 1073-1074 → 28003; 1077-1079 → 28003; 1081-1082 → 28003; 1084-1085 → 28003; 1087-1089 → 28003; 1092 → 28003; 1095-1099 → 28003; 1102 → 28003; 1105-1110 → 28003; 1115-1119 → 28003; 1122-1124 → 28003; 1126-1127 → 28003; 1129-1130 → 28003; 1135-1136 → 28003; 1143-1146 → 28003; 1148 → 28003; 1150 → 28003; 1152-1180 → 28003; 1182-1195 → 28003; 1197-1202 → 28003; 1204-1217 → 28003; 1222-1225 → 28003; 1227 → 28003; 1229-1230 → 28003; 1233-1243 → 28003; 1253-1277 → 28003; 1279-1303 → 28003; 1321-1330 → 28003; 1332 → 28003; 1341-1342 → 28003; 1347-1365 → 28003; 1367 → 28003; 1370-1374 → 28003; 1376-1393 → 28003; 1395-1397 → 28003; 1400-1406 → 28003; 1408-1410 → 28003; 1412-1413 → 28003; 1415-1431 → 28003; 1434-1442 → 28003; 1449 → 28003; 1451-1454 → 28003; 1456 → 28003; 1458 → 28003; 1460-1462 → 28003; 1464-1471 → 28003; 1474 do konce → 28003; 841-842 → 28004; 847 → 28004; 902-913 → 28004; 949 → 28004; 953 → 28004; 976-982 → 28004; 985-988 → 28004; 1002-1003 → 28004; 1008 → 28004; 1011 → 28004; 1018-1019 → 28004; 1027 → 28004; 1034-1036 → 28004; 1038 → 28004; 1040 → 28004; 1048-1057 → 28004; 1062-1068 → 28004; 1072 → 28004; 1076 → 28004; 1080 → 28004; 1086 → 28004; 1090-1091 → 28004; 1093 → 28004; 1100 → 28004; 1103-1104 → 28004; 1111 → 28004; 1121 → 28004; 1125 → 28004; 1131-1133 → 28004; 1149 → 28004; 1151 → 28004; 1181 → 28004; 1203 → 28004; 1218 → 28004; 1226 → 28004; 1228 → 28004; 1246-1251 → 28004; 1278 → 28004; 1307-1311 → 28004; 1317-1318 → 28004; 1340 → 28004; 1366 → 28004; 1369 → 28004; 1375 → 28004; 1394 → 28004; 1407 → 28004; 1411 → 28004; 1443 → 28004; 1448 → 28004; 1450 → 28004"
+  }
+]

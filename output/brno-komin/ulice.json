@@ -1,0 +1,296 @@
+[
+  {
+    "ulice": "Absolonova",
+    "cislo_okrsku": "12001; 12002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "37a lichá → 12001; 1-37 lichá → 12002; 39 do konce lichá → 12002; sudá → 12002"
+  },
+  {
+    "ulice": "Boční",
+    "cislo_okrsku": "12006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12006"
+  },
+  {
+    "ulice": "Branka",
+    "cislo_okrsku": "12006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12006"
+  },
+  {
+    "ulice": "Brno-město (č.ev.)",
+    "cislo_okrsku": "12006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12006"
+  },
+  {
+    "ulice": "Bystrcká",
+    "cislo_okrsku": "12006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12006"
+  },
+  {
+    "ulice": "Běly Pažoutové",
+    "cislo_okrsku": "12005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12005"
+  },
+  {
+    "ulice": "Chaloupky",
+    "cislo_okrsku": "12003; 12004",
+    "pocet_okrsku": "2",
+    "rozdeleni": "42 sudá → 12003; lichá → 12004; 2-40 sudá → 12004; 44 do konce sudá → 12004"
+  },
+  {
+    "ulice": "Chochola",
+    "cislo_okrsku": "12004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12004"
+  },
+  {
+    "ulice": "Chytilova",
+    "cislo_okrsku": "12004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12004"
+  },
+  {
+    "ulice": "Dělnická",
+    "cislo_okrsku": "12001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12001"
+  },
+  {
+    "ulice": "Habřinova",
+    "cislo_okrsku": "12004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12004"
+  },
+  {
+    "ulice": "Hlavní",
+    "cislo_okrsku": "12001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12001"
+  },
+  {
+    "ulice": "Houškova",
+    "cislo_okrsku": "12002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12002"
+  },
+  {
+    "ulice": "Jožky Jabůrkové",
+    "cislo_okrsku": "12005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12005"
+  },
+  {
+    "ulice": "Jundrovská",
+    "cislo_okrsku": "12001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12001"
+  },
+  {
+    "ulice": "Kníničská",
+    "cislo_okrsku": "12001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12001"
+  },
+  {
+    "ulice": "Komín (č.ev.)",
+    "cislo_okrsku": "12001; 12002; 12003; 12004; 12005; 12006",
+    "pocet_okrsku": "6",
+    "rozdeleni": "6 → 12001; 38 → 12001; 71 → 12001; 74-77 → 12001; 144 → 12001; 149-150 → 12001; 221 → 12001; 226 → 12001; 244 → 12001; 258 → 12001; 260-261 → 12001; 263 → 12001; 280 → 12001; 284 → 12001; 287-290 → 12001; 295 → 12001; 303 → 12001; 307-308 → 12001; 311 → 12001; 314 → 12001; 319-321 → 12001; 336 → 12001; 368 → 12001; 372 → 12001; 380 → 12001; 475 → 12001; 655-656 → 12001; 662 → 12001; 676-677 → 12001; 683 → 12001; 685 → 12001; 687 → 12001; 691-692 → 12001; 781 → 12001; 40 → 12002; 131 → 12002; 410-450 → 12002; 459 → 12002; 486 → 12002; 668 → 12002; 680 → 12002; 1269-1271 → 12002; 248 → 12003; 385 → 12003; 458 → 12003; 849-870 → 12003; 1267 → 12003; 1272 → 12003; 1276-1300 → 12003; 1362 do konce → 12003; 120 → 12004; 252 → 12004; 382 → 12004; 481 → 12004; 525-550 → 12004; 575 → 12004; 664 → 12004; 670 → 12004; 1002-1029 → 12004; 1071-1153 → 12004; 1304-1314 → 12004; 839 → 12005; 1178-1242 → 12005; 1-4 → 12006; 7-36 → 12006; 41-69 → 12006; 72 → 12006; 79-119 → 12006; 121-130 → 12006; 132-143 → 12006; 145-148 → 12006; 152-219 → 12006; 222-224 → 12006; 231-243 → 12006; 245-247 → 12006; 253-256 → 12006; 259 → 12006; 262 → 12006; 269-278 → 12006; 281 → 12006; 285 → 12006; 291-292 → 12006; 296-302 → 12006; 305-306 → 12006; 309-310 → 12006; 312-313 → 12006; 316-318 → 12006; 322-334 → 12006; 337-348 → 12006; 371 → 12006; 373-378 → 12006; 391-397 → 12006; 451 → 12006; 460-474 → 12006; 477-479 → 12006; 490-522 → 12006; 570-574 → 12006; 590-654 → 12006; 658-661 → 12006; 667 → 12006; 669 → 12006; 673-675 → 12006; 678-679 → 12006; 681 → 12006; 684 → 12006; 686 → 12006; 688-690 → 12006; 693 → 12006; 903 → 12006; 1070 → 12006; 1273-1274 → 12006; 1301 → 12006; 1316-1361 → 12006"
+  },
+  {
+    "ulice": "Kristenova",
+    "cislo_okrsku": "12001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12001"
+  },
+  {
+    "ulice": "Lísky",
+    "cislo_okrsku": "12006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12006"
+  },
+  {
+    "ulice": "Nad Lískami",
+    "cislo_okrsku": "12006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12006"
+  },
+  {
+    "ulice": "Olbrachtovo náměstí",
+    "cislo_okrsku": "12003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12003"
+  },
+  {
+    "ulice": "Palcary",
+    "cislo_okrsku": "12006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12006"
+  },
+  {
+    "ulice": "Pastviny",
+    "cislo_okrsku": "12002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12002"
+  },
+  {
+    "ulice": "Pod Mniší horou",
+    "cislo_okrsku": "12006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12006"
+  },
+  {
+    "ulice": "Podlesí",
+    "cislo_okrsku": "12002; 12006",
+    "pocet_okrsku": "2",
+    "rozdeleni": "885 do konce lichá → 12002; 884 do konce sudá → 12002; 3-879 lichá → 12006; 2-878 sudá → 12006"
+  },
+  {
+    "ulice": "Podskalská",
+    "cislo_okrsku": "12001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12001"
+  },
+  {
+    "ulice": "Podveská",
+    "cislo_okrsku": "12001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12001"
+  },
+  {
+    "ulice": "Ruský vrch",
+    "cislo_okrsku": "12001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12001"
+  },
+  {
+    "ulice": "Sadařská",
+    "cislo_okrsku": "12006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12006"
+  },
+  {
+    "ulice": "Součkova",
+    "cislo_okrsku": "12006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12006"
+  },
+  {
+    "ulice": "Svratecká",
+    "cislo_okrsku": "12001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12001"
+  },
+  {
+    "ulice": "Turistická",
+    "cislo_okrsku": "12006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12006"
+  },
+  {
+    "ulice": "Uhlířova",
+    "cislo_okrsku": "12002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12002"
+  },
+  {
+    "ulice": "ulice Čoupkových",
+    "cislo_okrsku": "12005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12005"
+  },
+  {
+    "ulice": "Ulrychova",
+    "cislo_okrsku": "12004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12004"
+  },
+  {
+    "ulice": "Urbánkova",
+    "cislo_okrsku": "12003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12003"
+  },
+  {
+    "ulice": "Urxova",
+    "cislo_okrsku": "12004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12004"
+  },
+  {
+    "ulice": "Vavřinecká",
+    "cislo_okrsku": "12004; 12005",
+    "pocet_okrsku": "2",
+    "rozdeleni": "42 do konce sudá → 12004; lichá → 12005; 2-38 sudá → 12005"
+  },
+  {
+    "ulice": "Veslařská",
+    "cislo_okrsku": "12001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12001"
+  },
+  {
+    "ulice": "Vrbenského",
+    "cislo_okrsku": "12004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12004"
+  },
+  {
+    "ulice": "Výholec",
+    "cislo_okrsku": "12004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12004"
+  },
+  {
+    "ulice": "Včeličkova",
+    "cislo_okrsku": "12004",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12004"
+  },
+  {
+    "ulice": "Záhumní",
+    "cislo_okrsku": "12005",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12005"
+  },
+  {
+    "ulice": "Závist",
+    "cislo_okrsku": "12006",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12006"
+  },
+  {
+    "ulice": "Čichnova",
+    "cislo_okrsku": "12001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12001"
+  },
+  {
+    "ulice": "Řezáčova",
+    "cislo_okrsku": "12003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12003"
+  },
+  {
+    "ulice": "Šaracova",
+    "cislo_okrsku": "12002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12002"
+  },
+  {
+    "ulice": "Štompil",
+    "cislo_okrsku": "12002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12002"
+  },
+  {
+    "ulice": "Štursova",
+    "cislo_okrsku": "12001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 12001"
+  }
+]

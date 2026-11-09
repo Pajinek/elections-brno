@@ -35,12 +35,13 @@ PNGS := $(SVG_FOR_PNG:.svg=.png)
 .SECONDARY:
 .SUFFIXES:
 
-.PHONY: all maps streets results mesto choropleth diffs png deploy help list $(UZEMI)
+.PHONY: all maps streets streets-ruian results mesto choropleth diffs png deploy help list $(UZEMI)
 
 help:
 	@echo "make [all]              GeoJSON, mapy, výsledky 2022/2026, choropleth, rozdíly"
 	@echo "make maps               RÚIAN → okrsky.geojson + okrsky.svg (+ katastry)"
 	@echo "make streets            PDF → ulice.csv (jen MČ s data/<uzemi>/definice-okrsku.pdf)"
+	@echo "make streets-ruian      ulice z adresních míst RÚIAN (MČ bez ulice.csv; přepsání: FORCE=1)"
 	@echo "make results            stažení KV 2022 a 2026 (zastupitelstva MČ)"
 	@echo "make mesto              stažení KV 2022 a 2026 (zastupitelstvo města Brna) za okrsky MČ"
 	@echo "make choropleth         SVG podílů hlasů"
@@ -59,6 +60,10 @@ all: maps streets results mesto choropleth diffs
 
 maps: $(MAPS)
 streets: $(STREETS)
+
+streets-ruian:
+	@for u in $(UZEMI); do $(PYTHON) load_streets_ruian.py --uzemi $$u $(if $(FORCE),--force); done
+
 results: $(KV2026) $(KV2022)
 mesto: $(MESTO2026) $(MESTO2022)
 choropleth: $(CHORO2026) $(CHORO2022)

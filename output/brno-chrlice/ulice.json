@@ -1,0 +1,236 @@
+[
+  {
+    "ulice": "Blümlova",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "Břetislavova",
+    "cislo_okrsku": "5001; 5002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-23 lichá → 5001; 2-30 sudá → 5001; 25 do konce lichá → 5002; 34 do konce sudá → 5002"
+  },
+  {
+    "ulice": "Chrlice (č.ev.)",
+    "cislo_okrsku": "5001; 5002; 5003",
+    "pocet_okrsku": "3",
+    "rozdeleni": "11 → 5001; 24 → 5002; 28 → 5002; 34-36 → 5002; 187 → 5002; 654 do konce → 5002; 10 → 5003; 16-23 → 5003; 25-27 → 5003; 29-33 → 5003; 37-186 → 5003; 189-196 → 5003"
+  },
+  {
+    "ulice": "Chrlické náměstí",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "Ctiradova",
+    "cislo_okrsku": "5002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5002"
+  },
+  {
+    "ulice": "Davídkova",
+    "cislo_okrsku": "5001; 5002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "61 do konce lichá → 5001; 41 lichá → 5002"
+  },
+  {
+    "ulice": "Ernsta Macha",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "Jana Broskvy",
+    "cislo_okrsku": "5001; 5003",
+    "pocet_okrsku": "2",
+    "rozdeleni": "sudá → 5001; lichá → 5003"
+  },
+  {
+    "ulice": "Jánošíkova",
+    "cislo_okrsku": "5002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5002"
+  },
+  {
+    "ulice": "K lázinkám",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "K sídlišti",
+    "cislo_okrsku": "5001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5001"
+  },
+  {
+    "ulice": "Kunešova",
+    "cislo_okrsku": "5001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5001"
+  },
+  {
+    "ulice": "Na mlatech",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "Nad nádražím",
+    "cislo_okrsku": "5001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5001"
+  },
+  {
+    "ulice": "Nad topoly",
+    "cislo_okrsku": "5001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5001"
+  },
+  {
+    "ulice": "Obilní",
+    "cislo_okrsku": "5001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5001"
+  },
+  {
+    "ulice": "Okrajová",
+    "cislo_okrsku": "5002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5002"
+  },
+  {
+    "ulice": "Pod hejdou",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "Pod Mezí",
+    "cislo_okrsku": "5001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5001"
+  },
+  {
+    "ulice": "Podhrázní",
+    "cislo_okrsku": "5001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5001"
+  },
+  {
+    "ulice": "Prokešova",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "Pěkná",
+    "cislo_okrsku": "5001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5001"
+  },
+  {
+    "ulice": "Půvabná",
+    "cislo_okrsku": "5001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5001"
+  },
+  {
+    "ulice": "Rebešovická",
+    "cislo_okrsku": "5001; 5002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-77 lichá → 5001; sudá → 5001; 79 do konce lichá → 5002"
+  },
+  {
+    "ulice": "Roviny",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "Rozkošná",
+    "cislo_okrsku": "5001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5001"
+  },
+  {
+    "ulice": "Spádová",
+    "cislo_okrsku": "5001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5001"
+  },
+  {
+    "ulice": "Tovární",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "U dráhy",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "U jezu",
+    "cislo_okrsku": "5002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5002"
+  },
+  {
+    "ulice": "U viaduktu",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "U zbrojnice",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "U ústavu",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "V rejích",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "Vilová",
+    "cislo_okrsku": "5001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5001"
+  },
+  {
+    "ulice": "Výspa",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "Zámecká",
+    "cislo_okrsku": "5003",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5003"
+  },
+  {
+    "ulice": "Západní",
+    "cislo_okrsku": "5002; 5003",
+    "pocet_okrsku": "2",
+    "rozdeleni": "21 do konce lichá → 5002; 12 do konce sudá → 5002; 3-17 lichá → 5003; 2 sudá → 5003"
+  },
+  {
+    "ulice": "Šromova",
+    "cislo_okrsku": "5002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 5002"
+  }
+]

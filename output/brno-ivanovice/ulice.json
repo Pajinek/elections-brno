@@ -1,0 +1,182 @@
+[
+  {
+    "ulice": "Atriová",
+    "cislo_okrsku": "6002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6002"
+  },
+  {
+    "ulice": "Fedrova",
+    "cislo_okrsku": "6001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6001"
+  },
+  {
+    "ulice": "Hatě",
+    "cislo_okrsku": "6001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6001"
+  },
+  {
+    "ulice": "Hradecká",
+    "cislo_okrsku": "6002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6002"
+  },
+  {
+    "ulice": "Hřebíčková",
+    "cislo_okrsku": "6002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6002"
+  },
+  {
+    "ulice": "Ivanovice (č.ev.)",
+    "cislo_okrsku": "6001; 6002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "1-5 → 6001; 20 → 6001; 38 → 6001; 52-56 → 6001; 65 → 6001; 71-85 → 6001; 101 → 6001; 140 → 6001; 163 → 6001; 188 → 6001; 299 → 6001; 302 → 6001; 351-353 → 6001; 362 → 6001; 364-365 → 6001; 372 → 6001; 450-453 → 6001; 456 → 6001; 514-515 → 6001; 521 → 6001; 524 → 6001; 6-19 → 6002; 21-37 → 6002; 40-51 → 6002; 61-63 → 6002; 68-69 → 6002; 86-99 → 6002; 102-138 → 6002; 141-162 → 6002; 171-187 → 6002; 189-297 → 6002; 301 → 6002; 325-346 → 6002; 357-361 → 6002; 363 → 6002; 367-370 → 6002; 376-381 → 6002; 454-455 → 6002; 457-513 → 6002; 516-520 → 6002; 522-523 → 6002; 525 do konce → 6002"
+  },
+  {
+    "ulice": "Ivanovických legionářů",
+    "cislo_okrsku": "6001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6001"
+  },
+  {
+    "ulice": "Jezerůvky",
+    "cislo_okrsku": "6002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6002"
+  },
+  {
+    "ulice": "Jižní svahy",
+    "cislo_okrsku": "6002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6002"
+  },
+  {
+    "ulice": "Kouty",
+    "cislo_okrsku": "6001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6001"
+  },
+  {
+    "ulice": "Lažanská",
+    "cislo_okrsku": "6001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6001"
+  },
+  {
+    "ulice": "Lysická",
+    "cislo_okrsku": "6001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6001"
+  },
+  {
+    "ulice": "Maříkova",
+    "cislo_okrsku": "6002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6002"
+  },
+  {
+    "ulice": "Meduňková",
+    "cislo_okrsku": "6002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6002"
+  },
+  {
+    "ulice": "Mácova",
+    "cislo_okrsku": "6002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6002"
+  },
+  {
+    "ulice": "Na Nivách",
+    "cislo_okrsku": "6001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6001"
+  },
+  {
+    "ulice": "Na Rybízárně",
+    "cislo_okrsku": "6001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6001"
+  },
+  {
+    "ulice": "Pod Ostrou",
+    "cislo_okrsku": "6001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6001"
+  },
+  {
+    "ulice": "Podbabská",
+    "cislo_okrsku": "6001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6001"
+  },
+  {
+    "ulice": "Pokorova",
+    "cislo_okrsku": "6002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6002"
+  },
+  {
+    "ulice": "Příjezdová",
+    "cislo_okrsku": "6002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6002"
+  },
+  {
+    "ulice": "Sychrov",
+    "cislo_okrsku": "6001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6001"
+  },
+  {
+    "ulice": "U Křížku",
+    "cislo_okrsku": "6002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6002"
+  },
+  {
+    "ulice": "V Kolíbkách",
+    "cislo_okrsku": "6002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6002"
+  },
+  {
+    "ulice": "Weighartova",
+    "cislo_okrsku": "6001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6001"
+  },
+  {
+    "ulice": "Zatloukalova",
+    "cislo_okrsku": "6001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6001"
+  },
+  {
+    "ulice": "Zelinky",
+    "cislo_okrsku": "6001",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6001"
+  },
+  {
+    "ulice": "Černohorská",
+    "cislo_okrsku": "6001; 6002",
+    "pocet_okrsku": "2",
+    "rozdeleni": "11-27 lichá → 6001; 1-9 lichá → 6002; 45 do konce lichá → 6002; sudá → 6002"
+  },
+  {
+    "ulice": "Černá",
+    "cislo_okrsku": "6002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6002"
+  },
+  {
+    "ulice": "Řečkovická",
+    "cislo_okrsku": "6002",
+    "pocet_okrsku": "1",
+    "rozdeleni": "celá → 6002"
+  }
+]
