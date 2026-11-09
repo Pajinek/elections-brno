@@ -43,8 +43,20 @@ class Cast:
     def streets_csv(self) -> Path:
         return self.output_dir / "ulice.csv"
 
-    def year_dir(self, year: str | int) -> Path:
-        return self.output_dir / f"kv{year}"
+    def year_dir(self, year: str | int, mesto: bool = False) -> Path:
+        """Výsledky ZMČ (`kv2026`) nebo zastupitelstva města Brna (`kv2026-mesto`)."""
+        suffix = "-mesto" if mesto else ""
+        return self.output_dir / f"kv{year}{suffix}"
+
+
+@dataclass(frozen=True)
+class Zastupitelstvo:
+    """Zastupitelstvo, o které se volí: MČ, nebo celé město Brno (magistrát)."""
+
+    kod: int
+    typ: str
+    nazev: str
+    mesto: bool
 
 
 @dataclass(frozen=True)
@@ -53,6 +65,8 @@ class Uzemi:
     okres: int
     obec: int
     typzastup_mc: str
+    typzastup_mesto: str
+    nazev_mesto: str
     datum_voleb: dict[str, str]
     vychozi: str
     casti: dict[str, Cast]
@@ -63,6 +77,12 @@ class Uzemi:
             available = ", ".join(sorted(self.casti))
             raise SystemExit(f"Neznámé území {key!r}. Dostupné: {available}")
         return self.casti[key]
+
+    def zastupitelstvo(self, cast: Cast, mesto: bool = False) -> Zastupitelstvo:
+        """Zastupitelstvo MČ, nebo města Brna (kód zastupitelstva = kód obce)."""
+        if mesto:
+            return Zastupitelstvo(self.obec, self.typzastup_mesto, self.nazev_mesto, True)
+        return Zastupitelstvo(cast.kod_zastupitelstva, self.typzastup_mc, cast.nazev, False)
 
 
 def load_uzemi(path: Path = UZEMI_PATH) -> Uzemi:
@@ -84,6 +104,8 @@ def load_uzemi(path: Path = UZEMI_PATH) -> Uzemi:
         okres=int(raw["okres"]),
         obec=int(raw["obec"]),
         typzastup_mc=str(raw["typzastup_mc"]),
+        typzastup_mesto=str(raw.get("typzastup_mesto", 1)),
+        nazev_mesto=str(raw.get("nazev_mesto", "Brno")),
         datum_voleb={str(year): str(datum) for year, datum in raw["datum_voleb"].items()},
         vychozi=str(raw["vychozi"]),
         casti=casti,

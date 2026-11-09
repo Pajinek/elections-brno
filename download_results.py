@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Download municipal-election results per Brno city district.
 
+Default: council of the district (ZMČ). With --zastupitelstvo mesto: council of the
+city of Brno (magistrát) for the same polling districts.
+
 KV 2026 JSON API:
 https://volby.gov.cz/appdata/kv2026/{datum}/vysled/okrsek/{okres}/{kodzastup}_{okrsek}.json
 
@@ -24,7 +27,7 @@ import urllib.request
 import zipfile
 from pathlib import Path
 
-from uzemi import ROOT, Cast, Uzemi, add_uzemi_args, load_uzemi, resolve_cast
+from uzemi import ROOT, Cast, Uzemi, Zastupitelstvo, add_uzemi_args, load_uzemi, resolve_cast
 
 CACHE_DIR = ROOT / "cache" / "kv2022"
 
@@ -35,31 +38,33 @@ KV2022_FILES = {
 }
 
 
-def page_url_2026(uzemi: Uzemi, cast: Cast, okrsek: str) -> str:
+def page_url_2026(uzemi: Uzemi, zast: Zastupitelstvo, okrsek: str) -> str:
     datum = uzemi.datum_voleb["2026"]
     return (
         "https://volby.gov.cz/app/kv2026/cs/"
-        f"{datum}/results/!___{uzemi.kraj}_{uzemi.okres}_{cast.kod_zastupitelstva}___{okrsek}"
+        f"{datum}/results/!___{uzemi.kraj}_{uzemi.okres}_{zast.kod}___{okrsek}"
     )
 
 
-def api_url_2026(uzemi: Uzemi, cast: Cast, okrsek: str) -> str:
+def api_url_2026(uzemi: Uzemi, zast: Zastupitelstvo, okrsek: str) -> str:
     datum = uzemi.datum_voleb["2026"]
     return (
         "https://volby.gov.cz/appdata/kv2026/"
-        f"{datum}/vysled/okrsek/{uzemi.okres}/{cast.kod_zastupitelstva}_{okrsek}.json"
+        f"{datum}/vysled/okrsek/{uzemi.okres}/{zast.kod}_{okrsek}.json"
     )
 
 
-def page_url_2022(uzemi: Uzemi, cast: Cast, okrsek: str) -> str:
+def page_url_2022(uzemi: Uzemi, zast: Zastupitelstvo, okrsek: str) -> str:
+    # xdz: 5 = zastupitelstvo MČ, 3 = zastupitelstvo města (stejně jako `dz` v KV 2026).
+    xdz = 3 if zast.mesto else 5
     return (
-        "https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz=5"
-        f"&xnumnuts={uzemi.okres}&xobec={cast.kod_zastupitelstva}&xstat=0&xvyber={okrsek}"
+        f"https://volby.gov.cz/pls/kv2022/kv1111?xjazyk=CZ&xid=1&xdz={xdz}"
+        f"&xnumnuts={uzemi.okres}&xobec={zast.kod}&xstat=0&xvyber={okrsek}"
     )
 
 USER_AGENT = "elections-brno/1.0 (+https://volby.gov.cz)"
 
-# Stable placeholder codes for Brno-střed candidate lists (KV 2026).
+# Stable placeholder codes for candidate lists (KV 2022 / 2026).
 PARTY_CODE_OVERRIDES = {
     "Brnoklidem": "BRNOKLIDEM",
     "Brno Brňankám a Brňanům! (B3!)": "B3",
@@ -79,6 +84,20 @@ PARTY_CODE_OVERRIDES = {
     "RESTART PRO BRNO": "RESTART",
     "Fakt Brno": "FAKT",
     "SPOLEČNĚ - ODS a TOP 09": "ODS_TOP09",
+    # Zastupitelstvo města Brna (magistrát). Jen listiny, které v MČ ještě nemají kód
+    # (existující slugify kódy z MČ se nesmí přejmenovat).
+    "SPD, TRIKOLORA, MORAVANÉ a nezávislí": "SPD",
+    "Lidovci a Starostové – Brno blíž lidem": "KDU_STAN",
+    "ZELENÉ BRNO (Zel.,ŽTB,SEN 21,LES,Volt,Bud.,Kruh)": "ZELENI_ZITBRNO",
+    "Zelení a Žít Brno s podporou Idealistů": "ZELENI_ZITBRNO",
+    "Piráti a Fakt Brno TU!": "PIRATI_FAKT",
+    "BRNO NAPLNO - koalice Svobodní, Trikolora, PRO": "NAPLNO",
+    "Sociální demokracie": "CSSD_VASI_STAROSTOVE",
+    "PŘÍSAHA občanské hnutí": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+    "Sdružení DSZ - ZA PRÁVA ZVÍŘAT, NK": "DSZ",
+    "Demokratická strana zelených - ZA PRÁVA ZVÍŘAT – sdružení DSZ - ZA PRÁVA ZVÍŘAT a NK": "DSZ",
+    "Nové Brno": "NOVE_BRNO",
+    "Brno Plus a Svobodní": "BRNO_PLUS_A_SVOBODNI",
 }
 
 
@@ -155,7 +174,7 @@ def normalize_okrsek(
     payload: dict,
     parties: dict[int, dict[str, str | int]],
     uzemi: Uzemi,
-    cast: Cast,
+    zast: Zastupitelstvo,
 ) -> dict:
     param = payload.get("param") or {}
     okrsek = str(param.get("okrsek"))
@@ -174,13 +193,13 @@ def normalize_okrsek(
         )
     return {
         "okrsek": okrsek,
-        "obec": payload.get("obecNazev") or cast.nazev,
-        "kod_zastupitelstva": param.get("kodzastup") or cast.kod_zastupitelstva,
+        "obec": payload.get("obecNazev") or zast.nazev,
+        "kod_zastupitelstva": param.get("kodzastup") or zast.kod,
         "okres": param.get("okres") or uzemi.okres,
         "datum_voleb": param.get("datumvoleb"),
         "generovano": payload.get("generovano"),
-        "url": page_url_2026(uzemi, cast, okrsek),
-        "api": api_url_2026(uzemi, cast, okrsek),
+        "url": page_url_2026(uzemi, zast, okrsek),
+        "api": api_url_2026(uzemi, zast, okrsek),
         "prehled": parse_prehled(payload.get("prehled") or []),
         "strany": strany,
     }
@@ -242,7 +261,7 @@ def load_kv2022_parties(
 
 
 def load_kv2022_prehled(
-    kvt3_zip: Path, datum: str, kod_zastup: str, typzastup: str
+    kvt3_zip: Path, datum: str, kod_zastup: str, typzastup: str, obec: str
 ) -> dict[str, dict[str, int | float]]:
     prehled: dict[str, dict[str, int | float]] = {}
     for row in iter_zip_csv(kvt3_zip, "kvt3.csv"):
@@ -250,6 +269,7 @@ def load_kv2022_prehled(
             row["DATUMVOLEB"] != datum
             or row["KODZASTUP"] != kod_zastup
             or row["TYPZASTUP"] != typzastup
+            or row["OBEC"] != obec
         ):
             continue
         volici = int(row["VOL_SEZNAM"])
@@ -289,17 +309,20 @@ def download_kv2022(
     okrsky: list[str],
     uzemi: Uzemi,
     cast: Cast,
+    zast: Zastupitelstvo,
 ) -> tuple[dict[str, dict], list[dict], list[str]]:
     kvt3_zip = fetch_bytes(KV2022_FILES["kvt3.zip"], cache_dir / "kvt3_csvod.zip")
     kvhl_zip = fetch_bytes(KV2022_FILES["kvhl.zip"], cache_dir / "kvhl_csvod.zip")
     kvros_csv = fetch_bytes(KV2022_FILES["kvros.csv"], cache_dir / "kvros.csv")
     datum = uzemi.datum_voleb["2022"]
-    kod = str(cast.kod_zastupitelstva)
-    typ = uzemi.typzastup_mc
+    kod = str(zast.kod)
+    typ = zast.typ
+    # V CSV je OBEC vždy MČ, kde okrsek leží (i u zastupitelstva města).
+    obec = str(cast.kod_zastupitelstva)
 
     parties = load_kv2022_parties(kvros_csv, datum, kod)
-    prehled = load_kv2022_prehled(kvt3_zip, datum, kod, typ)
-    hlasy = load_kv2022_hlasy(kvhl_zip, datum, kod, typ)
+    prehled = load_kv2022_prehled(kvt3_zip, datum, kod, typ, obec)
+    hlasy = load_kv2022_hlasy(kvhl_zip, datum, obec, typ)
 
     results: dict[str, dict] = {}
     wanted = set(okrsky)
@@ -324,11 +347,11 @@ def download_kv2022(
             )
         record = {
             "okrsek": okrsek,
-            "obec": cast.nazev,
-            "kod_zastupitelstva": cast.kod_zastupitelstva,
+            "obec": zast.nazev,
+            "kod_zastupitelstva": zast.kod,
             "okres": uzemi.okres,
             "datum_voleb": int(datum),
-            "url": page_url_2022(uzemi, cast, okrsek),
+            "url": page_url_2022(uzemi, zast, okrsek),
             "zdroj": "https://volby.gov.cz/opendata/kv2022/",
             "prehled": stats,
             "strany": strany,
@@ -344,7 +367,7 @@ def write_outputs(
     results: dict[str, dict],
     party_rows: list[dict],
     uzemi: Uzemi,
-    cast: Cast,
+    zast: Zastupitelstvo,
     datum_voleb: str,
     preskoceno: list[str] | None = None,
 ) -> None:
@@ -352,8 +375,8 @@ def write_outputs(
         out_dir / "parties.json",
         {
             "zastupitelstvo": {
-                "kod": cast.kod_zastupitelstva,
-                "nazev": next(iter(results.values())).get("obec") or cast.nazev,
+                "kod": zast.kod,
+                "nazev": next(iter(results.values())).get("obec") or zast.nazev,
                 "datum_voleb": datum_voleb,
                 "okres": uzemi.okres,
             },
@@ -362,8 +385,8 @@ def write_outputs(
         },
     )
     payload = {
-        "zastupitelstvo": cast.kod_zastupitelstva,
-        "obec": next(iter(results.values())).get("obec") or cast.nazev,
+        "zastupitelstvo": zast.kod,
+        "obec": next(iter(results.values())).get("obec") or zast.nazev,
         "datum_voleb": datum_voleb,
         "pocet_okrsku": len(results),
         "strany": party_rows,
@@ -376,7 +399,10 @@ def write_outputs(
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Stáhne výsledky komunálních voleb za okrsky městské části a uloží je do JSON."
+        description=(
+            "Stáhne výsledky komunálních voleb za okrsky městské části a uloží je do JSON. "
+            "Výchozí je zastupitelstvo MČ; s --zastupitelstvo mesto zastupitelstvo města Brna."
+        )
     )
     add_uzemi_args(parser)
     parser.add_argument(
@@ -386,9 +412,18 @@ def build_parser() -> argparse.ArgumentParser:
         help="Rok komunálních voleb",
     )
     parser.add_argument(
+        "--zastupitelstvo",
+        choices=("mc", "mesto"),
+        default="mc",
+        help=(
+            "mc = zastupitelstvo městské části (výchozí), mesto = zastupitelstvo města Brna "
+            "(magistrát; výstup do output/<uzemi>/kv<rok>-mesto/)"
+        ),
+    )
+    parser.add_argument(
         "--out",
         type=Path,
-        help="Výstupní adresář (výchozí: output/<uzemi>/kv<rok>/)",
+        help="Výstupní adresář (výchozí: output/<uzemi>/kv<rok>/ nebo kv<rok>-mesto/)",
     )
     parser.add_argument(
         "--streets",
@@ -407,13 +442,13 @@ def download_kv2026(
     out_dir: Path,
     okrsky: list[str],
     uzemi: Uzemi,
-    cast: Cast,
+    zast: Zastupitelstvo,
 ) -> tuple[dict[str, dict], list[dict], list[str]]:
     parties: dict[int, dict[str, str | int]] = {}
     results: dict[str, dict] = {}
     failed: list[str] = []
     for index, okrsek in enumerate(okrsky, start=1):
-        url = api_url_2026(uzemi, cast, okrsek)
+        url = api_url_2026(uzemi, zast, okrsek)
         try:
             payload = fetch_json(url)
         except RuntimeError as error:
@@ -422,7 +457,7 @@ def download_kv2026(
             continue
         if not parties:
             parties = build_party_map(payload)
-        record = normalize_okrsek(payload, parties, uzemi, cast)
+        record = normalize_okrsek(payload, parties, uzemi, zast)
         results[okrsek] = record
         write_json(out_dir / "vysledky" / f"{okrsek}.json", record)
         print(f"[{index}/{len(okrsky)}] okrsek {okrsek}")
@@ -445,19 +480,21 @@ def main(argv: list[str] | None = None) -> int:
         )
         return 1
 
-    out_dir = args.out or cast.year_dir(args.year)
+    mesto = args.zastupitelstvo == "mesto"
+    zast = uzemi.zastupitelstvo(cast, mesto)
+    out_dir = args.out or cast.year_dir(args.year, mesto)
     skipped: list[str] = []
     failed: list[str] = []
     if args.year == "2022":
         results, party_rows, missing = download_kv2022(
-            out_dir, CACHE_DIR, okrsky, uzemi, cast
+            out_dir, CACHE_DIR, okrsky, uzemi, cast, zast
         )
         if args.okrsek:
             failed = missing
         else:
             skipped = missing
     else:
-        results, party_rows, failed = download_kv2026(out_dir, okrsky, uzemi, cast)
+        results, party_rows, failed = download_kv2026(out_dir, okrsky, uzemi, zast)
 
     if not results:
         print("Nepodařilo se stáhnout žádný okrsek.", file=sys.stderr)
@@ -468,11 +505,12 @@ def main(argv: list[str] | None = None) -> int:
         results,
         party_rows,
         uzemi,
-        cast,
+        zast,
         uzemi.datum_voleb[args.year],
         preskoceno=skipped or None,
     )
     print(f"Území: {cast.nazev} ({cast.slug})")
+    print(f"Zastupitelstvo: {zast.nazev} ({zast.kod})")
     print(f"Staženo okrsků: {len(results)}")
     print(f"Strany: {out_dir / 'parties.json'}")
     print(f"Výsledky: {out_dir / 'vysledky.json'}")

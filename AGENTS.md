@@ -8,7 +8,7 @@ CLI skripty, žádný balíček, žádné testy, žádný web. Území řídí `
 
 1. `generate_map_svg.py` — RÚIAN GeoJSON → `output/<uzemi>/okrsky.svg`.
 2. `load_streets.py` — PDF definice okrsků → ulice (`output/<uzemi>/`).
-3. `download_results.py` — KV 2026 / 2022 → `output/<uzemi>/kv<rok>/`. Seznam okrsků bere z `ulice.csv`, jinak z GeoJSON.
+3. `download_results.py` — KV 2026 / 2022 → `output/<uzemi>/kv<rok>/` (ZMČ). S `--zastupitelstvo mesto` zastupitelstvo města Brna (magistrát) za okrsky té MČ → `output/<uzemi>/kv<rok>-mesto/`. Seznam okrsků bere z `ulice.csv`, jinak z GeoJSON.
 4. `generate_results_map.py` — choropleth a mapa rozdílu 2022→2026.
 
 Konstanty města (datum `20261009` / `20220923`, kraj `6200`, okres `6202`, obec `582786`) jsou v `data/uzemi.json`. Kódy MČ tam taky — neměň je bez explicitní žádosti. Výchozí Brno-střed má zastupitelstvo `550973` a okrsky `23001`–`23070` (přesně 70).
@@ -19,9 +19,13 @@ Hromadné generování je v `Makefile`: `make`, `make maps`, `make brno-stred`, 
 
 Novou MČ nedoplňuj ručním kopírováním JSON. Stačí slug v `data/uzemi.json` a `make <slug>`. GeoJSON se stáhne. Data jiných MČ nestahuj, dokud o to uživatel nepožádá.
 
+## Zastupitelstvo města
+
+Magistrát má kód zastupitelstva = kód obce `582786` (`uzemi.obec`), `TYPZASTUP=1` (MČ je `2`). Okrsky jsou stejné. V CSV ČSÚ 2022 je `OBEC` vždy MČ, kde okrsek leží, `KODZASTUP` v `kvt3` je u města `582786`. Cesty a kódy skládej přes `Uzemi.zastupitelstvo()` a `Cast.year_dir(rok, mesto=True)`, nehardcoduj `582786`.
+
 ## Kódy stran
 
-Stabilní kód je `PARTY_CODE_OVERRIDES` v `download_results.py`, ne `slugify`. Novou listinu přidej do slovníku. Existující kód (`ODS_TOP09`, `PIRATI_FAKT`, …) nepřejmenovávej: je v `parties.json` a ve všech výsledcích.
+Stabilní kód je `PARTY_CODE_OVERRIDES` v `download_results.py`, ne `slugify`. Novou listinu přidej do slovníku. Existující kód (`ODS_TOP09`, `PIRATI_FAKT`, …) nepřejmenovávej (ani slugify kódy z MČ, např. `ODS_TOP_09_A_NEZAVISLI`): je v `parties.json` a ve všech výsledcích.
 
 ```python
 PARTY_CODE_OVERRIDES = {

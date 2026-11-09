@@ -3,6 +3,8 @@
   "okres": 6202,
   "obec": 582786,
   "typzastup_mc": 2,
+  "typzastup_mesto": 1,
+  "nazev_mesto": "Brno",
   "datum_voleb": {
     "2022": "20220923",
     "2026": "20261009"

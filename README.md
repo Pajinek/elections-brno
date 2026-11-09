@@ -18,6 +18,8 @@ python3 download_results.py --list-uzemi
 | Okres / kraj / obec | `6202` / `6200` / `582786` |
 | Okrsky | 70, čísla `23001`–`23070` |
 
+Komunální volby jsou ve skutečnosti dvoje: do zastupitelstva MČ a do zastupitelstva města Brna (magistrát, kód `582786`, `TYPZASTUP=1`). Okrsky jsou pro obě volby stejné, takže stahujeme obojí za okrsky dané MČ.
+
 Ulice pocházejí z definice okrsků pro volbu prezidenta 2023. Geometrie okrsků je z RÚIAN (ČÚZK). Hlasy jsou z [volby.cz](https://volby.gov.cz).
 
 ## Struktura
@@ -33,6 +35,8 @@ output/<uzemi>/ulice.csv
 output/<uzemi>/okrsky.svg
 output/<uzemi>/kv2026/vysledky.json
 output/<uzemi>/kv2022/vysledky.json
+output/<uzemi>/kv2026-mesto/vysledky.json   # zastupitelstvo města Brna
+output/<uzemi>/kv2022-mesto/vysledky.json
 ```
 
 Novou MČ doplníte tak, že ji necháte v `data/uzemi.json` (už tam je) a spustíte skripty s `--uzemi brno-sever` (nebo jiným slugem). GeoJSON se stáhne sám; PDF s ulicemi je potřeba jen když chcete seznam ulic.
@@ -100,6 +104,15 @@ KV 2022 z otevřených CSV ČSÚ. Výstup je `output/<uzemi>/kv{rok}/`.
 python3 download_results.py --okrsek 23001 --okrsek 23002
 ```
 
+Zastupitelstvo města Brna (magistrát) za okrsky dané MČ. Stejné okrsky, jiný kód zastupitelstva (`582786`) a jiné kandidátky. Výstup je `output/<uzemi>/kv{rok}-mesto/`.
+
+```bash
+python3 download_results.py --zastupitelstvo mesto
+python3 download_results.py --zastupitelstvo mesto --year 2022
+python3 download_results.py --uzemi brno-sever --zastupitelstvo mesto --okrsek 23001
+make mesto UZEMI=brno-stred
+```
+
 Návratové kódy: `0` v pořádku, `1` žádné okrsky, `2` nic se nestáhlo, `3` část okrsků selhala.
 
 ### Mapa
@@ -107,6 +120,15 @@ Návratové kódy: `0` v pořádku, `1` žádné okrsky, `2` nic se nestáhlo, `
 `generate_map_svg.py` stáhne polygony z RÚIAN (`momc=<kod zastupitelstva>`, EPSG:5514), když `data/<uzemi>/okrsky.geojson` chybí. Výsledek je `output/<uzemi>/okrsky.svg`.
 
 `generate_results_map.py` kreslí choropleth podle % a s `--diff` mapu změny 2022→2026.
+
+## Webová prezentace
+
+```bash
+cd web && python3 build.py          # data z kořene repozitáře → web/index.html
+python3 build.py --src web/_src     # data z jiného checkoutu
+```
+
+Stránka má v hlavičce přepínač **Městské části / Magistrát města Brna**. Přepíná výsledky voleb do zastupitelstev MČ (`kv<rok>/`) a do zastupitelstva města (`kv<rok>-mesto/`) nad stejnými okrsky. Volba je v adrese: `?zastupitelstvo=mesto` (u MČ se vynechává). Pohled na celé Brno u magistrátu sčítá hlasy po jednotlivých listinách, u MČ je sloučí podle politické rodiny. Bez dat `kv*-mesto/` (`make mesto`) stránka magistrát nezobrazí.
 
 ## Tvar výsledku okrsku
 
@@ -128,6 +150,8 @@ Návratové kódy: `0` v pořádku, `1` žádné okrsky, `2` nic se nestáhlo, `
   ]
 }
 ```
+
+Výsledek magistrátu má stejný tvar; liší se `obec` (`Brno`), `kod_zastupitelstva` (`582786`) a seznam stran. Mapy (`generate_results_map.py`) zatím čtou jen výsledky MČ.
 
 `okrsek` ve výsledcích je řetězec. V GeoJSON je `properties.cislo` číslo. Při spojení obou zdrojů je sjednoťte.
 

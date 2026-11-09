@@ -21,6 +21,8 @@ MAPS := $(addprefix output/,$(addsuffix /okrsky.svg,$(UZEMI)))
 GEOJSON := $(addprefix data/,$(addsuffix /okrsky.geojson,$(UZEMI)))
 KV2026 := $(addprefix output/,$(addsuffix /kv2026/vysledky.json,$(UZEMI)))
 KV2022 := $(addprefix output/,$(addsuffix /kv2022/vysledky.json,$(UZEMI)))
+MESTO2026 := $(addprefix output/,$(addsuffix /kv2026-mesto/vysledky.json,$(UZEMI)))
+MESTO2022 := $(addprefix output/,$(addsuffix /kv2022-mesto/vysledky.json,$(UZEMI)))
 CHORO2026 := $(addprefix output/,$(addsuffix /kv2026/okrsky-vysledky.svg,$(UZEMI)))
 CHORO2022 := $(addprefix output/,$(addsuffix /kv2022/okrsky-vysledky.svg,$(UZEMI)))
 DIFFS := $(addprefix output/,$(addsuffix /kv2026/.diff-stamp,$(UZEMI)))
@@ -33,13 +35,14 @@ PNGS := $(SVG_FOR_PNG:.svg=.png)
 .SECONDARY:
 .SUFFIXES:
 
-.PHONY: all maps streets results choropleth diffs png deploy help list $(UZEMI)
+.PHONY: all maps streets results mesto choropleth diffs png deploy help list $(UZEMI)
 
 help:
 	@echo "make [all]              GeoJSON, mapy, výsledky 2022/2026, choropleth, rozdíly"
 	@echo "make maps               RÚIAN → okrsky.geojson + okrsky.svg (+ katastry)"
 	@echo "make streets            PDF → ulice.csv (jen MČ s data/<uzemi>/definice-okrsku.pdf)"
-	@echo "make results            stažení KV 2022 a 2026"
+	@echo "make results            stažení KV 2022 a 2026 (zastupitelstva MČ)"
+	@echo "make mesto              stažení KV 2022 a 2026 (zastupitelstvo města Brna) za okrsky MČ"
 	@echo "make choropleth         SVG podílů hlasů"
 	@echo "make diffs              SVG změny 2022→2026 (strany v obou letech)"
 	@echo "make png                SVG → PNG (librsvg: rsvg-convert)"
@@ -52,11 +55,12 @@ help:
 list:
 	@$(PYTHON) download_results.py --list-uzemi
 
-all: maps streets results choropleth diffs
+all: maps streets results mesto choropleth diffs
 
 maps: $(MAPS)
 streets: $(STREETS)
 results: $(KV2026) $(KV2022)
+mesto: $(MESTO2026) $(MESTO2022)
 choropleth: $(CHORO2026) $(CHORO2022)
 diffs: $(DIFFS)
 png: $(PNGS)
@@ -81,6 +85,12 @@ output/%/kv2026/vysledky.json output/%/kv2026/parties.json &: | data/%/okrsky.ge
 
 output/%/kv2022/vysledky.json output/%/kv2022/parties.json &: | data/%/okrsky.geojson
 	$(PYTHON) download_results.py --uzemi $* --year 2022
+
+output/%/kv2026-mesto/vysledky.json output/%/kv2026-mesto/parties.json &: | data/%/okrsky.geojson
+	$(PYTHON) download_results.py --uzemi $* --year 2026 --zastupitelstvo mesto
+
+output/%/kv2022-mesto/vysledky.json output/%/kv2022-mesto/parties.json &: | data/%/okrsky.geojson
+	$(PYTHON) download_results.py --uzemi $* --year 2022 --zastupitelstvo mesto
 
 output/%/kv2026/okrsky-vysledky.svg: output/%/kv2026/vysledky.json data/%/okrsky.geojson
 	$(PYTHON) generate_results_map.py --uzemi $* --year 2026
