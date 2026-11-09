@@ -3,10 +3,58 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Volby Brno 2026: mapa výsledků podle volebních okrsků</title>
+<meta name="description" content="Interaktivní mapa výsledků komunálních voleb v Brně 2026 a 2022 po okrscích: všech 29 městských částí i zastupitelstvo města, podíly stran, účast a ulice podle okrsků.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#c8102e">
+<link rel="canonical" href="https://brno.volby.varhoo.cz/">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="cs_CZ">
+<meta property="og:site_name" content="Volby Brno">
+<meta property="og:title" content="Volby Brno 2026: mapa výsledků podle volebních okrsků">
+<meta property="og:description" content="Komunální volby v Brně 2026 a 2022 po okrscích: městské části i zastupitelstvo města, vítězové, podíly stran, účast a změna oproti 2022.">
+<meta property="og:url" content="https://brno.volby.varhoo.cz/">
+<meta property="og:image" content="https://brno.volby.varhoo.cz/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logo Volby Brno: brněnská katedrála a volební urna">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Volby Brno 2026: mapa výsledků podle volebních okrsků">
+<meta name="twitter:description" content="Komunální volby v Brně 2026 a 2022 po okrscích: městské části i zastupitelstvo města, vítězové, podíly stran, účast a změna oproti 2022.">
+<meta name="twitter:image" content="https://brno.volby.varhoo.cz/og-image.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://brno.volby.varhoo.cz/#web",
+      "url": "https://brno.volby.varhoo.cz/",
+      "name": "Volby Brno",
+      "inLanguage": "cs"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Výsledky komunálních voleb v Brně 2022 a 2026 podle volebních okrsků",
+      "description": "Výsledky voleb do zastupitelstev městských částí a do zastupitelstva města Brna po volebních okrscích, včetně hranic okrsků a ulic podle okrsků.",
+      "url": "https://brno.volby.varhoo.cz/",
+      "inLanguage": "cs",
+      "spatialCoverage": { "@type": "Place", "name": "Brno" },
+      "temporalCoverage": "2022-09-23/2026-10-09",
+      "isBasedOn": "https://volby.gov.cz/",
+      "sameAs": "https://github.com/Pajinek/elections-brno",
+      "isPartOf": { "@id": "https://brno.volby.varhoo.cz/#web" }
+    }
+  ]
+}
+</script>
 <style>body{margin:0}[hidden]{display:none!important}</style>
 </head>
 <body>
-<title>Volby Brno 2026</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -146,13 +194,25 @@ tr.row:hover td { background: var(--surface-2); }
 ul.streets { margin: 6px 0 0; padding-left: 18px; font-size: 13px; columns: 2; column-gap: 18px; }
 ul.streets li { break-inside: avoid; }
 ul.streets small { color: var(--muted); }
-footer { margin-top: 28px; font-size: 12.5px; color: var(--muted); max-width: 80ch; }
-footer a { color: var(--fg); }
-footer .credit { display: flex; align-items: center; gap: 10px; margin-top: 14px; }
+footer { margin-top: 32px; padding: 20px 0 max(32px, env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--line); font-size: 13px; line-height: 1.55; color: var(--muted); }
+footer a { color: var(--fg); text-underline-offset: 2px; }
+footer a:hover { color: var(--accent); }
+footer .cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px 40px; }
+footer h2 { margin: 0 0 6px; font: 600 11px/1.2 var(--f-body); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+footer p { margin: 0 0 8px; }
+footer ul { margin: 0; padding: 0; list-style: none; }
+footer li + li { margin-top: 4px; }
+footer .bottom { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--line); }
+footer .credit { display: flex; align-items: center; gap: 12px; margin: 0; }
 footer .credit img { display: block; height: 28px; width: auto; mix-blend-mode: multiply; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) footer .credit img { filter: invert(1) hue-rotate(180deg); mix-blend-mode: screen; } }
+:root[data-theme="dark"] footer .credit img { filter: invert(1) hue-rotate(180deg); mix-blend-mode: screen; }
+@media (max-width: 900px) { footer .cols { grid-template-columns: 1fr; gap: 16px; } }
 @media (max-width: 520px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } ul.streets { columns: 1; } #map { height: 62vh; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
+
+<noscript><p style="padding:16px">Volby Brno: interaktivní mapa výsledků komunálních voleb 2022 a 2026 po volebních okrscích vyžaduje zapnutý JavaScript. Závazné výsledky najdete na <a href="https://volby.gov.cz">volby.gov.cz</a>.</p></noscript>
 
 <div class="wrap">
   <header class="top">
@@ -206,14 +266,35 @@ footer .credit img { display: block; height: 28px; width: auto; mix-blend-mode: 
   </main>
 
   <footer>
-    Data: <a href="https://volby.gov.cz" target="_blank" rel="noopener">volby.gov.cz</a> (výsledky po okrscích), hranice okrsků RÚIAN (ČÚZK), seznam ulic z definice okrsků (Brno-střed) a z adresních míst RÚIAN (ostatní MČ). Zpracováno z repozitáře
-    <a href="https://github.com/Pajinek/elections-brno" target="_blank" rel="noopener">Pajinek/elections-brno</a>.
-    Každý volič v komunálních volbách má tolik hlasů, kolik členů zastupitelstvo má, proto se procenta počítají z platných hlasů.
-    <span id="footLevel"></span>
-    <p class="credit">
-      <a href="https://varhoo.cz" target="_blank" rel="noopener"><img src="varhoo-logo.png" alt="varhoo.cz" width="78" height="28"></a>
-      <span>Projekt byl vytvořen a je hostován díky <a href="https://varhoo.cz" target="_blank" rel="noopener">varhoo.cz</a>.</span>
-    </p>
+    <div class="cols">
+      <section>
+        <h2>O přehledu</h2>
+        <p>Neoficiální přehled výsledků komunálních voleb v Brně 2022 a 2026 po volebních okrscích
+        (<span id="footScope"></span>), do zastupitelstev městských částí i do zastupitelstva města Brna.</p>
+        <p>Závazné výsledky zveřejňuje Český statistický úřad na <a href="https://volby.gov.cz" target="_blank" rel="noopener">volby.gov.cz</a>.</p>
+      </section>
+      <section>
+        <h2>Zdroje dat</h2>
+        <ul>
+          <li>Výsledky 2026: <a href="https://volby.gov.cz" target="_blank" rel="noopener">volby.gov.cz</a></li>
+          <li>Výsledky 2022: <a href="https://volby.gov.cz/opendata/kv2022/" target="_blank" rel="noopener">otevřená data ČSÚ</a></li>
+          <li>Hranice okrsků: RÚIAN (ČÚZK)</li>
+          <li>Ulice podle okrsků: v Brně-středu z definice okrsků (PDF), jinde z adres RÚIAN, proto orientačně</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Jak číst procenta</h2>
+        <p>Každý volič v komunálních volbách má tolik hlasů, kolik členů zastupitelstvo má, proto se procenta počítají z platných hlasů.
+        <span id="footLevel"></span></p>
+      </section>
+    </div>
+    <div class="bottom">
+      <p class="credit">
+        <a href="https://varhoo.cz" target="_blank" rel="noopener"><img src="varhoo-logo.png" alt="varhoo.cz" width="78" height="28"></a>
+        <span>Projekt byl vytvořen a je hostován díky <a href="https://varhoo.cz" target="_blank" rel="noopener">varhoo.cz</a>.</span>
+      </p>
+      <p>Zdrojový kód a data: <a href="https://github.com/Pajinek/elections-brno" target="_blank" rel="noopener">Pajinek/elections-brno</a></p>
+    </div>
   </footer>
 </div>
 
@@ -779,6 +860,8 @@ function syncControls() {
   document.getElementById("yearTitle").textContent = S.year;
   for (const l of ["mc", "mesto"]) document.getElementById("lvl" + l).setAttribute("aria-pressed", S.level === l);
   document.getElementById("eyebrowTop").textContent = "Komunální volby · " + (isMesto() ? "zastupitelstvo města Brna (magistrát)" : "zastupitelstva městských částí");
+  document.getElementById("footScope").textContent =
+    `${D.mc.length} městských částí, ${nf.format(D.mc.reduce((n, m) => n + m.ok.length, 0))} okrsků`;
   document.getElementById("footLevel").textContent = isMesto()
     ? "Výsledky do zastupitelstva města Brna (55 členů) jsou prostý součet hlasů ze všech okrsků; okrsky jsou stejné jako ve volbách do zastupitelstev MČ."
     : "Souhrn za celé Brno přepočítává podíly na voliče, protože zastupitelstva MČ mají různý počet členů.";

@@ -1,6 +1,6 @@
 """Sestaví index.html z dat repozitáře elections-brno.
 
-python build.py            →  index.html (jeden soubor, data jsou vložená)
+python build.py            →  index.html (jeden soubor, data jsou vložená; <head> z head.html)
 python build.py --src DIR  →  data z jiného checkoutu (např. _src)
 
 Výsledky jsou dvoje: zastupitelstva městských částí (output/<mč>/kv<rok>/) a zastupitelstvo
@@ -263,10 +263,14 @@ def main():
     html = tpl.replace("/*__DATA__*/null", data)
     # artifact.html bez kostry (doplní ji claude.ai), index.html pro otevření ze souboru
     (ROOT / "artifact.html").write_text(html, encoding="utf-8")
+    # SEO a ikony patří do <head> (head.html); <title> ze šablony by v těle duplikoval ten z hlavičky
+    head = (ROOT / "head.html").read_text(encoding="utf-8")
+    body = re.sub(r"<title>.*?</title>\n", "", html, count=1)
     page = ("<!doctype html>\n<html lang=\"cs\">\n<head>\n<meta charset=\"utf-8\">\n"
             "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n"
+            + head +
             "<style>body{margin:0}[hidden]{display:none!important}</style>\n</head>\n<body>\n"
-            + html + "\n</body>\n</html>\n")
+            + body + "\n</body>\n</html>\n")
     (ROOT / "index.html").write_text(page, encoding="utf-8")
     print(f"index.html: {len(page.encode()) / 1024:.0f} kB, data {len(data.encode()) / 1024:.0f} kB")
 

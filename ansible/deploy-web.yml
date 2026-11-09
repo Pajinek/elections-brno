@@ -1,6 +1,7 @@
 ---
 # Nasadí soubory z web/ na hosty z inventáře.
-# Adresář web/_src (checkout pro build) se nekopíruje.
+# Adresář web/_src (checkout pro build) a zdroje buildu (build.py, template.html, head.html,
+# artifact.html, logo.png) se nekopírují, ať se nepublikuje duplicitní obsah.
 # Inventář ansible/hosts není v gitu: cp ansible/hosts.example ansible/hosts
 #
 #   ansible-playbook -i ansible/hosts ansible/deploy-web.yml
@@ -26,4 +27,4 @@
         owner: root
         group: root
         mode: "0644"
-      loop: "{{ query('fileglob', playbook_dir + '/../web/*') }}"
+      loop: "{{ query('fileglob', playbook_dir + '/../web/*') | reject('search', '/(build\\.py|template\\.html|head\\.html|artifact\\.html|logo\\.png)$') | list }}"
