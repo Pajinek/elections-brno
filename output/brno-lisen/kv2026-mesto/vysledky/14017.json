@@ -1,0 +1,132 @@
+{
+  "okrsek": "14017",
+  "obec": "Brno",
+  "kod_zastupitelstva": 582786,
+  "okres": 6202,
+  "datum_voleb": 20261009,
+  "generovano": "2026-10-10T23:13:05",
+  "url": "https://volby.gov.cz/app/kv2026/cs/20261009/results/!___6200_6202_582786___14017",
+  "api": "https://volby.gov.cz/appdata/kv2026/20261009/vysled/okrsek/6202/582786_14017.json",
+  "prehled": {
+    "volici_v_seznamu": 1393,
+    "vydane_obalky": 733,
+    "ucast_pct": 52.62,
+    "odevzdane_obalky": 710,
+    "odevzdane_pct": 96.99,
+    "platne_hlasy": 36688
+  },
+  "strany": [
+    {
+      "cislo_listiny": 1,
+      "kod": "CSSD_VASI_STAROSTOVE",
+      "nazev": "Sociální demokracie",
+      "hlasy": 336,
+      "procenta": 0.91
+    },
+    {
+      "cislo_listiny": 2,
+      "kod": "KDU_STAN",
+      "nazev": "Lidovci a Starostové – Brno blíž lidem",
+      "hlasy": 10382,
+      "procenta": 28.29
+    },
+    {
+      "cislo_listiny": 3,
+      "kod": "ZELENI_ZITBRNO",
+      "nazev": "ZELENÉ BRNO (Zel.,ŽTB,SEN 21,LES,Volt,Bud.,Kruh)",
+      "hlasy": 2812,
+      "procenta": 7.66
+    },
+    {
+      "cislo_listiny": 4,
+      "kod": "ANO",
+      "nazev": "ANO 2011",
+      "hlasy": 5414,
+      "procenta": 14.75
+    },
+    {
+      "cislo_listiny": 5,
+      "kod": "ZALUZANKY",
+      "nazev": "Za Lužánky",
+      "hlasy": 1295,
+      "procenta": 3.52
+    },
+    {
+      "cislo_listiny": 6,
+      "kod": "ODS_TOP_09_A_NEZAVISLI",
+      "nazev": "ODS, TOP 09 a nezávislí",
+      "hlasy": 7598,
+      "procenta": 20.7
+    },
+    {
+      "cislo_listiny": 7,
+      "kod": "RESTART",
+      "nazev": "Restart pro Brno",
+      "hlasy": 564,
+      "procenta": 1.53
+    },
+    {
+      "cislo_listiny": 8,
+      "kod": "BRNOKLIDEM",
+      "nazev": "Brnoklidem",
+      "hlasy": 346,
+      "procenta": 0.94
+    },
+    {
+      "cislo_listiny": 9,
+      "kod": "MOTORISTE_SOBE",
+      "nazev": "Motoristé sobě",
+      "hlasy": 1252,
+      "procenta": 3.41
+    },
+    {
+      "cislo_listiny": 10,
+      "kod": "DSZ",
+      "nazev": "Sdružení DSZ - ZA PRÁVA ZVÍŘAT, NK",
+      "hlasy": 16,
+      "procenta": 0.04
+    },
+    {
+      "cislo_listiny": 11,
+      "kod": "B3",
+      "nazev": "Brno Brňankám a Brňanům! (B3!)",
+      "hlasy": 112,
+      "procenta": 0.3
+    },
+    {
+      "cislo_listiny": 12,
+      "kod": "PRISAHA_OBCANSKE_HNUTI_ROBERTA_SLACHTY",
+      "nazev": "PŘÍSAHA občanské hnutí",
+      "hlasy": 514,
+      "procenta": 1.4
+    },
+    {
+      "cislo_listiny": 13,
+      "kod": "NAPLNO",
+      "nazev": "BRNO NAPLNO - koalice Svobodní, Trikolora, PRO",
+      "hlasy": 630,
+      "procenta": 1.71
+    },
+    {
+      "cislo_listiny": 14,
+      "kod": "NOVE_BRNO",
+      "nazev": "Nové Brno",
+      "hlasy": 995,
+      "procenta": 2.71
+    },
+    {
+      "cislo_listiny": 15,
+      "kod": "PIRATI_FAKT",
+      "nazev": "Piráti a Fakt Brno TU!",
+      "hlasy": 2654,
+      "procenta": 7.23
+    },
+    {
+      "cislo_listiny": 16,
+      "kod": "SPD",
+      "nazev": "SPD a nezávislí",
+      "hlasy": 1768,
+      "procenta": 4.81
+    }
+  ]
+}
