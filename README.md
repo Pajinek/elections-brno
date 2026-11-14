@@ -1,8 +1,10 @@
 # Volby Brno
 
-Datová pipeline pro městské části Brna: ulice podle volebních okrsků, výsledky komunálních voleb a SVG mapy.
+Datová pipeline pro městské části Brna: ulice podle volebních okrsků, výsledky komunálních voleb (KV 2026 a 2022) a SVG mapy. Nad daty stojí statický web s interaktivní mapou.
 
 **Produkční web: <https://brno.volby.varhoo.cz/>**
+
+Repozitář obsahuje data všech 29 městských částí: geometrii okrsků, ulice a výsledky voleb do zastupitelstva MČ i do zastupitelstva města Brna.
 
 Skripty berou `--uzemi <slug>`. Výchozí je `brno-stred`. Registr všech 29 MČ je v `data/uzemi.json`.
 
@@ -22,7 +24,7 @@ python3 download_results.py --list-uzemi
 
 Komunální volby jsou ve skutečnosti dvoje: do zastupitelstva MČ a do zastupitelstva města Brna (magistrát, kód `582786`, `TYPZASTUP=1`). Okrsky jsou pro obě volby stejné, takže stahujeme obojí za okrsky dané MČ.
 
-Ulice pocházejí z definice okrsků pro volbu prezidenta 2023. Geometrie okrsků je z RÚIAN (ČÚZK). Hlasy jsou z [volby.cz](https://volby.gov.cz).
+Ulice pro Brno-střed pocházejí z definice okrsků pro volbu prezidenta 2023 (PDF), pro ostatní MČ z adresních míst RÚIAN. Geometrie okrsků je z RÚIAN (ČÚZK). Hlasy jsou z [volby.cz](https://volby.gov.cz).
 
 ## Struktura
 
@@ -32,8 +34,10 @@ Každá městská část má stejný tvar cest:
 data/uzemi.json
 data/<uzemi>/okrsky.geojson
 data/<uzemi>/katastry.geojson
-data/<uzemi>/definice-okrsku.pdf      # volitelné, ulice
+data/<uzemi>/definice-okrsku.pdf      # volitelné, ulice (jen Brno-střed)
 output/<uzemi>/ulice.csv
+output/<uzemi>/ulice.json
+output/<uzemi>/ulice_okrsky.csv
 output/<uzemi>/okrsky.svg
 output/<uzemi>/kv2026/vysledky.json
 output/<uzemi>/kv2022/vysledky.json
@@ -41,7 +45,7 @@ output/<uzemi>/kv2026-mesto/vysledky.json   # zastupitelstvo města Brna
 output/<uzemi>/kv2022-mesto/vysledky.json
 ```
 
-Novou MČ doplníte tak, že ji necháte v `data/uzemi.json` (už tam je) a spustíte skripty s `--uzemi brno-sever` (nebo jiným slugem). GeoJSON se stáhne sám; PDF s ulicemi je potřeba jen když chcete seznam ulic.
+Všech 29 MČ je v `data/uzemi.json` a jejich výstupy jsou v repozitáři. Data jedné MČ obnovíte skripty s `--uzemi brno-sever` (nebo jiným slugem). GeoJSON se stáhne sám; PDF s ulicemi není potřeba, ulice se složí z RÚIAN (`load_streets_ruian.py`).
 
 ## Požadavky
 
@@ -54,19 +58,22 @@ python3 -m venv .venv
 
 ## Postup
 
-Všechny městské části (29 MČ, stahuje RÚIAN a volby.cz):
+Všechny městské části (29 MČ, stahuje RÚIAN a volby.cz). Data už v repozitáři jsou, spouštějte jen když je chcete obnovit:
 
 ```bash
 make
 ```
 
-Jen jedna MČ, nebo jen mapy:
+Jen jedna MČ, nebo jen část pipeline:
 
 ```bash
 make brno-stred
 make maps
+make mesto                  # zastupitelstvo města Brna
+make streets-ruian          # ulice z RÚIAN pro MČ bez ulice.csv
 make UZEMI=brno-sever
-make png UZEMI=brno-stred
+make png UZEMI=brno-stred   # SVG → PNG (rsvg-convert)
+make deploy                 # web/ → produkční server
 make help
 ```
 
@@ -135,12 +142,25 @@ Návratové kódy: `0` v pořádku, `1` žádné okrsky, `2` nic se nestáhlo, `
 
 ## Webová prezentace
 
-Produkční web běží na <https://brno.volby.varhoo.cz/>.
+Produkční web běží na <https://brno.volby.varhoo.cz/>. Je to statická stránka (jeden `index.html` s vloženými daty), kterou na serveru `s1.varhoo.cz` servíruje Apache z `/var/www/volby-brno/`.
 
 ```bash
 cd web && python3 build.py          # data z kořene repozitáře → web/index.html
 python3 build.py --src web/_src     # data z jiného checkoutu
 ```
+
+Sestavení bere `<head>` (SEO, Open Graph, ikony, schema.org) z `web/head.html`. Vedle `index.html` jsou v `web/` favicony, `og-image.png`, `site.webmanifest`, `robots.txt` a `sitemap.xml`.
+
+### Nasazení
+
+```bash
+make deploy      # ansible-playbook -i ansible/hosts ansible/deploy-web.yml
+```
+
+- `ansible/deploy-web.yml` zkopíruje soubory z `web/` do `/var/www/volby-brno/`. Zdroje buildu (`build.py`, `head.html`, `artifact.html`, `logo.png`) a `web/_src` se nekopírují.
+- Inventář `ansible/hosts` není v gitu: `cp ansible/hosts.example ansible/hosts`.
+- `apache/volby-brno.conf` je vhost pro `brno.volby.varhoo.cz` (komprese, cache ikon, `index.html` na 10 minut). Postup instalace je v komentáři na začátku souboru.
+- Před nasazením spusťte `python3 build.py`, ať je `web/index.html` aktuální.
 
 Stránka má v hlavičce přepínač **Městské části / Magistrát města Brna**. Přepíná výsledky voleb do zastupitelstev MČ (`kv<rok>/`) a do zastupitelstva města (`kv<rok>-mesto/`) nad stejnými okrsky. Volba je v adrese: `?zastupitelstvo=mesto` (u MČ se vynechává). Pohled na celé Brno u magistrátu sčítá hlasy po jednotlivých listinách, u MČ je sloučí podle politické rodiny. Bez dat `kv*-mesto/` (`make mesto`) stránka magistrát nezobrazí.
 
@@ -182,6 +202,12 @@ Kódy stran jsou v `PARTY_CODE_OVERRIDES` v `download_results.py`. Neznámý ná
 | `uzemi.py` | registr MČ a cesty |
 | `data/uzemi.json` | kódy zastupitelstev všech 29 MČ |
 | `load_streets.py` | PDF → CSV/JSON ulic |
-| `download_results.py` | volby.cz → JSON výsledků |
+| `load_streets_ruian.py` | adresní místa RÚIAN → CSV/JSON ulic |
+| `download_results.py` | volby.cz → JSON výsledků (MČ i město) |
 | `generate_map_svg.py` | GeoJSON → SVG okrsků |
 | `generate_results_map.py` | výsledky → choropleth / rozdíl |
+| `Makefile` | hromadné generování, `png`, `deploy` |
+| `web/build.py` | data → `web/index.html` |
+| `web/head.html` | `<head>` stránky (SEO, ikony) |
+| `ansible/deploy-web.yml` | nasazení webu na server |
+| `apache/volby-brno.conf` | Apache vhost produkčního webu |
